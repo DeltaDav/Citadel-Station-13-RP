@@ -182,13 +182,6 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/security/interrogation)
-"aiz" = (
-/obj/effect/floor_decal/techfloor/orange{
-	dir = 8
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden,
-/turf/simulated/floor/tiled/dark,
-/area/hallway/secondary/docking_hallway)
 "aiV" = (
 /turf/simulated/floor/tiled,
 /area/chapel/main)
@@ -3684,6 +3677,17 @@
 /obj/machinery/light,
 /turf/simulated/floor/plating,
 /area/maintenance/chapel)
+"cDA" = (
+/obj/effect/floor_decal/techfloor/orange{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden,
+/obj/machinery/light{
+	dir = 8;
+	light_range = 12
+	},
+/turf/simulated/floor/tiled/dark,
+/area/hallway/secondary/docking_hallway)
 "cEb" = (
 /obj/structure/cable/green{
 	icon_state = "2-4"
@@ -4958,6 +4962,13 @@
 "dqo" = (
 /turf/simulated/floor/carpet/tealcarpet,
 /area/crew_quarters/sleep/CMO_quarters)
+"dqr" = (
+/obj/effect/floor_decal/sign/dock/three,
+/obj/effect/floor_decal/techfloor/orange{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
+/area/hallway/secondary/docking_hallway)
 "dqw" = (
 /obj/effect/floor_decal/corner/red{
 	dir = 6
@@ -6184,6 +6195,13 @@
 	},
 /turf/simulated/wall/r_wall/prepainted/command,
 /area/security/nuke_storage)
+"ecU" = (
+/obj/effect/floor_decal/techfloor/orange/corner{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden,
+/turf/simulated/floor/tiled/dark,
+/area/hallway/secondary/docking_hallway)
 "edF" = (
 /obj/machinery/atmospherics/component/binary/passive_gate/on{
 	dir = 4
@@ -6346,13 +6364,6 @@
 	},
 /turf/simulated/floor/carpet/oracarpet,
 /area/crew_quarters/sleep/CE_quarters)
-"enw" = (
-/obj/effect/floor_decal/techfloor/orange/corner{
-	dir = 1
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden,
-/turf/simulated/floor/tiled/dark,
-/area/hallway/secondary/docking_hallway)
 "eot" = (
 /obj/structure/table/steel,
 /obj/item/radio/intercom{
@@ -6510,12 +6521,6 @@
 /obj/item/bedsheet/hosdouble,
 /turf/simulated/floor/carpet,
 /area/security/warden)
-"eud" = (
-/obj/structure/poster{
-	pixel_y = -32
-	},
-/turf/simulated/floor/tiled/dark,
-/area/medical/patient_wing)
 "eus" = (
 /obj/structure/toilet{
 	dir = 8
@@ -8044,13 +8049,6 @@
 /obj/spawner/window/low_wall/full/nogrille,
 /turf/simulated/floor/tiled,
 /area/hydroponics/garden)
-"fxc" = (
-/obj/structure/cable/green{
-	icon_state = "4-8"
-	},
-/obj/machinery/atmospherics/pipe/manifold4w/hidden,
-/turf/simulated/floor/tiled/dark,
-/area/hallway/secondary/docking_hallway)
 "fxj" = (
 /obj/structure/cable/green{
 	icon_state = "1-2"
@@ -8681,12 +8679,6 @@
 	},
 /turf/simulated/floor/carpet/bcarpet,
 /area/crew_quarters/captain)
-"fVO" = (
-/obj/structure/poster{
-	pixel_y = 32
-	},
-/turf/simulated/floor/carpet,
-/area/medical/patient_wing)
 "fVQ" = (
 /turf/simulated/floor/tiled,
 /area/security/range)
@@ -9895,6 +9887,22 @@
 /obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/maintenance/chapel)
+"gNy" = (
+/obj/machinery/airlock_sensor{
+	dir = 8;
+	frequency = 1380;
+	id_tag = "triumph_udang_dock";
+	pixel_x = 23
+	},
+/obj/machinery/atmospherics/component/unary/vent_pump/high_volume{
+	dir = 8;
+	frequency = 1380;
+	id_tag = "triumph_udang_dock_pump"
+	},
+/obj/map_helper/airlock/sensor/chamber_sensor,
+/obj/map_helper/airlock/atmos/chamber_pump,
+/turf/simulated/floor/tiled/dark,
+/area/hallway/secondary/docking_hallway)
 "gNY" = (
 /turf/simulated/floor/tiled/monofloor{
 	dir = 1
@@ -11586,19 +11594,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/vacant/vacant_bar)
-"hWj" = (
-/obj/machinery/embedded_controller/radio/airlock/docking_port{
-	dir = 4;
-	frequency = 1380;
-	id_tag = "triumph_udang_dock";
-	pixel_x = -26;
-	pixel_y = 1
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden{
-	dir = 6
-	},
-/turf/simulated/floor/tiled/dark,
-/area/hallway/secondary/docking_hallway)
 "hWl" = (
 /obj/effect/floor_decal/techfloor,
 /obj/effect/floor_decal/steeldecal/steel_decals9{
@@ -13522,17 +13517,6 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
-	},
-/turf/simulated/floor/tiled/dark,
-/area/hallway/secondary/docking_hallway)
-"jot" = (
-/obj/effect/floor_decal/techfloor/orange{
-	dir = 8
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden,
-/obj/machinery/light{
-	dir = 8;
-	light_range = 12
 	},
 /turf/simulated/floor/tiled/dark,
 /area/hallway/secondary/docking_hallway)
@@ -17573,6 +17557,15 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/tiled,
 /area/exploration/explorer_prep)
+"mdA" = (
+/obj/effect/floor_decal/techfloor/orange{
+	dir = 5
+	},
+/obj/machinery/camera/network/civilian{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
+/area/hallway/secondary/docking_hallway)
 "mew" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -17983,6 +17976,19 @@
 /obj/map_helper/access_helper/airlock/station/head_office/head_of_personnel,
 /turf/simulated/floor/tiled/dark,
 /area/crew_quarters/heads/hop)
+"msT" = (
+/obj/machinery/embedded_controller/radio/airlock/docking_port{
+	dir = 4;
+	frequency = 1380;
+	id_tag = "triumph_udang_dock";
+	pixel_x = -26;
+	pixel_y = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 6
+	},
+/turf/simulated/floor/tiled/dark,
+/area/hallway/secondary/docking_hallway)
 "mts" = (
 /obj/structure/table/steel_reinforced,
 /obj/machinery/cell_charger,
@@ -18264,15 +18270,6 @@
 	},
 /turf/simulated/floor/grass,
 /area/security/brig)
-"mEA" = (
-/obj/effect/floor_decal/techfloor/orange{
-	dir = 5
-	},
-/obj/machinery/camera/network/civilian{
-	dir = 8
-	},
-/turf/simulated/floor/tiled/dark,
-/area/hallway/secondary/docking_hallway)
 "mEK" = (
 /obj/machinery/door/firedoor/glass,
 /obj/machinery/door/airlock/multi_tile/glass{
@@ -18916,10 +18913,6 @@
 /obj/structure/table/rack/shelf/steel,
 /turf/simulated/floor/tiled/old_tile/blue,
 /area/maintenance/security/starboard)
-"mZa" = (
-/obj/effect/shuttle_landmark/triumph/deck4/udang,
-/turf/space,
-/area/space)
 "mZA" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -20570,6 +20563,17 @@
 	},
 /turf/simulated/floor/tiled,
 /area/bridge/hallway)
+"ohQ" = (
+/obj/effect/floor_decal/techfloor/orange{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden,
+/obj/machinery/light{
+	dir = 8;
+	light_range = 12
+	},
+/turf/simulated/floor/tiled/dark,
+/area/hallway/secondary/docking_hallway)
 "ohW" = (
 /turf/simulated/open,
 /area/hallway/secondary/civilian_hallway_mid)
@@ -21442,22 +21446,6 @@
 	},
 /turf/simulated/floor/tiled,
 /area/exploration/explorer_prep)
-"oRT" = (
-/obj/machinery/airlock_sensor{
-	dir = 8;
-	frequency = 1380;
-	id_tag = "triumph_udang_dock";
-	pixel_x = 23
-	},
-/obj/machinery/atmospherics/component/unary/vent_pump/high_volume{
-	dir = 8;
-	frequency = 1380;
-	id_tag = "triumph_udang_dock_pump"
-	},
-/obj/map_helper/airlock/sensor/chamber_sensor,
-/obj/map_helper/airlock/atmos/chamber_pump,
-/turf/simulated/floor/tiled/dark,
-/area/hallway/secondary/docking_hallway)
 "oRX" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 8
@@ -22775,17 +22763,6 @@
 	},
 /turf/simulated/floor/tiled,
 /area/security/security_lockerroom)
-"pHh" = (
-/obj/effect/floor_decal/techfloor/orange{
-	dir = 9
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden,
-/obj/machinery/light{
-	dir = 8;
-	light_range = 12
-	},
-/turf/simulated/floor/tiled/dark,
-/area/hallway/secondary/docking_hallway)
 "pHk" = (
 /obj/machinery/cryopod{
 	dir = 4
@@ -24110,21 +24087,6 @@
 	},
 /turf/simulated/floor/tiled/monotile,
 /area/security/brig)
-"qJn" = (
-/obj/machinery/shield_diffuser,
-/obj/map_helper/airlock/door/ext_door,
-/obj/machinery/access_button/airlock_exterior{
-	dir = 1;
-	frequency = 1380;
-	master_tag = "triumph_udang_dock";
-	pixel_x = -24
-	},
-/obj/machinery/door/airlock/glass_external{
-	req_one_access = null
-	},
-/obj/map_helper/access_helper/airlock/station/external_airlock,
-/turf/simulated/floor/tiled/dark,
-/area/hallway/secondary/docking_hallway)
 "qJG" = (
 /turf/simulated/wall/prepainted/command,
 /area/maintenance/central)
@@ -24357,13 +24319,6 @@
 /obj/effect/floor_decal/techfloor/corner,
 /turf/simulated/floor/tiled/dark,
 /area/hallway/primary/aft)
-"qRC" = (
-/obj/effect/floor_decal/sign/dock/three,
-/obj/effect/floor_decal/techfloor/orange{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/dark,
-/area/hallway/secondary/docking_hallway)
 "qRD" = (
 /obj/machinery/atmospherics/component/unary/vent_scrubber/on{
 	dir = 1
@@ -28282,6 +28237,12 @@
 	},
 /turf/simulated/floor/bluegrid,
 /area/ai_upload)
+"tMs" = (
+/obj/structure/poster{
+	pixel_y = 32
+	},
+/turf/simulated/floor/carpet,
+/area/medical/patient_wing)
 "tMx" = (
 /obj/structure/catwalk,
 /obj/structure/cable/green{
@@ -30172,6 +30133,10 @@
 	},
 /turf/simulated/floor/wood,
 /area/crew_quarters/captain)
+"vaJ" = (
+/obj/effect/shuttle_landmark/triumph/deck4/udang,
+/turf/space,
+/area/space)
 "vaR" = (
 /obj/structure/bed/chair/comfy/brown{
 	dir = 1
@@ -31264,6 +31229,21 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/hallway/primary/aft)
+"vPh" = (
+/obj/machinery/shield_diffuser,
+/obj/map_helper/airlock/door/ext_door,
+/obj/machinery/access_button/airlock_exterior{
+	dir = 1;
+	frequency = 1380;
+	master_tag = "triumph_udang_dock";
+	pixel_x = -24
+	},
+/obj/machinery/door/airlock/glass_external{
+	req_one_access = null
+	},
+/obj/map_helper/access_helper/airlock/station/external_airlock,
+/turf/simulated/floor/tiled/dark,
+/area/hallway/secondary/docking_hallway)
 "vPS" = (
 /obj/structure/cable/green{
 	icon_state = "4-8"
@@ -31690,6 +31670,13 @@
 "wcN" = (
 /turf/simulated/floor/tiled/monotile,
 /area/security/hallway)
+"wdq" = (
+/obj/effect/floor_decal/techfloor/orange{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden,
+/turf/simulated/floor/tiled/dark,
+/area/hallway/secondary/docking_hallway)
 "weh" = (
 /turf/simulated/floor/carpet,
 /area/medical/patient_wing)
@@ -31931,6 +31918,13 @@
 /obj/machinery/atmospherics/component/unary/vent_pump/on,
 /turf/simulated/floor/wood,
 /area/hydroponics/garden)
+"wpo" = (
+/obj/structure/cable/green{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/manifold4w/hidden,
+/turf/simulated/floor/tiled/dark,
+/area/hallway/secondary/docking_hallway)
 "wpZ" = (
 /obj/effect/floor_decal/steeldecal/steel_decals9{
 	dir = 1
@@ -32127,20 +32121,6 @@
 	},
 /turf/simulated/floor/wood,
 /area/maintenance/security/starboard)
-"wxR" = (
-/obj/map_helper/airlock/door/int_door,
-/obj/machinery/access_button/airlock_interior{
-	dir = 1;
-	frequency = 1380;
-	master_tag = "triumph_udang_dock";
-	pixel_x = 24
-	},
-/obj/machinery/door/airlock/glass_external{
-	req_one_access = null
-	},
-/obj/map_helper/access_helper/airlock/station/external_airlock,
-/turf/simulated/floor/tiled/dark,
-/area/hallway/secondary/docking_hallway)
 "wyc" = (
 /obj/structure/closet/crate/secure/weapon,
 /turf/simulated/floor/tiled,
@@ -32287,6 +32267,20 @@
 /obj/item/hardsuit/hazard/equipped,
 /turf/simulated/floor/tiled,
 /area/security/eva)
+"wBV" = (
+/obj/map_helper/airlock/door/int_door,
+/obj/machinery/access_button/airlock_interior{
+	dir = 1;
+	frequency = 1380;
+	master_tag = "triumph_udang_dock";
+	pixel_x = 24
+	},
+/obj/machinery/door/airlock/glass_external{
+	req_one_access = null
+	},
+/obj/map_helper/access_helper/airlock/station/external_airlock,
+/turf/simulated/floor/tiled/dark,
+/area/hallway/secondary/docking_hallway)
 "wCb" = (
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
@@ -33719,6 +33713,12 @@
 /obj/machinery/fire_alarm/north_mount,
 /turf/simulated/floor/wood,
 /area/bridge/office)
+"xwu" = (
+/obj/structure/poster{
+	pixel_y = -32
+	},
+/turf/simulated/floor/tiled/dark,
+/area/medical/patient_wing)
 "xwz" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/structure/table/rack,
@@ -56639,7 +56639,7 @@ cyD
 bQO
 cyD
 wzh
-fVO
+tMs
 vTh
 ckU
 mha
@@ -57030,7 +57030,7 @@ wzh
 tci
 esm
 tPH
-eud
+xwu
 wzh
 dNv
 lAI
@@ -59079,18 +59079,18 @@ jNg
 jNg
 jNg
 jNg
-mZa
+vaJ
 jNg
-qJn
-hWj
+vPh
+msT
 tyc
-pHh
-aiz
-aiz
-jot
-aiz
-enw
-fxc
+ohQ
+wdq
+wdq
+cDA
+wdq
+ecU
+wpo
 clX
 tkc
 qQg
@@ -59276,14 +59276,14 @@ jNg
 jNg
 jNg
 gKK
-oRT
-wxR
-mEA
+gNy
+wBV
+mdA
 aTp
 aTp
 aTp
 aTp
-qRC
+dqr
 wDo
 hvu
 uCU
