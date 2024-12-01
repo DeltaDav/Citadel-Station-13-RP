@@ -64,7 +64,11 @@
 /obj/effect/floor_decal/techfloor{
 	dir = 1
 	},
-/turf/simulated/wall/r_wall,
+/obj/machinery/door/firedoor{
+	req_one_access = list(160)
+	},
+/obj/effect/floor_decal/corner/green/border,
+/turf/simulated/floor/tiled,
 /area/tradeport/commhall)
 "aal" = (
 /obj/effect/floor_decal/spline/fancy/wood,
@@ -14266,7 +14270,13 @@
 "aLD" = (
 /obj/effect/floor_decal/techfloor,
 /obj/machinery/light,
-/turf/simulated/wall/r_wall,
+/obj/machinery/door/firedoor{
+	req_one_access = list(160)
+	},
+/obj/effect/floor_decal/corner/green/border{
+	dir = 1
+	},
+/turf/simulated/floor/tiled,
 /area/tradeport/commhall)
 "aLE" = (
 /obj/machinery/atmospherics/pipe/simple/visible/red{
@@ -16217,10 +16227,6 @@
 /obj/structure/table/steel,
 /turf/simulated/floor/tiled/dark,
 /area/shuttle/trade_ship/general)
-"aQV" = (
-/obj/effect/floor_decal/techfloor,
-/turf/simulated/wall/r_wall,
-/area/tradeport/commhall)
 "aQW" = (
 /obj/spawner/window/low_wall/reinforced/full/firelocks,
 /turf/simulated/floor/plating,
@@ -17463,16 +17469,6 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/sector/nebula_tradeport/motel/vip)
-"aUl" = (
-/obj/machinery/door/firedoor{
-	req_one_access = list(160)
-	},
-/obj/machinery/door/airlock/multi_tile/glass{
-	dir = 4;
-	name = "Nebula Commercial District"
-	},
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/tradeport/commhall)
 "aUn" = (
 /obj/machinery/atmospherics/component/unary/vent_pump/on{
 	dir = 4
@@ -17991,6 +17987,9 @@
 	},
 /obj/machinery/door/firedoor{
 	req_one_access = list(160)
+	},
+/obj/effect/floor_decal/corner/green/border{
+	dir = 1
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/tradeport/commhall)
@@ -38729,7 +38728,7 @@ wFE
 asP
 aak
 aVC
-aUl
+afX
 aLD
 aGQ
 aoc
@@ -41249,10 +41248,10 @@ avJ
 avJ
 avJ
 avJ
-aak
-aVC
-aDz
-aQV
+aEY
+alc
+aVP
+aiB
 asy
 aoq
 aoq
