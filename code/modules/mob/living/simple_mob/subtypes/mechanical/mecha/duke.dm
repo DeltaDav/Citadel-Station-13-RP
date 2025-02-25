@@ -29,6 +29,7 @@
 	reload_max = 30
 	reload_time = 5
 
+	ai_holder_type = /datum/ai_holder/polaris/simple_mob/merc/ranged/surpressor
+
 /mob/living/simple_mob/mechanical/mecha/fighter/duke/manned
 	pilot_type = /mob/living/simple_mob/humanoid/merc/ranged/space
-	ai_holder_type = /datum/ai_holder/polaris/simple_mob/merc/ranged/surpressor

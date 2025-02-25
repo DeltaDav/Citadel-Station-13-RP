@@ -18,12 +18,12 @@
 
 /datum/event/fighter/announce()
 	if	(piratestring == "bandits")
-		command_announcement.Announce("Attention, [station_name()], hostile fighters entered the area of operations", "GPS Displaying hostile signals", new_sound = sound('sound/effects/siren.ogg', volume=25))
+		command_announcement.Announce("Attention, [station_name()], hostile fighters entered the area of operations, locate and destroy them.", new_sound = sound('sound/effects/siren.ogg', volume=25))
 
 /datum/event/fighter/start()
 	switch(rand(0,100))
 		if(1 to 100)
-			spawncount = rand(2 * severity * toughness, 4 * severity * toughness)
+			spawncount = rand(3 * severity * toughness, 5 * severity * toughness)
 			piratestring = "bandits"
 		if(LOC_SPACE)
 			spawn_area_type = /area/space
@@ -38,6 +38,7 @@
 	if(piratestring == "bandits")
 		bandits_spawn = list(/mob/living/simple_mob/mechanical/mecha/fighter/duke/manned,
 		/mob/living/simple_mob/mechanical/mecha/fighter/baron/manned)
+		spawn_area_type = /area/space
 
 
 #undef	LOC_SPACE
