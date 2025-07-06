@@ -1959,6 +1959,10 @@
 /obj/effect/floor_decal/techfloor/orange{
 	dir = 9
 	},
+/obj/machinery/cryopod/robot/door/gateway,
+/obj/machinery/computer/cryopod/gateway{
+	pixel_x = -30
+	},
 /turf/simulated/floor/tiled/techfloor,
 /area/shuttle/miaphus/sdf)
 "jD" = (
@@ -3347,6 +3351,7 @@
 /obj/effect/floor_decal/techfloor/orange{
 	dir = 10
 	},
+/obj/structure/ghost_role_spawner/sdf,
 /turf/simulated/floor/tiled/techfloor,
 /area/shuttle/miaphus/sdf)
 "sf" = (
@@ -4842,7 +4847,6 @@
 /obj/machinery/light{
 	dir = 8
 	},
-/obj/structure/ghost_role_spawner/sdf,
 /turf/simulated/floor/tiled/techfloor,
 /area/shuttle/miaphus/sdf)
 "AB" = (
