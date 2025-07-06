@@ -1578,10 +1578,10 @@
 /obj/effect/floor_decal/corner_steel_grid{
 	dir = 6
 	},
-/obj/machinery/embedded_controller/radio/simple_docking_controller{
-	frequency = 1380;
+/obj/machinery/embedded_controller/radio/airlock/docking_port{
+	pixel_x = 26;
 	id_tag = "sdf_outpost_dock";
-	pixel_x = 24
+	frequency = 1380
 	},
 /turf/simulated/floor/tiled/steel_dirty,
 /area/sector/miaphus/beach/sdf)
@@ -1950,12 +1950,11 @@
 /turf/simulated/floor/tiled/asteroid_steel,
 /area/sector/miaphus/beach/mineyard)
 "jz" = (
-/obj/effect/floor_decal/techfloor/orange{
-	dir = 9
-	},
-/obj/machinery/cryopod/robot/door/gateway,
 /obj/machinery/air_alarm/alarms_hidden/north_mount{
 	req_one_access = null
+	},
+/obj/effect/floor_decal/techfloor/orange{
+	dir = 9
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/shuttle/miaphus/sdf)
@@ -3345,7 +3344,6 @@
 /obj/effect/floor_decal/techfloor/orange{
 	dir = 10
 	},
-/obj/structure/ghost_role_spawner/sdf,
 /turf/simulated/floor/tiled/techfloor,
 /area/shuttle/miaphus/sdf)
 "sf" = (
@@ -4833,6 +4831,7 @@
 /obj/machinery/light{
 	dir = 8
 	},
+/obj/structure/ghost_role_spawner/sdf,
 /turf/simulated/floor/tiled/techfloor,
 /area/shuttle/miaphus/sdf)
 "AB" = (
@@ -5406,6 +5405,14 @@
 	outdoors = 1
 	},
 /area/sector/miaphus/beach/mineshaft)
+"DM" = (
+/obj/machinery/embedded_controller/radio/simple_docking_controller{
+	frequency = 1380;
+	id_tag = "sdf_outpost_dock";
+	pixel_x = 24
+	},
+/turf/simulated/wall/r_wall,
+/area/sector/miaphus/beach/jungle)
 "DO" = (
 /obj/effect/floor_decal/corner_steel_grid{
 	dir = 10
@@ -6375,7 +6382,7 @@
 /obj/structure/cable/green{
 	icon_state = "4-8"
 	},
-/turf/simulated/wall/r_wall/prepainted,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/miaphus/sdf)
 "Jh" = (
 /obj/structure/bed/chair/bay/comfy/black{
@@ -43971,7 +43978,7 @@ EZ
 bL
 XJ
 aa
-Vb
+DM
 VF
 BK
 NN
