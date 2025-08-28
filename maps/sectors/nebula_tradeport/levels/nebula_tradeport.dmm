@@ -328,6 +328,7 @@
 	name = "Nebula Motel"
 	},
 /obj/effect/floor_decal/corner/green/border,
+/obj/landmark/spawnpoint/job/outsider,
 /turf/simulated/floor/tiled,
 /area/tradeport/commhall)
 "aaY" = (
@@ -11092,6 +11093,7 @@
 	dir = 1
 	},
 /obj/effect/floor_decal/corner/green/border,
+/obj/landmark/spawnpoint/job/outsider,
 /turf/simulated/floor/tiled,
 /area/tradeport/commhall)
 "aCQ" = (
@@ -11269,6 +11271,7 @@
 /obj/structure/cable/orange{
 	icon_state = "4-8"
 	},
+/obj/landmark/spawnpoint/job/outsider/override,
 /turf/simulated/floor/tiled/old_tile/beige,
 /area/tradeport/commhall)
 "aDo" = (
@@ -14703,6 +14706,7 @@
 /obj/effect/floor_decal/corner/green/border{
 	dir = 1
 	},
+/obj/landmark/spawnpoint/job/outsider,
 /turf/simulated/floor/tiled,
 /area/tradeport/commhall)
 "aMK" = (
@@ -20788,6 +20792,7 @@
 /obj/structure/cable/orange{
 	icon_state = "1-2"
 	},
+/obj/landmark/spawnpoint/job/outsider,
 /turf/simulated/floor/tiled,
 /area/tradeport/commhall)
 "dXo" = (
@@ -22644,6 +22649,17 @@
 /obj/structure/simple_door/wood,
 /turf/simulated/floor/tiled/neutral,
 /area/shuttle/scoophead/cockpit)
+"jda" = (
+/obj/machinery/atmospherics/component/unary/vent_scrubber/on{
+	dir = 1
+	},
+/obj/effect/floor_decal/techfloor,
+/obj/effect/floor_decal/corner/green/border{
+	dir = 1
+	},
+/obj/landmark/spawnpoint/job/outsider,
+/turf/simulated/floor/tiled,
+/area/tradeport/commhall)
 "jdu" = (
 /obj/machinery/washing_machine,
 /obj/item/storage/laundry_basket{
@@ -22727,10 +22743,6 @@
 	pixel_x = 32
 	},
 /turf/simulated/floor/carpet/patterened/red,
-/area/shuttle/scoophead/cockpit)
-"jpc" = (
-/obj/spawner/window/low_wall/reinforced/firelocks,
-/turf/simulated/floor/plating,
 /area/shuttle/scoophead/cockpit)
 "juq" = (
 /obj/effect/debris/cleanable/dirt,
@@ -23941,6 +23953,10 @@
 /obj/machinery/power/apc/alarms_hidden/north_mount,
 /turf/simulated/floor/tiled/dark,
 /area/sector/nebula_tradeport/motel/sauna)
+"myr" = (
+/obj/landmark/spawnpoint/job/outsider,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/tradeport/commons)
 "myP" = (
 /obj/machinery/light{
 	dir = 1
@@ -24374,12 +24390,38 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/sector/nebula_tradeport/motel/vip)
+"nME" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/structure/catwalk,
+/obj/machinery/embedded_controller/radio/simple_docking_controller{
+	frequency = 1380;
+	id_tag = "nebula_pump3f";
+	name = "Nebula Pump Controller";
+	pixel_x = -25
+	},
+/turf/simulated/floor,
+/area/tradeport/pads)
 "nNt" = (
 /obj/structure/cable/yellow{
 	icon_state = "1-4"
 	},
 /turf/simulated/floor/wood,
 /area/sector/nebula_tradeport/motel/room2)
+"nNZ" = (
+/obj/effect/shuttle_landmark{
+	base_area = /area/tradeport/pads;
+	base_turf = /turf/simulated/floor/reinforced;
+	docking_controller = "nebula_pump4f";
+	landmark_tag = "nebula_pad_4f";
+	name = "Nebula Pad 4f"
+	},
+/turf/simulated/floor/reinforced,
+/area/tradeport/pads)
 "nOQ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -25506,6 +25548,16 @@
 	},
 /turf/simulated/floor/wood,
 /area/sector/nebula_tradeport/motel)
+"rgD" = (
+/obj/structure/catwalk,
+/obj/machinery/embedded_controller/radio/simple_docking_controller{
+	frequency = 1380;
+	id_tag = "nebula_pump4f";
+	name = "Nebula Pump Controller";
+	pixel_x = 25
+	},
+/turf/simulated/floor,
+/area/tradeport/pads)
 "rit" = (
 /obj/effect/floor_decal/corner/blue/border,
 /obj/structure/cable/yellow{
@@ -25534,6 +25586,16 @@
 	},
 /turf/simulated/floor/wood,
 /area/sector/nebula_tradeport/motel/room2)
+"rqk" = (
+/obj/effect/shuttle_landmark{
+	base_area = /area/tradeport/pads;
+	base_turf = /turf/simulated/floor/reinforced;
+	docking_controller = "nebula_pump3f";
+	landmark_tag = "nebula_pad_3f";
+	name = "Nebula Pad 3f"
+	},
+/turf/simulated/floor/reinforced,
+/area/tradeport/pads)
 "rqL" = (
 /obj/effect/floor_decal/corner/blue/border{
 	dir = 8
@@ -26475,6 +26537,14 @@
 	},
 /turf/simulated/floor/carpet/turcarpet,
 /area/sector/nebula_tradeport/motel)
+"upl" = (
+/obj/effect/floor_decal/techfloor,
+/obj/effect/floor_decal/corner/green/border{
+	dir = 1
+	},
+/obj/landmark/spawnpoint/job/outsider,
+/turf/simulated/floor/tiled,
+/area/tradeport/commhall)
 "upC" = (
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
@@ -26786,10 +26856,6 @@
 /obj/landmark/spawnpoint/job/trader,
 /turf/simulated/floor/tiled/neutral,
 /area/tradeport/commons)
-"vkf" = (
-/obj/spawner/window/low_wall/reinforced/firelocks,
-/turf/simulated/floor/plating,
-/area/shuttle/scoophead/cockpit)
 "vld" = (
 /turf/simulated/wall/r_wall,
 /area/sector/nebula_tradeport/motel/room8)
@@ -37193,7 +37259,7 @@ abr
 nHT
 awO
 aYp
-aVm
+upl
 aoN
 apv
 aWO
@@ -37387,7 +37453,7 @@ abr
 awu
 aCZ
 akM
-aWb
+jda
 aoN
 apv
 aeh
@@ -37969,7 +38035,7 @@ aIe
 aKB
 aJh
 aYp
-aVm
+upl
 aoN
 aWH
 aXS
@@ -38163,7 +38229,7 @@ aaB
 aby
 aCQ
 aYp
-aVm
+upl
 aoN
 aHw
 aXS
@@ -38745,7 +38811,7 @@ aFw
 ayd
 aCQ
 aYp
-aVm
+upl
 aoN
 azZ
 aHw
@@ -38939,7 +39005,7 @@ tFV
 aCP
 aCQ
 aYp
-aVm
+upl
 aoN
 aIV
 aHw
@@ -54383,9 +54449,9 @@ aDh
 aDh
 acd
 aDh
-vkf
-vkf
-vkf
+huS
+huS
+huS
 bRZ
 bRZ
 bRZ
@@ -54576,8 +54642,8 @@ aDh
 aDh
 aDh
 acd
-vkf
-vkf
+huS
+huS
 btq
 umb
 crT
@@ -54770,7 +54836,7 @@ aDh
 aDh
 aDh
 acd
-vkf
+huS
 xuJ
 xvE
 fES
@@ -54778,7 +54844,7 @@ crT
 rai
 luK
 eDY
-vkf
+huS
 aDh
 aDh
 awV
@@ -54964,7 +55030,7 @@ aDh
 aDh
 aDh
 aDh
-vkf
+huS
 dFp
 jPy
 nhC
@@ -54972,7 +55038,7 @@ dze
 pfn
 veG
 tBc
-vkf
+huS
 aDh
 aDh
 awV
@@ -55165,8 +55231,8 @@ xWa
 crT
 utC
 crT
-jpc
-vkf
+huS
+huS
 aDh
 aDh
 awV
@@ -55267,7 +55333,7 @@ akf
 akf
 akf
 akf
-akf
+rqk
 akf
 akf
 akf
@@ -55354,7 +55420,7 @@ aDh
 aDh
 aDh
 ygc
-vkf
+huS
 bEV
 bCt
 wux
@@ -55548,11 +55614,11 @@ aDh
 aDh
 aDh
 ygc
-vkf
+huS
 iPk
 uFC
 oBT
-vkf
+huS
 ygc
 aDh
 aDh
@@ -55742,11 +55808,11 @@ aDh
 aDh
 aDh
 ygc
-vkf
+huS
 bEV
 whD
 joQ
-vkf
+huS
 ygc
 aDh
 aDh
@@ -56247,7 +56313,7 @@ adn
 aRm
 aro
 aRm
-aRm
+nME
 aRm
 aFN
 awB
@@ -56441,7 +56507,7 @@ aur
 aur
 aHr
 aur
-aur
+rgD
 aur
 aur
 axm
@@ -56586,7 +56652,7 @@ wBj
 aLr
 iAn
 anq
-aXZ
+myr
 aXZ
 aXZ
 aXZ
@@ -56780,7 +56846,7 @@ wcE
 xhh
 pfJ
 anq
-aXZ
+myr
 qhK
 qhK
 qhK
@@ -61475,7 +61541,7 @@ akf
 akf
 akf
 akf
-akf
+nNZ
 akf
 akf
 akf
