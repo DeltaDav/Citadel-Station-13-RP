@@ -72,6 +72,7 @@
 	icon = 'icons/obj/kitchen.dmi'
 	icon_state = "knife"
 	desc = "A general purpose chef's knife. Glithari Exports filet knives, Centauri bread knives, all pale in comparison to Nanotrasen's very own Cookware line of cheap, affordable chef's knives."
+	suit_storage_class = SUIT_STORAGE_CLASS_SOFTWEAR | SUIT_STORAGE_CLASS_HARDWEAR
 	damage_mode = DAMAGE_MODE_SHARP | DAMAGE_MODE_EDGE
 	material_significance = MATERIAL_SIGNIFICANCE_WEAPON_LIGHT
 	materials_base = list(MAT_STEEL = 12000)
@@ -172,6 +173,10 @@
 
 /obj/item/material/knife/machete/armblade/hardsuit
 	var/obj/item/hardsuit_module/armblade/storing_module
+
+/obj/item/material/knife/machete/armblade/hardsuit/Destroy()
+	storing_module = null
+	return ..()
 
 /obj/item/material/knife/machete/armblade/hardsuit/dropped(mob/user, flags, atom/newLoc)
 	. = ..()

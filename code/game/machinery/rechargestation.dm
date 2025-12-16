@@ -1,6 +1,6 @@
 /obj/machinery/recharge_station
 	name = "cyborg recharging station"
-	desc = "A heavy duty rapid charging system, designed to quickly recharge cyborg power reserves."
+	desc = "A heavy duty rapid charging system, designed to quickly recharge cyborg power reserves.\n <span class='notice'>\[Accepts Upgrades\]</span>"
 	icon = 'icons/obj/objects.dmi'
 	icon_state = "borgcharger0"
 	density = 1
@@ -35,6 +35,10 @@
 /obj/machinery/recharge_station/Initialize(mapload)
 	. = ..()
 	update_icon()
+
+/obj/machinery/recharge_station/Destroy()
+	QDEL_NULL(cell)
+	return ..()
 
 /obj/machinery/recharge_station/proc/has_cell_power()
 	return cell && cell.percent() > 0
