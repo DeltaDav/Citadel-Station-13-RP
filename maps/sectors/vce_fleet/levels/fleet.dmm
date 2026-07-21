@@ -2110,8 +2110,7 @@
 /obj/machinery/atmospheric_field_generator/perma,
 /obj/machinery/door/blast/regular{
 	dir = 4;
-	id = "SDFbalista";
-	width = s
+	id = "SDFbalista"
 	},
 /obj/machinery/door/blast/regular/open{
 	id = "SDFantiboarding"

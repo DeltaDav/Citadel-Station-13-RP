@@ -822,6 +822,6 @@ CREATE_STANDARD_TURFS(/turf/simulated/floor/plating)
 
 /turf/simulated/floor/road
 	name = "road"
-	icon = 'icons/turf/flooring/road.dmi'
+	icon = 'icons/turf/flooring/vce_asset_floor/road.dmi'
 	icon_state = "innermiddle"
 	initial_flooring = /datum/prototype/flooring/roguetown/rock

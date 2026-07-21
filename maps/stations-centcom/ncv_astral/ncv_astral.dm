@@ -27,7 +27,7 @@
 	in_space = 1
 	known = TRUE
 	icon = 'icons/modules/overmap/tiled.dmi'
-	icon_state = "fleet"
+	icon_state = "ship"
 	color = "#ccc014"
 
 	initial_restricted_waypoints = list(
