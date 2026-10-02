@@ -34,7 +34,11 @@
 /obj/machinery/cryopod/robot/door/travel/smuggler
 	name = "smuggler cryo"
 	desc = "A teleporter towards outpost 01."
-	icon = 'icons/obj/machines/sleeper.dmi'
+	icon = 'icons/obj/machines/teleporter.dmi'
+	icon_state = "pad_idle"
+	announce_channel = "Trade"
+	base_icon_state = "pad"
+	occupied_icon_state = "pad_active"
 	icon_state = "sleeper_s"
 	announce_channel = "Trade"
 	on_store_message = "went into cryosleep."

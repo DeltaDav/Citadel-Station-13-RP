@@ -19,9 +19,10 @@
 [b]Notes[/b]: A fleet of independant colonist flying in deepspace to find new places to settle before bigger corporations takes over. It was created in 2570.
 Initialy, colonisation were separated ventures. But with the multiplication of attacks,
 all colonist vessels decided to form into a single fleet big enough to repel pirate attacks and perform trade.
-The fleet itself is self gouverning, with a loose democratical gouvernement.
+The fleet itself is self gouverning, gouverned by a council made of the most influent captains in the fleet.
 Altho there is no military, a militia formed, but is only focused on defenses and policing.
-Nanotrasen was their main goods supplier until 6 years ago, where the fleet simply went too far in deep space."}
+Nanotrasen was their main goods supplier until 4 years ago, where the fleet simply went too far in deep space. Now that NT is back, they welcome them with open arms"}
+	icon = 'icons/modules/overmap/tiled.dmi'
 	icon_state = "fleet"
 	color = "#648a38"
 	known = TRUE

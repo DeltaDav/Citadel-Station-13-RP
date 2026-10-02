@@ -24,6 +24,6 @@
 			list(z_index),
 			200,
 			/area/space,
-			/datum/map_template/submap/level_specific/asteroidfield1,
+			/datum/map_template/submap/level_specific/asteroidfield,
 		)
 	)

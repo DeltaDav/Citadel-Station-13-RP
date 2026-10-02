@@ -26,7 +26,6 @@
 	scanner_desc = @{"[i]Information[/i]: The NCV Astral is a Nanotrasen Command vessel, and the acting Centcom of the expedition fleet."}
 	in_space = 1
 	known = TRUE
-	icon = 'icons/modules/overmap/tiled.dmi'
 	icon_state = "ship"
 	color = "#ccc014"
 

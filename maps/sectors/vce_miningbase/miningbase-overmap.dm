@@ -1,5 +1,5 @@
 /obj/overmap/entity/visitable/sector/miningbase
-	name = "Mining base"
+	name = "VCE S2A4 - Mining base"
 	desc = "A derelict mining base in asteroid."
 	scanner_desc = @{"[b][i]Stellar Body[/b][/i]: Small planetoid
 [b]Habitability[/b]: Impossible

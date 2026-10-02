@@ -275,3 +275,13 @@
 	bound_x = 128
 	bound_y = 128
 	anchored = 1
+
+/obj/structure/vce/machinery
+	name = "ruined machinery"
+	desc = "This used to do something... Maybe it still do."
+	icon = 'icons/obj/vce_asset/vce_titan.dmi'
+	icon_state = "machinery"
+	density = TRUE
+	bound_x = 128
+	bound_y = 128
+	anchored = 1

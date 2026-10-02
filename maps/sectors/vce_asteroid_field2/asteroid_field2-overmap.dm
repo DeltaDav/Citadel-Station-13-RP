@@ -1,5 +1,5 @@
 /obj/overmap/entity/visitable/sector/asteroid_field2
-	name = "Asteroid field Delta"
+	name = "VCE S1AF2 Asteroid field Delta"
 	desc = "A mundane asteroid field perfect for mining."
 	scanner_desc = @{"[b][i]Stellar Body[/b][/i]: Asteroid field Delta
 [b]Class[/b]: Level 1 Asteroid Field

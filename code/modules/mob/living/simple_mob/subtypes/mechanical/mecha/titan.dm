@@ -9,10 +9,10 @@
 	name = "titan"
 	desc = "A misterious giant machine patroling the ruins of a long gone civilisation. You might be one in the first person in the galaxy to see it."
 	catalogue_data = list(/datum/category_item/catalogue/technology/titan)
-	icon = 'icons/mob/vce_mob_titan.dmi'
+	icon = 'icons/obj/vce_asset/vce_mob_titan.dmi'
 	icon_state = "base"
 	movement_base_speed = 10 / 7
-	wreckage = /obj/structure/loot_pile/mecha/titan
+	wreckage = /obj/structure/salvageable/titan_wreck/titan
 
 	maxHealth = 300
 	deflect_chance = 25
@@ -34,10 +34,9 @@
 	name = "titan"
 	desc = "A misterious giant machine patroling the ruins of a long gone civilisation. You might be one in the first person in the galaxy to see it."
 	catalogue_data = list(/datum/category_item/catalogue/technology/titan)
-	icon = 'icons/mob/vce_mob_titan.dmi'
 	icon_state = "sword"
 	movement_base_speed = 10 / 7
-	wreckage = /obj/structure/loot_pile/mecha/titan
+	wreckage = /obj/structure/salvageable/titan_wreck/titan
 
 	maxHealth = 300
 	deflect_chance = 25
@@ -59,10 +58,9 @@
 	name = "titan"
 	desc = "A misterious giant machine patroling the ruins of a long gone civilisation. You might be one in the first person in the galaxy to see it."
 	catalogue_data = list(/datum/category_item/catalogue/technology/titan)
-	icon = 'icons/mob/vce_mob_titan.dmi'
 	icon_state = "gun"
 	movement_base_speed = 10 / 7
-	wreckage = /obj/structure/loot_pile/mecha/titan
+	wreckage = /obj/structure/salvageable/titan_wreck/titan
 
 	maxHealth = 300
 	deflect_chance = 25

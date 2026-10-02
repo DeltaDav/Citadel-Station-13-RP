@@ -7,10 +7,17 @@
 	name = "Entdecker Trade Ship"
 	warmup_time = 0
 	shuttle_area = list(/area/shuttle/fleet/trade_ship/cockpit, /area/shuttle/fleet/trade_ship/general)
-	current_location = "tradeport_hangar"
-	docking_controller_tag = "tradeport_hangar_docker"
+	current_location = "fleet_trade_1"
+	docking_controller_tag = "fleet_trade_docker"
 	fuel_consumption = 5
 	move_time = 10
+
+/obj/effect/shuttle_landmark/shuttle_initializer/fleet/trade
+	name = "fleet"
+	base_area = /area/space
+	base_turf = /turf/space
+	landmark_tag = "fleet_trade_1"
+	shuttle_type = /datum/shuttle/autodock/overmap/fleet/trade
 
 /obj/overmap/entity/visitable/ship/landable/fleet/trade
 	name = "Entdecker Trade Ship"
@@ -42,7 +49,16 @@ Colonial Militia files state that this vessel is the main FTU Vessel in the area
 /area/shuttle/fleet/trade_ship/cockpit
 	name = "\improper Entdecker Trade Shuttle Cockpit"
 
+
 //Scoophead trade Shuttle - Returning shuttle. Fits the place well, secondary trade shuttle.
+
+
+/obj/effect/shuttle_landmark/shuttle_initializer/fleet/trade2
+	name = "fleet"
+	base_area = /area/space
+	base_turf = /turf/space
+	landmark_tag = "tradeport_scoophead"
+	shuttle_type = /datum/shuttle/autodock/overmap/fleet/trade
 
 /datum/shuttle/autodock/overmap/fleet/trade/scoophead
 	name = "Scoophead trade Shuttle"
@@ -88,14 +104,22 @@ Colonial Militia files state that this vessel is the main FTU Vessel in the area
 	name = "Scoophead Engine Bay"
 
 
+
 //Ani Shuttle - Naboo Star-fighter misxed with the Naboo royal transport.
+
+/obj/effect/shuttle_landmark/shuttle_initializer/fleet/ani
+	name = "fleet"
+	base_area = /area/space
+	base_turf = /turf/space
+	landmark_tag = "fleet_ani"
+	shuttle_type = /datum/shuttle/autodock/overmap/fleet/ani
 
 /datum/shuttle/autodock/overmap/fleet/ani
 	name = "Ani Runabout Shuttle"
 	warmup_time = 8
 	shuttle_area = list(/area/shuttle/fleet/ani)
-	current_location = "tradeport_arrowhead"
-	docking_controller_tag = "tradeport_arrowhead_docker"
+	current_location = "fleet_ani"
+	docking_controller_tag = "fleet_ani_docker"
 	fuel_consumption = 5
 	move_time = 10
 
@@ -128,12 +152,19 @@ Colonial Militia files state that this vessel is the main FTU Vessel in the area
 
 //Deneb Shuttle - Inspired by a BSG Vessel, its class name.
 
+/obj/effect/shuttle_landmark/shuttle_initializer/fleet/deneb
+	name = "fleet"
+	base_area = /area/space
+	base_turf = /turf/space
+	landmark_tag = "fleet_deneb"
+	shuttle_type = /datum/shuttle/autodock/overmap/fleet/deneb
+
 /datum/shuttle/autodock/overmap/fleet/deneb
 	name = "Deneb Shuttle"
 	warmup_time = 8
 	shuttle_area = list(/area/shuttle/fleet/deneb)
-	current_location = "tradeport_arrowhead"
-	docking_controller_tag = "tradeport_arrowhead_docker"
+	current_location = "fleet_deneb"
+	docking_controller_tag = "fleet_deneb_docker"
 	fuel_consumption = 5
 	move_time = 10
 
@@ -167,12 +198,20 @@ Now used a private vessel available to colonist, files do note that the ship als
 
 //Spacena Caravan Shuttle
 
+/obj/effect/shuttle_landmark/shuttle_initializer/fleet/caravan
+	name = "fleet"
+	base_area = /area/space
+	base_turf = /turf/space
+	landmark_tag = "fleet_caravan"
+	shuttle_type = /datum/shuttle/autodock/overmap/fleet/caravan
+
+
 /datum/shuttle/autodock/overmap/fleet/caravan
 	name = "Spacena Caravan Shuttle"
 	warmup_time = 8
 	shuttle_area = list(/area/shuttle/fleet/caravan)
-	current_location = "tradeport_caravan"
-	docking_controller_tag = "tradeport_caravan_docker"
+	current_location = "fleet_caravan"
+	docking_controller_tag = "fleet_caravan_docker"
 	fuel_consumption = 3
 	move_time = 10
 
@@ -203,13 +242,22 @@ Colonial Militia files state that this shuttle is one of the most popular vessel
 	area_flags = AREA_RAD_SHIELDED | AREA_FLAG_ERODING
 	sound_env = SMALL_ENCLOSED
 
+//Runabout
+
+/obj/effect/shuttle_landmark/shuttle_initializer/fleet/runabout
+	name = "fleet"
+	base_area = /area/space
+	base_turf = /turf/space
+	landmark_tag = "fleet_runabout"
+	shuttle_type = /datum/shuttle/autodock/overmap/fleet/runabout
+
 
 /datum/shuttle/autodock/overmap/fleet/runabout
 	name = "Teshari Runabout Shuttle"
 	warmup_time = 8
-	shuttle_area = list(/area/shuttle/runabout)
-	current_location = "tradeport_runabout"
-	docking_controller_tag = "tradeport_runabout_docker"
+	shuttle_area = list(/area/shuttle/fleet/runabout)
+	current_location = "fleet_runabout"
+	docking_controller_tag = "fleet_runabout_docker"
 	fuel_consumption = 3
 	move_time = 10
 
@@ -222,11 +270,11 @@ Colonial Militia files state that this shuttle is one of the most popular vessel
 	vessel_size = SHIP_SIZE_SMALL
 	shuttle = "Teshari Runabout Shuttle"
 
-/obj/machinery/computer/shuttle_control/explore/runabout
+/obj/machinery/computer/shuttle_control/explore/fleet/runabout
 	name = "short jump console"
 	shuttle_tag = "Teshari Runabout Shuttle"
 
-/area/shuttle/runabout
+/area/shuttle/fleet/runabout
 	name = "Teshari Runabout"
 	requires_power = 1
 	icon_state = "shuttle2"
@@ -235,11 +283,19 @@ Colonial Militia files state that this shuttle is one of the most popular vessel
 	sound_env = SMALL_ENCLOSED
 
 //Radio shuttle
+
+/obj/effect/shuttle_landmark/shuttle_initializer/fleet/starcutter
+	name = "fleet"
+	base_area = /area/space
+	base_turf = /turf/space
+	landmark_tag = "occulum_fleet"
+	shuttle_type = /datum/shuttle/autodock/overmap/fleet/starcutter
+
 /datum/shuttle/autodock/overmap/fleet/starcutter
 	name = "ORS Starcutter Radio Shuttle"
 	warmup_time = 8
-	shuttle_area = list(/area/shuttle/crescend)
-	current_location = "occulum_safehouse"
+	shuttle_area = list(/area/shuttle/fleet/crescend)
+	current_location = "occulum_fleet"
 	docking_controller_tag = "occulum_safehouse_docker"
 	fuel_consumption = 5
 	move_time = 10
@@ -258,7 +314,7 @@ Colonial Militia files state that this shuttle is one of the most popular vessel
 	vessel_size = SHIP_SIZE_SMALL
 	shuttle = "ORS Starcutter Radio Shuttle"
 
-/obj/machinery/computer/shuttle_control/explore/starcutter
+/obj/machinery/computer/shuttle_control/explore/fleet/starcutter
 	name = "short jump console"
 	shuttle_tag = "ORS Starcutter Radio Shuttle"
 
@@ -271,12 +327,20 @@ Colonial Militia files state that this shuttle is one of the most popular vessel
 	sound_env = SMALL_ENCLOSED
 
 //Cargoravan
+
+/obj/effect/shuttle_landmark/shuttle_initializer/fleet/cargoravana
+	name = "fleet"
+	base_area = /area/space
+	base_turf = /turf/space
+	landmark_tag = "cargoravana_start"
+	shuttle_type = /datum/shuttle/autodock/overmap/fleet/cargoravana
+
 /datum/shuttle/autodock/overmap/fleet/cargoravana
 	name = "Spacena Cargoravana Shuttle"
 	warmup_time = 8
-	shuttle_area = list(/area/shuttle/cargoravana)
+	shuttle_area = list(/area/shuttle/fleet/cargoravana)
 	current_location = "cargoravana_start"
-	docking_controller_tag = "tradeport_cargoravana_docker"
+	docking_controller_tag = "fleet_cargoravana_docker"
 	fuel_consumption = 3
 	move_time = 10
 
@@ -295,11 +359,11 @@ This class of shuttle is the home of many fammilies."}
 	vessel_size = SHIP_SIZE_SMALL
 	shuttle = "Spacena Cargoravana Shuttle"
 
-/obj/machinery/computer/shuttle_control/explore/cargoravana
+/obj/machinery/computer/shuttle_control/explore/fleet/cargoravana
 	name = "short jump console"
 	shuttle_tag = "Spacena Cargoravana Shuttle"
 
-/area/shuttle/cargoravana
+/area/shuttle/fleet/cargoravana
 	name = "Cargoravana"
 	requires_power = 1
 	icon_state = "shuttle2"
@@ -307,21 +371,21 @@ This class of shuttle is the home of many fammilies."}
 	area_flags = AREA_RAD_SHIELDED | AREA_FLAG_ERODING
 	sound_env = SMALL_ENCLOSED
 
-/obj/effect/shuttle_landmark/shuttle_initializer/cargoravana
-	name = "Osiris Debris Field"
+//Spacena adventurer Shuttle
+
+/obj/effect/shuttle_landmark/shuttle_initializer/fleet/adventurer
+	name = "fleet"
 	base_area = /area/space
 	base_turf = /turf/space
-	landmark_tag = "cargoravana_start"
-	shuttle_type = /datum/shuttle/autodock/overmap/fleet/cargoravana
-
-//Spacena adventurer Shuttle
+	landmark_tag = "fleet_adventurer"
+	shuttle_type = /datum/shuttle/autodock/overmap/fleet/adventurer
 
 /datum/shuttle/autodock/overmap/fleet/adventurer
 	name = "Spacena Adventurer Shuttle"
 	warmup_time = 8
-	shuttle_area = list(/area/shuttle/adventurer)
-	current_location = "tradeport_adventurer"
-	docking_controller_tag = "tradeport_adventurer_docker"
+	shuttle_area = list(/area/shuttle/fleet/adventurer)
+	current_location = "fleet_adventurer"
+	docking_controller_tag = "fleet_adventurer_docker"
 	fuel_consumption = 3
 	move_time = 10
 
@@ -338,11 +402,11 @@ This class of shuttle is the home of many fammilies."}
 	vessel_size = SHIP_SIZE_SMALL
 	shuttle = "Spacena Adventurer Shuttle"
 
-/obj/machinery/computer/shuttle_control/explore/adventurer
+/obj/machinery/computer/shuttle_control/explore/fleet/adventurer
 	name = "short jump console"
 	shuttle_tag = "Spacena Adventurer Shuttle"
 
-/area/shuttle/adventurer
+/area/shuttle/fleet/adventurer
 	name = "Adventurer"
 	requires_power = 1
 	icon_state = "shuttle2"
@@ -352,12 +416,19 @@ This class of shuttle is the home of many fammilies."}
 
 //Cargo tug Shuttle
 
+/obj/effect/shuttle_landmark/shuttle_initializer/fleet/tug
+	name = "fleet"
+	base_area = /area/space
+	base_turf = /turf/space
+	landmark_tag = "fleet_tug"
+	shuttle_type = /datum/shuttle/autodock/overmap/fleet/tug
+
 /datum/shuttle/autodock/overmap/fleet/tug
 	name = "Cargo Tug Hauler Shuttle"
 	warmup_time = 8
-	shuttle_area = list(/area/shuttle/tug)
-	current_location = "tradeport_tug"
-	docking_controller_tag = "tradeport_tug_docker"
+	shuttle_area = list(/area/shuttle/fleet/tug)
+	current_location = "fleet_tug"
+	docking_controller_tag = "fleet_tug_docker"
 	fuel_consumption = 4
 	move_time = 10
 
@@ -374,11 +445,11 @@ This class of shuttle is the home of many fammilies."}
 	vessel_size = SHIP_SIZE_SMALL
 	shuttle = "Cargo Tug Hauler Shuttle"
 
-/obj/machinery/computer/shuttle_control/explore/tug
+/obj/machinery/computer/shuttle_control/explore/fleet/tug
 	name = "short jump console"
 	shuttle_tag = "Cargo Tug Hauler Shuttle"
 
-/area/shuttle/tug
+/area/shuttle/fleet/tug
 	name = "Tug"
 	requires_power = 1
 	icon_state = "shuttle2"
@@ -388,12 +459,19 @@ This class of shuttle is the home of many fammilies."}
 
 //Utility Micro Shuttle
 
+/obj/effect/shuttle_landmark/shuttle_initializer/fleet/micro
+	name = "fleet"
+	base_area = /area/space
+	base_turf = /turf/space
+	landmark_tag = "fleet_utilitymicro"
+	shuttle_type = /datum/shuttle/autodock/overmap/fleet/utilitymicro
+
 /datum/shuttle/autodock/overmap/fleet/utilitymicro
 	name = "Utility Micro Shuttle"
 	warmup_time = 8
-	shuttle_area = list(/area/shuttle/utilitymicro)
-	current_location = "tradeport_utilitymicro"
-	docking_controller_tag = "tradeport_utilitymicro_docker"
+	shuttle_area = list(/area/shuttle/fleet/utilitymicro)
+	current_location = "fleet_utilitymicro"
+	docking_controller_tag = "fleet_utilitymicro_docker"
 	fuel_consumption = 1
 	move_time = 10
 
@@ -410,11 +488,11 @@ This class of shuttle is the home of many fammilies."}
 	vessel_size = SHIP_SIZE_SMALL
 	shuttle = "Utility Micro Shuttle"
 
-/obj/machinery/computer/shuttle_control/explore/utilitymicro
+/obj/machinery/computer/shuttle_control/explore/fleet/utilitymicro
 	name = "short jump console"
 	shuttle_tag = "Utility Micro Shuttle"
 
-/area/shuttle/utilitymicro
+/area/shuttle/fleet/utilitymicro
 	name = "UMS"
 	requires_power = 1
 	icon_state = "shuttle2"
@@ -424,12 +502,19 @@ This class of shuttle is the home of many fammilies."}
 
 //Utility Micro Shuttle 2
 
+/obj/effect/shuttle_landmark/shuttle_initializer/fleet/micro2
+	name = "fleet"
+	base_area = /area/space
+	base_turf = /turf/space
+	landmark_tag = "fleet_utilitymicro2"
+	shuttle_type = /datum/shuttle/autodock/overmap/fleet/utilitymicro2
+
 /datum/shuttle/autodock/overmap/fleet/utilitymicro2
 	name = "Utility Micro Shuttle 2"
 	warmup_time = 8
-	shuttle_area = list(/area/shuttle/utilitymicro2)
-	current_location = "tradeport_utilitymicro2"
-	docking_controller_tag = "tradeport_utilitymicro_docker2"
+	shuttle_area = list(/area/shuttle/fleet/utilitymicro2)
+	current_location = "fleet_utilitymicro2"
+	docking_controller_tag = "fleet_utilitymicro_docker2"
 	fuel_consumption = 1
 	move_time = 10
 
@@ -446,11 +531,11 @@ This class of shuttle is the home of many fammilies."}
 	vessel_size = SHIP_SIZE_SMALL
 	shuttle = "Utility Micro Shuttle"
 
-/obj/machinery/computer/shuttle_control/explore/utilitymicro2
+/obj/machinery/computer/shuttle_control/explore/fleet/utilitymicro2
 	name = "short jump console"
 	shuttle_tag = "Utility Micro Shuttle"
 
-/area/shuttle/utilitymicro2
+/area/shuttle/fleet/utilitymicro2
 	name = "UMS2"
 	requires_power = 1
 	icon_state = "shuttle2"
@@ -461,6 +546,14 @@ This class of shuttle is the home of many fammilies."}
 //Colonial Liner - BSG INSPIRED, WOOOOO
 //It is usable by Event min only. They just need to set down the jump console themselve.
 //
+
+/obj/effect/shuttle_landmark/shuttle_initializer/fleet/colonial
+	name = "fleet"
+	base_area = /area/space
+	base_turf = /turf/space
+	landmark_tag = "colonial_start"
+	shuttle_type = /datum/shuttle/autodock/overmap/fleet/colonial
+
 /datum/shuttle/autodock/overmap/fleet/colonial
 	name = "RCV Roseline"
 	warmup_time = 8
@@ -485,7 +578,7 @@ Colonial Militia files state that this Vessel got all archives and docuement to 
 	vessel_size = SHIP_SIZE_LARGE
 	shuttle = "RCV Roseline"
 
-/obj/machinery/computer/shuttle_control/explore/colonial
+/obj/machinery/computer/shuttle_control/explore/fleet/colonial
 	name = "short jump console"
 	shuttle_tag = "RCV Roseline"
 
@@ -497,16 +590,17 @@ Colonial Militia files state that this Vessel got all archives and docuement to 
 	area_flags = AREA_RAD_SHIELDED | AREA_FLAG_ERODING
 	sound_env = SMALL_ENCLOSED
 
-/obj/effect/shuttle_landmark/shuttle_initializer/colonial
-	name = "Fleet"
-	base_area = /area/space
-	base_turf = /turf/space
-	landmark_tag = "colonial_start"
-	shuttle_type = /datum/shuttle/autodock/overmap/fleet/colonial
 
 //Battlestar - ... I mean its litteraly a Battlestar.
-// It is usable by Event min only. They just need to set down the jump console themselve.
 //
+
+/obj/effect/shuttle_landmark/shuttle_initializer/fleet/battlestar
+	name = "fleet"
+	base_area = /area/space
+	base_turf = /turf/space
+	landmark_tag = "battlestar_start"
+	shuttle_type = /datum/shuttle/autodock/overmap/fleet/battlestar
+
 /datum/shuttle/autodock/overmap/fleet/battlestar
 	name = "RCMV Adamant"
 	warmup_time = 8
@@ -523,15 +617,14 @@ Colonial Militia files state that this Vessel got all archives and docuement to 
 	scanner_desc = @{"[i]Registration[/i]: RCMV Adamant
 [i]Class[/i]: Andromeda BS2004
 [i]Transponder[/i]: Transmitting (CIV - RCV), Registered with the Roselin colonist fleet, non-hostile, heavely armed, fighter and mech carrier.
-[b]Notice[/b]: Militian flagship of the fleet, and its main protector. However, it only protects the fleet, and rarely extend out of it.\
-If it is left behind, or traveling alone, you know that something is wrong."}
-	color = "#646464"
+[b]Notice[/b]: Militian flagship of the fleet, and its main protector. However, it only protects the fleet and fight pirates arround."}
+	color = "#09005e"
 	fore_dir = WEST
 	vessel_mass = 8000
 	vessel_size = SHIP_SIZE_LARGE
 	shuttle = "RCMV Adamant"
 
-/obj/machinery/computer/shuttle_control/explore/battlestar
+/obj/machinery/computer/shuttle_control/explore/fleet/battlestar
 	name = "short jump console"
 	shuttle_tag = "RCMV Adamant"
 
@@ -550,14 +643,70 @@ If it is left behind, or traveling alone, you know that something is wrong."}
 	landmark_tag = "battlestar_start"
 	shuttle_type = /datum/shuttle/autodock/overmap/fleet/battlestar
 
+
+//Parabellum militia shuttle
+
+/obj/effect/shuttle_landmark/shuttle_initializer/parabellum
+	name = "Fleet"
+	base_area = /area/space
+	base_turf = /turf/space
+	landmark_tag = "parabelum_start"
+	shuttle_type = /datum/shuttle/autodock/overmap/fleet/parabellum
+
+/obj/overmap/entity/visitable/ship/landable/fleet/parabellum
+	name = "RCMV Parabellum"
+	desc = "A Militia vessel."
+	scanner_name = "RCMV Parabellum"
+	scanner_desc = @{"[i]Registration[/i]: RCMV Parabellum
+[i]Class[/i]: Andromeda BS2004
+[i]Transponder[/i]: Transmitting (CIV - RCV), Registered with the Roselin colonist fleet, non-hostile, fighter and mech carrier.
+[b]Notice[/b]: Militian auxilary vessel, made to serve as a scout and escort."}
+	color = "#2b255e"
+	fore_dir = WEST
+	vessel_mass = 8000
+	vessel_size = SHIP_SIZE_LARGE
+	shuttle = "RCMV Parabellum"
+
+/datum/shuttle/autodock/overmap/fleet/battlestar
+	name = "RCMV Parabellum"
+	warmup_time = 8
+	shuttle_area = list(/area/shuttle/fleet/parabellum)
+	docking_controller_tag = "parabelum_docker"
+	fuel_consumption = 3
+	move_time = 10
+	current_location = "parabelum_start"
+
+
+/obj/machinery/computer/shuttle_control/explore/fleet/parabellum
+	name = "short jump console"
+	shuttle_tag = "RCMV Parabellum"
+
+/area/shuttle/fleet/parabellum
+	name = "RCMV Parabellum"
+	requires_power = 1
+	icon_state = "shuttle2"
+	dynamic_lighting = DYNAMIC_LIGHTING_ENABLED
+	area_flags = AREA_RAD_SHIELDED | AREA_FLAG_ERODING
+	sound_env = SMALL_ENCLOSED
+
+
+
+
 //Providence shuttle - Star trek HMS Bounty inspired
+
+/obj/effect/shuttle_landmark/shuttle_initializer/providence
+	name = "Fleet"
+	base_area = /area/space
+	base_turf = /turf/space
+	landmark_tag = "fleet_providence"
+	shuttle_type = /datum/shuttle/autodock/overmap/fleet/providence
 
 /datum/shuttle/autodock/overmap/fleet/providence
 	name = "Providence Shuttle"
 	warmup_time = 8
 	shuttle_area = list(/area/shuttle/fleet/providence)
-	current_location = "tradeport_arrowhead"
-	docking_controller_tag = "tradeport_arrowhead_docker"
+	current_location = "fleet_providence"
+	docking_controller_tag = "fleet_providence_docker"
 	fuel_consumption = 5
 	move_time = 10
 
@@ -581,7 +730,32 @@ Now used a private vessel available to colonist, it as been repaired."}
 	name = "short jump console"
 	shuttle_tag = "Providence Shuttle"
 
+/area/shuttle/fleet/providence
+	name = "Providence Shuttle"
+	requires_power = 1
+	icon_state = "shuttle2"
+	dynamic_lighting = DYNAMIC_LIGHTING_ENABLED
+	area_flags = AREA_RAD_SHIELDED | AREA_FLAG_ERODING
+	sound_env = SMALL_ENCLOSED
+
+
 //Biodancy Shuttle - Space Dandy Shuttle
+
+/obj/effect/shuttle_landmark/shuttle_initializer/biodancy
+	name = "Fleet"
+	base_area = /area/space
+	base_turf = /turf/space
+	landmark_tag = "fleet_biodancy"
+	shuttle_type = /datum/shuttle/autodock/overmap/fleet/fleet/biodancy
+
+/datum/shuttle/autodock/overmap/fleet/fleet/biodancy
+	name = "Biodancy Shuttle"
+	warmup_time = 8
+	shuttle_area = list(/area/shuttle/fleet/biodancy)
+	current_location = "fleet_biodancy"
+	docking_controller_tag = "fleet_providence_docker"
+	fuel_consumption = 5
+	move_time = 10
 
 /area/shuttle/fleet/biodancy
 	name = "Biodancy Shuttle"
@@ -607,12 +781,134 @@ Now used a private vessel available to colonist."}
 	vessel_size = SHIP_SIZE_SMALL
 	shuttle = "Biodancy Shuttle"
 
+
 /obj/machinery/computer/shuttle_control/explore/fleet/biodancy
 	name = "short jump console"
 	shuttle_tag = "Biodancy Shuttle"
 
 /area/shuttle/fleet/biodancy
 	name = "Biodancy Shuttle"
+	requires_power = 1
+	icon_state = "shuttle2"
+	dynamic_lighting = DYNAMIC_LIGHTING_ENABLED
+	area_flags = AREA_RAD_SHIELDED | AREA_FLAG_ERODING
+	sound_env = SMALL_ENCLOSED
+
+
+
+//Tour shuttle
+
+/obj/effect/shuttle_landmark/shuttle_initializer/tour
+	name = "Fleet"
+	base_area = /area/space
+	base_turf = /turf/space
+	landmark_tag = "fleet_tour"
+	shuttle_type = /datum/shuttle/autodock/overmap/fleet/tour
+
+
+/datum/shuttle/autodock/overmap/fleet/tour
+	name = "Tour Shuttle"
+	warmup_time = 8
+	shuttle_area = list(/area/shuttle/fleet/tour)
+	current_location = "fleet_tour"
+	docking_controller_tag = "fleet_tour_docker"
+	fuel_consumption = 3
+	move_time = 10
+
+/obj/overmap/entity/visitable/ship/landable/fleet/tour
+	name = "Tour Shuttle"
+	desc = "A shuttle used for tours in space."
+	color = "#aed5f0"
+	fore_dir = WEST
+	vessel_mass = 10000
+	vessel_size = SHIP_SIZE_SMALL
+	shuttle = "Tour Shuttle"
+
+/obj/machinery/computer/shuttle_control/explore/fleet/tour
+	name = "short jump console"
+	shuttle_tag = "Tour Shuttle"
+
+/area/shuttle/fleet/tour
+	name = "Tour Shuttle"
+	requires_power = 1
+	icon_state = "shuttle2"
+	dynamic_lighting = DYNAMIC_LIGHTING_ENABLED
+	area_flags = AREA_RAD_SHIELDED | AREA_FLAG_ERODING
+	sound_env = SMALL_ENCLOSED
+
+
+//passenger shuttle
+
+/obj/effect/shuttle_landmark/shuttle_initializer/passenger
+	name = "Fleet"
+	base_area = /area/space
+	base_turf = /turf/space
+	landmark_tag = "fleet_passenger"
+	shuttle_type = /datum/shuttle/autodock/overmap/fleet/passenger
+
+/datum/shuttle/autodock/overmap/fleet/passenger
+	name = "Passenger Shuttle"
+	warmup_time = 8
+	shuttle_area = list(/area/shuttle/fleet/passenger)
+	current_location = "fleet_passenger"
+	docking_controller_tag = "fleet_passenger_docker"
+	fuel_consumption = 3
+	move_time = 10
+
+/obj/overmap/entity/visitable/ship/landable/fleet/passenger
+	name = "Passenger Shuttle"
+	desc = "A shuttle used for passengers in space."
+	color = "#aed5f0"
+	fore_dir = WEST
+	vessel_mass = 10000
+	vessel_size = SHIP_SIZE_SMALL
+	shuttle = "Passenger Shuttle"
+
+/obj/machinery/computer/shuttle_control/explore/fleet/passenger
+	name = "short jump console"
+	shuttle_tag = "Passenger Shuttle"
+
+/area/shuttle/fleet/passenger
+	name = "Passenger Shuttle"
+	requires_power = 1
+	icon_state = "shuttle2"
+	dynamic_lighting = DYNAMIC_LIGHTING_ENABLED
+	area_flags = AREA_RAD_SHIELDED | AREA_FLAG_ERODING
+	sound_env = SMALL_ENCLOSED
+
+//Bolt shuttle
+
+/obj/effect/shuttle_landmark/shuttle_initializer/bolt
+	name = "Fleet"
+	base_area = /area/space
+	base_turf = /turf/space
+	landmark_tag = "fleet_bolt"
+	shuttle_type = /datum/shuttle/autodock/overmap/fleet/bolt
+
+/datum/shuttle/autodock/overmap/fleet/bolt
+	name = "Bolt Transport Shuttle"
+	warmup_time = 8
+	shuttle_area = list(/area/shuttle/fleet/bolt)
+	current_location = "fleet_bolt"
+	docking_controller_tag = "fleet_bolt_docker"
+	fuel_consumption = 3
+	move_time = 10
+
+/obj/overmap/entity/visitable/ship/landable/fleet/bolt
+	name = "Bolt Transport Shuttle"
+	desc = "A shuttle used for bolts in space."
+	color = "#946929"
+	fore_dir = WEST
+	vessel_mass = 10000
+	vessel_size = SHIP_SIZE_SMALL
+	shuttle = "Bolt Transport Shuttle"
+
+/obj/machinery/computer/shuttle_control/explore/fleet/bolt
+	name = "short jump console"
+	shuttle_tag = "Bolt Transport Shuttle"
+
+/area/shuttle/fleet/bolt
+	name = "Bolt Transport Shuttle"
 	requires_power = 1
 	icon_state = "shuttle2"
 	dynamic_lighting = DYNAMIC_LIGHTING_ENABLED

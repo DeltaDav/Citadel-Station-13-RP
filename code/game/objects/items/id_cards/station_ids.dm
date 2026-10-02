@@ -822,3 +822,15 @@
 	name = "Guardian Salvaging Inc ID"
 	desc = "An ID issued to workers of the Guardian Salvaging Inc. It looks generic and cheap."
 	icon_state = "generic"
+
+/obj/item/card/id/external/id_militia
+	name = "RCF Militia ID"
+	desc = "An ID issued to workers of the Militian of Roseline Colony Fleet It looks generic and cheap."
+	icon_state = "generic"
+	access = list(310)
+
+/obj/item/card/id/external/id_maquis
+	name = "Dryas Maquis ID"
+	desc = "An ID issued to workers of the Dryas Maquis. It looks generic and cheap."
+	icon_state = "generic"
+	access = list(311)

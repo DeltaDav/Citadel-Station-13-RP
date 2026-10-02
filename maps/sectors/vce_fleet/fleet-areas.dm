@@ -74,13 +74,27 @@
 	name = "\improper RCV Giga Hauler - Container Room 12"
 	icon_state = "yellow"
 
+/area/sector/fleet/room13
+	name = "\improper RCV Giga Hauler - Container Room 13"
+	icon_state = "yellow"
+
+/area/sector/fleet/room14
+	name = "\improper RCV Giga Hauler - Container Room 14"
+	icon_state = "yellow"
+
+/area/sector/fleet/room15
+	name = "\improper RCV Giga Hauler - Container Room 15"
+	icon_state = "yellow"
+
+
 /area/sector/fleet/church
 	name = "\improper RCV Giga Hauler - Church"
 	icon_state = "yellow"
 
-/area/sector/fleet/church
+/area/sector/fleet/medical
 	name = "\improper RCV Giga Hauler - Medical"
 	icon_state = "yellow"
+	sound_env = SMALL_ENCLOSED
 
 /area/sector/fleet/empty
 	name = "\improper Nebula unused cargo hold"
@@ -106,15 +120,12 @@
 	name = "\improper RCV Skullcrack - Smuggler den"
 	icon_state = "red"
 
-/area/sector/fleet/medical
-	icon_state = "blue"
-	sound_env = SMALL_ENCLOSED
-
-/area/sector/fleet/medical/public
-	icon_state = "blue"
-	sound_env = SMALL_ENCLOSED
-
 /area/sector/fleet/security
+	icon_state = "blue"
+	sound_env = SMALL_ENCLOSED
+
+/area/sector/fleet/trash
+	name = "RCV Nerus"
 	icon_state = "blue"
 	sound_env = SMALL_ENCLOSED
 
