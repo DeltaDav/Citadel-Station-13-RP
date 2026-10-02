@@ -1,0 +1,5 @@
+author: "CharlesWedge"
+delete-after: True
+changes:
+  - rscadd: "Note to describe how HAMI kits should be used and expectations for crew bringing Scori on station/"
+  - tweak: "Lavaland now has a clear shot between Station and Scori with bridges and a tunnel."

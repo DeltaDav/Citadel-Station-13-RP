@@ -834,3 +834,10 @@
 	desc = "An ID issued to workers of the Dryas Maquis. It looks generic and cheap."
 	icon_state = "generic"
 	access = list(311)
+
+/obj/item/card/id/external/id_tribal
+	name = "H.A.M.I. Guest Pass"
+	desc = "A temporary ID issued to visiting scorians as part of the 'Hearts and Minds' initiative. Half the card is written in galactic common, while the other uses unfamiliar characters."
+	icon_state = "chit_tribal"
+	job_access_type = null
+	access = list(48)
