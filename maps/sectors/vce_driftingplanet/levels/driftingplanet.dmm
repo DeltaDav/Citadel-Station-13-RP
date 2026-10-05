@@ -3761,7 +3761,7 @@
 "IE" = (
 /obj/machinery/door/blast/regular{
 	color = "#803327";
-	id = sssssssssssssss
+	
 	},
 /turf/simulated/floor/outdoors/mud/indoors,
 /area/space)
