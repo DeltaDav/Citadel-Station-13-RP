@@ -835,6 +835,12 @@
 	icon_state = "generic"
 	access = list(311)
 
+/obj/item/card/id/external/id_smuggler
+	name = "ID"
+	desc = "An generic and cheap ID."
+	icon_state = "generic"
+	access = list(312)
+
 /obj/item/card/id/external/id_tribal
 	name = "H.A.M.I. Guest Pass"
 	desc = "A temporary ID issued to visiting scorians as part of the 'Hearts and Minds' initiative. Half the card is written in galactic common, while the other uses unfamiliar characters."

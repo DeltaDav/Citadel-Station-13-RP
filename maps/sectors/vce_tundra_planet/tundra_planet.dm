@@ -9,8 +9,20 @@
 
 /datum/map_level/sector/tundra_planet
 	id = "tundra_planet"
-	name = "Sector Crucis Expanse - Tundra Planet"
+	name = "Sector Crucis Expanse - Tundra Planet East"
 	display_name = "tundra_planet"
 	path = "maps/sectors/vce_tundra_planet/levels/tundra_planet.dmm"
-	base_turf = /turf/space
-	base_area = /area/space
+	base_turf = /turf/simulated/floor/fey/snow_grass
+	struct_x = 1
+	struct_y = 0
+	struct_z = 0
+
+/datum/map_level/sector/tundra_planet/west
+	id = "MiaphusCaves192"
+	name = "Sector Crucis Expanse - Tundra Planet West"
+	display_name = "Miaphus - Caves"
+	path = "maps/sectors/vce_tundra_planet/levels/tundra_planet_2.dmm"
+	base_turf = /turf/simulated/floor/fey/snow_grass
+	struct_x = 0
+	struct_y = 0
+	struct_z = 0

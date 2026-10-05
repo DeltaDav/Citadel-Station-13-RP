@@ -367,7 +367,7 @@
 	item_state_slots = list(SLOT_ID_RIGHT_HAND = "securitypack", SLOT_ID_LEFT_HAND = "securitypack")
 
 //Militia Tactical
-/obj/item/storage/satchel/militia
+/obj/item/storage/backpack/satchel/militia
 	name = "Militia Tactical satchel"
 	desc = "A satchel used by members of the Fleet Militia."
 	icon_state = "satchel-blueshield"

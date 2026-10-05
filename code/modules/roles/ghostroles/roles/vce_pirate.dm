@@ -41,7 +41,7 @@
 /datum/ghostrole_instantiator/human/player_static/maquis/assault/GetOutfit(client/C, mob/M, list/params)
 		return new /datum/outfit/maquisard/assault
 
-datum/prototype/role/ghostrole/maquis/commander
+/datum/prototype/role/ghostrole/maquis/commander
 	name = "Dryas Maquisard Commander"
 	assigned_role = "Dryas Maquisard Commander"
 	desc = "You are a commander of the Dryas Maquisard."
@@ -68,6 +68,7 @@ datum/prototype/role/ghostrole/maquis/commander
 	anchored = TRUE
 	role_type = /datum/prototype/role/ghostrole/maquis
 	role_spawns = 1
+	density = 0
 
 /obj/structure/ghost_role_spawner/maquis/assault
 	name = "Assault guy bed"

@@ -41,7 +41,7 @@
 /datum/ghostrole_instantiator/human/player_static/militia/assault/GetOutfit(client/C, mob/M, list/params)
 		return new /datum/outfit/militia/assault
 
-datum/prototype/role/ghostrole/militia/commander
+/datum/prototype/role/ghostrole/militia/commander
 	name = "Roselin Fleet Militian Commander"
 	assigned_role = "Roselin Fleet Militian Commander"
 	desc = "You are a commander of the Roselin Fleet militia."
@@ -68,6 +68,7 @@ datum/prototype/role/ghostrole/militia/commander
 	anchored = TRUE
 	role_type = /datum/prototype/role/ghostrole/militia
 	role_spawns = 1
+	density = 0
 
 /obj/structure/ghost_role_spawner/militia/assault
 	name = "Assault guy bed"

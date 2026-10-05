@@ -294,7 +294,7 @@ Colonial Militia files state that this shuttle is one of the most popular vessel
 /datum/shuttle/autodock/overmap/fleet/starcutter
 	name = "ORS Starcutter Radio Shuttle"
 	warmup_time = 8
-	shuttle_area = list(/area/shuttle/fleet/crescend)
+	shuttle_area = list(/area/shuttle/fleet/starcutter)
 	current_location = "occulum_fleet"
 	docking_controller_tag = "occulum_safehouse_docker"
 	fuel_consumption = 5
@@ -636,13 +636,6 @@ Colonial Militia files state that this Vessel got all archives and docuement to 
 	area_flags = AREA_RAD_SHIELDED | AREA_FLAG_ERODING
 	sound_env = SMALL_ENCLOSED
 
-/obj/effect/shuttle_landmark/shuttle_initializer/battlestar
-	name = "Fleet"
-	base_area = /area/space
-	base_turf = /turf/space
-	landmark_tag = "battlestar_start"
-	shuttle_type = /datum/shuttle/autodock/overmap/fleet/battlestar
-
 
 //Parabellum militia shuttle
 
@@ -658,16 +651,16 @@ Colonial Militia files state that this Vessel got all archives and docuement to 
 	desc = "A Militia vessel."
 	scanner_name = "RCMV Parabellum"
 	scanner_desc = @{"[i]Registration[/i]: RCMV Parabellum
-[i]Class[/i]: Andromeda BS2004
+[i]Class[/i]: Monolith
 [i]Transponder[/i]: Transmitting (CIV - RCV), Registered with the Roselin colonist fleet, non-hostile, fighter and mech carrier.
 [b]Notice[/b]: Militian auxilary vessel, made to serve as a scout and escort."}
 	color = "#2b255e"
 	fore_dir = WEST
-	vessel_mass = 8000
+	vessel_mass = 3000
 	vessel_size = SHIP_SIZE_LARGE
 	shuttle = "RCMV Parabellum"
 
-/datum/shuttle/autodock/overmap/fleet/battlestar
+/datum/shuttle/autodock/overmap/fleet/parabellum
 	name = "RCMV Parabellum"
 	warmup_time = 8
 	shuttle_area = list(/area/shuttle/fleet/parabellum)

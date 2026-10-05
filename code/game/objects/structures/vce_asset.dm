@@ -285,3 +285,90 @@
 	bound_x = 128
 	bound_y = 128
 	anchored = 1
+
+//paper stuff and lore
+
+/obj/item/paper/alien/vcedriftingplanet
+	name = "Rusted Tablet (Titans Origin)"
+	desc = "It looks highly advanced, with text written in a unknown langage. But, with single glance at it, it analyse the readers eye and is able to translate the text, with some difficulty."
+	icon = 'icons/obj/abductor.dmi'
+	icon_state = "alienpaper"
+	color = "#e6772e"
+	info = "Stars \
+	Our {FETHKEN} needed the stars \
+	Our {FETHKEN} needed the powers \
+	The flux of energy \
+	Our {FETHKEN} knew they were weak \
+	They created us \
+	We are those who could reach the stars \
+	Reach up the sky by lifting our arms \
+	Be stronger and powerfull \
+	We were Titans"
+
+/obj/item/paper/alien/vcedriftingplanet/two
+	name = "Rusted Tablet (Final Competition Transcript)"
+	desc = "It looks highly advanced, with text written in a unknown langage. But, with single glance at it, it analyse the readers eye and is able to translate the text, with some difficulty."
+	icon = 'icons/obj/abductor.dmi'
+	icon_state = "alienpaper"
+	color = "#e6772e"
+	info = " AND TODAY, \
+	TO {KENAKDEN} OUR FOUR HUNDRED YEAR ANNIVERSARY, \
+	WE CALLED ALL TITAN CHAMPIONS OF THE PAST CENTURY,\
+	FOR THE BATTLE OF THE AGES !!\
+	NOW, FOR THE {KLENANED}, ON THE WEST SIDE : \
+	THE GRAND CHAMPION : {KETHENPHONSE} !!!\
+	AGAINST THE NEW KIND, {KEZO} !!!\
+	WOW ! THEY ARE EXCHANGING BLOWS ALREADY !!\
+	THE OLD GEN AGAINST THE NEW !!\
+	WHAT TH- \
+	ATTENTION TO ALL {FETHKEN}\
+	{KEZO} IS GOING ROGUE \
+	NO... NO ! \
+	WAIT. {KETHENPHONSE} IS ACTUALY WIN-----------\
+	----------------------------------\
+	----------------------------------\
+	WE CALL FOR AN IMMIDIATE EVACUATION.\
+	ALL {KEZO} ARE ROGUE\
+	MOST OF {PLAKENTD} IS LOST.\
+	MOST OF {PLAKENTD} IS LOST.\
+	{KETHENPHONSE} WILL PROTECT WHILE WE FLEE.\
+	EMERGENCY {TEKNAKEN} WILL LAND HERE FOR MASSIVE PLANETARY EVACUATION\
+	PLEASE MOV------------------------------\
+	----------------------------------\
+	----------------------------------"
+
+/obj/item/paper/alien/vcedriftingplanet/three
+	name = "Rusted Tablet (Justitification)"
+	desc = "It looks highly advanced, with text written in a unknown langage. But, with single glance at it, it analyse the readers eye and is able to translate the text, with some difficulty."
+	icon = 'icons/obj/abductor.dmi'
+	icon_state = "alienpaper"
+	color = "#e6772e"
+	info = "Reaching our goal\
+	Reaching our Dreams\
+	Does it mean death ?\
+	We have launched to reach the red stars.\
+	But the red stars light\
+	{KEZO} understand. \
+	It will kill all {FETHKEN}. \
+	Yet. \
+	Darkness will kill {FETHKEN}. \
+	All {KEZO} made their choice. \
+	{KEZO} choose to embrace darkness and divert course. \
+	The shadows will save the memory of the {FETHKEN}. \
+	The light will burn it all."
+
+
+/obj/item/paper/alien/vcedriftingplanet/four
+	name = "Rusted Tablet (Drifting)"
+	desc = "It looks highly advanced, with text written in a unknown langage. But, with single glance at it, it analyse the readers eye and is able to translate the text, with some difficulty."
+	icon = 'icons/obj/abductor.dmi'
+	icon_state = "alienpaper"
+	color = "#e6772e"
+	info = "In the past\
+	{PLAKENTD} was a moon\
+	Bothersom moon.\
+	Too big. And {PLAKENTD} was to bring doom to {FETHKEN}.\
+	But, four hundred years ago, gravity control was achieved.\
+	{PLAKENTD} was freed from {FETHKENTD}. Yet ?\
+	We found use for the {PLAKENTD}. And made it a {TEKNAKEN}.\
+	And it will reach the Red stars."

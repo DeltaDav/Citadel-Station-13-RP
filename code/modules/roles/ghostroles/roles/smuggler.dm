@@ -29,6 +29,7 @@
 	anchored = TRUE
 	role_type = /datum/prototype/role/ghostrole/smuggler
 	role_spawns = 4
+	density = 0
 
 //smuggler CRYO
 /obj/machinery/cryopod/robot/door/travel/smuggler

@@ -154,7 +154,7 @@
 	pda_type = /obj/item/pda
 	belt = /obj/item/storage/belt/utility/full
 	id_slot = SLOT_ID_WORN_ID
-	id_type = /obj/item/card/id/external/id_slavager
+	id_type = /obj/item/card/id/external/id_smuggler
 
 //Militia
 /datum/outfit/militia
@@ -162,7 +162,7 @@
 	uniform = /obj/item/clothing/under/vce_militia
 	shoes = /obj/item/clothing/shoes/boots/jackboots
 	l_ear = /obj/item/radio/headset/militia
-	back = /obj/item/storage/satchel/militia
+	back = /obj/item/storage/backpack/satchel/militia
 	id_slot = SLOT_ID_WORN_ID
 	id_type = /obj/item/card/id/external/id_militia
 	suit = /obj/item/clothing/suit/armor/pcarrier/navy/militia
@@ -175,7 +175,7 @@
 	uniform = /obj/item/clothing/under/vce_militia/sergent
 	shoes = /obj/item/clothing/shoes/boots/jackboots
 	l_ear = /obj/item/radio/headset/militia
-	back = /obj/item/storage/satchel/militia
+	back = /obj/item/storage/backpack/satchel/militia
 	id_slot = SLOT_ID_WORN_ID
 	id_type = /obj/item/card/id/external/id_militia
 	suit = /obj/item/clothing/suit/armor/pcarrier/navy/militia/assault
@@ -188,7 +188,7 @@
 	uniform = /obj/item/clothing/under/vce_militia/commander
 	shoes = /obj/item/clothing/shoes/boots/jackboots
 	l_ear = /obj/item/radio/headset/militia
-	back = /obj/item/storage/satchel/militia
+	back = /obj/item/storage/backpack/satchel/militia
 	id_slot = SLOT_ID_WORN_ID
 	id_type = /obj/item/card/id/external/id_militia
 	suit = /obj/item/clothing/suit/armor/pcarrier/navy/militia
@@ -203,7 +203,7 @@
 	uniform = /obj/item/clothing/under/vce_maquis
 	shoes = /obj/item/clothing/shoes/boots/jackboots
 	l_ear = /obj/item/radio/headset/maquis
-	back = /obj/item/storage/satchel/militia
+	back = /obj/item/storage/backpack/satchel/militia
 	id_slot = SLOT_ID_WORN_ID
 	id_type = /obj/item/card/id/external/id_maquis
 	suit = /obj/item/clothing/suit/storage/vest/oricon/maquis
@@ -216,7 +216,7 @@
 	uniform = /obj/item/clothing/under/vce_maquis
 	shoes = /obj/item/clothing/shoes/boots/jackboots
 	l_ear = /obj/item/radio/headset/maquis
-	back = /obj/item/storage/satchel/militia
+	back = /obj/item/storage/backpack/satchel/militia
 	id_slot = SLOT_ID_WORN_ID
 	id_type = /obj/item/card/id/external/id_maquis
 	suit = /obj/item/clothing/suit/storage/vest/oricon/heavy/maquis
@@ -229,7 +229,7 @@
 	uniform = /obj/item/clothing/under/vce_maquis/officer
 	shoes = /obj/item/clothing/shoes/boots/jackboots
 	l_ear = /obj/item/radio/headset/maquis
-	back = /obj/item/storage/satchel/militia
+	back = /obj/item/storage/backpack/satchel/militia
 	id_slot = SLOT_ID_WORN_ID
 	id_type = /obj/item/card/id/external/id_maquis
 	suit = /obj/item/clothing/suit/storage/vest/oricon/command/maquis

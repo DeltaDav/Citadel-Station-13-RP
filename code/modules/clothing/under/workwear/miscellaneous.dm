@@ -168,5 +168,6 @@
 /obj/item/clothing/accessory/armband/maquis
 	name = "Dryas Maquis Armband"
 	desc = "An Armband that maquisard of the Dryas maquis wears proudly."
+	icon = 'icons/obj/clothing/ties.dmi'
 	icon_state = "med"
-	color = '#1100fc'
+	color = "#1100ff"

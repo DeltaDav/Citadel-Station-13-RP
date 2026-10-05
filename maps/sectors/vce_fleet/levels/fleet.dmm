@@ -119,6 +119,16 @@
 /obj/structure/bed/chair/bay/chair/padded/red/smallnest,
 /turf/simulated/floor/tiled/monotechmaint,
 /area/shuttle/fleet/biodancy)
+"agi" = (
+/obj/structure/table/rack/shelf/steel,
+/obj/item/encryptionkey/militia,
+/obj/item/encryptionkey/militia,
+/obj/item/encryptionkey/militia,
+/obj/item/encryptionkey/militia,
+/obj/item/encryptionkey/militia,
+/obj/item/encryptionkey/militia,
+/turf/simulated/floor/tiled/techfloor/monogrid,
+/area/shuttle/fleet/battlestar)
 "agL" = (
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
@@ -299,6 +309,8 @@
 /obj/structure/closet/walllocker_double/north,
 /obj/item/gps/security/hos,
 /obj/item/clothing/under/vce_militia/commander,
+/obj/item/storage/backpack/militia,
+/obj/item/radio/headset/militia,
 /turf/simulated/floor/tiled/dark,
 /area/shuttle/fleet/battlestar)
 "anX" = (
@@ -625,6 +637,11 @@
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/shuttle/fleet/battlestar)
+"aAi" = (
+/obj/effect/floor_decal/industrial/outline/blue,
+/obj/machinery/door/window/westleft,
+/turf/simulated/floor/tiled/monotechmaint,
+/area/shuttle/fleet/battlestar)
 "aAD" = (
 /obj/machinery/atmospherics/portables_connector,
 /turf/simulated/floor/tiled/techfloor/lythios43c,
@@ -685,7 +702,7 @@
 /area/sector/fleet/bar)
 "aDR" = (
 /obj/machinery/door/airlock/hatch{
-	req_one_access = list(311)
+	req_one_access = list(310)
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden,
 /turf/simulated/floor/tiled/techfloor,
@@ -901,7 +918,7 @@
 /obj/effect/floor_decal/techfloor/orange,
 /obj/machinery/door/airlock/multi_tile{
 	dir = 4;
-	req_one_access = list(311)
+	req_one_access = list(310)
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/shuttle/fleet/battlestar)
@@ -1070,6 +1087,12 @@
 /obj/structure/closet/walllocker_double/east,
 /turf/simulated/floor/tiled/techfloor,
 /area/sector/fleet/occupied)
+"aUz" = (
+/obj/structure/table/steel,
+/obj/item/spacecash/c1000,
+/obj/item/spacecash/c1000,
+/turf/simulated/floor/tiled/dark,
+/area/shuttle/fleet/battlestar)
 "aUZ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -1335,7 +1358,7 @@
 /area/shuttle/fleet/battlestar)
 "beF" = (
 /obj/machinery/door/airlock/hatch{
-	req_one_access = list(311)
+	req_one_access = list(310)
 	},
 /obj/machinery/door/blast/regular/open{
 	id = "SDFantiboardingphasearmory"
@@ -1427,13 +1450,6 @@
 	},
 /turf/simulated/wall/r_wall,
 /area/shuttle/fleet/biodancy)
-"bgG" = (
-/obj/machinery/door/blast/regular/open{
-	id = "SDFantiboardingphase3"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden,
-/turf/simulated/floor,
-/area/shuttle/fleet/battlestar)
 "bgK" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden{
 	dir = 1
@@ -2126,6 +2142,24 @@
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/fleet/trade_ship/general)
+"bIk" = (
+/obj/structure/table/hardwoodtable,
+/obj/structure/window/reinforced,
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/obj/machinery/vending/vce_bartender{
+	dir = 8;
+	pixel_x = 32
+	},
+/obj/item/retail_scanner{
+	anchored = 1;
+	layer = 2.8;
+	pixel_y = 6;
+	pixel_x = 8
+	},
+/turf/simulated/floor/roguetown/dark_wood,
+/area/sector/fleet/bar)
 "bIt" = (
 /obj/machinery/shower{
 	dir = 8
@@ -2273,7 +2307,7 @@
 /obj/machinery/button/remote/blast_door{
 	pixel_y = 23;
 	id = "portnacelleSDF";
-	req_access = "311"
+	req_access = "310"
 	},
 /turf/simulated/floor/reinforced,
 /area/shuttle/fleet/battlestar)
@@ -3166,7 +3200,7 @@
 	master_tag = "battlestar_docker2";
 	name = "internal access button";
 	pixel_x = 22;
-	req_access = "311"
+	req_access = "310"
 	},
 /turf/simulated/floor,
 /area/shuttle/fleet/battlestar)
@@ -3226,12 +3260,12 @@
 "cFn" = (
 /obj/effect/floor_decal/borderfloorblack/shifted,
 /obj/machinery/door/window/brigdoor/westleft{
-	req_one_access = list(311);
+	req_one_access = list(310);
 	req_access = null
 	},
 /obj/machinery/flasher{
 	pixel_y = 23;
-	id = "sdfflash"
+	id = "sdfflash2"
 	},
 /turf/simulated/floor/tiled/monotechmaint,
 /area/shuttle/fleet/battlestar)
@@ -3347,6 +3381,7 @@
 /obj/structure/toilet{
 	dir = 8
 	},
+/obj/structure/curtain/open/shower,
 /turf/simulated/floor/tiled/old_cargo/white,
 /area/sector/fleet/smuggler)
 "cMw" = (
@@ -3430,6 +3465,11 @@
 	},
 /turf/simulated/floor/roguetown/dark_wood,
 /area/shuttle/fleet/starcutter)
+"cRt" = (
+/obj/machinery/atmospherics/component/unary/vent_pump/high_volume,
+/obj/map_helper/airlock/atmos/chamber_pump,
+/turf/simulated/floor/tiled/techfloor,
+/area/shuttle/fleet/parabellum)
 "cRx" = (
 /obj/machinery/light,
 /turf/simulated/floor/tiled/techfloor/grid,
@@ -3535,6 +3575,7 @@
 /area/shuttle/fleet/battlestar)
 "cYn" = (
 /obj/machinery/door/airlock/glass_external,
+/obj/map_helper/airlock/door/ext_door,
 /turf/simulated/floor/tiled/techfloor,
 /area/shuttle/fleet/parabellum)
 "cYT" = (
@@ -3888,6 +3929,11 @@
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/shuttle/fleet/starcutter)
+"dsJ" = (
+/obj/machinery/door/airlock/glass_external,
+/obj/map_helper/airlock/door/int_door,
+/turf/simulated/floor/tiled/techfloor,
+/area/shuttle/fleet/parabellum)
 "dsU" = (
 /obj/machinery/door/blast/regular{
 	id = "deneb"
@@ -4098,7 +4144,7 @@
 	id = "sdfflash"
 	},
 /obj/machinery/door/window/brigdoor/westleft{
-	req_one_access = list(311);
+	req_one_access = list(310);
 	req_access = null
 	},
 /turf/simulated/floor/tiled/monotechmaint,
@@ -5102,7 +5148,7 @@
 	master_tag = "battlestar_docker";
 	name = "external access button";
 	pixel_x = 25;
-	req_access = "311"
+	req_access = "310"
 	},
 /obj/machinery/door/blast/regular/open{
 	id = "SDFantiboarding"
@@ -7070,6 +7116,16 @@
 /obj/spawner/window/low_wall/reinforced/firelocks,
 /turf/simulated/floor/tiled/techfloor,
 /area/shuttle/fleet/adventurer)
+"ghr" = (
+/obj/structure/closet/secure_closet/guncabinet/rifle,
+/obj/effect/floor_decal/industrial/outline/blue,
+/obj/structure/window/basic{
+	dir = 8
+	},
+/obj/item/gun/projectile/ballistic/automatic/lmg/mg42,
+/obj/item/gun/projectile/energy/phasegun/pistol,
+/turf/simulated/floor/tiled/monotechmaint,
+/area/shuttle/fleet/battlestar)
 "ghv" = (
 /obj/effect/floor_decal/industrial/halfstair{
 	dir = 1
@@ -7536,7 +7592,7 @@
 /area/shuttle/fleet/battlestar)
 "gDg" = (
 /obj/machinery/door/airlock/hatch{
-	req_one_access = list(311)
+	req_one_access = list(310)
 	},
 /turf/simulated/floor/tiled/old_cargo,
 /area/shuttle/fleet/battlestar)
@@ -7559,7 +7615,9 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/sector/fleet/botany)
 "gEf" = (
-/obj/machinery/door/airlock/vault,
+/obj/machinery/door/airlock/vault{
+	req_one_access = list(312)
+	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/sector/fleet/smuggler)
 "gEr" = (
@@ -7983,6 +8041,13 @@
 /obj/structure/railing/grey,
 /obj/structure/ship_munition/disperser_charge/emp,
 /turf/simulated/floor/tiled/techfloor/monogrid,
+/area/shuttle/fleet/battlestar)
+"haA" = (
+/obj/structure/closet/secure_closet/guncabinet/rifle,
+/obj/effect/floor_decal/industrial/outline/blue,
+/obj/item/gun/projectile/ballistic/automatic/lmg/mg42,
+/obj/item/gun/projectile/energy/phasegun/pistol,
+/turf/simulated/floor/tiled/monotechmaint,
 /area/shuttle/fleet/battlestar)
 "haD" = (
 /obj/machinery/atmospherics/component/unary/heater{
@@ -8474,9 +8539,13 @@
 /turf/simulated/floor/tiled/eris/steel/gray_perforated,
 /area/shuttle/fleet/passenger)
 "hwb" = (
+/obj/structure/closet/walllocker_double/north,
+/obj/item/gps/security,
+/obj/item/radio/headset/militia,
 /obj/machinery/light/small{
 	dir = 8
 	},
+/obj/item/storage/backpack/militia,
 /turf/simulated/floor/tiled/monotechmaint,
 /area/shuttle/fleet/battlestar)
 "hwd" = (
@@ -8545,7 +8614,7 @@
 	},
 /obj/machinery/door/airlock/multi_tile{
 	dir = 1;
-	req_one_access = list(311)
+	req_one_access = list(310)
 	},
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
@@ -8586,10 +8655,6 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/fleet/trade_ship/general)
-"hBa" = (
-/obj/structure/table/steel_reinforced,
-/turf/simulated/floor/tiled/monotechmaint,
-/area/shuttle/fleet/battlestar)
 "hBb" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 1
@@ -8752,6 +8817,9 @@
 	},
 /obj/item/trash/plate{
 	pixel_y = 12
+	},
+/obj/structure/window/reinforced{
+	dir = 4
 	},
 /turf/simulated/floor/roguetown/dark_wood,
 /area/sector/fleet/bar)
@@ -9707,6 +9775,7 @@
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
 	},
+/obj/map_helper/airlock/door/ext_door,
 /turf/simulated/floor/tiled/techfloor,
 /area/shuttle/fleet/parabellum)
 "iBk" = (
@@ -10262,6 +10331,9 @@
 /obj/structure/window/reinforced{
 	dir = 4
 	},
+/obj/structure/window/reinforced{
+	dir = 1
+	},
 /turf/simulated/floor/roguetown/dark_wood,
 /area/sector/fleet/bar)
 "jbf" = (
@@ -10570,6 +10642,9 @@
 	},
 /obj/item/reagent_containers/food/snacks/chipplate,
 /obj/item/reagent_containers/food/snacks/chipplate,
+/obj/structure/window/reinforced{
+	dir = 4
+	},
 /turf/simulated/floor/roguetown/dark_wood,
 /area/sector/fleet/bar)
 "jon" = (
@@ -10922,7 +10997,8 @@
 "jBH" = (
 /obj/structure/closet/walllocker_double/north,
 /obj/item/gps/security,
-/obj/item/radio/headset/sdf,
+/obj/item/radio/headset/militia,
+/obj/item/storage/backpack/militia,
 /turf/simulated/floor/tiled/monotechmaint,
 /area/shuttle/fleet/battlestar)
 "jCf" = (
@@ -10991,6 +11067,12 @@
 /obj/structure/table/rack/shelf/steel,
 /obj/item/tank/jetpack/oxygen,
 /obj/item/tank/emergency/oxygen/double,
+/obj/item/clothing/suit/space/traveler/blue,
+/obj/item/clothing/suit/space/traveler/blue,
+/obj/item/clothing/suit/space/traveler/blue,
+/obj/item/clothing/head/helmet/space/traveler/blue,
+/obj/item/clothing/head/helmet/space/traveler/blue,
+/obj/item/clothing/head/helmet/space/traveler/blue,
 /turf/simulated/floor,
 /area/shuttle/fleet/battlestar)
 "jDV" = (
@@ -11028,7 +11110,7 @@
 /obj/structure/closet/walllocker_double/north,
 /obj/item/bedsheet/brown,
 /obj/item/clothing/under/vce_militia,
-/obj/structure/bed,
+/obj/structure/ghost_role_spawner/militia,
 /turf/simulated/floor/lino,
 /area/shuttle/fleet/battlestar)
 "jFb" = (
@@ -11052,6 +11134,12 @@
 /obj/structure/table/rack/shelf/steel,
 /obj/item/tank/jetpack/oxygen,
 /obj/item/tank/emergency/oxygen/double,
+/obj/item/clothing/suit/space/traveler/blue,
+/obj/item/clothing/suit/space/traveler/blue,
+/obj/item/clothing/suit/space/traveler/blue,
+/obj/item/clothing/head/helmet/space/traveler/blue,
+/obj/item/clothing/head/helmet/space/traveler/blue,
+/obj/item/clothing/head/helmet/space/traveler/blue,
 /turf/simulated/floor,
 /area/shuttle/fleet/battlestar)
 "jGv" = (
@@ -12235,7 +12323,7 @@
 	frequency = 1380;
 	id_tag = "battlestar_docker";
 	pixel_x = -25;
-	req_access = "311"
+	req_access = "310"
 	},
 /obj/machinery/atmospherics/component/unary/vent_pump/high_volume{
 	frequency = 1380;
@@ -12290,7 +12378,7 @@
 	},
 /obj/machinery/door/airlock/multi_tile{
 	dir = 1;
-	req_one_access = list(311)
+	req_one_access = list(310)
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/fleet/battlestar)
@@ -12373,13 +12461,10 @@
 /turf/simulated/floor/event/derelict_floor6,
 /area/shuttle/fleet/colonial)
 "kTs" = (
-/obj/machinery/door/airlock/hatch{
-	req_one_access = list(311)
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/old_cargo,
+/turf/simulated/floor/tiled/monotechmaint,
 /area/shuttle/fleet/battlestar)
 "kTv" = (
 /obj/machinery/atmospherics/portables_connector{
@@ -12485,7 +12570,9 @@
 /area/shuttle/fleet/starcutter)
 "kWN" = (
 /obj/structure/closet/secure_closet/guncabinet/rifle,
-/obj/item/gun/projectile/ballistic/colt,
+/obj/item/gun/projectile/ballistic/automatic/wt550,
+/obj/item/gun/projectile/energy/phasegun/pistol,
+/obj/item/gun/projectile/ballistic/ax59,
 /turf/simulated/floor/tiled/dark,
 /area/shuttle/fleet/battlestar)
 "kXN" = (
@@ -12553,6 +12640,10 @@
 	},
 /turf/simulated/floor,
 /area/shuttle/fleet/battlestar)
+"lcm" = (
+/obj/effect/shuttle_landmark/automatic,
+/turf/space/basic,
+/area/space)
 "lcG" = (
 /obj/structure/window/reinforced{
 	dir = 1
@@ -13204,11 +13295,8 @@
 /turf/simulated/floor/tiled/steel_ridged,
 /area/sector/fleet/trash)
 "lOD" = (
-/obj/effect/floor_decal/industrial/halfstair{
-	dir = 1
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden,
-/turf/simulated/floor/tiled/techfloor,
+/turf/simulated/wall/r_lead,
 /area/shuttle/fleet/battlestar)
 "lOV" = (
 /obj/effect/floor_decal/rust,
@@ -13248,12 +13336,14 @@
 /turf/simulated/floor/plating,
 /area/sector/fleet/occupied)
 "lRo" = (
-/obj/machinery/light/small{
-	dir = 4
-	},
 /obj/structure/closet/walllocker_double/north,
 /obj/item/gps/security,
-/obj/item/radio/headset/sdf,
+/obj/item/radio/headset/militia,
+/obj/item/storage/backpack/militia,
+/obj/machinery/light/small{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/outline/blue,
 /turf/simulated/floor/tiled/monotechmaint,
 /area/shuttle/fleet/battlestar)
 "lRQ" = (
@@ -13420,6 +13510,12 @@
 /obj/map_helper/airlock/atmos/chamber_pump,
 /turf/simulated/floor/tiled/techfloor,
 /area/shuttle/fleet/ani)
+"lXk" = (
+/obj/machinery/lathe/autolathe,
+/obj/fiftyspawner/steel,
+/obj/fiftyspawner/glass,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/sector/fleet/smuggler)
 "lXU" = (
 /obj/machinery/light{
 	dir = 1
@@ -13743,6 +13839,8 @@
 /area/shuttle/fleet/colonial)
 "mmv" = (
 /obj/structure/closet/secure_closet/guncabinet/rifle,
+/obj/item/gun/projectile/ballistic/automatic/wt550,
+/obj/item/gun/projectile/energy/phasegun/pistol,
 /turf/simulated/floor/tiled/monotechmaint,
 /area/shuttle/fleet/battlestar)
 "mmz" = (
@@ -13883,7 +13981,7 @@
 	frequency = 1380;
 	id_tag = "battlestar_docker2";
 	pixel_x = -25;
-	req_access = "311"
+	req_access = "310"
 	},
 /obj/machinery/atmospherics/component/unary/vent_pump/high_volume{
 	frequency = 1380;
@@ -14112,7 +14210,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 6
 	},
-/turf/simulated/floor/lino,
+/turf/simulated/floor/tiled/monotechmaint,
 /area/shuttle/fleet/battlestar)
 "mzF" = (
 /obj/machinery/atmospherics/component/unary/engine{
@@ -14495,6 +14593,12 @@
 /obj/structure/table/rack/shelf/steel,
 /obj/item/tank/jetpack/oxygen,
 /obj/item/tank/emergency/oxygen/double,
+/obj/item/clothing/suit/space/traveler/blue,
+/obj/item/clothing/suit/space/traveler/blue,
+/obj/item/clothing/suit/space/traveler/blue,
+/obj/item/clothing/head/helmet/space/traveler/blue,
+/obj/item/clothing/head/helmet/space/traveler/blue,
+/obj/item/clothing/head/helmet/space/traveler/blue,
 /turf/simulated/floor,
 /area/shuttle/fleet/battlestar)
 "mQH" = (
@@ -14587,7 +14691,7 @@
 	dir = 4
 	},
 /obj/item/gps/security,
-/obj/item/radio/headset/sdf,
+/obj/item/radio/headset/militia,
 /obj/structure/closet/walllocker_double/south,
 /obj/machinery/atmospherics/component/unary/vent_pump/on{
 	dir = 1
@@ -14796,7 +14900,7 @@
 	},
 /obj/machinery/door/airlock/multi_tile{
 	dir = 4;
-	req_one_access = list(311)
+	req_one_access = list(310)
 	},
 /turf/simulated/floor,
 /area/shuttle/fleet/battlestar)
@@ -14900,7 +15004,7 @@
 	},
 /obj/machinery/door/airlock/multi_tile{
 	dir = 1;
-	req_one_access = list(311)
+	req_one_access = list(310)
 	},
 /turf/simulated/floor/tiled/dark,
 /area/shuttle/fleet/battlestar)
@@ -15355,7 +15459,7 @@
 	dir = 8;
 	pixel_x = 25;
 	id = "starboardnacelleSDF";
-	req_access = "311"
+	req_access = "310"
 	},
 /obj/machinery/atmospherics/component/unary/vent_pump/on{
 	dir = 1
@@ -15597,7 +15701,9 @@
 /turf/simulated/wall/prepainted,
 /area/shuttle/fleet/cargoravana)
 "nSu" = (
-/obj/machinery/door/airlock/vault,
+/obj/machinery/door/airlock/vault{
+	req_one_access = list(312)
+	},
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
 	},
@@ -16436,7 +16542,7 @@
 	id = "SDFantiboardingphase3"
 	},
 /obj/machinery/door/airlock/hatch{
-	req_one_access = list(311)
+	req_one_access = list(310)
 	},
 /turf/simulated/floor/tiled/dark,
 /area/shuttle/fleet/battlestar)
@@ -16482,7 +16588,7 @@
 	id = "SDFantiboardingphase4"
 	},
 /obj/machinery/door/airlock/hatch{
-	req_one_access = list(311)
+	req_one_access = list(310)
 	},
 /turf/simulated/floor/tiled/techfloor/monogrid,
 /area/shuttle/fleet/battlestar)
@@ -16589,7 +16695,7 @@
 /turf/simulated/floor/tiled/techfloor/monogrid,
 /area/shuttle/fleet/adventurer)
 "oIs" = (
-/obj/item/stool,
+/obj/effect/floor_decal/industrial/outline/blue,
 /turf/simulated/floor/tiled/monotechmaint,
 /area/shuttle/fleet/battlestar)
 "oIG" = (
@@ -16636,9 +16742,9 @@
 	},
 /obj/structure/curtain/open/bed,
 /obj/structure/closet/walllocker_double/north,
-/obj/item/bedsheet/brown,
+/obj/structure/ghost_role_spawner/militia/assault,
+/obj/item/bedsheet/hos,
 /obj/item/clothing/under/vce_militia/sergent,
-/obj/structure/bed,
 /turf/simulated/floor/lino,
 /area/shuttle/fleet/battlestar)
 "oLA" = (
@@ -16681,7 +16787,7 @@
 	},
 /obj/machinery/door/airlock/multi_tile{
 	dir = 4;
-	req_one_access = list(311)
+	req_one_access = list(310)
 	},
 /turf/simulated/floor,
 /area/shuttle/fleet/battlestar)
@@ -16729,6 +16835,15 @@
 	},
 /turf/simulated/floor/plating/indoors,
 /area/sector/fleet/room7)
+"oRP" = (
+/obj/effect/floor_decal/industrial/halfstair{
+	dir = 1
+	},
+/obj/structure/window/basic{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
+/area/shuttle/fleet/battlestar)
 "oSk" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 10
@@ -16779,6 +16894,9 @@
 /area/sector/fleet/safarizoo)
 "oUT" = (
 /obj/structure/table/wooden_reinforced,
+/obj/machinery/chemical_dispenser/catering/bar_alc{
+	dir = 8
+	},
 /turf/simulated/floor/roguetown/wood,
 /area/sector/fleet/bar)
 "oUU" = (
@@ -16913,7 +17031,7 @@
 	master_tag = "battlestar_docker";
 	name = "internal access button";
 	pixel_x = 22;
-	req_access = "311"
+	req_access = "310"
 	},
 /turf/simulated/floor,
 /area/shuttle/fleet/battlestar)
@@ -17594,10 +17712,10 @@
 	master_tag = "battlestar_docker2";
 	name = "external access button";
 	pixel_x = 25;
-	req_access = "311"
+	req_access = "310"
 	},
 /obj/machinery/door/blast/regular/open{
-	id = "SDFantiboarding"
+	id = "antiboarding"
 	},
 /turf/simulated/floor,
 /area/shuttle/fleet/battlestar)
@@ -18011,7 +18129,7 @@
 	dir = 6
 	},
 /obj/item/bedsheet/captain,
-/obj/structure/bed,
+/obj/structure/ghost_role_spawner/militia/commander,
 /turf/simulated/floor/carpet/lythios43c,
 /area/shuttle/fleet/battlestar)
 "qbN" = (
@@ -18052,7 +18170,7 @@
 /area/sector/fleet/botany)
 "qdp" = (
 /obj/machinery/door/airlock/hatch{
-	req_one_access = list(311)
+	req_one_access = list(310)
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 8
@@ -18574,6 +18692,9 @@
 /obj/item/reagent_containers/food/snacks/tossedsalad,
 /obj/item/reagent_containers/food/snacks/tossedsalad,
 /obj/item/reagent_containers/food/snacks/tossedsalad,
+/obj/structure/window/reinforced{
+	dir = 4
+	},
 /turf/simulated/floor/roguetown/dark_wood,
 /area/sector/fleet/bar)
 "qFF" = (
@@ -18604,6 +18725,14 @@
 /obj/item/stack/material/algae/ten,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/sector/fleet/botany)
+"qGx" = (
+/obj/machinery/door/airlock/glass_external,
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/obj/map_helper/airlock/door/int_door,
+/turf/simulated/floor/tiled/techfloor,
+/area/shuttle/fleet/parabellum)
 "qGZ" = (
 /obj/machinery/door/airlock/glass,
 /obj/structure/cable{
@@ -18794,6 +18923,8 @@
 /area/sector/fleet/room13)
 "qPw" = (
 /obj/structure/table/rack/shelf/steel,
+/obj/item/radio,
+/obj/item/radio,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/sector/fleet/smuggler)
 "qPK" = (
@@ -18845,9 +18976,9 @@
 /obj/effect/floor_decal/corner/black/border,
 /obj/structure/curtain/open/bed,
 /obj/structure/closet/walllocker_double/south,
-/obj/item/bedsheet/brown,
+/obj/structure/ghost_role_spawner/militia/assault,
+/obj/item/bedsheet/hos,
 /obj/item/clothing/under/vce_militia/sergent,
-/obj/structure/bed,
 /turf/simulated/floor/lino,
 /area/shuttle/fleet/battlestar)
 "qSU" = (
@@ -19154,6 +19285,9 @@
 /area/sector/fleet/engineering)
 "rgK" = (
 /obj/structure/closet/secure_closet/guncabinet,
+/obj/item/gun/projectile/ballistic/automatic/mini_uzi,
+/obj/item/gun/projectile/ballistic/garand,
+/obj/item/gun/projectile/energy/phasegun/pistol,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/sector/fleet/smuggler)
 "rgY" = (
@@ -20219,7 +20353,7 @@
 	dir = 4
 	},
 /obj/machinery/door/airlock/hatch{
-	req_one_access = list(311)
+	req_one_access = list(310)
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/fleet/battlestar)
@@ -20434,6 +20568,14 @@
 /obj/structure/table/bench/wooden,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/fleet/deneb)
+"slX" = (
+/obj/item/gun/projectile/ballistic/shotgun/pump,
+/obj/structure/closet/crate,
+/obj/item/gun/projectile/ballistic/pistol,
+/obj/item/gun/projectile/ballistic/garand,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/shuttle/fleet/battlestar)
 "smk" = (
 /obj/structure/bed/chair/bay/comfy/beige{
 	dir = 4
@@ -21070,12 +21212,8 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/shuttle/fleet/adventurer)
 "sMh" = (
-/obj/machinery/door/blast/regular/open{
-	id = "SDFantiboardingphase3"
-	},
-/obj/machinery/door/airlock/multi_tile{
-	dir = 1;
-	req_one_access = list(311)
+/obj/machinery/door/airlock/hatch{
+	req_one_access = list(310)
 	},
 /turf/simulated/floor,
 /area/shuttle/fleet/battlestar)
@@ -21199,6 +21337,9 @@
 /obj/structure/window/reinforced,
 /obj/structure/window/reinforced{
 	dir = 1
+	},
+/obj/structure/window/reinforced{
+	dir = 4
 	},
 /turf/simulated/floor/roguetown/dark_wood,
 /area/sector/fleet/bar)
@@ -22177,6 +22318,9 @@
 	pixel_y = -2;
 	pixel_x = 12
 	},
+/obj/structure/window/reinforced{
+	dir = 4
+	},
 /turf/simulated/floor/roguetown/dark_wood,
 /area/sector/fleet/bar)
 "tRw" = (
@@ -22215,7 +22359,7 @@
 	icon_state = "4-8"
 	},
 /obj/machinery/door/airlock/hatch{
-	req_one_access = list(311)
+	req_one_access = list(310)
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/fleet/battlestar)
@@ -22538,6 +22682,7 @@
 "ujF" = (
 /obj/machinery/door/airlock/glass_external,
 /obj/machinery/atmospherics/pipe/simple/hidden,
+/obj/map_helper/airlock/door/int_door,
 /turf/simulated/floor/tiled/techfloor,
 /area/shuttle/fleet/parabellum)
 "ukr" = (
@@ -22789,6 +22934,13 @@
 /obj/machinery/atmospherics/pipe/simple/hidden,
 /turf/simulated/floor/tiled/monotechmaint,
 /area/shuttle/fleet/trade_ship/general)
+"uAo" = (
+/obj/structure/table/wooden_reinforced,
+/obj/machinery/chemical_dispenser/catering/bar_coffee{
+	dir = 8
+	},
+/turf/simulated/floor/roguetown/dark_wood,
+/area/sector/fleet/bar)
 "uAA" = (
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
@@ -23115,6 +23267,9 @@
 /area/shuttle/fleet/providence)
 "uOp" = (
 /obj/structure/table/wooden_reinforced,
+/obj/machinery/chemical_dispenser/catering/bar_soft{
+	dir = 8
+	},
 /turf/simulated/floor/roguetown/dark_wood,
 /area/sector/fleet/bar)
 "uOA" = (
@@ -23711,6 +23866,13 @@
 /obj/machinery/atmospherics/component/unary/vent_pump/on,
 /turf/simulated/floor/wood,
 /area/shuttle/fleet/colonial)
+"vmf" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/shuttle/fleet/battlestar)
 "vmi" = (
 /obj/machinery/computer/ship/helm{
 	dir = 4;
@@ -23869,6 +24031,10 @@
 "vqP" = (
 /obj/effect/shuttle_landmark/shuttle_initializer/parabellum,
 /obj/overmap/entity/visitable/ship/landable/fleet/parabellum,
+/obj/machinery/atmospherics/component/unary/vent_pump/high_volume{
+	dir = 1
+	},
+/obj/map_helper/airlock/atmos/chamber_pump,
 /turf/simulated/floor/tiled/techfloor,
 /area/shuttle/fleet/parabellum)
 "vqZ" = (
@@ -24152,7 +24318,7 @@
 "vGY" = (
 /obj/machinery/button/flasher{
 	pixel_x = -22;
-	id = "sdfflash"
+	id = "sdfflash2"
 	},
 /obj/machinery/atmospherics/component/unary/vent_pump/on{
 	dir = 1
@@ -24560,7 +24726,7 @@
 /obj/machinery/button/remote/blast_door{
 	pixel_y = 23;
 	id = "SDFbalista";
-	req_access = "311"
+	req_access = "310"
 	},
 /turf/simulated/floor/tiled/monotechmaint,
 /area/shuttle/fleet/battlestar)
@@ -24967,7 +25133,7 @@
 /obj/structure/closet/walllocker_double/south,
 /obj/item/bedsheet/brown,
 /obj/item/clothing/under/vce_militia,
-/obj/structure/bed,
+/obj/structure/ghost_role_spawner/militia,
 /turf/simulated/floor/lino,
 /area/shuttle/fleet/battlestar)
 "wrh" = (
@@ -25004,7 +25170,7 @@
 	id = "SDFantiboardingphase3"
 	},
 /obj/machinery/door/airlock/hatch{
-	req_one_access = list(311)
+	req_one_access = list(310)
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden,
 /turf/simulated/floor/tiled/techfloor,
@@ -25998,6 +26164,14 @@
 /obj/machinery/light/small/old,
 /turf/simulated/floor/wood,
 /area/shuttle/fleet/trade_ship/general)
+"xwW" = (
+/obj/effect/floor_decal/rust,
+/obj/structure/curtain/open/shower,
+/obj/machinery/shower{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/old_cargo/white,
+/area/sector/fleet/smuggler)
 "xxb" = (
 /turf/simulated/wall/r_wall/prepainted/civilian,
 /area/shuttle/fleet/caravan)
@@ -26213,6 +26387,17 @@
 /obj/machinery/atmospherics/pipe/simple/hidden,
 /turf/simulated/floor/tiled/techfloor/lythios43c,
 /area/shuttle/fleet/providence)
+"xFZ" = (
+/obj/structure/closet/walllocker_double/north,
+/obj/item/gps/security,
+/obj/item/radio/headset/militia,
+/obj/item/storage/backpack/militia,
+/obj/effect/floor_decal/industrial/outline/blue,
+/obj/structure/window/basic{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/monotechmaint,
+/area/shuttle/fleet/battlestar)
 "xGa" = (
 /obj/machinery/atmospherics/portables_connector{
 	dir = 1
@@ -26488,7 +26673,7 @@
 /area/shuttle/fleet/deneb)
 "xRc" = (
 /obj/item/gps/security,
-/obj/item/radio/headset/sdf,
+/obj/item/radio/headset/militia,
 /obj/structure/closet/walllocker_double/south,
 /turf/simulated/floor/tiled/techfloor,
 /area/shuttle/fleet/parabellum)
@@ -26907,7 +27092,7 @@
 	},
 /obj/machinery/door/airlock/multi_tile{
 	dir = 1;
-	req_one_access = list(311)
+	req_one_access = list(310)
 	},
 /turf/simulated/floor/lino,
 /area/shuttle/fleet/battlestar)
@@ -30272,7 +30457,7 @@ jRc
 jRc
 jRc
 hnE
-pVx
+aUz
 pVx
 ogl
 oEs
@@ -31052,7 +31237,7 @@ gfp
 gPz
 qbM
 hth
-ajn
+agi
 nCX
 qND
 btw
@@ -31440,7 +31625,7 @@ gfp
 cBD
 gUu
 gDg
-qwL
+kXN
 sMh
 ugz
 fdZ
@@ -31635,7 +31820,7 @@ aHo
 bIt
 gfp
 mzg
-bgG
+lOD
 lOD
 mJu
 nTE
@@ -31829,7 +32014,7 @@ gfp
 gfp
 gfp
 kTs
-gfp
+dsj
 hth
 bNY
 nms
@@ -32019,7 +32204,7 @@ jRc
 jRc
 jRc
 jRc
-gfp
+jRc
 gfp
 hwb
 uIK
@@ -32213,11 +32398,11 @@ gfp
 kZr
 jRc
 jRc
-gfp
+jRc
 gfp
 jBH
-oIs
-hBa
+kXN
+mmv
 hth
 wSu
 cGa
@@ -32411,7 +32596,7 @@ jRc
 gfp
 jBH
 kXN
-dsj
+mmv
 hth
 oDT
 cGa
@@ -32604,8 +32789,8 @@ jRc
 jRc
 gfp
 jBH
-oIs
-hBa
+kXN
+mmv
 hth
 sWi
 cGa
@@ -32797,9 +32982,9 @@ gfp
 jRc
 jRc
 gfp
-jBH
-kXN
-kXN
+xFZ
+aAi
+ghr
 hth
 fdZ
 cGa
@@ -32993,7 +33178,7 @@ jRc
 gfp
 lRo
 oIs
-kXN
+haA
 hth
 bNY
 nms
@@ -33376,7 +33561,7 @@ uJk
 fEL
 aqK
 eic
-wur
+oRP
 wur
 iZx
 iZx
@@ -35494,13 +35679,13 @@ jRc
 jRc
 jRc
 jRc
-cYn
+dsJ
 mTC
-cYn
+dsJ
 pkn
 ltL
 hgY
-iBd
+qGx
 msu
 iBd
 lcj
@@ -35688,8 +35873,8 @@ jRc
 jRc
 jRc
 jRc
-cYn
-mTC
+dsJ
+cRt
 ujF
 iPo
 hBy
@@ -36103,9 +36288,9 @@ uNi
 reO
 cNg
 meq
+vmf
 pQF
-pQF
-pQF
+slX
 gfp
 jRc
 gfp
@@ -36297,7 +36482,7 @@ uNi
 kXW
 pRP
 waH
-pQF
+vmf
 pQF
 jih
 gfp
@@ -36491,7 +36676,7 @@ jgg
 xIc
 syC
 rkZ
-pQF
+vmf
 pQF
 pQF
 gfp
@@ -39221,7 +39406,7 @@ jRc
 jRc
 jRc
 jRc
-jRc
+lcm
 sql
 dUs
 dUs
@@ -39251,7 +39436,7 @@ cpV
 dUs
 dUs
 sql
-jRc
+lcm
 jRc
 jRc
 jRc
@@ -42713,7 +42898,7 @@ jRc
 jRc
 jRc
 jRc
-jRc
+lcm
 sql
 dUs
 dUs
@@ -42743,7 +42928,7 @@ cpV
 dUs
 dUs
 sql
-jRc
+lcm
 jRc
 jRc
 jRc
@@ -43284,7 +43469,7 @@ iaB
 sDF
 iaB
 xGq
-jRc
+lcm
 jRc
 jRc
 jRc
@@ -45102,7 +45287,7 @@ scL
 fvI
 oUU
 lSw
-phN
+xwW
 jPb
 jPb
 jRc
@@ -45296,7 +45481,7 @@ qag
 rbT
 wVz
 phN
-phN
+xwW
 jPb
 jPb
 jPb
@@ -46205,7 +46390,7 @@ jRc
 jRc
 jRc
 jRc
-jRc
+lcm
 sql
 dUs
 dUs
@@ -46270,7 +46455,7 @@ oUU
 jPb
 lqO
 lqO
-lqO
+lXk
 afl
 jRc
 jRc
@@ -46582,7 +46767,7 @@ iqV
 sDF
 iaB
 xGq
-jRc
+lcm
 jRc
 jRc
 jRc
@@ -46633,7 +46818,7 @@ qQL
 hJb
 joi
 qFh
-sTp
+bIk
 tRp
 sTp
 qQL
@@ -47409,7 +47594,7 @@ qQL
 hCP
 mPi
 oUT
-uOp
+uAo
 uOp
 rEl
 qQL
