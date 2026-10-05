@@ -1134,7 +1134,7 @@
 /obj/machinery/door/blast/regular{
 	dir = 4;
 	id = "parabellum1";
-	width = s
+	
 	},
 /turf/simulated/floor/reinforced,
 /area/shuttle/fleet/parabellum)
@@ -2674,7 +2674,7 @@
 /obj/machinery/door/blast/regular{
 	dir = 4;
 	id = "portnacelleSDF";
-	width = s
+	
 	},
 /obj/machinery/door/blast/regular/open{
 	id = "SDFantiboarding"
@@ -3545,7 +3545,7 @@
 /obj/machinery/door/blast/regular{
 	dir = 4;
 	id = "parabellum4";
-	width = s
+	
 	},
 /turf/simulated/floor/reinforced,
 /area/shuttle/fleet/parabellum)
@@ -5131,7 +5131,7 @@
 /obj/machinery/door/blast/regular{
 	dir = 4;
 	id = "parabellum2";
-	width = s
+	
 	},
 /turf/simulated/floor/reinforced,
 /area/shuttle/fleet/parabellum)
@@ -7052,7 +7052,7 @@
 /obj/machinery/door/blast/regular{
 	dir = 4;
 	id = "parabellum3";
-	width = s
+	
 	},
 /turf/simulated/floor/reinforced,
 /area/shuttle/fleet/parabellum)
@@ -11306,7 +11306,7 @@
 /obj/machinery/door/blast/regular{
 	dir = 4;
 	id = "starboardnacelleSDF";
-	width = s
+	
 	},
 /turf/simulated/floor/maglev{
 	dir = 4
@@ -13215,7 +13215,7 @@
 /obj/machinery/door/blast/regular{
 	dir = 4;
 	id = "starboardnacelleSDF";
-	width = s
+	
 	},
 /obj/effect/floor_decal/industrial/danger{
 	dir = 1
@@ -13866,7 +13866,7 @@
 /obj/machinery/door/blast/regular{
 	dir = 4;
 	id = "portnacelleSDF";
-	width = s
+	
 	},
 /obj/machinery/door/blast/regular/open{
 	id = "SDFantiboarding"
@@ -16872,7 +16872,7 @@
 /obj/machinery/door/blast/regular{
 	dir = 4;
 	id = "starboardnacelleSDF";
-	width = s
+	
 	},
 /obj/machinery/door/blast/regular/open{
 	id = "SDFantiboarding"
@@ -26288,7 +26288,7 @@
 /obj/machinery/door/blast/regular{
 	dir = 4;
 	id = "starboardnacelleSDF";
-	width = s
+	
 	},
 /obj/machinery/door/blast/regular/open{
 	id = "SDFantiboarding"
