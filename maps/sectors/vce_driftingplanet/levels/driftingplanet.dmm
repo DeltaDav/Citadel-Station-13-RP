@@ -76,12 +76,12 @@
 /area/sector/driftingplanet/field)
 "aS" = (
 /obj/structure/salvageable/titan_wreck/titan,
-/obj/structure/girder/reinforced/rusted,
+/obj/structure/girder/reinforced,
 /obj/effect/floor_decal/rust,
 /turf/simulated/floor/plating,
 /area/sector/driftingplanet/field)
 "aT" = (
-/obj/structure/girder/reinforced/rusted,
+/obj/structure/girder/reinforced,
 /turf/simulated/floor/outdoors/ash_sand/outdoors,
 /area/sector/driftingplanet/field)
 "aU" = (
@@ -139,7 +139,7 @@
 /area/sector/driftingplanet/field)
 "bv" = (
 /obj/effect/floor_decal/rust,
-/obj/structure/girder/reinforced/rusted,
+/obj/structure/girder/reinforced,
 /turf/simulated/floor/tiled/dark,
 /area/sector/driftingplanet/field)
 "by" = (
@@ -585,7 +585,7 @@
 /area/sector/driftingplanet/field)
 "eO" = (
 /obj/structure/salvageable/titan_wreck/titan,
-/obj/structure/girder/reinforced/rusted,
+/obj/structure/girder/reinforced,
 /obj/effect/floor_decal/rust,
 /turf/simulated/floor/plating/rust,
 /area/sector/driftingplanet/field)
@@ -761,7 +761,7 @@
 	},
 /area/sector/driftingplanet/field)
 "go" = (
-/obj/structure/girder/reinforced/rusted,
+/obj/structure/girder/reinforced,
 /obj/effect/floor_decal/rust,
 /turf/simulated/floor/plating/rust,
 /area/sector/driftingplanet/field)
@@ -921,7 +921,7 @@
 /turf/simulated/floor/tiled/kafel_full/yellow/virgo3b,
 /area/sector/driftingplanet/field)
 "hZ" = (
-/obj/structure/girder/reinforced/rusted,
+/obj/structure/girder/reinforced,
 /turf/simulated/wall/rust{
 	opacity = 0
 	},
@@ -1161,11 +1161,6 @@
 	color = "#803327"
 	},
 /turf/simulated/floor/plating,
-/area/sector/driftingplanet/field)
-"ky" = (
-/obj/structure/girder/reinforced/rusted/red,
-/obj/structure/girder/reinforced/rusted/red,
-/turf/simulated/floor/outdoors/ash_sand/outdoors,
 /area/sector/driftingplanet/field)
 "kA" = (
 /obj/structure/loot_pile/vce/building,
@@ -1925,8 +1920,8 @@
 	},
 /area/sector/driftingplanet/field)
 "rd" = (
-/obj/structure/girder/reinforced/rusted,
-/obj/structure/girder/reinforced/rusted,
+/obj/structure/girder/reinforced,
+/obj/structure/girder/reinforced,
 /turf/simulated/wall/r_wall/rusted,
 /area/sector/driftingplanet/field)
 "re" = (
@@ -2251,7 +2246,7 @@
 /turf/simulated/floor/plating,
 /area/sector/driftingplanet/field)
 "tU" = (
-/obj/structure/girder/reinforced/rusted,
+/obj/structure/girder/reinforced,
 /turf/simulated/floor/plating/rust,
 /area/sector/driftingplanet/field)
 "ub" = (
@@ -2743,7 +2738,7 @@
 /turf/simulated/floor/tiled/kafel_full/yellow/virgo3b,
 /area/sector/driftingplanet/field)
 "yD" = (
-/obj/structure/girder/reinforced/rusted,
+/obj/structure/girder/reinforced,
 /turf/simulated/wall/r_wall/rusted,
 /area/sector/driftingplanet/field)
 "yE" = (
@@ -3061,7 +3056,7 @@
 /turf/simulated/floor/plating/rust,
 /area/sector/driftingplanet/field)
 "Cf" = (
-/obj/structure/girder/reinforced/rusted,
+/obj/structure/girder/reinforced,
 /turf/simulated/floor/tiled/kafel_full/yellow/virgo3b,
 /area/sector/driftingplanet/field)
 "Ch" = (
@@ -4116,7 +4111,7 @@
 "MJ" = (
 /obj/effect/floor_decal/rust,
 /obj/effect/floor_decal/rust,
-/obj/structure/girder/reinforced/rusted,
+/obj/structure/girder/reinforced,
 /turf/simulated/floor/tiled/dark,
 /area/sector/driftingplanet/field)
 "MN" = (
@@ -4133,7 +4128,7 @@
 	},
 /area/sector/driftingplanet/field)
 "MT" = (
-/obj/structure/girder/reinforced/rusted,
+/obj/structure/girder/reinforced,
 /turf/simulated/floor/water/acid,
 /area/sector/driftingplanet/field)
 "MX" = (
@@ -4381,7 +4376,7 @@
 /turf/simulated/floor/plating/rust,
 /area/sector/driftingplanet/field)
 "OU" = (
-/obj/structure/girder/reinforced/rusted,
+/obj/structure/girder/reinforced,
 /turf/simulated/floor/road{
 	icon_state = "horizontaloutermain1"
 	},
@@ -4436,7 +4431,7 @@
 /turf/simulated/floor/tiled/techmaint,
 /area/sector/driftingplanet/field)
 "PC" = (
-/obj/structure/girder/reinforced/rusted/red,
+/obj/structure/girder/reinforced,
 /obj/effect/floor_decal/rust,
 /turf/simulated/floor/outdoors/ash_sand/outdoors,
 /area/sector/driftingplanet/field)
@@ -4471,7 +4466,7 @@
 /turf/simulated/floor/plating,
 /area/sector/driftingplanet/field)
 "Qg" = (
-/obj/structure/girder/reinforced/rusted,
+/obj/structure/girder/reinforced,
 /obj/structure/salvageable/titan_wreck/titan,
 /obj/effect/floor_decal/rust,
 /turf/simulated/floor/plating,
@@ -4532,7 +4527,7 @@
 /turf/simulated/floor/outdoors/ash_sand/outdoors,
 /area/sector/driftingplanet/field)
 "Rb" = (
-/obj/structure/girder/reinforced/rusted/red,
+/obj/structure/girder/reinforced,
 /turf/simulated/wall/r_wall/rusted/red,
 /area/sector/driftingplanet/field)
 "Re" = (
@@ -4790,7 +4785,7 @@
 /turf/simulated/floor/tiled/kafel_full/yellow/virgo3b,
 /area/sector/driftingplanet/field)
 "Ue" = (
-/obj/structure/girder/reinforced/rusted,
+/obj/structure/girder/reinforced,
 /obj/structure/salvageable/titan_wreck/titan,
 /obj/effect/floor_decal/rust,
 /turf/simulated/floor/plating/rust,
@@ -5084,10 +5079,6 @@
 	icon_state = "verticaloutermain1"
 	},
 /area/sector/driftingplanet/field)
-"WG" = (
-/obj/structure/girder/reinforced/rusted/red,
-/turf/simulated/floor/outdoors/ash_sand/outdoors,
-/area/sector/driftingplanet/field)
 "WK" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 9
@@ -5321,8 +5312,8 @@
 /turf/simulated/floor/plating/indoors,
 /area/sector/driftingplanet/field)
 "YK" = (
-/obj/structure/girder/reinforced/rusted,
-/obj/structure/girder/reinforced/rusted,
+/obj/structure/girder/reinforced,
+/obj/structure/girder/reinforced,
 /turf/simulated/floor/outdoors/ash_sand/outdoors,
 /area/sector/driftingplanet/field)
 "YL" = (
@@ -5371,7 +5362,7 @@
 	},
 /area/sector/driftingplanet/field)
 "YZ" = (
-/obj/structure/girder/reinforced/rusted,
+/obj/structure/girder/reinforced,
 /obj/effect/floor_decal/rust,
 /turf/simulated/floor/plating,
 /area/sector/driftingplanet/field)
@@ -5411,7 +5402,7 @@
 /obj/effect/floor_decal/asteroid{
 	icon_state = "asteroid5"
 	},
-/obj/structure/girder/reinforced/rusted,
+/obj/structure/girder/reinforced,
 /turf/simulated/floor/outdoors/ash_sand/outdoors,
 /area/sector/driftingplanet/field)
 "Zo" = (
@@ -17911,7 +17902,7 @@ iu
 iu
 iu
 IA
-WG
+aT
 iu
 rX
 WO
@@ -18071,7 +18062,7 @@ iu
 iu
 iu
 iu
-WG
+aT
 iu
 iu
 iu
@@ -18271,7 +18262,7 @@ iu
 lz
 iu
 iu
-WG
+aT
 iu
 iu
 iu
@@ -19023,7 +19014,7 @@ pt
 pt
 pt
 iu
-ky
+YK
 iu
 iu
 iu
@@ -19043,7 +19034,7 @@ iu
 iu
 iu
 iu
-WG
+aT
 iu
 iu
 iu
@@ -19265,7 +19256,7 @@ iu
 IA
 iu
 iu
-WG
+aT
 iu
 pX
 cj
@@ -27562,7 +27553,7 @@ Ju
 iu
 iu
 iu
-WG
+aT
 iu
 jT
 iu
@@ -28565,7 +28556,7 @@ or
 WO
 WO
 Ne
-WG
+aT
 GO
 iu
 iu
@@ -28761,7 +28752,7 @@ WO
 Ne
 iu
 iu
-WG
+aT
 iu
 iu
 jr
@@ -29325,7 +29316,7 @@ iu
 iu
 iu
 iu
-WG
+aT
 iu
 iu
 iu
@@ -30497,7 +30488,7 @@ eB
 GS
 BX
 DM
-WG
+aT
 ZA
 WO
 WO
