@@ -2,7 +2,7 @@
 "aa" = (
 /obj/spawner/window/low_wall/nogrille,
 /turf/simulated/floor/tiled/techfloor/monogrid,
-/area/space)
+/area/sector/driftingplanet/field)
 "ag" = (
 /obj/structure/flora/tree/dead/dry{
 	icon_state = "deadtree_6"
@@ -11,14 +11,14 @@
 	icon_state = "deadtree_6"
 	},
 /turf/simulated/floor/outdoors/ash_sand/outdoors,
-/area/space)
+/area/sector/driftingplanet/field)
 "ar" = (
 /obj/structure/salvageable/machine_os{
 	color = "#803327"
 	},
 /obj/effect/floor_decal/rust,
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "aw" = (
 /obj/machinery/atmospherics/component/unary/engine{
 	dir = 1
@@ -27,13 +27,13 @@
 	dir = 1
 	},
 /turf/simulated/floor/airless,
-/area/space)
+/area/sector/driftingplanet/field)
 "ax" = (
 /obj/structure/salvageable/machine_os{
 	color = "#803327"
 	},
 /turf/simulated/floor/tiled/kafel_full/yellow/virgo3b,
-/area/space)
+/area/sector/driftingplanet/field)
 "ay" = (
 /obj/effect/floor_decal/rust,
 /obj/effect/floor_decal/rust,
@@ -41,14 +41,14 @@
 	color = "#803327"
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "az" = (
 /obj/structure/stairs/bottom{
 	dir = 2;
 	color = "#8c6d46"
 	},
 /turf/simulated/floor/tiled/kafel_full/yellow/virgo3b,
-/area/space)
+/area/sector/driftingplanet/field)
 "aD" = (
 /obj/structure/bed/chair/bay/chair/padded/red/smallnest{
 	color = "#81521d";
@@ -58,7 +58,7 @@
 /obj/structure/railing,
 /obj/effect/floor_decal/rust,
 /turf/simulated/floor/tiled/kafel_full/yellow/virgo3b,
-/area/space)
+/area/sector/driftingplanet/field)
 "aF" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 2
@@ -66,24 +66,24 @@
 /turf/simulated/floor/road{
 	icon_state = "reno_sidewalk2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "aG" = (
 /obj/effect/floor_decal/rust,
 /obj/machinery/conveyor{
 	dir = 4
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "aS" = (
 /obj/structure/salvageable/titan_wreck/titan,
 /obj/structure/girder/reinforced/rusted,
 /obj/effect/floor_decal/rust,
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "aT" = (
 /obj/structure/girder/reinforced/rusted,
 /turf/simulated/floor/outdoors/ash_sand/outdoors,
-/area/space)
+/area/sector/driftingplanet/field)
 "aU" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 1
@@ -95,14 +95,14 @@
 	dir = 8
 	},
 /turf/simulated/floor/outdoors/mud/outdoors,
-/area/space)
+/area/sector/driftingplanet/field)
 "aY" = (
 /obj/structure/table/rack/shelf/steel{
 	color = "#803327"
 	},
 /obj/random/tool/alien,
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "ba" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 8
@@ -110,7 +110,7 @@
 /turf/simulated/floor/road{
 	icon_state = "reno_2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "bf" = (
 /obj/structure/bed/chair/bay/chair/padded/red/smallnest{
 	color = "#81521d";
@@ -118,36 +118,36 @@
 	desc = "A strange seat, use a long time ago."
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "bj" = (
 /obj/structure/closet/crate/engineering/electrical,
 /obj/item/tank/phoron,
 /obj/item/tank/phoron,
 /turf/simulated/floor/tiled/techfloor,
-/area/space)
+/area/sector/driftingplanet/field)
 "bk" = (
 /turf/simulated/wall/r_wall/prepainted/cargo,
-/area/space)
+/area/sector/driftingplanet/field)
 "bl" = (
 /turf/simulated/floor/road{
 	icon_state = "horizontaltopbordertop0"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "br" = (
 /obj/random/multiple/minevault,
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "bv" = (
 /obj/effect/floor_decal/rust,
 /obj/structure/girder/reinforced/rusted,
 /turf/simulated/floor/tiled/dark,
-/area/space)
+/area/sector/driftingplanet/field)
 "by" = (
 /obj/effect/floor_decal/rust,
 /obj/effect/floor_decal/rust,
 /obj/effect/debris/cleanable/blood/gibs/robot,
 /turf/simulated/floor/tiled/dark,
-/area/space)
+/area/sector/driftingplanet/field)
 "bD" = (
 /obj/structure/railing,
 /obj/structure/railing{
@@ -156,7 +156,7 @@
 /turf/simulated/floor/road{
 	icon_state = "verticaloutermain1"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "bE" = (
 /obj/structure/railing{
 	dir = 8
@@ -164,16 +164,16 @@
 /turf/simulated/wall/rust{
 	opacity = 0
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "bM" = (
 /obj/machinery/door/blast/regular/open{
 	color = "#803327"
 	},
 /turf/simulated/floor/plating/rust,
-/area/space)
+/area/sector/driftingplanet/field)
 "bP" = (
 /turf/simulated/floor/tiled/techmaint,
-/area/space)
+/area/sector/driftingplanet/field)
 "bQ" = (
 /mob/living/simple_mob/construct/nuclear/charred{
 	iff_factions = "mercenary"
@@ -181,7 +181,7 @@
 /turf/simulated/floor/road{
 	icon_state = "horizontaloutermain1"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "bR" = (
 /obj/effect/floor_decal/rust,
 /obj/machinery/space_heater{
@@ -190,26 +190,26 @@
 	name = "dead heater"
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "bV" = (
 /obj/effect/floor_decal/rust,
 /obj/structure/salvageable/data_os{
 	color = "#803327"
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "bX" = (
 /obj/structure/bed/pod{
 	color = "#803327"
 	},
 /turf/simulated/floor/tiled/kafel_full/yellow/virgo3b,
-/area/space)
+/area/sector/driftingplanet/field)
 "cb" = (
 /obj/structure/salvageable/implant_container_os{
 	color = "#803327"
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "cc" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 5
@@ -217,7 +217,7 @@
 /turf/simulated/floor/road{
 	icon_state = "reno_inner_sidewalk"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "ce" = (
 /obj/effect/decal/remains/ribcage{
 	color = "#803327"
@@ -226,18 +226,18 @@
 	color = "#803327"
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "cj" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 6
 	},
 /turf/simulated/floor/outdoors/mud/outdoors,
-/area/space)
+/area/sector/driftingplanet/field)
 "cm" = (
 /obj/structure/salvageable/titan_wreck/titan,
 /obj/effect/floor_decal/rust,
 /turf/simulated/floor/plating/rust,
-/area/space)
+/area/sector/driftingplanet/field)
 "cn" = (
 /obj/structure/loot_pile/vce/building{
 	icon_state = "damaged_1";
@@ -246,13 +246,13 @@
 /turf/simulated/floor/road{
 	icon_state = "verticaloutermain2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "cq" = (
 /obj/structure/table/rack/shelf/steel{
 	color = "#803327"
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "ct" = (
 /obj/structure/railing{
 	dir = 1
@@ -264,13 +264,13 @@
 /turf/simulated/floor/road{
 	icon_state = "horizontalbottomborderbottom2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "cy" = (
 /obj/structure/table/rack/shelf/steel{
 	color = "#81521d"
 	},
 /turf/simulated/floor/tiled/kafel_full/yellow/virgo3b,
-/area/space)
+/area/sector/driftingplanet/field)
 "cz" = (
 /obj/machinery/atmospherics/portables_connector{
 	dir = 8
@@ -278,13 +278,13 @@
 /obj/machinery/portable_atmospherics/canister/empty,
 /obj/effect/floor_decal/industrial/outline/red,
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "cB" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 2
 	},
 /turf/simulated/floor/outdoors/mud/outdoors,
-/area/space)
+/area/sector/driftingplanet/field)
 "cE" = (
 /obj/structure/bed/chair/bay/chair/padded/red/smallnest{
 	color = "#803327";
@@ -293,7 +293,7 @@
 	},
 /obj/effect/floor_decal/rust,
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "cH" = (
 /obj/machinery/atmospherics/component/unary/vent_pump/on{
 	dir = 4
@@ -302,7 +302,7 @@
 	icon_state = "2-8"
 	},
 /turf/simulated/floor/tiled/techmaint,
-/area/space)
+/area/sector/driftingplanet/field)
 "cK" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 8
@@ -311,20 +311,20 @@
 /turf/simulated/floor/road{
 	icon_state = "horizontaltopbordertop2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "cO" = (
 /obj/effect/decal/remains/robot,
 /turf/simulated/floor/road{
 	icon_state = "reno"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "cP" = (
 /obj/effect/floor_decal/rust,
 /obj/structure/table/rack/shelf/steel{
 	color = "#81521d"
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "cS" = (
 /obj/effect/decal/remains/ribcage{
 	color = "#803327"
@@ -334,19 +334,19 @@
 	id = "driftingarena"
 	},
 /turf/simulated/floor/tiled/kafel_full/yellow/virgo3b,
-/area/space)
+/area/sector/driftingplanet/field)
 "cU" = (
 /obj/structure/table/steel{
 	color = "#81521d"
 	},
 /turf/simulated/floor/tiled/techfloor/monogrid,
-/area/space)
+/area/sector/driftingplanet/field)
 "cV" = (
 /obj/item/digestion_remains,
 /turf/simulated/floor/road{
 	icon_state = "reno"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "cW" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 5
@@ -354,27 +354,27 @@
 /turf/simulated/floor/road{
 	icon_state = "reno-middle"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "cX" = (
 /obj/structure/catwalk,
 /turf/simulated/wall/rust{
 	opacity = 0;
 	density = 0
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "db" = (
 /obj/effect/floor_decal/rust,
 /obj/structure/salvageable/computer_os{
 	color = "#803327"
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "df" = (
 /obj/machinery/floodlight{
 	on = 1
 	},
 /turf/simulated/floor/tiled/kafel_full/yellow/virgo3b,
-/area/space)
+/area/sector/driftingplanet/field)
 "dh" = (
 /obj/structure/stairs/bottom{
 	dir = 1;
@@ -384,11 +384,11 @@
 	opacity = 0;
 	density = 0
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "dj" = (
 /obj/structure/closet/crate/corporate/nanotrasen,
 /turf/simulated/floor/tiled/kafel_full/yellow/virgo3b,
-/area/space)
+/area/sector/driftingplanet/field)
 "dk" = (
 /obj/effect/floor_decal/rust,
 /obj/effect/floor_decal/rust,
@@ -397,7 +397,7 @@
 	color = "#803327"
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "dv" = (
 /obj/structure/railing,
 /obj/structure/railing{
@@ -406,14 +406,14 @@
 /turf/simulated/floor/road{
 	icon_state = "verticaloutermain1"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "dw" = (
 /obj/effect/floor_decal/ash_edge,
 /obj/effect/floor_decal/ash_edge,
 /turf/simulated/floor/road{
 	icon_state = "reno_2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "dJ" = (
 /obj/structure/railing{
 	dir = 1
@@ -424,7 +424,7 @@
 /turf/simulated/floor/road{
 	icon_state = "horizontalbottomborderbottom2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "dN" = (
 /obj/machinery/button/remote/blast_door{
 	id = "driftingarena1";
@@ -434,7 +434,7 @@
 	color = "#81521d"
 	},
 /turf/simulated/floor/tiled/kafel_full/yellow/virgo3b,
-/area/space)
+/area/sector/driftingplanet/field)
 "dP" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 10
@@ -442,12 +442,12 @@
 /turf/simulated/floor/road{
 	icon_state = "reno_sidewalk"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "dQ" = (
 /obj/effect/floor_decal/rust,
 /obj/machinery/deployable/barrier,
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "dV" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 6
@@ -455,7 +455,7 @@
 /turf/simulated/floor/road{
 	icon_state = "horizontalbottomborderbottom2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "dX" = (
 /obj/structure/table/steel{
 	color = "#803327"
@@ -465,18 +465,18 @@
 	color = "#803327"
 	},
 /turf/simulated/floor/tiled/kafel_full/yellow/virgo3b,
-/area/space)
+/area/sector/driftingplanet/field)
 "dZ" = (
 /obj/item/gun/projectile/energy/maghowitzer,
 /turf/simulated/floor/outdoors/mud/indoors,
-/area/space)
+/area/sector/driftingplanet/field)
 "ec" = (
 /obj/effect/floor_decal/rust,
 /obj/structure/salvageable/implant_container_os{
 	color = "#803327"
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "ed" = (
 /obj/structure/bed/chair/bay/shuttle{
 	dir = 1
@@ -487,26 +487,26 @@
 	pixel_x = 30
 	},
 /turf/simulated/floor/tiled/techmaint,
-/area/space)
+/area/sector/driftingplanet/field)
 "ee" = (
 /obj/effect/floor_decal/asteroid,
 /turf/simulated/floor/road{
 	icon_state = "reno-middle"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "eh" = (
 /obj/effect/floor_decal/ash_edge,
 /mob/living/simple_mob/mechanical/mecha/combat/titan/sword,
 /turf/simulated/floor/road{
 	icon_state = "reno-middle"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "ej" = (
 /mob/living/simple_mob/construct/nuclear/charred{
 	iff_factions = "mercenary"
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "et" = (
 /obj/effect/floor_decal/rust,
 /obj/machinery/door/blast/regular{
@@ -514,33 +514,33 @@
 	id = "driftingarena"
 	},
 /turf/simulated/floor/tiled/kafel_full/yellow/virgo3b,
-/area/space)
+/area/sector/driftingplanet/field)
 "ev" = (
 /obj/machinery/deployable/barrier,
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "ex" = (
 /obj/machinery/conveyor{
 	dir = 4
 	},
 /obj/effect/floor_decal/rust,
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "ez" = (
 /obj/structure/table/steel{
 	color = "#803327"
 	},
 /turf/simulated/floor/tiled/kafel_full/yellow/virgo3b,
-/area/space)
+/area/sector/driftingplanet/field)
 "eB" = (
 /obj/effect/floor_decal/rust,
 /obj/effect/floor_decal/rust,
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "eE" = (
 /obj/machinery/computer/ship/sensors,
 /turf/simulated/floor/tiled/techmaint,
-/area/space)
+/area/sector/driftingplanet/field)
 "eG" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 10
@@ -548,7 +548,7 @@
 /turf/simulated/floor/road{
 	icon_state = "horizontaltopbordertop2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "eI" = (
 /obj/machinery/atmospherics/pipe/simple/visible/yellow{
 	dir = 4
@@ -565,7 +565,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/space)
+/area/sector/driftingplanet/field)
 "eK" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 4
@@ -573,7 +573,7 @@
 /turf/simulated/floor/road{
 	icon_state = "horizontaltopbordertop1"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "eL" = (
 /obj/effect/floor_decal/asteroid,
 /obj/structure/railing{
@@ -582,23 +582,23 @@
 /turf/simulated/floor/road{
 	icon_state = "horizontalbottomborderbottom2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "eO" = (
 /obj/structure/salvageable/titan_wreck/titan,
 /obj/structure/girder/reinforced/rusted,
 /obj/effect/floor_decal/rust,
 /turf/simulated/floor/plating/rust,
-/area/space)
+/area/sector/driftingplanet/field)
 "eP" = (
 /obj/structure/loot_pile/vce/building,
 /turf/simulated/floor/outdoors/ash_sand/outdoors,
-/area/space)
+/area/sector/driftingplanet/field)
 "eR" = (
 /obj/effect/floor_decal/ash_edge,
 /turf/simulated/floor/road{
 	icon_state = "horizontaltopbordertop0"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "eW" = (
 /obj/structure/railing{
 	dir = 4
@@ -606,7 +606,7 @@
 /turf/simulated/floor/road{
 	icon_state = "verticaloutermain1"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "eX" = (
 /obj/machinery/portable_atmospherics/canister/air,
 /obj/machinery/atmospherics/portables_connector{
@@ -614,7 +614,7 @@
 	},
 /obj/effect/floor_decal/industrial/outline/blue,
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "eY" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 6
@@ -622,7 +622,7 @@
 /turf/simulated/floor/road{
 	icon_state = "reno_inner_sidewalk"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "eZ" = (
 /obj/effect/floor_decal/rust,
 /obj/effect/decal/remains/ribcage{
@@ -634,39 +634,39 @@
 	desc = "A strange seat, use a long time ago."
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "fa" = (
 /obj/machinery/atmospherics/pipe/manifold/visible/yellow,
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "fc" = (
 /mob/living/simple_mob/mechanical/mecha/combat/titan/gun,
 /turf/simulated/floor/road{
 	icon_state = "verticaloutermain2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "fh" = (
 /obj/effect/floor_decal/rust,
 /obj/effect/decal/remains/ribcage{
 	color = "#803327"
 	},
 /turf/simulated/floor/tiled/kafel_full/yellow/virgo3b,
-/area/space)
+/area/sector/driftingplanet/field)
 "fj" = (
 /obj/structure/table/rack/shelf/steel,
 /obj/effect/floor_decal/rust,
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "fn" = (
 /obj/structure/salvageable/server_os{
 	color = "#803327"
 	},
 /obj/effect/floor_decal/rust,
 /turf/simulated/floor/plating/rust,
-/area/space)
+/area/sector/driftingplanet/field)
 "fs" = (
 /turf/simulated/wall/prepainted/civilian,
-/area/space)
+/area/sector/driftingplanet/field)
 "fA" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 1
@@ -675,7 +675,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/outdoors/mud/outdoors,
-/area/space)
+/area/sector/driftingplanet/field)
 "fF" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 8
@@ -684,20 +684,20 @@
 /turf/simulated/floor/road{
 	icon_state = "horizontaltopbordertop0"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "fI" = (
 /mob/living/simple_mob/mechanical/mecha/combat/titan/gun,
 /turf/simulated/floor/road{
 	icon_state = "reno_sidewalk"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "fJ" = (
 /obj/structure/closet/crate/corporate/nanotrasen,
 /obj/random/mre,
 /obj/random/mre,
 /obj/random/mre,
 /turf/simulated/floor/tiled/kafel_full/yellow/virgo3b,
-/area/space)
+/area/sector/driftingplanet/field)
 "fP" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 1
@@ -708,7 +708,7 @@
 /turf/simulated/floor/road{
 	icon_state = "verticalleftborderleft2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "fQ" = (
 /obj/effect/floor_decal/rust,
 /obj/structure/railing,
@@ -716,7 +716,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "fS" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 2
@@ -725,7 +725,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/outdoors/mud/outdoors,
-/area/space)
+/area/sector/driftingplanet/field)
 "fZ" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 2
@@ -736,14 +736,14 @@
 /turf/simulated/floor/road{
 	icon_state = "verticaloutermain1"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "gd" = (
 /obj/effect/floor_decal/rust,
 /obj/structure/salvageable/machine_os{
 	color = "#803327"
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "ge" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 5
@@ -751,7 +751,7 @@
 /turf/simulated/floor/road{
 	icon_state = "verticaloutermain1"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "gm" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 5
@@ -759,21 +759,21 @@
 /turf/simulated/floor/road{
 	icon_state = "horizontalbottomborderbottom1"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "go" = (
 /obj/structure/girder/reinforced/rusted,
 /obj/effect/floor_decal/rust,
 /turf/simulated/floor/plating/rust,
-/area/space)
+/area/sector/driftingplanet/field)
 "gp" = (
 /obj/random/trash_pile,
 /turf/simulated/floor/plating/rust,
-/area/space)
+/area/sector/driftingplanet/field)
 "gs" = (
 /obj/effect/floor_decal/rust,
 /obj/random/multiple/large_corp_crate,
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "gt" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 4
@@ -782,14 +782,14 @@
 /turf/simulated/floor/road{
 	icon_state = "reno-middle"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "gu" = (
 /obj/effect/floor_decal/rust,
 /obj/machinery/door/blast/regular/open{
 	color = "#803327"
 	},
 /turf/simulated/floor/plating/rust,
-/area/space)
+/area/sector/driftingplanet/field)
 "gy" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 4
@@ -798,7 +798,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/outdoors/mud/outdoors,
-/area/space)
+/area/sector/driftingplanet/field)
 "gB" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 4
@@ -806,14 +806,14 @@
 /turf/simulated/floor/road{
 	icon_state = "reno_sidewalk2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "gD" = (
 /obj/effect/floor_decal/rust,
 /obj/structure/table/steel{
 	color = "#81521d"
 	},
 /turf/simulated/floor/plating/rust,
-/area/space)
+/area/sector/driftingplanet/field)
 "gE" = (
 /obj/structure/handrail{
 	dir = 8
@@ -822,11 +822,11 @@
 	dir = 1
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "gH" = (
 /obj/structure/flora/tree/dead/dry,
 /turf/simulated/floor/outdoors/ash_sand/outdoors,
-/area/space)
+/area/sector/driftingplanet/field)
 "gQ" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 6
@@ -835,25 +835,25 @@
 	dir = 4
 	},
 /turf/simulated/floor/outdoors/mud/outdoors,
-/area/space)
+/area/sector/driftingplanet/field)
 "gR" = (
 /turf/simulated/floor/road{
 	icon_state = "horizontalbottomborderbottom1"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "gV" = (
 /obj/item/flashlight/flare{
 	icon_state = "flare-on";
 	on = 1
 	},
 /turf/simulated/floor/plating/rust,
-/area/space)
+/area/sector/driftingplanet/field)
 "he" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 10
 	},
 /turf/simulated/floor/outdoors/mud/outdoors,
-/area/space)
+/area/sector/driftingplanet/field)
 "hm" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 10
@@ -861,27 +861,27 @@
 /turf/simulated/floor/road{
 	icon_state = "reno-middle"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "hp" = (
 /obj/structure/bed/pod{
 	color = "#81521d"
 	},
 /turf/simulated/floor/tiled/kafel_full/yellow/virgo3b,
-/area/space)
+/area/sector/driftingplanet/field)
 "hs" = (
 /obj/machinery/door/firedoor/glass,
 /obj/machinery/door/airlock/hatch{
 	req_one_access = list()
 	},
 /turf/simulated/floor/tiled/techmaint,
-/area/space)
+/area/sector/driftingplanet/field)
 "hC" = (
 /obj/effect/floor_decal/rust,
 /obj/structure/salvageable/machine_os{
 	color = "#803327"
 	},
 /turf/simulated/floor/plating/rust,
-/area/space)
+/area/sector/driftingplanet/field)
 "hG" = (
 /obj/effect/floor_decal/ash_edge,
 /obj/effect/floor_decal/ash_edge{
@@ -890,13 +890,13 @@
 /turf/simulated/floor/road{
 	icon_state = "reno_2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "hO" = (
 /obj/spawner/corpse/shogun,
 /turf/simulated/floor/road{
 	icon_state = "verticaloutermain2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "hP" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 1
@@ -907,25 +907,25 @@
 /turf/simulated/floor/road{
 	icon_state = "reno_inner_sidewalk"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "hT" = (
 /turf/simulated/floor/road{
 	icon_state = "outerborder - W"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "hW" = (
 /obj/effect/floor_decal/rust,
 /obj/structure/table/rack/shelf/steel{
 	color = "#803327"
 	},
 /turf/simulated/floor/tiled/kafel_full/yellow/virgo3b,
-/area/space)
+/area/sector/driftingplanet/field)
 "hZ" = (
 /obj/structure/girder/reinforced/rusted,
 /turf/simulated/wall/rust{
 	opacity = 0
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "ig" = (
 /obj/machinery/door/firedoor/glass,
 /obj/structure/grille,
@@ -935,7 +935,7 @@
 	},
 /obj/structure/window/reinforced,
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "it" = (
 /obj/structure/bed/chair/bay/chair/padded/red/smallnest{
 	color = "#81521d";
@@ -946,10 +946,10 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/kafel_full/yellow/virgo3b,
-/area/space)
+/area/sector/driftingplanet/field)
 "iu" = (
 /turf/simulated/floor/outdoors/ash_sand/outdoors,
-/area/space)
+/area/sector/driftingplanet/field)
 "iw" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -959,7 +959,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/space)
+/area/sector/driftingplanet/field)
 "ix" = (
 /obj/structure/handrail{
 	dir = 4
@@ -968,7 +968,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "iB" = (
 /obj/effect/floor_decal/ash_edge,
 /obj/effect/floor_decal/ash_edge{
@@ -977,7 +977,7 @@
 /turf/simulated/floor/road{
 	icon_state = "reno_2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "iH" = (
 /obj/structure/railing{
 	dir = 8
@@ -986,7 +986,7 @@
 /turf/simulated/floor/road{
 	icon_state = "verticaloutermain1"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "iI" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 8
@@ -997,27 +997,27 @@
 /turf/simulated/floor/road{
 	icon_state = "reno_inner_sidewalk"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "iK" = (
 /obj/effect/floor_decal/asteroid,
 /turf/simulated/floor/outdoors/ash_sand/outdoors,
-/area/space)
+/area/sector/driftingplanet/field)
 "iL" = (
 /obj/spawner/window/low_wall/nogrille,
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "iQ" = (
 /obj/structure/railing,
 /turf/simulated/floor/road{
 	icon_state = "verticaloutermain1"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "iR" = (
 /obj/structure/bed/pod{
 	color = "#81521d"
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "iW" = (
 /obj/effect/floor_decal/rust,
 /obj/structure/railing{
@@ -1027,14 +1027,14 @@
 	dir = 8
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "ji" = (
 /obj/structure/table/steel{
 	color = "#803327"
 	},
 /obj/effect/floor_decal/rust,
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "jm" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/effect/floor_decal/industrial/warning{
@@ -1047,17 +1047,17 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/space)
+/area/sector/driftingplanet/field)
 "jp" = (
 /obj/machinery/door/airlock/derelict{
 	dir = 4;
 	req_one_access = null
 	},
 /turf/simulated/floor/plating/rust,
-/area/space)
+/area/sector/driftingplanet/field)
 "jr" = (
 /turf/simulated/wall/r_wall/rusted,
-/area/space)
+/area/sector/driftingplanet/field)
 "jt" = (
 /obj/effect/floor_decal/rust,
 /obj/structure/closet/cabinet{
@@ -1065,7 +1065,7 @@
 	},
 /obj/random/tech_supply/component,
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "jx" = (
 /obj/structure/salvageable/titan_wreck/gun{
 	dir = 4
@@ -1073,14 +1073,14 @@
 /turf/simulated/floor/road{
 	icon_state = "reno_inner_sidewalk"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "jy" = (
 /obj/structure/salvageable/data_os{
 	color = "#803327"
 	},
 /obj/effect/floor_decal/rust,
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "jA" = (
 /obj/effect/floor_decal/asteroid{
 	icon_state = "asteroid7"
@@ -1088,19 +1088,19 @@
 /turf/simulated/floor/road{
 	icon_state = "reno_2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "jD" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 6
 	},
 /turf/simulated/wall/r_wall/prepainted/cargo,
-/area/space)
+/area/sector/driftingplanet/field)
 "jJ" = (
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
 /turf/simulated/wall/r_wall/prepainted/cargo,
-/area/space)
+/area/sector/driftingplanet/field)
 "jL" = (
 /obj/effect/floor_decal/asteroid{
 	icon_state = "asteroid5"
@@ -1109,7 +1109,7 @@
 	icon_state = "asteroid4"
 	},
 /turf/simulated/floor/outdoors/ash_sand/outdoors,
-/area/space)
+/area/sector/driftingplanet/field)
 "jT" = (
 /obj/effect/floor_decal/asteroid{
 	icon_state = "asteroid7"
@@ -1118,7 +1118,7 @@
 	icon_state = "asteroid5"
 	},
 /turf/simulated/floor/outdoors/ash_sand/outdoors,
-/area/space)
+/area/sector/driftingplanet/field)
 "ka" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 5
@@ -1126,7 +1126,7 @@
 /turf/simulated/floor/road{
 	icon_state = "reno_sidewalk2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "kl" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 8
@@ -1134,14 +1134,14 @@
 /turf/simulated/floor/road{
 	icon_state = "verticaloutermain2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "kn" = (
 /obj/structure/railing{
 	dir = 8
 	},
 /obj/effect/floor_decal/rust,
 /turf/simulated/floor/tiled/dark,
-/area/space)
+/area/sector/driftingplanet/field)
 "kp" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 2
@@ -1149,30 +1149,30 @@
 /turf/simulated/floor/road{
 	icon_state = "outerborder - W"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "kq" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/random/multiple/corp_crate,
 /turf/simulated/floor/tiled/techfloor,
-/area/space)
+/area/sector/driftingplanet/field)
 "kw" = (
 /obj/effect/floor_decal/rust,
 /obj/structure/bed/pod{
 	color = "#803327"
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "ky" = (
 /obj/structure/girder/reinforced/rusted/red,
 /obj/structure/girder/reinforced/rusted/red,
 /turf/simulated/floor/outdoors/ash_sand/outdoors,
-/area/space)
+/area/sector/driftingplanet/field)
 "kA" = (
 /obj/structure/loot_pile/vce/building,
 /turf/simulated/floor/road{
 	icon_state = "verticaloutermain1"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "kB" = (
 /obj/structure/loot_pile/vce/building{
 	icon_state = "damaged";
@@ -1181,7 +1181,7 @@
 /turf/simulated/floor/road{
 	icon_state = "verticaloutermain1"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "kD" = (
 /obj/effect/floor_decal/ash_edge,
 /obj/effect/floor_decal/ash_edge{
@@ -1190,7 +1190,7 @@
 /turf/simulated/floor/road{
 	icon_state = "horizontaloutermain1"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "kE" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 1
@@ -1198,10 +1198,10 @@
 /turf/simulated/floor/road{
 	icon_state = "horizontaloutermain1"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "kM" = (
 /turf/simulated/floor/tiled/kafel_full/yellow/virgo3b,
-/area/space)
+/area/sector/driftingplanet/field)
 "kR" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 1
@@ -1209,40 +1209,40 @@
 /turf/simulated/floor/road{
 	icon_state = "verticalrightborderright2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "lc" = (
 /obj/structure/salvageable/titan_wreck/titan,
 /turf/simulated/floor/outdoors/mud/outdoors,
-/area/space)
+/area/sector/driftingplanet/field)
 "ld" = (
 /turf/simulated/floor/road{
 	icon_state = "outerborder"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "lh" = (
 /obj/effect/floor_decal/industrial/warning/dust{
 	dir = 1
 	},
 /turf/simulated/floor/plating/rust,
-/area/space)
+/area/sector/driftingplanet/field)
 "lp" = (
 /obj/structure/closet/crate/corporate/nanotrasen,
 /obj/item/tank/oxygen,
 /obj/item/tank/oxygen,
 /obj/item/tank/oxygen,
 /turf/simulated/floor/tiled/kafel_full/yellow/virgo3b,
-/area/space)
+/area/sector/driftingplanet/field)
 "lq" = (
 /turf/simulated/floor/road{
 	icon_state = "outerborder - E"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "ls" = (
 /obj/structure/salvageable/titan_wreck{
 	dir = 1
 	},
 /turf/simulated/floor/outdoors/ash_sand/outdoors,
-/area/space)
+/area/sector/driftingplanet/field)
 "lt" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 4
@@ -1253,19 +1253,19 @@
 /turf/simulated/floor/road{
 	icon_state = "reno_sidewalk2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "ly" = (
 /obj/structure/salvageable/computer_os{
 	color = "#803327"
 	},
 /turf/simulated/floor/tiled/kafel_full/yellow/virgo3b,
-/area/space)
+/area/sector/driftingplanet/field)
 "lz" = (
 /obj/structure/flora/tree/dead/dry{
 	icon_state = "deadtree_4"
 	},
 /turf/simulated/floor/outdoors/ash_sand/outdoors,
-/area/space)
+/area/sector/driftingplanet/field)
 "lA" = (
 /obj/effect/floor_decal/rust,
 /obj/structure/stairs/bottom{
@@ -1274,7 +1274,7 @@
 	},
 /obj/structure/railing,
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "lD" = (
 /obj/machinery/button/remote/blast_door{
 	id = "driftingbunker";
@@ -1284,17 +1284,17 @@
 	color = "#81521d"
 	},
 /turf/simulated/floor/tiled/kafel_full/yellow/virgo3b,
-/area/space)
+/area/sector/driftingplanet/field)
 "lH" = (
 /obj/structure/table/bench/steel{
 	color = "#803327"
 	},
 /turf/simulated/floor/tiled/kafel_full/yellow/virgo3b,
-/area/space)
+/area/sector/driftingplanet/field)
 "lI" = (
 /obj/effect/floor_decal/asteroid,
 /turf/simulated/floor/outdoors/mud/outdoors,
-/area/space)
+/area/sector/driftingplanet/field)
 "lO" = (
 /obj/spawner/corpse/scientist,
 /obj/structure/closet/crate/corporate/heph,
@@ -1304,7 +1304,7 @@
 /obj/random/tech_supply/component,
 /obj/random/tech_supply/component,
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "lU" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 8
@@ -1315,10 +1315,10 @@
 /turf/simulated/floor/road{
 	icon_state = "reno-middle"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "lV" = (
 /turf/simulated/wall/rust,
-/area/space)
+/area/sector/driftingplanet/field)
 "lX" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 8
@@ -1326,18 +1326,18 @@
 /turf/simulated/floor/road{
 	icon_state = "verticalleftborderleft2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "lZ" = (
 /obj/effect/floor_decal/rust,
 /obj/structure/bed/pod{
 	color = "#803327"
 	},
 /turf/simulated/floor/tiled/kafel_full/yellow/virgo3b,
-/area/space)
+/area/sector/driftingplanet/field)
 "mc" = (
 /obj/spawner/corpse/commander,
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "mg" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 5
@@ -1345,10 +1345,10 @@
 /turf/simulated/floor/road{
 	icon_state = "verticalleftborderleft2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "mh" = (
 /turf/simulated/floor/water/acid,
-/area/space)
+/area/sector/driftingplanet/field)
 "mk" = (
 /obj/effect/floor_decal/rust,
 /obj/effect/floor_decal/rust,
@@ -1356,26 +1356,26 @@
 	dir = 1
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "ml" = (
 /obj/structure/salvageable/titan_wreck/gun{
 	dir = 4
 	},
 /turf/simulated/floor/outdoors/mud/outdoors,
-/area/space)
+/area/sector/driftingplanet/field)
 "mq" = (
 /obj/machinery/door/airlock/derelict{
 	req_one_access = null
 	},
 /turf/simulated/floor/plating/rust,
-/area/space)
+/area/sector/driftingplanet/field)
 "mu" = (
 /obj/effect/floor_decal/rust,
 /obj/structure/event/prop/jarshelf{
 	color = "#803327"
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "mB" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 6
@@ -1383,7 +1383,7 @@
 /turf/simulated/floor/road{
 	icon_state = "verticaloutermain1"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "mD" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 9
@@ -1391,7 +1391,7 @@
 /turf/simulated/floor/road{
 	icon_state = "verticaloutermain1"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "mE" = (
 /obj/structure/railing,
 /obj/structure/railing{
@@ -1405,7 +1405,7 @@
 /turf/simulated/wall/rust{
 	opacity = 0
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "mF" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 8
@@ -1416,7 +1416,7 @@
 /turf/simulated/floor/road{
 	icon_state = "verticaloutermain1"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "mH" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 6
@@ -1425,7 +1425,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/outdoors/mud/outdoors,
-/area/space)
+/area/sector/driftingplanet/field)
 "mI" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 2
@@ -1433,14 +1433,14 @@
 /turf/simulated/floor/road{
 	icon_state = "horizontaltopbordertop1"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "mK" = (
 /obj/structure/stairs/bottom{
 	dir = 1;
 	color = "#8c6d46"
 	},
 /turf/simulated/floor/tiled/kafel_full/yellow/virgo3b,
-/area/space)
+/area/sector/driftingplanet/field)
 "mN" = (
 /obj/structure/railing{
 	dir = 8
@@ -1454,13 +1454,13 @@
 /turf/simulated/floor/road{
 	icon_state = "outermiddle"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "mO" = (
 /obj/machinery/conveyor{
 	dir = 8
 	},
 /turf/simulated/floor/plating/rust,
-/area/space)
+/area/sector/driftingplanet/field)
 "mS" = (
 /obj/structure/flora/tree/dead/dry{
 	icon_state = "tree_stump"
@@ -1469,19 +1469,19 @@
 	icon_state = "tree_stump"
 	},
 /turf/simulated/floor/outdoors/ash_sand/outdoors,
-/area/space)
+/area/sector/driftingplanet/field)
 "mT" = (
 /obj/effect/floor_decal/ash_edge,
 /turf/simulated/floor/road{
 	icon_state = "reno_sidewalk2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "mU" = (
 /obj/machinery/light/small{
 	dir = 8
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "mX" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 8
@@ -1492,7 +1492,7 @@
 /turf/simulated/floor/road{
 	icon_state = "reno_sidewalk"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "nf" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 1
@@ -1500,17 +1500,17 @@
 /turf/simulated/floor/road{
 	icon_state = "verticaloutermain1"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "nj" = (
 /mob/living/simple_mob/mechanical/mecha/combat/titan/sword,
 /turf/simulated/floor/outdoors/ash_sand/outdoors,
-/area/space)
+/area/sector/driftingplanet/field)
 "nk" = (
 /obj/machinery/light/small{
 	dir = 4
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "nl" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 4
@@ -1521,7 +1521,7 @@
 /turf/simulated/floor/road{
 	icon_state = "verticaloutermain2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "nm" = (
 /obj/effect/floor_decal/asteroid{
 	icon_state = "asteroid7"
@@ -1529,13 +1529,13 @@
 /turf/simulated/floor/road{
 	icon_state = "reno-middle"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "nn" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 5
 	},
 /turf/simulated/floor/outdoors/mud/outdoors,
-/area/space)
+/area/sector/driftingplanet/field)
 "ns" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 8
@@ -1543,7 +1543,7 @@
 /turf/simulated/floor/road{
 	icon_state = "horizontalbottomborderbottom1"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "ny" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 8
@@ -1552,7 +1552,7 @@
 /turf/simulated/floor/road{
 	icon_state = "reno_inner_sidewalk"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "nB" = (
 /obj/effect/floor_decal/rust,
 /obj/structure/closet/cabinet{
@@ -1560,20 +1560,20 @@
 	},
 /obj/random/tech_supply/component,
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "nD" = (
 /obj/structure/flora/tree/dead/dry{
 	icon_state = "deadtree_5"
 	},
 /turf/simulated/floor/outdoors/ash_sand/outdoors,
-/area/space)
+/area/sector/driftingplanet/field)
 "nF" = (
 /obj/effect/floor_decal/rust,
 /obj/structure/table/bench/steel{
 	color = "#803327"
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "nG" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/structure/cable{
@@ -1585,7 +1585,7 @@
 /obj/structure/railing/grey,
 /obj/random/multiple/corp_crate,
 /turf/simulated/floor/tiled/techfloor,
-/area/space)
+/area/sector/driftingplanet/field)
 "nI" = (
 /obj/structure/bed/chair/bay/chair/padded/red/smallnest{
 	color = "#81521d";
@@ -1597,18 +1597,18 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/kafel_full/yellow/virgo3b,
-/area/space)
+/area/sector/driftingplanet/field)
 "nK" = (
 /obj/effect/floor_decal/rust,
 /obj/structure/table/steel{
 	color = "#803327"
 	},
 /turf/simulated/floor/plating/rust,
-/area/space)
+/area/sector/driftingplanet/field)
 "nP" = (
 /obj/effect/map_effect/radiation_emitter/strong,
 /turf/simulated/floor/tiled/techfloor/monogrid,
-/area/space)
+/area/sector/driftingplanet/field)
 "nT" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 8
@@ -1616,14 +1616,14 @@
 /turf/simulated/floor/road{
 	icon_state = "reno-middle"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "nW" = (
 /obj/machinery/door/blast/regular{
 	color = "#803327";
 	id = "driftingbunker"
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "nY" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 4
@@ -1632,13 +1632,13 @@
 /turf/simulated/floor/road{
 	icon_state = "reno_sidewalk2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "ob" = (
 /obj/machinery/atmospherics/pipe/simple/visible/yellow{
 	dir = 4
 	},
 /turf/simulated/wall/prepainted/civilian,
-/area/space)
+/area/sector/driftingplanet/field)
 "of" = (
 /obj/effect/floor_decal/rust,
 /obj/structure/railing{
@@ -1648,7 +1648,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "oh" = (
 /obj/structure/railing{
 	dir = 8
@@ -1656,43 +1656,43 @@
 /turf/simulated/floor/road{
 	icon_state = "verticaloutermain1"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "or" = (
 /turf/simulated/floor/road{
 	icon_state = "reno_2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "oy" = (
 /obj/effect/floor_decal/rust,
 /obj/structure/closet/cabinet{
 	color = "#803327"
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "oA" = (
 /obj/effect/floor_decal/rust,
 /obj/effect/decal/remains/ribcage{
 	color = "#803327"
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "oE" = (
 /obj/structure/salvageable/titan_wreck/titan,
 /turf/simulated/floor/road{
 	icon_state = "reno_sidewalk2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "oN" = (
 /obj/effect/floor_decal/rust,
 /obj/structure/salvageable/computer_os{
 	color = "#803327"
 	},
 /turf/simulated/floor/tiled/kafel_full/yellow/virgo3b,
-/area/space)
+/area/sector/driftingplanet/field)
 "oO" = (
 /obj/structure/vce/machinery,
 /turf/simulated/floor/plating/rust,
-/area/space)
+/area/sector/driftingplanet/field)
 "oR" = (
 /obj/structure/stairs/bottom{
 	dir = 8;
@@ -1704,34 +1704,34 @@
 /turf/simulated/floor/road{
 	icon_state = "horizontalbottomborderbottom2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "oT" = (
 /turf/simulated/floor/road{
 	icon_state = "verticalrightborderright1"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "pc" = (
 /obj/effect/floor_decal/ash_edge,
 /obj/effect/floor_decal/ash_edge{
 	dir = 4
 	},
 /turf/simulated/floor/outdoors/mud/outdoors,
-/area/space)
+/area/sector/driftingplanet/field)
 "pd" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
 /turf/simulated/wall/rshull,
-/area/space)
+/area/sector/driftingplanet/field)
 "pn" = (
 /turf/simulated/floor/road{
 	icon_state = "reno_sidewalk"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "pp" = (
 /obj/structure/salvageable/titan_wreck,
 /turf/simulated/floor/outdoors/mud/outdoors,
-/area/space)
+/area/sector/driftingplanet/field)
 "pq" = (
 /obj/structure/railing{
 	dir = 8
@@ -1740,18 +1740,18 @@
 	dir = 8
 	},
 /turf/simulated/floor/plating/rust,
-/area/space)
+/area/sector/driftingplanet/field)
 "pr" = (
 /obj/item/digestion_remains,
 /turf/simulated/floor/road{
 	icon_state = "reno_2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "pt" = (
 /turf/simulated/wall/rust/bigwall{
 	opacity = 0
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "pu" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 1
@@ -1762,7 +1762,7 @@
 /turf/simulated/floor/road{
 	icon_state = "reno-middle"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "py" = (
 /obj/effect/floor_decal/asteroid{
 	icon_state = "asteroid5"
@@ -1771,37 +1771,37 @@
 	icon_state = "deadtree_5"
 	},
 /turf/simulated/floor/outdoors/ash_sand/outdoors,
-/area/space)
+/area/sector/driftingplanet/field)
 "pz" = (
 /obj/structure/flora/tree/dead/dry{
 	icon_state = "deadtree_2"
 	},
 /turf/simulated/floor/outdoors/ash_sand/outdoors,
-/area/space)
+/area/sector/driftingplanet/field)
 "pC" = (
 /obj/structure/salvageable/titan_wreck/gun,
 /turf/simulated/floor/outdoors/mud/outdoors,
-/area/space)
+/area/sector/driftingplanet/field)
 "pE" = (
 /obj/machinery/door/airlock/derelict{
 	req_one_access = null
 	},
 /turf/simulated/floor/tiled/dark,
-/area/space)
+/area/sector/driftingplanet/field)
 "pI" = (
 /obj/spawner/corpse/vox/captain,
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "pJ" = (
 /obj/effect/floor_decal/industrial/loading{
 	dir = 4
 	},
 /turf/simulated/floor/plating/rust,
-/area/space)
+/area/sector/driftingplanet/field)
 "pK" = (
 /obj/effect/floor_decal/industrial/warning/dust,
 /turf/simulated/floor/plating/rust,
-/area/space)
+/area/sector/driftingplanet/field)
 "pL" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 10
@@ -1809,7 +1809,7 @@
 /turf/simulated/floor/road{
 	icon_state = "horizontalbottomborderbottom2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "pP" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 8
@@ -1818,14 +1818,14 @@
 /turf/simulated/floor/road{
 	icon_state = "reno-middle"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "pT" = (
 /obj/effect/floor_decal/rust,
 /obj/structure/salvageable/console_broken_os{
 	color = "#803327"
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "pX" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 4
@@ -1834,7 +1834,7 @@
 	dir = 2
 	},
 /turf/simulated/floor/outdoors/mud/outdoors,
-/area/space)
+/area/sector/driftingplanet/field)
 "pY" = (
 /obj/structure/stairs/bottom{
 	dir = 1;
@@ -1842,7 +1842,7 @@
 	},
 /obj/effect/floor_decal/rust,
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "pZ" = (
 /obj/structure/bed/chair/bay/chair/padded/red/smallnest{
 	color = "#803327";
@@ -1850,15 +1850,15 @@
 	desc = "A strange seat, use a long time ago."
 	},
 /turf/simulated/floor/tiled/techfloor/monogrid,
-/area/space)
+/area/sector/driftingplanet/field)
 "qh" = (
 /turf/simulated/floor/road{
 	icon_state = "horizontaloutermain1"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "ql" = (
 /turf/simulated/floor/outdoors/rocks/outdoors,
-/area/space)
+/area/sector/driftingplanet/field)
 "qp" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 2
@@ -1869,7 +1869,7 @@
 /turf/simulated/floor/road{
 	icon_state = "verticalrightborderright2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "qu" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 1
@@ -1883,7 +1883,7 @@
 /turf/simulated/floor/road{
 	icon_state = "reno-middle"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "qx" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 2
@@ -1891,13 +1891,13 @@
 /turf/simulated/floor/road{
 	icon_state = "verticalleftborderleft2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "qC" = (
 /obj/structure/closet/cabinet{
 	color = "#803327"
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "qR" = (
 /obj/effect/floor_decal/rust,
 /obj/structure/bed/chair/bay/chair/padded/red/smallnest{
@@ -1906,13 +1906,13 @@
 	desc = "A strange seat, use a long time ago."
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "qV" = (
 /obj/structure/handrail{
 	dir = 8
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "ra" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 1
@@ -1923,16 +1923,16 @@
 /turf/simulated/floor/road{
 	icon_state = "reno"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "rd" = (
 /obj/structure/girder/reinforced/rusted,
 /obj/structure/girder/reinforced/rusted,
 /turf/simulated/wall/r_wall/rusted,
-/area/space)
+/area/sector/driftingplanet/field)
 "re" = (
 /obj/spawner/window/low_wall/nogrille,
 /turf/simulated/floor/tiled/kafel_full/yellow/virgo3b,
-/area/space)
+/area/sector/driftingplanet/field)
 "rf" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 1
@@ -1943,32 +1943,26 @@
 /turf/simulated/floor/road{
 	icon_state = "horizontalbottomborderbottom1"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "rg" = (
 /obj/effect/floor_decal/rust,
 /obj/machinery/conveyor{
 	dir = 4
 	},
 /turf/simulated/floor/plating/rust,
-/area/space)
+/area/sector/driftingplanet/field)
 "rk" = (
 /obj/effect/floor_decal/rust,
 /obj/structure/event/prop/jarshelf{
 	color = "#803327"
 	},
 /turf/simulated/floor/plating/rust,
-/area/space)
+/area/sector/driftingplanet/field)
 "rl" = (
 /obj/effect/floor_decal/rust,
 /mob/living/simple_mob/mechanical/mecha/combat/titan/sword,
 /turf/simulated/floor/plating,
-/area/space)
-"rv" = (
-/obj/machinery/door/blast/regular{
-	color = "#803327"
-	},
-/turf/simulated/floor/outdoors/mud/indoors,
-/area/space)
+/area/sector/driftingplanet/field)
 "ry" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 6
@@ -1976,7 +1970,7 @@
 /turf/simulated/floor/road{
 	icon_state = "verticaloutermain2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "rz" = (
 /obj/effect/floor_decal/rust,
 /obj/effect/floor_decal/rust,
@@ -1984,7 +1978,7 @@
 	color = "#803327"
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "rD" = (
 /obj/effect/floor_decal/asteroid{
 	icon_state = "asteroid7"
@@ -2002,7 +1996,7 @@
 	icon_state = "asteroid5"
 	},
 /turf/simulated/floor/outdoors/ash_sand/outdoors,
-/area/space)
+/area/sector/driftingplanet/field)
 "rE" = (
 /obj/effect/floor_decal/rust,
 /obj/structure/bed/chair/bay/chair/padded/red/smallnest{
@@ -2011,19 +2005,19 @@
 	desc = "A strange seat, use a long time ago."
 	},
 /turf/simulated/floor/tiled/kafel_full/yellow/virgo3b,
-/area/space)
+/area/sector/driftingplanet/field)
 "rK" = (
 /turf/simulated/floor/road{
 	icon_state = "reno"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "rL" = (
 /obj/effect/floor_decal/rust,
 /obj/structure/table/steel{
 	color = "#803327"
 	},
 /turf/simulated/floor/tiled/kafel_full/yellow/virgo3b,
-/area/space)
+/area/sector/driftingplanet/field)
 "rO" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 1
@@ -2034,7 +2028,7 @@
 /turf/simulated/floor/road{
 	icon_state = "horizontaloutermain1"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "rR" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 8
@@ -2044,12 +2038,12 @@
 	icon_state = "tree_stump"
 	},
 /turf/simulated/floor/outdoors/mud/outdoors,
-/area/space)
+/area/sector/driftingplanet/field)
 "rS" = (
 /turf/simulated/floor/road{
 	icon_state = "horizontaltopbordertop1"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "rX" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 2
@@ -2057,7 +2051,7 @@
 /turf/simulated/floor/road{
 	icon_state = "reno_2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "rZ" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 10
@@ -2065,18 +2059,18 @@
 /turf/simulated/floor/road{
 	icon_state = "reno_inner_sidewalk"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "sf" = (
 /obj/machinery/deployable/barrier,
 /turf/simulated/floor/outdoors/ash_sand/outdoors,
-/area/space)
+/area/sector/driftingplanet/field)
 "sg" = (
 /obj/effect/floor_decal/rust,
 /obj/effect/decal/remains{
 	color = "#803327"
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "sl" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 1
@@ -2084,7 +2078,7 @@
 /turf/simulated/floor/road{
 	icon_state = "verticaloutermain2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "sm" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 8
@@ -2093,7 +2087,7 @@
 	dir = 2
 	},
 /turf/simulated/floor/outdoors/mud/outdoors,
-/area/space)
+/area/sector/driftingplanet/field)
 "sp" = (
 /obj/structure/closet/crate/corporate/heph,
 /obj/random/projectile/shotgun,
@@ -2101,14 +2095,14 @@
 /obj/random/projectile/sec,
 /obj/random/projectile/sec,
 /turf/simulated/floor/plating/rust,
-/area/space)
+/area/sector/driftingplanet/field)
 "sv" = (
 /obj/structure/closet/crate/corporate/nanotrasen,
 /obj/item/cell/basic/tier_1/weapon,
 /obj/item/cell/basic/tier_1/weapon,
 /obj/item/cell/basic/tier_2/weapon,
 /turf/simulated/floor/tiled/kafel_full/yellow/virgo3b,
-/area/space)
+/area/sector/driftingplanet/field)
 "sE" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 2
@@ -2116,7 +2110,7 @@
 /turf/simulated/floor/road{
 	icon_state = "reno-middle"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "sJ" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 4
@@ -2127,19 +2121,19 @@
 /turf/simulated/floor/road{
 	icon_state = "verticaloutermain1"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "sP" = (
 /obj/machinery/atmospherics/component/unary/engine{
 	dir = 1
 	},
 /turf/simulated/floor/airless,
-/area/space)
+/area/sector/driftingplanet/field)
 "sX" = (
 /obj/structure/salvageable/machine_os{
 	color = "#803327"
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "tb" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 1
@@ -2150,7 +2144,7 @@
 /turf/simulated/floor/road{
 	icon_state = "reno_sidewalk2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "tg" = (
 /obj/structure/bed/chair/bay/chair/padded/red/smallnest{
 	color = "#81521d";
@@ -2162,42 +2156,42 @@
 	},
 /obj/effect/floor_decal/rust,
 /turf/simulated/floor/tiled/kafel_full/yellow/virgo3b,
-/area/space)
+/area/sector/driftingplanet/field)
 "ti" = (
 /obj/structure/table/steel{
 	color = "#81521d"
 	},
 /turf/simulated/floor/tiled/kafel_full/yellow/virgo3b,
-/area/space)
+/area/sector/driftingplanet/field)
 "tk" = (
 /obj/structure/salvageable/machine_os,
 /turf/simulated/floor/tiled/kafel_full/yellow/virgo3b,
-/area/space)
+/area/sector/driftingplanet/field)
 "ts" = (
 /obj/machinery/conveyor{
 	dir = 4
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "tw" = (
 /obj/effect/floor_decal/rust,
 /mob/living/simple_mob/construct/nuclear/charred{
 	iff_factions = "mercenary"
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "tz" = (
 /obj/machinery/atmospherics/pipe/simple/visible/yellow{
 	dir = 10
 	},
 /turf/simulated/floor/airless,
-/area/space)
+/area/sector/driftingplanet/field)
 "tA" = (
 /obj/machinery/conveyor{
 	dir = 8
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "tC" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 8
@@ -2211,7 +2205,7 @@
 /turf/simulated/floor/road{
 	icon_state = "reno-middle"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "tD" = (
 /obj/effect/floor_decal/rust,
 /obj/structure/railing{
@@ -2221,7 +2215,7 @@
 	iff_factions = "mercenary"
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "tE" = (
 /obj/structure/railing{
 	dir = 4
@@ -2230,14 +2224,14 @@
 /turf/simulated/floor/road{
 	icon_state = "verticaloutermain1"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "tO" = (
 /obj/effect/floor_decal/rust,
 /obj/machinery/porta_turret/alien{
 	color = "#803327"
 	},
 /turf/simulated/floor/plating/rust,
-/area/space)
+/area/sector/driftingplanet/field)
 "tP" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 4
@@ -2248,32 +2242,32 @@
 /turf/simulated/floor/road{
 	icon_state = "verticaloutermain2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "tS" = (
 /obj/effect/floor_decal/rust,
 /obj/machinery/power/rtg/fake_gen{
 	color = "#803327"
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "tU" = (
 /obj/structure/girder/reinforced/rusted,
 /turf/simulated/floor/plating/rust,
-/area/space)
+/area/sector/driftingplanet/field)
 "ub" = (
 /obj/machinery/conveyor{
 	dir = 8
 	},
 /obj/effect/floor_decal/rust,
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "ug" = (
 /obj/effect/floor_decal/rust,
 /obj/effect/decal/remains/ribcage{
 	color = "#803327"
 	},
 /turf/simulated/floor/plating/rust,
-/area/space)
+/area/sector/driftingplanet/field)
 "uj" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 8
@@ -2282,17 +2276,17 @@
 	dir = 1
 	},
 /turf/simulated/floor/outdoors/mud/outdoors,
-/area/space)
+/area/sector/driftingplanet/field)
 "un" = (
 /obj/machinery/door/airlock/derelict{
 	req_one_access = null
 	},
 /turf/simulated/floor/tiled/kafel_full/yellow/virgo3b,
-/area/space)
+/area/sector/driftingplanet/field)
 "up" = (
 /obj/structure/handrail,
 /turf/simulated/floor/airless,
-/area/space)
+/area/sector/driftingplanet/field)
 "us" = (
 /obj/effect/floor_decal/rust,
 /obj/effect/floor_decal/rust,
@@ -2302,7 +2296,7 @@
 	desc = "A strange seat, use a long time ago."
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "uB" = (
 /obj/structure/flora/tree/dead/dry{
 	icon_state = "deadtree_4"
@@ -2311,19 +2305,19 @@
 	icon_state = "deadtree_4"
 	},
 /turf/simulated/floor/outdoors/ash_sand/outdoors,
-/area/space)
+/area/sector/driftingplanet/field)
 "uF" = (
 /turf/simulated/floor/road{
 	icon_state = "horizontalbottomborderbottom2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "uG" = (
 /obj/structure/salvageable/data_os{
 	color = "#803327"
 	},
 /obj/effect/floor_decal/rust,
 /turf/simulated/floor/plating/rust,
-/area/space)
+/area/sector/driftingplanet/field)
 "uK" = (
 /obj/structure/bed/chair/bay/chair/padded/red/smallnest{
 	color = "#81521d";
@@ -2332,12 +2326,12 @@
 	},
 /obj/structure/railing,
 /turf/simulated/floor/tiled/kafel_full/yellow/virgo3b,
-/area/space)
+/area/sector/driftingplanet/field)
 "uN" = (
 /obj/effect/floor_decal/rust,
 /obj/random/trash_pile,
 /turf/simulated/floor/plating/rust,
-/area/space)
+/area/sector/driftingplanet/field)
 "uP" = (
 /obj/structure/loot_pile/vce/building{
 	icon_state = "hole";
@@ -2346,11 +2340,11 @@
 /turf/simulated/floor/road{
 	icon_state = "verticaloutermain2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "uQ" = (
 /obj/structure/vce/silo/broken,
 /turf/simulated/floor/outdoors/ash_sand/outdoors,
-/area/space)
+/area/sector/driftingplanet/field)
 "uS" = (
 /obj/structure/flora/tree/dead/dry{
 	icon_state = "deadtree_3"
@@ -2359,7 +2353,7 @@
 	icon_state = "deadtree_3"
 	},
 /turf/simulated/floor/outdoors/ash_sand/outdoors,
-/area/space)
+/area/sector/driftingplanet/field)
 "uU" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 5
@@ -2367,13 +2361,13 @@
 /turf/simulated/floor/road{
 	icon_state = "reno"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "uW" = (
 /obj/machinery/conveyor{
 	dir = 1
 	},
 /turf/simulated/floor/plating/rust,
-/area/space)
+/area/sector/driftingplanet/field)
 "uY" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 9
@@ -2384,21 +2378,21 @@
 /turf/simulated/floor/road{
 	icon_state = "reno-middle"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "vi" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 8
 	},
 /obj/effect/floor_decal/ash_edge,
 /turf/simulated/floor/outdoors/mud/outdoors,
-/area/space)
+/area/sector/driftingplanet/field)
 "vw" = (
 /obj/effect/floor_decal/rust,
 /obj/structure/table/rack/shelf/steel{
 	color = "#803327"
 	},
 /turf/simulated/floor/plating/rust,
-/area/space)
+/area/sector/driftingplanet/field)
 "vx" = (
 /obj/effect/floor_decal/ash_edge,
 /obj/effect/floor_decal/ash_edge{
@@ -2408,32 +2402,32 @@
 	dir = 8
 	},
 /turf/simulated/floor/outdoors/mud/outdoors,
-/area/space)
+/area/sector/driftingplanet/field)
 "vy" = (
 /obj/effect/floor_decal/rust,
 /obj/spawner/corpse/scientist,
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "vE" = (
 /obj/machinery/conveyor{
 	dir = 1
 	},
 /obj/effect/floor_decal/rust,
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "vI" = (
 /obj/structure/loot_pile/vce/building{
 	icon_state = "hole";
 	layer = 2
 	},
 /turf/simulated/floor/outdoors/ash_sand/outdoors,
-/area/space)
+/area/sector/driftingplanet/field)
 "vQ" = (
 /obj/effect/decal/remains/ribcage{
 	color = "#803327"
 	},
 /turf/simulated/floor/outdoors/ash_sand/outdoors,
-/area/space)
+/area/sector/driftingplanet/field)
 "vS" = (
 /obj/effect/floor_decal/asteroid{
 	icon_state = "asteroid4"
@@ -2441,21 +2435,21 @@
 /turf/simulated/floor/road{
 	icon_state = "reno_sidewalk2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "vV" = (
 /obj/structure/salvageable/bliss{
 	color = "#803327"
 	},
 /obj/effect/floor_decal/rust,
 /turf/simulated/floor/plating/rust,
-/area/space)
+/area/sector/driftingplanet/field)
 "vW" = (
 /obj/effect/floor_decal/rust,
 /obj/structure/bed/pod{
 	color = "#81521d"
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "we" = (
 /obj/structure/loot_pile/vce/building{
 	icon_state = "damaged_1";
@@ -2464,18 +2458,18 @@
 /turf/simulated/floor/road{
 	icon_state = "verticaloutermain1"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "wm" = (
 /obj/spawner/window/low_wall/nogrille,
 /turf/simulated/floor/plating/rust,
-/area/space)
+/area/sector/driftingplanet/field)
 "wn" = (
 /obj/effect/floor_decal/rust,
 /obj/structure/salvageable/implant_container_os{
 	color = "#803327"
 	},
 /turf/simulated/floor/plating/rust,
-/area/space)
+/area/sector/driftingplanet/field)
 "wu" = (
 /obj/structure/loot_pile/vce/building{
 	icon_state = "hole";
@@ -2484,7 +2478,7 @@
 /turf/simulated/floor/road{
 	icon_state = "verticaloutermain1"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "ww" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 1
@@ -2495,27 +2489,27 @@
 /turf/simulated/floor/road{
 	icon_state = "verticaloutermain2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "wy" = (
 /obj/effect/floor_decal/rust,
 /obj/structure/vce/machinery,
 /turf/simulated/floor/plating/rust,
-/area/space)
+/area/sector/driftingplanet/field)
 "wE" = (
 /obj/structure/salvageable/titan_wreck/titan,
 /turf/simulated/floor/outdoors/ash_sand/outdoors,
-/area/space)
+/area/sector/driftingplanet/field)
 "wH" = (
 /obj/effect/floor_decal/rust,
 /obj/effect/floor_decal/rust,
 /obj/effect/floor_decal/rust,
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "wI" = (
 /obj/effect/floor_decal/rust,
 /obj/random/multiple/minevault,
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "wM" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 10
@@ -2523,19 +2517,19 @@
 /turf/simulated/floor/road{
 	icon_state = "horizontaloutermain1"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "wN" = (
 /obj/structure/table/steel{
 	color = "#803327"
 	},
 /turf/simulated/floor/plating/rust,
-/area/space)
+/area/sector/driftingplanet/field)
 "wP" = (
 /obj/effect/floor_decal/rust,
 /obj/effect/floor_decal/rust,
 /obj/effect/floor_decal/rust,
 /turf/simulated/floor/tiled/kafel_full/yellow/virgo3b,
-/area/space)
+/area/sector/driftingplanet/field)
 "wQ" = (
 /obj/structure/bed/chair/bay/chair/padded/red/smallnest{
 	color = "#81521d";
@@ -2544,7 +2538,7 @@
 	},
 /obj/effect/floor_decal/rust,
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "wT" = (
 /obj/effect/floor_decal/rust,
 /mob/living/simple_mob/construct/nuclear/charred{
@@ -2556,13 +2550,13 @@
 	desc = "A strange seat, use a long time ago."
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "wU" = (
 /obj/item/digestion_remains,
 /turf/simulated/floor/road{
 	icon_state = "reno-middle"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "wV" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 2
@@ -2573,7 +2567,7 @@
 /turf/simulated/floor/road{
 	icon_state = "reno_sidewalk"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "xd" = (
 /obj/effect/floor_decal/rust,
 /mob/living/simple_mob/mechanical/mecha/combat/titan/sword,
@@ -2581,33 +2575,33 @@
 	color = "#803327"
 	},
 /turf/simulated/floor/plating/rust,
-/area/space)
+/area/sector/driftingplanet/field)
 "xf" = (
 /obj/effect/floor_decal/industrial/warning,
 /obj/machinery/holopad/ship/starts_inactive,
 /turf/simulated/floor/tiled/techmaint,
-/area/space)
+/area/sector/driftingplanet/field)
 "xi" = (
 /obj/effect/floor_decal/rust,
 /obj/machinery/door/blast/regular/open{
 	color = "#803327"
 	},
 /turf/simulated/floor/plating/indoors,
-/area/space)
+/area/sector/driftingplanet/field)
 "xp" = (
 /turf/simulated/wall/rust/bigwall,
-/area/space)
+/area/sector/driftingplanet/field)
 "xq" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 8
 	},
 /turf/simulated/floor/outdoors/ash_sand/outdoors,
-/area/space)
+/area/sector/driftingplanet/field)
 "xr" = (
 /obj/structure/shuttle/engine/heater,
 /obj/machinery/atmospherics/pipe/simple/visible/yellow,
 /turf/simulated/floor/tiled/techfloor,
-/area/space)
+/area/sector/driftingplanet/field)
 "xu" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 8
@@ -2615,13 +2609,13 @@
 /turf/simulated/floor/road{
 	icon_state = "reno_inner_sidewalk"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "xv" = (
 /obj/machinery/door/blast/regular{
 	color = "#803327"
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "xC" = (
 /obj/structure/railing,
 /obj/structure/railing{
@@ -2630,7 +2624,7 @@
 /turf/simulated/floor/road{
 	icon_state = "horizontaltopbordertop2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "xD" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 1
@@ -2638,7 +2632,7 @@
 /turf/simulated/floor/road{
 	icon_state = "horizontalbottomborderbottom1"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "xH" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 9
@@ -2646,7 +2640,7 @@
 /turf/simulated/floor/road{
 	icon_state = "verticalrightborderright2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "xJ" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 2
@@ -2655,7 +2649,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/outdoors/mud/outdoors,
-/area/space)
+/area/sector/driftingplanet/field)
 "xO" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 4
@@ -2663,7 +2657,7 @@
 /turf/simulated/floor/road{
 	icon_state = "horizontaltopbordertop2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "xQ" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 2
@@ -2674,7 +2668,7 @@
 /turf/simulated/floor/road{
 	icon_state = "reno_2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "xR" = (
 /obj/structure/railing{
 	dir = 4
@@ -2688,21 +2682,21 @@
 /turf/simulated/floor/road{
 	icon_state = "outermiddle"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "xZ" = (
 /obj/effect/floor_decal/rust,
 /obj/structure/closet/cabinet{
 	color = "#803327"
 	},
 /turf/simulated/floor/tiled/kafel_full/yellow/virgo3b,
-/area/space)
+/area/sector/driftingplanet/field)
 "yf" = (
 /obj/effect/floor_decal/rust,
 /obj/structure/table/rack/shelf/steel{
 	color = "#81521d"
 	},
 /turf/simulated/floor/plating/rust,
-/area/space)
+/area/sector/driftingplanet/field)
 "yh" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 8
@@ -2710,13 +2704,13 @@
 /turf/simulated/floor/road{
 	icon_state = "horizontaloutermain1"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "yi" = (
 /obj/item/digestion_remains,
 /turf/simulated/floor/road{
 	icon_state = "horizontaloutermain1"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "ym" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 2
@@ -2724,7 +2718,7 @@
 /turf/simulated/floor/road{
 	icon_state = "verticaloutermain2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "yr" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 1
@@ -2735,7 +2729,7 @@
 /turf/simulated/floor/road{
 	icon_state = "horizontalbottomborderbottom1"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "yy" = (
 /obj/effect/floor_decal/rust,
 /obj/structure/table/rack/shelf/steel{
@@ -2743,22 +2737,22 @@
 	},
 /obj/random/tech_supply/component/nofail,
 /turf/simulated/floor/plating/rust,
-/area/space)
+/area/sector/driftingplanet/field)
 "yB" = (
 /obj/structure/railing,
 /turf/simulated/floor/tiled/kafel_full/yellow/virgo3b,
-/area/space)
+/area/sector/driftingplanet/field)
 "yD" = (
 /obj/structure/girder/reinforced/rusted,
 /turf/simulated/wall/r_wall/rusted,
-/area/space)
+/area/sector/driftingplanet/field)
 "yE" = (
 /obj/structure/railing,
 /obj/effect/floor_decal/ash_edge{
 	dir = 4
 	},
 /turf/simulated/floor/outdoors/mud/outdoors,
-/area/space)
+/area/sector/driftingplanet/field)
 "yI" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 1
@@ -2769,14 +2763,14 @@
 /turf/simulated/floor/road{
 	icon_state = "horizontaloutermain1"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "yR" = (
 /obj/structure/salvageable/computer_os{
 	color = "#803327"
 	},
 /obj/effect/floor_decal/rust,
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "zd" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 5
@@ -2784,14 +2778,14 @@
 /turf/simulated/floor/road{
 	icon_state = "verticaloutermain2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "zi" = (
 /obj/structure/handrail,
 /obj/machinery/light/small{
 	dir = 4
 	},
 /turf/simulated/floor/airless,
-/area/space)
+/area/sector/driftingplanet/field)
 "zo" = (
 /obj/machinery/space_heater{
 	color = "#803327";
@@ -2799,7 +2793,7 @@
 	name = "dead heater"
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "zu" = (
 /obj/structure/railing{
 	dir = 4
@@ -2810,7 +2804,7 @@
 /turf/simulated/floor/road{
 	icon_state = "verticaloutermain1"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "zw" = (
 /obj/structure/bed/chair/bay/chair/padded/red/smallnest{
 	color = "#81521d";
@@ -2822,20 +2816,20 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/kafel_full/yellow/virgo3b,
-/area/space)
+/area/sector/driftingplanet/field)
 "zD" = (
 /obj/structure/table/rack/shelf/steel{
 	color = "#803327"
 	},
 /turf/simulated/floor/tiled/kafel_full/yellow/virgo3b,
-/area/space)
+/area/sector/driftingplanet/field)
 "zF" = (
 /obj/effect/floor_decal/rust,
 /obj/effect/decal/remains/ribcage{
 	color = "#803327"
 	},
 /turf/simulated/floor/tiled/dark,
-/area/space)
+/area/sector/driftingplanet/field)
 "zH" = (
 /obj/structure/railing,
 /obj/structure/railing{
@@ -2844,11 +2838,11 @@
 /turf/simulated/floor/road{
 	icon_state = "horizontaltopbordertop2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "zN" = (
 /obj/structure/salvageable/console_broken_os,
 /turf/simulated/floor/tiled/kafel_full/yellow/virgo3b,
-/area/space)
+/area/sector/driftingplanet/field)
 "zQ" = (
 /obj/effect/decal/remains/ribcage{
 	color = "#803327"
@@ -2857,14 +2851,14 @@
 	color = "#803327"
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "zS" = (
 /obj/effect/floor_decal/rust,
 /obj/structure/table/rack/shelf/steel{
 	color = "#803327"
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "zW" = (
 /obj/effect/shuttle_landmark/automatic{
 	name = "Outside NT controled Pad (Danger)"
@@ -2872,12 +2866,12 @@
 /turf/simulated/floor/road{
 	icon_state = "reno-middle"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "Af" = (
 /turf/simulated/floor/road{
 	icon_state = "verticalrightborderright2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "An" = (
 /obj/effect/floor_decal/asteroid{
 	icon_state = "asteroid5"
@@ -2886,32 +2880,32 @@
 	icon_state = "deadtree_6"
 	},
 /turf/simulated/floor/outdoors/ash_sand/outdoors,
-/area/space)
+/area/sector/driftingplanet/field)
 "As" = (
 /obj/machinery/power/rtg/fake_gen{
 	color = "#803327"
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "AC" = (
 /obj/structure/catwalk,
 /obj/structure/railing{
 	dir = 1
 	},
 /turf/simulated/floor/tiled/kafel_full/yellow/virgo3b,
-/area/space)
+/area/sector/driftingplanet/field)
 "AI" = (
 /obj/effect/floor_decal/asteroid,
 /obj/effect/floor_decal/ash_edge,
 /turf/simulated/floor/road{
 	icon_state = "reno-middle"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "AJ" = (
 /turf/simulated/floor/road{
 	icon_state = "horizontaltopbordertop2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "AL" = (
 /obj/structure/railing{
 	dir = 1
@@ -2919,7 +2913,7 @@
 /turf/simulated/floor/road{
 	icon_state = "horizontalbottomborderbottom2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "AO" = (
 /obj/machinery/atmospherics/component/unary/vent_pump/on{
 	dir = 1
@@ -2932,7 +2926,7 @@
 	pixel_x = 30
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/space)
+/area/sector/driftingplanet/field)
 "AQ" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 2
@@ -2943,25 +2937,25 @@
 /turf/simulated/floor/road{
 	icon_state = "verticaloutermain2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "AR" = (
 /obj/structure/closet/crate/engineering,
 /obj/item/storage/toolbox/mechanical,
 /obj/item/storage/toolbox/electrical,
 /turf/simulated/floor/tiled/techfloor,
-/area/space)
+/area/sector/driftingplanet/field)
 "AT" = (
 /obj/structure/closet/crate/corporate/nanotrasen,
 /obj/item/tank/phoron,
 /obj/item/tank/phoron,
 /turf/simulated/floor/tiled/kafel_full/yellow/virgo3b,
-/area/space)
+/area/sector/driftingplanet/field)
 "Bk" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 1
 	},
 /turf/simulated/floor/tiled/techmaint,
-/area/space)
+/area/sector/driftingplanet/field)
 "Bl" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 9
@@ -2969,7 +2963,7 @@
 /turf/simulated/floor/road{
 	icon_state = "reno"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "Bn" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 2
@@ -2980,12 +2974,12 @@
 /turf/simulated/floor/road{
 	icon_state = "verticaloutermain1"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "Bt" = (
 /obj/effect/floor_decal/rust,
 /obj/effect/floor_decal/rust,
 /turf/simulated/floor/plating/rust,
-/area/space)
+/area/sector/driftingplanet/field)
 "Bx" = (
 /mob/living/simple_mob/construct/nuclear/charred{
 	iff_factions = "mercenary"
@@ -2993,7 +2987,7 @@
 /turf/simulated/floor/road{
 	icon_state = "reno-middle"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "Bz" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 8
@@ -3002,28 +2996,28 @@
 /turf/simulated/floor/road{
 	icon_state = "reno_sidewalk"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "BA" = (
 /obj/effect/floor_decal/rust,
 /obj/effect/debris/cleanable/blood/gibs/robot,
 /turf/simulated/floor/tiled/dark,
-/area/space)
+/area/sector/driftingplanet/field)
 "BI" = (
 /obj/random/ore_bag,
 /turf/simulated/floor/plating/rust,
-/area/space)
+/area/sector/driftingplanet/field)
 "BL" = (
 /obj/effect/floor_decal/rust,
 /obj/structure/table/rack/shelf/steel{
 	color = "#81521d"
 	},
 /turf/simulated/floor/tiled/kafel_full/yellow/virgo3b,
-/area/space)
+/area/sector/driftingplanet/field)
 "BQ" = (
 /obj/structure/loot_pile/maint/technical,
 /obj/effect/floor_decal/rust,
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "BR" = (
 /obj/effect/floor_decal/rust,
 /obj/effect/floor_decal/rust,
@@ -3031,13 +3025,13 @@
 	color = "#803327"
 	},
 /turf/simulated/floor/tiled/dark,
-/area/space)
+/area/sector/driftingplanet/field)
 "BT" = (
 /mob/living/simple_mob/construct/nuclear/charred{
 	iff_factions = "mercenary"
 	},
 /turf/simulated/floor/tiled/kafel_full/yellow/virgo3b,
-/area/space)
+/area/sector/driftingplanet/field)
 "BU" = (
 /obj/effect/floor_decal/asteroid{
 	icon_state = "asteroid3"
@@ -3045,11 +3039,11 @@
 /turf/simulated/floor/road{
 	icon_state = "reno"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "BX" = (
 /obj/effect/floor_decal/rust,
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "BZ" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 8
@@ -3058,18 +3052,18 @@
 /turf/simulated/floor/road{
 	icon_state = "verticaloutermain1"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "Ca" = (
 /obj/machinery/conveyor{
 	dir = 1
 	},
 /obj/effect/floor_decal/rust,
 /turf/simulated/floor/plating/rust,
-/area/space)
+/area/sector/driftingplanet/field)
 "Cf" = (
 /obj/structure/girder/reinforced/rusted,
 /turf/simulated/floor/tiled/kafel_full/yellow/virgo3b,
-/area/space)
+/area/sector/driftingplanet/field)
 "Ch" = (
 /obj/item/flashlight/flare{
 	icon_state = "flare-on";
@@ -3078,12 +3072,12 @@
 /turf/simulated/floor/road{
 	icon_state = "reno_inner_sidewalk"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "Cs" = (
 /turf/simulated/floor/road{
 	icon_state = "outerborder - S"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "Cv" = (
 /obj/structure/handrail{
 	dir = 8
@@ -3092,7 +3086,7 @@
 /obj/machinery/atmospherics/portables_connector,
 /obj/effect/floor_decal/industrial/outline/blue,
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "CB" = (
 /obj/machinery/atmospherics/pipe/simple/visible/yellow{
 	dir = 4
@@ -3102,19 +3096,19 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/space)
+/area/sector/driftingplanet/field)
 "CC" = (
 /obj/effect/floor_decal/rust,
 /mob/living/simple_mob/mechanical/mecha/combat/titan/gun,
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "CD" = (
 /obj/effect/floor_decal/rust,
 /obj/machinery/door/airlock/derelict{
 	req_one_access = null
 	},
 /turf/simulated/floor/plating/rust,
-/area/space)
+/area/sector/driftingplanet/field)
 "CL" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 8
@@ -3122,7 +3116,7 @@
 /turf/simulated/floor/road{
 	icon_state = "outerborder - E"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "CO" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 6
@@ -3130,7 +3124,7 @@
 /turf/simulated/floor/road{
 	icon_state = "reno_2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "CQ" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 2
@@ -3138,14 +3132,14 @@
 /turf/simulated/floor/road{
 	icon_state = "reno_sidewalk"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "CT" = (
 /obj/effect/floor_decal/rust,
 /obj/structure/table/steel{
 	color = "#81521d"
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "CV" = (
 /mob/living/simple_mob/construct/nuclear/charred{
 	iff_factions = "mercenary"
@@ -3153,7 +3147,7 @@
 /turf/simulated/floor/road{
 	icon_state = "verticaloutermain2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "CX" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 2
@@ -3161,7 +3155,7 @@
 /turf/simulated/floor/road{
 	icon_state = "verticalrightborderright2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "Da" = (
 /obj/effect/floor_decal/rust,
 /obj/machinery/porta_turret/alien{
@@ -3169,26 +3163,26 @@
 	faction = "mercenary"
 	},
 /turf/simulated/floor/plating/rust,
-/area/space)
+/area/sector/driftingplanet/field)
 "Db" = (
 /obj/effect/floor_decal/rust,
 /obj/machinery/door/blast/regular/open{
 	color = "#803327"
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "Dc" = (
 /obj/structure/table/rack/shelf/steel{
 	color = "#81521d"
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "De" = (
 /obj/machinery/door/airlock/derelict{
 	req_one_access = null
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "Di" = (
 /obj/structure/railing,
 /obj/structure/railing{
@@ -3202,20 +3196,20 @@
 /turf/simulated/wall/rust{
 	opacity = 0
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "Dk" = (
 /obj/item/digestion_remains,
 /turf/simulated/floor/road{
 	icon_state = "horizontaltopbordertop1"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "Dn" = (
 /obj/structure/handrail,
 /obj/machinery/light/small{
 	dir = 8
 	},
 /turf/simulated/floor/airless,
-/area/space)
+/area/sector/driftingplanet/field)
 "Dt" = (
 /obj/machinery/power/terminal{
 	dir = 1
@@ -3224,53 +3218,53 @@
 	dir = 8
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "DD" = (
 /turf/simulated/floor/road{
 	icon_state = "verticaloutermain2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "DK" = (
 /turf/simulated/floor/road{
 	icon_state = "horizontaloutermain3"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "DM" = (
 /turf/simulated/wall/r_wall/rusted/red,
-/area/space)
+/area/sector/driftingplanet/field)
 "DP" = (
 /obj/effect/floor_decal/rust,
 /obj/structure/bed/pod{
 	color = "#81521d"
 	},
 /turf/simulated/floor/tiled/kafel_full/yellow/virgo3b,
-/area/space)
+/area/sector/driftingplanet/field)
 "DT" = (
 /obj/effect/floor_decal/rust,
 /obj/effect/floor_decal/rust,
 /turf/simulated/floor/tiled/kafel_full/yellow/virgo3b,
-/area/space)
+/area/sector/driftingplanet/field)
 "DW" = (
 /obj/effect/floor_decal/rust,
 /obj/machinery/power/rtg/fake_gen{
 	color = "#81521d"
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "DZ" = (
 /obj/machinery/door/blast/regular{
 	color = "#803327";
 	id = "driftingarena"
 	},
 /turf/simulated/floor/tiled/kafel_full/yellow/virgo3b,
-/area/space)
+/area/sector/driftingplanet/field)
 "Ee" = (
 /obj/effect/floor_decal/ash_edge,
 /obj/effect/floor_decal/ash_edge{
 	dir = 8
 	},
 /turf/simulated/floor/outdoors/mud/outdoors,
-/area/space)
+/area/sector/driftingplanet/field)
 "Eg" = (
 /obj/effect/floor_decal/rust,
 /obj/structure/table/rack/shelf/steel{
@@ -3278,13 +3272,13 @@
 	},
 /obj/random/tech_supply/component/nofail,
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "Ep" = (
 /obj/structure/salvageable/titan_wreck/titan,
 /turf/simulated/floor/road{
 	icon_state = "verticalrightborderright2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "Et" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 2
@@ -3295,7 +3289,7 @@
 /turf/simulated/floor/road{
 	icon_state = "reno_2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "Ey" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 8
@@ -3303,13 +3297,13 @@
 /turf/simulated/floor/road{
 	icon_state = "verticalrightborderright2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "EA" = (
 /obj/structure/salvageable/titan_wreck/titan,
 /turf/simulated/floor/road{
 	icon_state = "reno-middle"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "EE" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 4
@@ -3318,40 +3312,40 @@
 /turf/simulated/floor/road{
 	icon_state = "verticaloutermain2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "EJ" = (
 /obj/structure/table/steel{
 	color = "#803327"
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "EL" = (
 /obj/structure/symbol/maint,
 /turf/simulated/wall/rshull{
 	can_open = 1
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "EO" = (
 /obj/machinery/door/blast/regular/open{
 	color = "#803327"
 	},
 /turf/simulated/floor/tiled/kafel_full/yellow/virgo3b,
-/area/space)
+/area/sector/driftingplanet/field)
 "EV" = (
 /obj/structure/railing,
 /turf/simulated/floor/road{
 	icon_state = "verticaloutermain2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "EX" = (
 /obj/effect/floor_decal/ash_edge,
 /turf/simulated/floor/road{
 	icon_state = "reno_2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "EZ" = (
 /turf/simulated/wall/solidrock,
-/area/space)
+/area/sector/driftingplanet/field)
 "Fa" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 1
@@ -3362,15 +3356,15 @@
 /turf/simulated/floor/road{
 	icon_state = "verticaloutermain1"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "Fg" = (
 /obj/effect/floor_decal/rust,
 /obj/structure/loot_pile/maint/technical,
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "Fh" = (
 /turf/simulated/floor/tiled/techfloor,
-/area/space)
+/area/sector/driftingplanet/field)
 "Fj" = (
 /obj/effect/floor_decal/rust,
 /obj/structure/table/steel{
@@ -3378,7 +3372,7 @@
 	},
 /obj/random/technology_scanner,
 /turf/simulated/floor/plating/rust,
-/area/space)
+/area/sector/driftingplanet/field)
 "Fo" = (
 /obj/structure/stairs/bottom{
 	dir = 1;
@@ -3387,7 +3381,7 @@
 /turf/simulated/floor/road{
 	icon_state = "verticaloutermain2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "Fq" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 10
@@ -3395,7 +3389,7 @@
 /turf/simulated/floor/road{
 	icon_state = "verticalleftborderleft2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "Fr" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 6
@@ -3403,30 +3397,30 @@
 /turf/simulated/floor/road{
 	icon_state = "horizontaltopbordertop2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "Fu" = (
 /obj/effect/floor_decal/rust,
 /obj/effect/floor_decal/rust,
 /turf/simulated/floor/tiled/dark,
-/area/space)
+/area/sector/driftingplanet/field)
 "Fv" = (
 /obj/effect/floor_decal/rust,
 /turf/simulated/floor/tiled/dark,
-/area/space)
+/area/sector/driftingplanet/field)
 "FB" = (
 /obj/effect/floor_decal/rust,
 /obj/machinery/floodlight{
 	on = 1
 	},
 /turf/simulated/floor/tiled/kafel_full/yellow/virgo3b,
-/area/space)
+/area/sector/driftingplanet/field)
 "FC" = (
 /obj/random/multiple/mechtool,
 /obj/structure/table/steel{
 	color = "#803327"
 	},
 /turf/simulated/floor/tiled/kafel_full/yellow/virgo3b,
-/area/space)
+/area/sector/driftingplanet/field)
 "FL" = (
 /obj/structure/railing{
 	dir = 1
@@ -3437,7 +3431,7 @@
 /turf/simulated/floor/road{
 	icon_state = "verticaloutermain2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "FR" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 1
@@ -3445,65 +3439,65 @@
 /turf/simulated/floor/road{
 	icon_state = "reno_sidewalk"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "FS" = (
 /obj/random/trash_pile,
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "FV" = (
 /obj/structure/bed/pod{
 	color = "#803327"
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "Gg" = (
 /obj/effect/floor_decal/ash_edge,
 /turf/simulated/floor/outdoors/mud/outdoors,
-/area/space)
+/area/sector/driftingplanet/field)
 "Gj" = (
 /obj/overmap/entity/visitable/sector/driftingplanet,
 /turf/simulated/wall/r_wall/rusted,
-/area/space)
+/area/sector/driftingplanet/field)
 "Gl" = (
 /obj/machinery/porta_turret/alien{
 	color = "#803327"
 	},
 /turf/simulated/floor/tiled/techfloor/monogrid,
-/area/space)
+/area/sector/driftingplanet/field)
 "Gv" = (
 /obj/structure/closet/cabinet{
 	color = "#81521d"
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "GM" = (
 /obj/effect/shuttle_landmark/automatic{
 	name = "NT controled Pad"
 	},
 /turf/simulated/floor/plating/rust,
-/area/space)
+/area/sector/driftingplanet/field)
 "GO" = (
 /obj/effect/floor_decal/asteroid{
 	icon_state = "asteroid5"
 	},
 /turf/simulated/floor/outdoors/ash_sand/outdoors,
-/area/space)
+/area/sector/driftingplanet/field)
 "GQ" = (
 /turf/simulated/floor/outdoors/mud/indoors,
-/area/space)
+/area/sector/driftingplanet/field)
 "GS" = (
 /obj/effect/floor_decal/rust,
 /obj/structure/table/steel{
 	color = "#803327"
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "GV" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 4
 	},
 /turf/simulated/floor/outdoors/mud/outdoors,
-/area/space)
+/area/sector/driftingplanet/field)
 "GW" = (
 /obj/structure/railing{
 	dir = 1
@@ -3514,7 +3508,7 @@
 /turf/simulated/floor/road{
 	icon_state = "verticaloutermain2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "Hb" = (
 /obj/structure/bed/chair/bay/chair/padded/red/smallnest{
 	color = "#803327";
@@ -3523,12 +3517,12 @@
 	},
 /obj/effect/floor_decal/rust,
 /turf/simulated/floor/plating/rust,
-/area/space)
+/area/sector/driftingplanet/field)
 "Hd" = (
 /turf/simulated/floor/road{
 	icon_state = "verticalleftborderleft2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "Hg" = (
 /obj/structure/railing{
 	dir = 1
@@ -3536,14 +3530,14 @@
 /turf/simulated/floor/road{
 	icon_state = "verticaloutermain1"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "Hh" = (
 /obj/structure/vce/silo/broken,
 /obj/structure/flora/tree/dead/dry{
 	icon_state = "deadtree_5"
 	},
 /turf/simulated/floor/outdoors/ash_sand/outdoors,
-/area/space)
+/area/sector/driftingplanet/field)
 "Hm" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 4
@@ -3554,14 +3548,14 @@
 /turf/simulated/floor/road{
 	icon_state = "reno_sidewalk2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "Hp" = (
 /obj/structure/salvageable/computer_os{
 	color = "#803327"
 	},
 /obj/effect/floor_decal/rust,
 /turf/simulated/floor/plating/rust,
-/area/space)
+/area/sector/driftingplanet/field)
 "Hq" = (
 /obj/effect/floor_decal/asteroid{
 	icon_state = "asteroid5"
@@ -3570,12 +3564,12 @@
 	icon_state = "asteroid7"
 	},
 /turf/simulated/floor/outdoors/ash_sand/outdoors,
-/area/space)
+/area/sector/driftingplanet/field)
 "Ht" = (
 /obj/effect/floor_decal/rust,
 /obj/random/tetheraid,
 /turf/simulated/floor/plating/rust,
-/area/space)
+/area/sector/driftingplanet/field)
 "Hy" = (
 /obj/effect/floor_decal/asteroid{
 	icon_state = "asteroid4"
@@ -3583,43 +3577,43 @@
 /turf/simulated/floor/road{
 	icon_state = "verticaloutermain1"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "HB" = (
 /obj/structure/salvageable/console_broken_os{
 	color = "#803327"
 	},
 /obj/effect/floor_decal/rust,
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "HG" = (
 /obj/effect/floor_decal/industrial/loading{
 	dir = 8
 	},
 /turf/simulated/floor/plating/rust,
-/area/space)
+/area/sector/driftingplanet/field)
 "HO" = (
 /obj/effect/floor_decal/rust,
 /mob/living/simple_mob/construct/nuclear/charred{
 	iff_factions = "mercenary"
 	},
 /turf/simulated/floor/tiled/kafel_full/yellow/virgo3b,
-/area/space)
+/area/sector/driftingplanet/field)
 "HR" = (
 /obj/effect/floor_decal/rust,
 /obj/machinery/door/blast/regular/open{
 	color = "#803327"
 	},
 /turf/simulated/floor/tiled/kafel_full/yellow/virgo3b,
-/area/space)
+/area/sector/driftingplanet/field)
 "HS" = (
 /turf/simulated/floor/outdoors/rocks,
-/area/space)
+/area/sector/driftingplanet/field)
 "HU" = (
 /mob/living/simple_mob/mechanical/mecha/combat/titan/sword,
 /turf/simulated/floor/road{
 	icon_state = "reno_inner_sidewalk"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "HW" = (
 /obj/structure/railing{
 	dir = 8
@@ -3630,7 +3624,7 @@
 /turf/simulated/floor/road{
 	icon_state = "verticaloutermain1"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "HY" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 1
@@ -3639,7 +3633,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/outdoors/mud/outdoors,
-/area/space)
+/area/sector/driftingplanet/field)
 "HZ" = (
 /obj/effect/floor_decal/asteroid{
 	icon_state = "asteroid3"
@@ -3647,7 +3641,7 @@
 /turf/simulated/floor/road{
 	icon_state = "reno_inner_sidewalk"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "Ia" = (
 /obj/effect/decal/remains/ribcage{
 	color = "#803327"
@@ -3658,25 +3652,25 @@
 	desc = "A strange seat, use a long time ago."
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "Ib" = (
 /obj/effect/floor_decal/asteroid{
 	icon_state = "asteroid4"
 	},
 /turf/simulated/floor/outdoors/ash_sand/outdoors,
-/area/space)
+/area/sector/driftingplanet/field)
 "Ic" = (
 /obj/effect/floor_decal/rust,
 /obj/structure/closet/cabinet{
 	color = "#81521d"
 	},
 /turf/simulated/floor/tiled/kafel_full/yellow/virgo3b,
-/area/space)
+/area/sector/driftingplanet/field)
 "Ih" = (
 /obj/effect/floor_decal/rust,
 /obj/spawner/corpse/shogun,
 /turf/simulated/floor/plating/rust,
-/area/space)
+/area/sector/driftingplanet/field)
 "Ik" = (
 /obj/structure/bed/chair/bay/chair/padded/red/smallnest{
 	color = "#81521d";
@@ -3690,24 +3684,24 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/kafel_full/yellow/virgo3b,
-/area/space)
+/area/sector/driftingplanet/field)
 "Il" = (
 /obj/structure/closet/crate/corporate/heph,
 /obj/item/vehicle_module/weapon/energy/laser/heavy/rigged,
 /obj/item/vehicle_module/weapon/energy/laser/heavy,
 /turf/simulated/floor/plating/rust,
-/area/space)
+/area/sector/driftingplanet/field)
 "In" = (
 /obj/effect/floor_decal/rust,
 /turf/simulated/floor/tiled/kafel_full/yellow/virgo3b,
-/area/space)
+/area/sector/driftingplanet/field)
 "Io" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 4
 	},
 /obj/effect/floor_decal/ash_edge,
 /turf/simulated/floor/outdoors/mud/outdoors,
-/area/space)
+/area/sector/driftingplanet/field)
 "Ip" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 8
@@ -3715,12 +3709,12 @@
 /turf/simulated/floor/road{
 	icon_state = "horizontaltopbordertop2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "Iq" = (
 /turf/simulated/floor/road{
 	icon_state = "outerborder - N"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "Ir" = (
 /obj/structure/railing{
 	dir = 8
@@ -3728,25 +3722,25 @@
 /turf/simulated/floor/road{
 	icon_state = "verticalrightborderright2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "Is" = (
 /obj/effect/floor_decal/rust,
 /obj/structure/railing,
 /turf/simulated/floor/tiled/kafel_full/yellow/virgo3b,
-/area/space)
+/area/sector/driftingplanet/field)
 "Iv" = (
 /obj/effect/floor_decal/rust,
 /obj/structure/closet/cabinet{
 	color = "#81521d"
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "IA" = (
 /obj/effect/floor_decal/asteroid{
 	icon_state = "asteroid7"
 	},
 /turf/simulated/floor/outdoors/ash_sand/outdoors,
-/area/space)
+/area/sector/driftingplanet/field)
 "IB" = (
 /obj/structure/railing{
 	dir = 1
@@ -3757,27 +3751,26 @@
 /turf/simulated/floor/road{
 	icon_state = "verticaloutermain1"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "IE" = (
 /obj/machinery/door/blast/regular{
-	color = "#803327";
-	
+	color = "#803327"
 	},
 /turf/simulated/floor/outdoors/mud/indoors,
-/area/space)
+/area/sector/driftingplanet/field)
 "IK" = (
 /obj/effect/floor_decal/rust,
 /mob/living/simple_mob/construct/nuclear/charred{
 	iff_factions = "mercenary"
 	},
 /turf/simulated/floor/plating/rust,
-/area/space)
+/area/sector/driftingplanet/field)
 "IQ" = (
 /obj/machinery/shipsensors{
 	dir = 1
 	},
 /turf/simulated/floor/airless,
-/area/space)
+/area/sector/driftingplanet/field)
 "IS" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 2
@@ -3785,7 +3778,7 @@
 /turf/simulated/floor/road{
 	icon_state = "outerborder - S"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "IT" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/light{
@@ -3799,38 +3792,38 @@
 	},
 /obj/random/multiple/corp_crate,
 /turf/simulated/floor/tiled/techfloor,
-/area/space)
+/area/sector/driftingplanet/field)
 "IU" = (
 /obj/structure/metal_edge,
 /obj/effect/floor_decal/rust,
 /turf/simulated/floor/plating/rust,
-/area/space)
+/area/sector/driftingplanet/field)
 "IX" = (
 /obj/structure/salvageable/titan_wreck/titan,
 /turf/simulated/floor/outdoors/mud/indoors,
-/area/space)
+/area/sector/driftingplanet/field)
 "IZ" = (
 /turf/simulated/floor/plating/rust,
-/area/space)
+/area/sector/driftingplanet/field)
 "Jb" = (
 /obj/structure/salvageable/machine_os{
 	color = "#803327"
 	},
 /obj/effect/floor_decal/rust,
 /turf/simulated/floor/plating/rust,
-/area/space)
+/area/sector/driftingplanet/field)
 "Ji" = (
 /obj/effect/floor_decal/asteroid,
 /turf/simulated/floor/road{
 	icon_state = "reno"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "Jn" = (
 /mob/living/simple_mob/mechanical/mecha/combat/titan/sword,
 /turf/simulated/floor/road{
 	icon_state = "verticaloutermain2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "Jq" = (
 /obj/structure/bed/chair/bay/chair/padded/red/smallnest{
 	color = "#81521d";
@@ -3844,7 +3837,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/kafel_full/yellow/virgo3b,
-/area/space)
+/area/sector/driftingplanet/field)
 "Js" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 6
@@ -3852,13 +3845,13 @@
 /turf/simulated/floor/road{
 	icon_state = "reno_sidewalk2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "Ju" = (
 /obj/structure/flora/tree/dead/dry{
 	icon_state = "deadtree_6"
 	},
 /turf/simulated/floor/outdoors/ash_sand/outdoors,
-/area/space)
+/area/sector/driftingplanet/field)
 "JB" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 8
@@ -3866,7 +3859,7 @@
 /turf/simulated/floor/road{
 	icon_state = "reno_sidewalk"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "JG" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 9
@@ -3874,7 +3867,7 @@
 /turf/simulated/floor/road{
 	icon_state = "reno_sidewalk"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "JH" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 2
@@ -3885,26 +3878,26 @@
 /turf/simulated/floor/road{
 	icon_state = "reno_inner_sidewalk"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "JK" = (
 /obj/effect/decal/remains/posi,
 /turf/simulated/floor/road{
 	icon_state = "reno_2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "Kc" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 8
 	},
 /turf/simulated/wall/rshull,
-/area/space)
+/area/sector/driftingplanet/field)
 "Kf" = (
 /obj/effect/floor_decal/rust,
 /obj/structure/salvageable/computer_os{
 	color = "#803327"
 	},
 /turf/simulated/floor/plating/rust,
-/area/space)
+/area/sector/driftingplanet/field)
 "Km" = (
 /obj/effect/floor_decal/ash_edge,
 /obj/effect/floor_decal/ash_edge{
@@ -3916,28 +3909,28 @@
 /turf/simulated/floor/road{
 	icon_state = "reno_2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "Kq" = (
 /turf/simulated/floor/road{
 	icon_state = "reno_inner_sidewalk"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "Kw" = (
 /obj/effect/floor_decal/rust,
 /obj/structure/table/bench/steel{
 	color = "#803327"
 	},
 /turf/simulated/floor/tiled/kafel_full/yellow/virgo3b,
-/area/space)
+/area/sector/driftingplanet/field)
 "Kz" = (
 /obj/effect/floor_decal/rust,
 /obj/spawner/window/low_wall/nogrille,
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "KB" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/wall/rshull,
-/area/space)
+/area/sector/driftingplanet/field)
 "KJ" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 9
@@ -3945,19 +3938,19 @@
 /turf/simulated/floor/road{
 	icon_state = "reno-middle"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "KS" = (
 /obj/effect/floor_decal/asteroid,
 /obj/effect/floor_decal/ash_edge{
 	dir = 1
 	},
 /turf/simulated/floor/outdoors/mud/outdoors,
-/area/space)
+/area/sector/driftingplanet/field)
 "KT" = (
 /obj/effect/floor_decal/rust,
 /obj/spawner/window/low_wall/nogrille,
 /turf/simulated/floor/tiled/techfloor/monogrid,
-/area/space)
+/area/sector/driftingplanet/field)
 "KU" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 4
@@ -3965,7 +3958,7 @@
 /turf/simulated/floor/road{
 	icon_state = "reno-middle"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "KX" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 1
@@ -3976,22 +3969,22 @@
 /turf/simulated/floor/road{
 	icon_state = "reno"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "KY" = (
 /obj/structure/event/prop/jarshelf{
 	color = "#803327"
 	},
 /turf/simulated/floor/plating/rust,
-/area/space)
+/area/sector/driftingplanet/field)
 "Lj" = (
 /obj/effect/floor_decal/rust,
 /obj/random/trash_pile,
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "Lk" = (
 /obj/structure/railing,
 /turf/simulated/floor/outdoors/mud/outdoors,
-/area/space)
+/area/sector/driftingplanet/field)
 "Lo" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 4
@@ -4002,13 +3995,13 @@
 /turf/simulated/floor/road{
 	icon_state = "reno-middle"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "Lt" = (
 /obj/structure/salvageable/titan_wreck/titan,
 /turf/simulated/floor/road{
 	icon_state = "reno_inner_sidewalk"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "Lv" = (
 /obj/effect/floor_decal/rust,
 /obj/machinery/door/blast/regular{
@@ -4016,15 +4009,15 @@
 	id = "driftingarena2"
 	},
 /turf/simulated/floor/tiled/dark,
-/area/space)
+/area/sector/driftingplanet/field)
 "LD" = (
 /obj/effect/map_effect/radiation_emitter,
 /obj/effect/floor_decal/rust,
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "LH" = (
 /turf/simulated/floor/tiled/techfloor/monogrid,
-/area/space)
+/area/sector/driftingplanet/field)
 "LK" = (
 /obj/machinery/atmospherics/component/unary/vent_scrubber/on{
 	dir = 1
@@ -4033,7 +4026,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/space)
+/area/sector/driftingplanet/field)
 "LL" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 9
@@ -4041,7 +4034,7 @@
 /turf/simulated/floor/road{
 	icon_state = "horizontaloutermain1"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "LM" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 6
@@ -4049,7 +4042,7 @@
 /turf/simulated/floor/road{
 	icon_state = "reno-middle"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "LN" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 10
@@ -4057,7 +4050,7 @@
 /turf/simulated/floor/road{
 	icon_state = "verticalrightborderright2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "LQ" = (
 /obj/effect/floor_decal/rust,
 /obj/effect/floor_decal/rust,
@@ -4065,12 +4058,12 @@
 	iff_factions = "mercenary"
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "LU" = (
 /turf/simulated/wall/rust{
 	opacity = 0
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "LV" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 1
@@ -4078,20 +4071,20 @@
 /turf/simulated/floor/road{
 	icon_state = "verticalleftborderleft2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "Mh" = (
 /obj/random/multiple/mechtool,
 /obj/structure/table/steel{
 	color = "#803327"
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "Mo" = (
 /obj/structure/railing,
 /turf/simulated/floor/road{
 	icon_state = "horizontaltopbordertop2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "Mt" = (
 /obj/item/flashlight/flare{
 	icon_state = "flare-on";
@@ -4100,37 +4093,37 @@
 /turf/simulated/floor/road{
 	icon_state = "verticaloutermain2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "MB" = (
 /obj/effect/decal/remains/ribcage{
 	color = "#803327"
 	},
 /turf/simulated/floor/tiled/kafel_full/yellow/virgo3b,
-/area/space)
+/area/sector/driftingplanet/field)
 "MC" = (
 /obj/machinery/door/blast/regular{
 	color = "#803327";
 	id = "driftingbossarena"
 	},
 /turf/simulated/floor/outdoors/mud/indoors,
-/area/space)
+/area/sector/driftingplanet/field)
 "MH" = (
 /obj/structure/flora/tree/dead/dry{
 	icon_state = "deadtree_3"
 	},
 /turf/simulated/floor/outdoors/ash_sand/outdoors,
-/area/space)
+/area/sector/driftingplanet/field)
 "MJ" = (
 /obj/effect/floor_decal/rust,
 /obj/effect/floor_decal/rust,
 /obj/structure/girder/reinforced/rusted,
 /turf/simulated/floor/tiled/dark,
-/area/space)
+/area/sector/driftingplanet/field)
 "MN" = (
 /obj/effect/floor_decal/rust,
 /obj/structure/loot_pile/maint/technical,
 /turf/simulated/floor/plating/rust,
-/area/space)
+/area/sector/driftingplanet/field)
 "MQ" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 4
@@ -4138,11 +4131,11 @@
 /turf/simulated/floor/road{
 	icon_state = "reno_inner_sidewalk"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "MT" = (
 /obj/structure/girder/reinforced/rusted,
 /turf/simulated/floor/water/acid,
-/area/space)
+/area/sector/driftingplanet/field)
 "MX" = (
 /obj/machinery/atmospherics/pipe/manifold/visible/yellow{
 	dir = 1
@@ -4154,7 +4147,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/space)
+/area/sector/driftingplanet/field)
 "Ne" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 1
@@ -4162,14 +4155,14 @@
 /turf/simulated/floor/road{
 	icon_state = "reno"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "Nf" = (
 /obj/machinery/conveyor{
 	dir = 8
 	},
 /obj/effect/floor_decal/rust,
 /turf/simulated/floor/plating/rust,
-/area/space)
+/area/sector/driftingplanet/field)
 "Nj" = (
 /obj/machinery/light{
 	dir = 8
@@ -4182,13 +4175,13 @@
 	},
 /obj/random/multiple/corp_crate,
 /turf/simulated/floor/tiled/techfloor,
-/area/space)
+/area/sector/driftingplanet/field)
 "Nm" = (
 /obj/structure/cable{
 	icon_state = "0-4"
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "Nu" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 4
@@ -4197,22 +4190,22 @@
 /obj/structure/railing/grey,
 /obj/random/multiple/corp_crate,
 /turf/simulated/floor/tiled/techfloor,
-/area/space)
+/area/sector/driftingplanet/field)
 "Nv" = (
 /turf/simulated/wall/rshull,
-/area/space)
+/area/sector/driftingplanet/field)
 "Ny" = (
 /obj/effect/floor_decal/rust,
 /obj/effect/floor_decal/rust,
 /obj/effect/floor_decal/rust,
 /turf/simulated/floor/tiled/dark,
-/area/space)
+/area/sector/driftingplanet/field)
 "Nz" = (
 /obj/machinery/door/blast/regular{
 	color = "#803327"
 	},
 /turf/simulated/floor/plating/rust,
-/area/space)
+/area/sector/driftingplanet/field)
 "NB" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 2
@@ -4220,7 +4213,7 @@
 /turf/simulated/floor/road{
 	icon_state = "verticaloutermain1"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "NE" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 8
@@ -4231,7 +4224,7 @@
 /turf/simulated/floor/road{
 	icon_state = "horizontaltopbordertop2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "NH" = (
 /obj/structure/railing,
 /obj/structure/railing{
@@ -4243,32 +4236,32 @@
 /turf/simulated/floor/road{
 	icon_state = "outermiddle"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "NI" = (
 /obj/structure/stairs/bottom{
 	dir = 1;
 	color = "#8c6d46"
 	},
 /turf/simulated/floor/plating/rust,
-/area/space)
+/area/sector/driftingplanet/field)
 "NO" = (
 /obj/structure/railing,
 /turf/simulated/floor/road{
 	icon_state = "horizontalbottomborderbottom1"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "NP" = (
 /obj/structure/flora/tree/dead/dry{
 	icon_state = "tree_stump"
 	},
 /turf/simulated/floor/outdoors/ash_sand/outdoors,
-/area/space)
+/area/sector/driftingplanet/field)
 "NQ" = (
 /obj/structure/event/prop/jarshelf{
 	color = "#803327"
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "NY" = (
 /obj/structure/handrail{
 	dir = 4
@@ -4277,26 +4270,26 @@
 /obj/machinery/atmospherics/portables_connector,
 /obj/effect/floor_decal/industrial/outline/blue,
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "Ob" = (
 /obj/effect/floor_decal/rust,
 /obj/structure/bed/pod{
 	color = "#803327"
 	},
 /turf/simulated/floor/plating/rust,
-/area/space)
+/area/sector/driftingplanet/field)
 "Od" = (
 /obj/machinery/door/blast/regular{
 	color = "#803327";
 	id = "driftingarena"
 	},
 /turf/simulated/floor/plating/rust,
-/area/space)
+/area/sector/driftingplanet/field)
 "Og" = (
 /obj/structure/closet/crate/corporate/nanotrasen,
 /obj/random/firstaid,
 /turf/simulated/floor/tiled/kafel_full/yellow/virgo3b,
-/area/space)
+/area/sector/driftingplanet/field)
 "Oi" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 10
@@ -4304,25 +4297,25 @@
 /turf/simulated/floor/road{
 	icon_state = "verticaloutermain1"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "Oo" = (
 /mob/living/simple_mob/mechanical/mecha/combat/titan/gun,
 /turf/simulated/floor/outdoors/mud/outdoors,
-/area/space)
+/area/sector/driftingplanet/field)
 "Ot" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/tiled/techmaint,
-/area/space)
+/area/sector/driftingplanet/field)
 "Ou" = (
 /obj/machinery/door/blast/regular{
 	color = "#803327";
 	id = "driftingarena2"
 	},
 /turf/simulated/floor/plating/rust,
-/area/space)
+/area/sector/driftingplanet/field)
 "Oz" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 8
@@ -4333,12 +4326,12 @@
 /turf/simulated/floor/road{
 	icon_state = "reno_inner_sidewalk"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "OB" = (
 /obj/structure/closet/crate/corporate/nanotrasen,
 /obj/item/gun/projectile/ballistic/shotgun/flare/paramed,
 /turf/simulated/floor/tiled/kafel_full/yellow/virgo3b,
-/area/space)
+/area/sector/driftingplanet/field)
 "OD" = (
 /obj/effect/floor_decal/rust,
 /obj/structure/table/rack/shelf/steel{
@@ -4346,7 +4339,7 @@
 	},
 /obj/random/tech_supply/component/nofail,
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "OE" = (
 /obj/effect/floor_decal/rust,
 /obj/structure/bed/chair/bay/chair/padded/red/smallnest{
@@ -4355,7 +4348,7 @@
 	desc = "A strange seat, use a long time ago."
 	},
 /turf/simulated/floor/plating/rust,
-/area/space)
+/area/sector/driftingplanet/field)
 "OF" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/effect/floor_decal/industrial/warning{
@@ -4366,11 +4359,11 @@
 	},
 /obj/spawner/corpse/vox/pirate,
 /turf/simulated/floor/tiled/techfloor,
-/area/space)
+/area/sector/driftingplanet/field)
 "OH" = (
 /mob/living/simple_mob/mechanical/mecha/combat/titan/gun,
 /turf/simulated/floor/outdoors/ash_sand/outdoors,
-/area/space)
+/area/sector/driftingplanet/field)
 "OJ" = (
 /obj/structure/railing{
 	dir = 1
@@ -4381,24 +4374,24 @@
 /turf/simulated/floor/road{
 	icon_state = "horizontalbottomborderbottom2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "OQ" = (
 /obj/structure/loot_pile/maint/technical,
 /obj/effect/floor_decal/rust,
 /turf/simulated/floor/plating/rust,
-/area/space)
+/area/sector/driftingplanet/field)
 "OU" = (
 /obj/structure/girder/reinforced/rusted,
 /turf/simulated/floor/road{
 	icon_state = "horizontaloutermain1"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "OV" = (
 /obj/effect/floor_decal/ash_edge,
 /turf/simulated/floor/road{
 	icon_state = "verticaloutermain1"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "Pd" = (
 /obj/machinery/door/airlock/derelict{
 	req_one_access = null
@@ -4406,7 +4399,7 @@
 /turf/simulated/floor/road{
 	icon_state = "verticaloutermain2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "Pg" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 9
@@ -4414,7 +4407,7 @@
 /turf/simulated/floor/road{
 	icon_state = "horizontalbottomborderbottom1"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "Pn" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 8
@@ -4425,14 +4418,14 @@
 /turf/simulated/floor/road{
 	icon_state = "horizontaloutermain1"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "Po" = (
 /obj/item/flashlight/flare/survival{
 	icon_state = "flare-on";
 	on = 1
 	},
 /turf/simulated/floor/tiled/kafel_full/yellow/virgo3b,
-/area/space)
+/area/sector/driftingplanet/field)
 "Ps" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 1
@@ -4441,34 +4434,34 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/tiled/techmaint,
-/area/space)
+/area/sector/driftingplanet/field)
 "PC" = (
 /obj/structure/girder/reinforced/rusted/red,
 /obj/effect/floor_decal/rust,
 /turf/simulated/floor/outdoors/ash_sand/outdoors,
-/area/space)
+/area/sector/driftingplanet/field)
 "PJ" = (
 /obj/structure/catwalk,
 /turf/simulated/floor/tiled/dark,
-/area/space)
+/area/sector/driftingplanet/field)
 "PT" = (
 /obj/structure/salvageable/computer_os,
 /turf/simulated/floor/tiled/kafel_full/yellow/virgo3b,
-/area/space)
+/area/sector/driftingplanet/field)
 "PY" = (
 /obj/effect/floor_decal/rust,
 /obj/structure/salvageable/data_os{
 	color = "#803327"
 	},
 /turf/simulated/floor/plating/rust,
-/area/space)
+/area/sector/driftingplanet/field)
 "PZ" = (
 /obj/structure/salvageable/titan_wreck/gun,
 /obj/effect/floor_decal/ash_edge{
 	dir = 4
 	},
 /turf/simulated/floor/outdoors/mud/outdoors,
-/area/space)
+/area/sector/driftingplanet/field)
 "Qd" = (
 /obj/effect/floor_decal/rust,
 /obj/structure/closet/cabinet{
@@ -4476,13 +4469,13 @@
 	},
 /obj/random/tool/alien,
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "Qg" = (
 /obj/structure/girder/reinforced/rusted,
 /obj/structure/salvageable/titan_wreck/titan,
 /obj/effect/floor_decal/rust,
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "Ql" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 9
@@ -4491,25 +4484,25 @@
 /turf/simulated/wall/rshull{
 	can_open = 1
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "Qu" = (
 /obj/machinery/atmospherics/pipe/simple/visible/yellow{
 	dir = 6
 	},
 /turf/simulated/floor/airless,
-/area/space)
+/area/sector/driftingplanet/field)
 "QF" = (
 /turf/simulated/wall/rshull{
 	can_open = 1
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "QN" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/light,
 /obj/structure/closet/walllocker/emerglocker/west,
 /obj/effect/floor_decal/industrial/warning/corner,
 /turf/simulated/floor/tiled/techmaint,
-/area/space)
+/area/sector/driftingplanet/field)
 "QQ" = (
 /obj/structure/bed/chair/bay/chair/padded/red/smallnest{
 	color = "#803327";
@@ -4517,31 +4510,31 @@
 	desc = "A strange seat, use a long time ago."
 	},
 /turf/simulated/floor/tiled/kafel_full/yellow/virgo3b,
-/area/space)
+/area/sector/driftingplanet/field)
 "QR" = (
 /obj/structure/salvageable/titan_wreck/titan,
 /turf/simulated/floor/road{
 	icon_state = "verticaloutermain2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "QT" = (
 /obj/structure/salvageable/implant_container_os{
 	color = "#803327"
 	},
 /obj/effect/floor_decal/rust,
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "QY" = (
 /obj/structure/loot_pile/vce/building{
 	icon_state = "damaged";
 	layer = 2
 	},
 /turf/simulated/floor/outdoors/ash_sand/outdoors,
-/area/space)
+/area/sector/driftingplanet/field)
 "Rb" = (
 /obj/structure/girder/reinforced/rusted/red,
 /turf/simulated/wall/r_wall/rusted/red,
-/area/space)
+/area/sector/driftingplanet/field)
 "Re" = (
 /obj/structure/bed/chair/bay/chair/padded/red/smallnest{
 	color = "#803327";
@@ -4549,20 +4542,20 @@
 	desc = "A strange seat, use a long time ago."
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "Rh" = (
 /obj/structure/loot_pile/vce/building,
 /turf/simulated/floor/road{
 	icon_state = "verticaloutermain2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "Rj" = (
 /obj/effect/floor_decal/rust,
 /obj/structure/railing{
 	dir = 4
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "Rm" = (
 /obj/effect/floor_decal/rust,
 /obj/machinery/button/remote/blast_door{
@@ -4573,10 +4566,10 @@
 	color = "#81521d"
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "Ro" = (
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "Rq" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 4
@@ -4584,21 +4577,21 @@
 /turf/simulated/floor/road{
 	icon_state = "horizontalbottomborderbottom1"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "Rz" = (
 /obj/machinery/door/blast/regular{
 	color = "#803327";
 	id = "driftingarena2"
 	},
 /turf/simulated/floor/outdoors/ash_sand/outdoors,
-/area/space)
+/area/sector/driftingplanet/field)
 "RT" = (
 /obj/effect/floor_decal/rust,
 /obj/structure/table/rack/shelf/steel{
 	color = "#81521d"
 	},
 /turf/simulated/floor/plating/indoors,
-/area/space)
+/area/sector/driftingplanet/field)
 "RW" = (
 /obj/item/flashlight/flare{
 	icon_state = "flare-on";
@@ -4607,7 +4600,7 @@
 /turf/simulated/floor/road{
 	icon_state = "verticalrightborderright2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "Sb" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 10
@@ -4615,12 +4608,12 @@
 /turf/simulated/floor/road{
 	icon_state = "reno_2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "Sk" = (
 /obj/effect/floor_decal/rust,
 /obj/structure/salvageable/titan_wreck/titan,
 /turf/simulated/floor/tiled/dark,
-/area/space)
+/area/sector/driftingplanet/field)
 "Sl" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 4
@@ -4631,19 +4624,19 @@
 /turf/simulated/floor/road{
 	icon_state = "reno_sidewalk2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "Ss" = (
 /obj/structure/handrail{
 	dir = 4
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "St" = (
 /obj/machinery/atmospherics/pipe/simple/visible/yellow{
 	dir = 4
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "Sy" = (
 /obj/effect/floor_decal/rust,
 /obj/structure/stairs/bottom{
@@ -4651,7 +4644,7 @@
 	color = "#8c6d46"
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "SB" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 9
@@ -4659,7 +4652,7 @@
 /turf/simulated/floor/road{
 	icon_state = "reno_inner_sidewalk"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "SH" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 2
@@ -4670,24 +4663,24 @@
 /turf/simulated/floor/road{
 	icon_state = "verticalrightborderright2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "SI" = (
 /obj/structure/table/rack/shelf/steel{
 	color = "#81521d"
 	},
 /turf/simulated/floor/tiled/techfloor/monogrid,
-/area/space)
+/area/sector/driftingplanet/field)
 "SQ" = (
 /obj/spawner/corpse/vox/pirate,
 /turf/simulated/floor/tiled/techfloor,
-/area/space)
+/area/sector/driftingplanet/field)
 "SW" = (
 /obj/structure/salvageable/implant_container_os{
 	color = "#803327"
 	},
 /obj/effect/floor_decal/rust,
 /turf/simulated/floor/plating/rust,
-/area/space)
+/area/sector/driftingplanet/field)
 "Ta" = (
 /obj/structure/bed/chair/bay/chair/padded/red/smallnest{
 	color = "#81521d";
@@ -4695,11 +4688,11 @@
 	desc = "A strange seat, use a long time ago."
 	},
 /turf/simulated/floor/tiled/kafel_full/yellow/virgo3b,
-/area/space)
+/area/sector/driftingplanet/field)
 "Tb" = (
 /obj/machinery/computer/shuttle_control/explore/mackerel_lc,
 /turf/simulated/floor/tiled/techmaint,
-/area/space)
+/area/sector/driftingplanet/field)
 "Td" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/light,
@@ -4711,13 +4704,13 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/techmaint,
-/area/space)
+/area/sector/driftingplanet/field)
 "Tf" = (
 /mob/living/simple_mob/construct/nuclear/charred{
 	iff_factions = "mercenary"
 	},
 /turf/simulated/floor/outdoors/ash_sand/outdoors,
-/area/space)
+/area/sector/driftingplanet/field)
 "Ti" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 2
@@ -4725,7 +4718,7 @@
 /turf/simulated/floor/road{
 	icon_state = "reno_inner_sidewalk"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "Tl" = (
 /obj/structure/railing{
 	dir = 8
@@ -4733,7 +4726,7 @@
 /turf/simulated/floor/road{
 	icon_state = "verticaloutermain2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "To" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 1
@@ -4744,18 +4737,18 @@
 /turf/simulated/floor/road{
 	icon_state = "verticaloutermain1"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "Tp" = (
 /obj/structure/loot_pile/maint/technical,
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "Tz" = (
 /obj/structure/loot_pile/vce/building{
 	icon_state = "damaged_1";
 	layer = 2
 	},
 /turf/simulated/floor/outdoors/ash_sand/outdoors,
-/area/space)
+/area/sector/driftingplanet/field)
 "TI" = (
 /obj/effect/floor_decal/ash_edge,
 /obj/effect/floor_decal/ash_edge{
@@ -4764,26 +4757,26 @@
 /turf/simulated/floor/road{
 	icon_state = "reno-middle"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "TO" = (
 /obj/machinery/atmospherics/pipe/simple/visible/yellow,
 /obj/machinery/computer/ship/engines{
 	dir = 1
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/space)
+/area/sector/driftingplanet/field)
 "TP" = (
 /obj/structure/loot_pile/vce/building{
 	icon_state = "damaged_1";
 	layer = 2
 	},
 /turf/space/basic,
-/area/space)
+/area/sector/driftingplanet/field)
 "TR" = (
 /turf/simulated/floor/road{
 	icon_state = "horizontaltopbordertop2right"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "Ub" = (
 /obj/effect/floor_decal/rust,
 /obj/machinery/door/airlock/derelict{
@@ -4791,24 +4784,24 @@
 	req_one_access = null
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "Uc" = (
 /obj/structure/catwalk,
 /turf/simulated/floor/tiled/kafel_full/yellow/virgo3b,
-/area/space)
+/area/sector/driftingplanet/field)
 "Ue" = (
 /obj/structure/girder/reinforced/rusted,
 /obj/structure/salvageable/titan_wreck/titan,
 /obj/effect/floor_decal/rust,
 /turf/simulated/floor/plating/rust,
-/area/space)
+/area/sector/driftingplanet/field)
 "Ug" = (
 /obj/item/flashlight/flare{
 	icon_state = "flare-on";
 	on = 1
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "Uj" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 1
@@ -4816,12 +4809,12 @@
 /turf/simulated/floor/road{
 	icon_state = "reno-middle"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "Uo" = (
 /turf/simulated/floor/road{
 	icon_state = "reno_sidewalk2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "Uv" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 10
@@ -4829,7 +4822,7 @@
 /turf/simulated/floor/road{
 	icon_state = "horizontaltopbordertop0"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "Ux" = (
 /obj/effect/floor_decal/rust,
 /obj/machinery/door/blast/regular{
@@ -4837,38 +4830,38 @@
 	id = "driftingbunker"
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "Uz" = (
 /obj/effect/floor_decal/rust,
 /obj/structure/railing{
 	dir = 1
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "UB" = (
 /obj/effect/decal/remains/posi,
 /turf/simulated/floor/road{
 	icon_state = "horizontalbottomborderbottom1"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "UH" = (
 /obj/effect/floor_decal/rust,
 /turf/simulated/floor/road{
 	icon_state = "verticaloutermain2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "UN" = (
 /turf/simulated/floor/road{
 	icon_state = "verticaloutermain1"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "UR" = (
 /obj/structure/salvageable/bliss{
 	color = "#803327"
 	},
 /obj/effect/floor_decal/rust,
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "UT" = (
 /obj/machinery/deployable/barrier,
 /obj/structure/stairs/bottom{
@@ -4876,17 +4869,17 @@
 	color = "#8c6d46"
 	},
 /turf/simulated/floor/tiled/kafel_full/yellow/virgo3b,
-/area/space)
+/area/sector/driftingplanet/field)
 "Vb" = (
 /obj/item/gun/projectile/energy/medigun,
 /turf/simulated/floor/outdoors/mud/indoors,
-/area/space)
+/area/sector/driftingplanet/field)
 "Vc" = (
 /obj/machinery/conveyor{
 	dir = 4
 	},
 /turf/simulated/floor/plating/rust,
-/area/space)
+/area/sector/driftingplanet/field)
 "Vf" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 10
@@ -4894,17 +4887,17 @@
 /turf/simulated/floor/road{
 	icon_state = "verticaloutermain2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "Vg" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 8
 	},
 /turf/simulated/floor/outdoors/mud/outdoors,
-/area/space)
+/area/sector/driftingplanet/field)
 "Vh" = (
 /obj/effect/floor_decal/rust,
 /turf/simulated/wall/r_wall/rusted/red,
-/area/space)
+/area/sector/driftingplanet/field)
 "Vo" = (
 /obj/effect/floor_decal/ash_edge,
 /mob/living/simple_mob/construct/nuclear/charred{
@@ -4913,26 +4906,26 @@
 /turf/simulated/floor/road{
 	icon_state = "horizontaltopbordertop0"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "Vr" = (
 /obj/effect/floor_decal/asteroid,
 /obj/effect/floor_decal/asteroid{
 	icon_state = "asteroid5"
 	},
 /turf/simulated/floor/outdoors/ash_sand/outdoors,
-/area/space)
+/area/sector/driftingplanet/field)
 "Vt" = (
 /obj/structure/salvageable/console_broken_os{
 	color = "#803327"
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "VD" = (
 /obj/effect/floor_decal/ash_edge,
 /turf/simulated/floor/road{
 	icon_state = "reno_sidewalk"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "VH" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 2
@@ -4940,18 +4933,18 @@
 /turf/simulated/floor/road{
 	icon_state = "horizontaltopbordertop2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "VK" = (
 /obj/structure/railing,
 /turf/simulated/floor/outdoors/ash_sand/outdoors,
-/area/space)
+/area/sector/driftingplanet/field)
 "VM" = (
 /turf/simulated/floor/outdoors/mud/outdoors,
-/area/space)
+/area/sector/driftingplanet/field)
 "VP" = (
 /obj/effect/floor_decal/rust,
 /turf/simulated/floor/plating/indoors,
-/area/space)
+/area/sector/driftingplanet/field)
 "VR" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 9
@@ -4959,25 +4952,25 @@
 /turf/simulated/floor/road{
 	icon_state = "verticaloutermain2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "VT" = (
 /obj/effect/floor_decal/rust,
 /obj/structure/salvageable/console_broken_os{
 	color = "#803327"
 	},
 /turf/simulated/floor/plating/rust,
-/area/space)
+/area/sector/driftingplanet/field)
 "VV" = (
 /obj/structure/catwalk,
 /turf/simulated/floor/plating/rust,
-/area/space)
+/area/sector/driftingplanet/field)
 "VY" = (
 /obj/item/flashlight/flare/survival{
 	icon_state = "flare-on";
 	on = 1
 	},
 /turf/simulated/floor/plating/rust,
-/area/space)
+/area/sector/driftingplanet/field)
 "VZ" = (
 /obj/structure/flora/tree/dead/dry{
 	icon_state = "tree_stump"
@@ -4986,11 +4979,11 @@
 	icon_state = "deadtree_3"
 	},
 /turf/simulated/floor/outdoors/ash_sand/outdoors,
-/area/space)
+/area/sector/driftingplanet/field)
 "Wa" = (
 /obj/structure/salvageable/server_os,
 /turf/simulated/floor/tiled/kafel_full/yellow/virgo3b,
-/area/space)
+/area/sector/driftingplanet/field)
 "We" = (
 /obj/structure/salvageable/titan_wreck{
 	dir = 1
@@ -4998,14 +4991,14 @@
 /turf/simulated/floor/road{
 	icon_state = "verticaloutermain2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "Wg" = (
 /obj/structure/bed/chair/bay/shuttle{
 	dir = 1
 	},
 /obj/machinery/atmospherics/component/unary/vent_scrubber/on,
 /turf/simulated/floor/tiled/techmaint,
-/area/space)
+/area/sector/driftingplanet/field)
 "Wk" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 4
@@ -5013,7 +5006,7 @@
 /turf/simulated/floor/road{
 	icon_state = "verticaloutermain1"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "Wm" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 6
@@ -5024,20 +5017,20 @@
 /turf/simulated/floor/road{
 	icon_state = "verticaloutermain2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "Wo" = (
 /obj/machinery/computer/ship/helm{
 	req_one_access = list()
 	},
 /turf/simulated/floor/tiled/techmaint,
-/area/space)
+/area/sector/driftingplanet/field)
 "Wr" = (
 /obj/effect/floor_decal/rust,
 /obj/structure/salvageable/machine_os{
 	color = "#803327"
 	},
 /turf/simulated/floor/tiled/kafel_full/yellow/virgo3b,
-/area/space)
+/area/sector/driftingplanet/field)
 "Wt" = (
 /obj/effect/floor_decal/rust,
 /obj/structure/bed/chair/bay/chair/padded/red/smallnest{
@@ -5046,12 +5039,12 @@
 	desc = "A strange seat, use a long time ago."
 	},
 /turf/simulated/floor/plating/rust,
-/area/space)
+/area/sector/driftingplanet/field)
 "Ww" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/random/multiple/corp_crate,
 /turf/simulated/floor/tiled/techfloor,
-/area/space)
+/area/sector/driftingplanet/field)
 "Wx" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 4
@@ -5059,13 +5052,13 @@
 /turf/simulated/floor/road{
 	icon_state = "verticaloutermain2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "Wz" = (
 /obj/effect/decal/remains/ribcage{
 	color = "#803327"
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "WC" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 1
@@ -5076,7 +5069,7 @@
 /turf/simulated/floor/road{
 	icon_state = "verticalrightborderright2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "WE" = (
 /obj/effect/floor_decal/rust,
 /obj/structure/stairs/bottom{
@@ -5084,41 +5077,41 @@
 	color = "#8c6d46"
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "WF" = (
 /obj/effect/floor_decal/asteroid,
 /turf/simulated/floor/road{
 	icon_state = "verticaloutermain1"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "WG" = (
 /obj/structure/girder/reinforced/rusted/red,
 /turf/simulated/floor/outdoors/ash_sand/outdoors,
-/area/space)
+/area/sector/driftingplanet/field)
 "WK" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 9
 	},
 /turf/simulated/floor/outdoors/mud/outdoors,
-/area/space)
+/area/sector/driftingplanet/field)
 "WL" = (
 /obj/effect/floor_decal/rust,
 /obj/machinery/door/airlock/derelict{
 	req_one_access = null
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "WO" = (
 /turf/simulated/floor/road{
 	icon_state = "reno-middle"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "WT" = (
 /obj/effect/floor_decal/ash_edge,
 /turf/simulated/floor/road{
 	icon_state = "horizontaloutermain1"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "WV" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 1
@@ -5129,13 +5122,13 @@
 /turf/simulated/floor/road{
 	icon_state = "reno"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "WX" = (
 /obj/structure/railing{
 	dir = 1
 	},
 /turf/simulated/floor/tiled/kafel_full/yellow/virgo3b,
-/area/space)
+/area/sector/driftingplanet/field)
 "WY" = (
 /obj/effect/floor_decal/rust,
 /obj/structure/railing,
@@ -5143,7 +5136,7 @@
 	iff_factions = "mercenary"
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "Xb" = (
 /obj/structure/loot_pile/vce/building{
 	icon_state = "damaged";
@@ -5152,7 +5145,7 @@
 /turf/simulated/floor/road{
 	icon_state = "verticaloutermain2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "Xg" = (
 /obj/structure/railing{
 	dir = 4
@@ -5160,7 +5153,7 @@
 /turf/simulated/floor/road{
 	icon_state = "verticalleftborderleft2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "Xm" = (
 /obj/effect/floor_decal/rust,
 /obj/structure/bed/chair/bay/chair/padded/red/smallnest{
@@ -5169,13 +5162,13 @@
 	desc = "A strange seat, use a long time ago."
 	},
 /turf/simulated/floor/tiled/kafel_full/yellow/virgo3b,
-/area/space)
+/area/sector/driftingplanet/field)
 "Xt" = (
 /obj/effect/decal/remains/robot,
 /turf/simulated/floor/road{
 	icon_state = "horizontaltopbordertop1"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "XB" = (
 /obj/structure/railing{
 	dir = 4
@@ -5183,13 +5176,13 @@
 /turf/simulated/floor/road{
 	icon_state = "verticaloutermain2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "XH" = (
 /obj/structure/salvageable/implant_container_os{
 	color = "#803327"
 	},
 /turf/simulated/floor/tiled/kafel_full/yellow/virgo3b,
-/area/space)
+/area/sector/driftingplanet/field)
 "XI" = (
 /obj/structure/bed/chair/bay/chair/padded/red/smallnest{
 	color = "#81521d";
@@ -5198,11 +5191,11 @@
 	},
 /obj/effect/floor_decal/rust,
 /turf/simulated/floor/plating/rust,
-/area/space)
+/area/sector/driftingplanet/field)
 "XO" = (
 /obj/structure/loot_pile/surface/drone,
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "XP" = (
 /obj/structure/bed/chair/bay/chair/padded/red/smallnest{
 	color = "#81521d";
@@ -5215,13 +5208,13 @@
 /obj/effect/floor_decal/rust,
 /obj/effect/floor_decal/rust,
 /turf/simulated/floor/tiled/kafel_full/yellow/virgo3b,
-/area/space)
+/area/sector/driftingplanet/field)
 "XQ" = (
 /mob/living/simple_mob/mechanical/mecha/combat/titan/gun,
 /turf/simulated/floor/road{
 	icon_state = "reno_inner_sidewalk"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "XR" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 1
@@ -5232,14 +5225,14 @@
 /turf/simulated/floor/road{
 	icon_state = "verticaloutermain2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "XW" = (
 /obj/structure/closet/cabinet{
 	color = "#803327"
 	},
 /obj/random/tool/alien,
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "XZ" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 2
@@ -5250,19 +5243,19 @@
 /turf/simulated/floor/road{
 	icon_state = "reno_sidewalk2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "Ya" = (
 /obj/effect/floor_decal/rust,
 /obj/effect/floor_decal/rust,
 /obj/effect/floor_decal/rust,
 /obj/effect/debris/cleanable/blood/gibs/robot,
 /turf/simulated/floor/tiled/dark,
-/area/space)
+/area/sector/driftingplanet/field)
 "Yb" = (
 /obj/effect/floor_decal/rust,
 /obj/structure/railing,
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "Yg" = (
 /obj/structure/railing{
 	dir = 4
@@ -5270,14 +5263,14 @@
 /turf/simulated/wall/rust{
 	opacity = 0
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "Yk" = (
 /obj/structure/table/rack/shelf/steel{
 	color = "#803327"
 	},
 /obj/random/tool/alien,
 /turf/simulated/floor/tiled/kafel_full/yellow/virgo3b,
-/area/space)
+/area/sector/driftingplanet/field)
 "Yo" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/light{
@@ -5291,7 +5284,7 @@
 	},
 /obj/random/multiple/corp_crate,
 /turf/simulated/floor/tiled/techfloor,
-/area/space)
+/area/sector/driftingplanet/field)
 "Yq" = (
 /obj/effect/floor_decal/asteroid{
 	icon_state = "asteroid5"
@@ -5299,7 +5292,7 @@
 /turf/simulated/floor/road{
 	icon_state = "reno"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "Yr" = (
 /obj/effect/floor_decal/rust,
 /obj/effect/decal/remains/ribcage{
@@ -5309,29 +5302,29 @@
 	color = "#803327"
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "Yz" = (
 /obj/effect/decal/mecha_wreckage/seraph,
 /turf/simulated/floor/road{
 	icon_state = "reno_sidewalk"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "YB" = (
 /obj/effect/floor_decal/rust,
 /turf/simulated/floor/plating/rust,
-/area/space)
+/area/sector/driftingplanet/field)
 "YG" = (
 /obj/effect/floor_decal/rust,
 /obj/structure/table/rack/shelf/steel{
 	color = "#803327"
 	},
 /turf/simulated/floor/plating/indoors,
-/area/space)
+/area/sector/driftingplanet/field)
 "YK" = (
 /obj/structure/girder/reinforced/rusted,
 /obj/structure/girder/reinforced/rusted,
 /turf/simulated/floor/outdoors/ash_sand/outdoors,
-/area/space)
+/area/sector/driftingplanet/field)
 "YL" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 8
@@ -5339,11 +5332,11 @@
 /turf/simulated/floor/road{
 	icon_state = "verticaloutermain1"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "YM" = (
 /obj/spawner/window/reinforced/full/firelocks,
 /turf/simulated/floor/tiled/kafel_full/yellow/virgo3b,
-/area/space)
+/area/sector/driftingplanet/field)
 "YN" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 4
@@ -5351,7 +5344,7 @@
 /turf/simulated/floor/road{
 	icon_state = "reno"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "YO" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 2
@@ -5359,13 +5352,13 @@
 /turf/simulated/floor/road{
 	icon_state = "horizontalbottomborderbottom2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "YW" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 1
 	},
 /turf/simulated/floor/outdoors/mud/outdoors,
-/area/space)
+/area/sector/driftingplanet/field)
 "YX" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 8
@@ -5376,12 +5369,12 @@
 /turf/simulated/floor/road{
 	icon_state = "verticaloutermain2"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "YZ" = (
 /obj/structure/girder/reinforced/rusted,
 /obj/effect/floor_decal/rust,
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "Zc" = (
 /obj/effect/floor_decal/asteroid{
 	icon_state = "asteroid7"
@@ -5389,7 +5382,7 @@
 /turf/simulated/floor/road{
 	icon_state = "verticaloutermain1"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "Zg" = (
 /obj/effect/floor_decal/rust,
 /obj/structure/railing,
@@ -5397,14 +5390,14 @@
 	dir = 8
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "Zh" = (
 /obj/structure/closet/cabinet{
 	color = "#81521d"
 	},
 /obj/random/tool/alien,
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "Zj" = (
 /obj/effect/floor_decal/rust,
 /obj/structure/bed/chair/bay/chair/padded/red/smallnest{
@@ -5413,14 +5406,14 @@
 	desc = "A strange seat, use a long time ago."
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "Zm" = (
 /obj/effect/floor_decal/asteroid{
 	icon_state = "asteroid5"
 	},
 /obj/structure/girder/reinforced/rusted,
 /turf/simulated/floor/outdoors/ash_sand/outdoors,
-/area/space)
+/area/sector/driftingplanet/field)
 "Zo" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 5
@@ -5429,7 +5422,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/space)
+/area/sector/driftingplanet/field)
 "Zp" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 2
@@ -5440,58 +5433,58 @@
 /turf/simulated/floor/road{
 	icon_state = "verticaloutermain1"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "Zq" = (
 /obj/structure/shuttle/engine/heater,
 /obj/machinery/atmospherics/pipe/simple/visible/yellow,
 /turf/simulated/floor/airless,
-/area/space)
+/area/sector/driftingplanet/field)
 "Zr" = (
 /obj/effect/floor_decal/rust,
 /obj/random/multiple/corp_crate,
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "Zt" = (
 /obj/machinery/door/airlock/derelict{
 	dir = 4;
 	req_one_access = null
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "Zw" = (
 /obj/effect/decal/remains/robot,
 /turf/simulated/floor/road{
 	icon_state = "reno-middle"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "ZA" = (
 /obj/effect/floor_decal/ash_edge,
 /turf/simulated/floor/road{
 	icon_state = "reno-middle"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "ZC" = (
 /obj/structure/catwalk,
 /obj/structure/railing,
 /turf/simulated/floor/tiled/kafel_full/yellow/virgo3b,
-/area/space)
+/area/sector/driftingplanet/field)
 "ZE" = (
 /obj/machinery/deployable/barrier,
 /turf/simulated/floor/road{
 	icon_state = "reno_sidewalk"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "ZF" = (
 /obj/structure/vce/silo,
 /turf/simulated/floor/outdoors/ash_sand/outdoors,
-/area/space)
+/area/sector/driftingplanet/field)
 "ZH" = (
 /obj/effect/floor_decal/ash_edge,
 /obj/effect/floor_decal/ash_edge,
 /turf/simulated/floor/road{
 	icon_state = "reno-middle"
 	},
-/area/space)
+/area/sector/driftingplanet/field)
 "ZU" = (
 /obj/effect/floor_decal/asteroid{
 	icon_state = "asteroid5"
@@ -5503,19 +5496,19 @@
 	icon_state = "deadtree_6"
 	},
 /turf/simulated/floor/outdoors/ash_sand/outdoors,
-/area/space)
+/area/sector/driftingplanet/field)
 "ZW" = (
 /obj/structure/table/steel{
 	color = "#81521d"
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/sector/driftingplanet/field)
 "ZY" = (
 /obj/structure/closet/crate/corporate/nanotrasen,
 /obj/item/gun/projectile/ballistic/shotgun/flare/explo,
 /obj/item/gun/projectile/ballistic/shotgun/flare/explo,
 /turf/simulated/floor/tiled/kafel_full/yellow/virgo3b,
-/area/space)
+/area/sector/driftingplanet/field)
 
 (1,1,1) = {"
 EZ
@@ -15465,7 +15458,7 @@ EZ
 EZ
 GQ
 GQ
-rv
+IE
 GQ
 GQ
 EZ

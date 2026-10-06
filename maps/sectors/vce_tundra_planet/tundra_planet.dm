@@ -5,6 +5,7 @@
 	height = 192
 	levels = list(
 		/datum/map_level/sector/tundra_planet,
+		/datum/map_level/sector/tundra_planet/west,
 	)
 
 /datum/map_level/sector/tundra_planet
@@ -16,6 +17,10 @@
 	struct_x = 1
 	struct_y = 0
 	struct_z = 0
+
+	planet_path = /datum/planet/tundra_planet
+	air_outdoors = /datum/atmosphere/planet/tundra_planet
+
 
 /datum/map_level/sector/tundra_planet/west
 	id = "MiaphusCaves192"

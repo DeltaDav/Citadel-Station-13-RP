@@ -1921,6 +1921,9 @@
 	dir = 1
 	},
 /obj/structure/bed/chair/comfy/brown,
+/obj/structure/window/reinforced{
+	dir = 8
+	},
 /turf/simulated/floor/wood/indoors,
 /area/hallway/strelka/deck4)
 "hw" = (
@@ -2885,6 +2888,9 @@
 /obj/structure/railing,
 /obj/machinery/light{
 	dir = 1
+	},
+/obj/structure/window/reinforced{
+	dir = 8
 	},
 /turf/simulated/floor/tiled/asteroid_steel,
 /area/hallway/strelka/deck4)
@@ -4093,6 +4099,9 @@
 /obj/structure/window/reinforced,
 /obj/structure/bed/chair/comfy/brown{
 	dir = 1
+	},
+/obj/structure/window/reinforced{
+	dir = 8
 	},
 /turf/simulated/floor/wood/indoors,
 /area/hallway/strelka/deck4)
@@ -5313,6 +5322,9 @@
 	dir = 8
 	},
 /obj/effect/floor_decal/spline/fancy/wood/corner,
+/obj/structure/window/reinforced{
+	dir = 8
+	},
 /turf/simulated/floor/wood/indoors,
 /area/hallway/strelka/deck4)
 "uF" = (
@@ -6804,6 +6816,9 @@
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 8
 	},
+/obj/structure/window/reinforced{
+	dir = 8
+	},
 /turf/simulated/floor/wood/indoors,
 /area/hallway/strelka/deck4)
 "zE" = (
@@ -6855,6 +6870,9 @@
 	},
 /obj/effect/floor_decal/spline/fancy/wood/corner{
 	dir = 1
+	},
+/obj/structure/window/reinforced{
+	dir = 8
 	},
 /turf/simulated/floor/wood/indoors,
 /area/hallway/strelka/deck4)
@@ -9062,6 +9080,9 @@
 	dir = 1
 	},
 /obj/machinery/light,
+/obj/structure/window/reinforced{
+	dir = 8
+	},
 /turf/simulated/floor/tiled/asteroid_steel,
 /area/hallway/strelka/deck4)
 "IH" = (
@@ -10965,6 +10986,9 @@
 	},
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 10
+	},
+/obj/structure/window/reinforced{
+	dir = 8
 	},
 /turf/simulated/floor/wood/indoors,
 /area/hallway/strelka/deck4)
@@ -13524,6 +13548,9 @@
 /obj/structure/bed/chair/comfy/brown,
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 9
+	},
+/obj/structure/window/reinforced{
+	dir = 8
 	},
 /turf/simulated/floor/wood/indoors,
 /area/hallway/strelka/deck4)

@@ -2,152 +2,156 @@
 "aA" = (
 /obj/structure/flora/tree/palm,
 /turf/simulated/floor/outdoors/beach/sand/desert,
-/area/space)
+/area/sector/pyramid/field)
 "cd" = (
 /obj/effect/floor_decal/sand/corner{
 	dir = 1
 	},
 /turf/simulated/floor/roguetown/wood,
-/area/space)
+/area/sector/pyramid/field)
 "cQ" = (
 /obj/machinery/floodlight{
 	on = 1
 	},
 /turf/simulated/floor/roguetown/grass,
-/area/space)
+/area/sector/pyramid/field)
 "dJ" = (
 /obj/machinery/portable_atmospherics/hydroponics/soil/grassy,
 /turf/simulated/floor/outdoors/dirtlight,
-/area/space)
+/area/sector/pyramid/field)
 "dW" = (
 /turf/simulated/wall/sandstone{
 	opacity = 0
 	},
-/area/space)
+/area/sector/pyramid/field)
 "eo" = (
 /obj/structure/statue/bone{
 	dir = 1
 	},
 /turf/simulated/floor/roguetown/greenstone,
-/area/space)
+/area/sector/pyramid/field)
 "eX" = (
 /obj/effect/floor_decal/sand,
 /obj/effect/floor_decal/sand/corner{
 	dir = 8
 	},
 /turf/simulated/floor/roguetown/wood,
-/area/space)
+/area/sector/pyramid/field)
 "fu" = (
 /obj/effect/shuttle_landmark/automatic{
 	name = "Foot of the pyramid"
 	},
 /turf/simulated/floor/outdoors/beach/sand/dirt,
-/area/space)
+/area/sector/pyramid/field)
 "fE" = (
 /mob/living/simple_mob/humanoid/merc/voxpirate/shotgun,
 /turf/simulated/floor/sandstone,
-/area/space)
+/area/sector/pyramid/field)
 "fF" = (
 /obj/structure/fence/door/wooden{
 	dir = 4
 	},
 /turf/simulated/floor/sandstone,
-/area/space)
+/area/sector/pyramid/field)
 "fS" = (
 /obj/effect/floor_decal/techfloor/hole{
 	dir = 1
 	},
 /turf/simulated/floor/sandstone,
-/area/space)
+/area/sector/pyramid/field)
 "ga" = (
 /obj/effect/floor_decal/sand{
 	dir = 4
 	},
 /obj/effect/floor_decal/sand,
 /turf/simulated/floor/roguetown/wood,
-/area/space)
+/area/sector/pyramid/field)
 "gy" = (
 /obj/effect/floor_decal/sand,
 /obj/effect/floor_decal/sand{
 	dir = 8
 	},
 /turf/simulated/floor/roguetown/wood,
-/area/space)
+/area/sector/pyramid/field)
 "gO" = (
 /obj/effect/floor_decal/industrial/halfstair{
 	color = "#D9C179"
 	},
 /turf/simulated/floor/roguetown/greenstone,
-/area/space)
+/area/sector/pyramid/field)
 "gQ" = (
 /obj/effect/floor_decal/industrial/halfstair{
 	color = "#D9C179";
 	dir = 1
 	},
 /turf/simulated/floor/outdoors/dirtlight,
-/area/space)
+/area/sector/pyramid/field)
 "hy" = (
 /obj/structure/closet/crate,
 /obj/random/maintenance/security,
 /obj/random/maintenance/security,
 /turf/simulated/floor/roguetown/grass,
-/area/space)
+/area/sector/pyramid/field)
 "iN" = (
 /obj/structure/event/prop/white_barrel,
 /turf/simulated/floor/roguetown/grass,
-/area/space)
+/area/sector/pyramid/field)
 "iT" = (
 /obj/structure/table/sandstone,
 /turf/simulated/floor/sandstone,
-/area/space)
+/area/sector/pyramid/field)
 "jN" = (
 /obj/structure/event/prop/light2,
 /turf/simulated/floor/roguetown/greenstone,
-/area/space)
+/area/sector/pyramid/field)
 "kp" = (
 /obj/structure/flora/tree/palm,
 /turf/simulated/floor/outdoors/beach/sand/dirt,
-/area/space)
+/area/sector/pyramid/field)
 "lf" = (
 /mob/living/simple_mob/humanoid/merc/voxpirate/pirate,
 /turf/simulated/floor/sandstone,
-/area/space)
+/area/sector/pyramid/field)
 "mu" = (
 /obj/structure/simple_door/sandstone,
 /turf/simulated/floor/roguetown/greenstone,
-/area/space)
+/area/sector/pyramid/field)
 "nZ" = (
 /obj/structure/simple_door/sandstone,
 /turf/simulated/floor/sandstone,
-/area/space)
+/area/sector/pyramid/field)
 "of" = (
 /obj/effect/floor_decal/sand{
 	dir = 8
 	},
 /obj/effect/floor_decal/sand/corner,
 /turf/simulated/floor/roguetown/wood,
-/area/space)
+/area/sector/pyramid/field)
 "oJ" = (
 /obj/structure/fence/wooden/post{
 	dir = 8
 	},
 /turf/simulated/floor/sandstone,
-/area/space)
+/area/sector/pyramid/field)
+"pz" = (
+/obj/overmap/entity/visitable/sector/pyramid,
+/turf/simulated/wall/solidrock,
+/area/sector/pyramid/field)
 "pJ" = (
 /obj/effect/floor_decal/sand{
 	dir = 8
 	},
 /turf/simulated/floor/roguetown/wood,
-/area/space)
+/area/sector/pyramid/field)
 "qP" = (
 /turf/simulated/wall/sandstonediamond,
-/area/space)
+/area/sector/pyramid/field)
 "rx" = (
 /obj/structure/closet/crate,
 /obj/random/maintenance/security,
 /obj/random/maintenance/security,
 /turf/simulated/floor/roguetown/greenstone,
-/area/space)
+/area/sector/pyramid/field)
 "rS" = (
 /obj/effect/floor_decal/sand,
 /obj/effect/floor_decal/sand{
@@ -160,11 +164,11 @@
 	dir = 1
 	},
 /turf/simulated/floor/roguetown/wood,
-/area/space)
+/area/sector/pyramid/field)
 "rT" = (
 /obj/structure/event/prop/cables,
 /turf/simulated/floor/roguetown/greenstone,
-/area/space)
+/area/sector/pyramid/field)
 "sR" = (
 /obj/effect/floor_decal/sand,
 /obj/effect/floor_decal/sand{
@@ -174,47 +178,47 @@
 	dir = 4
 	},
 /turf/simulated/floor/roguetown/wood,
-/area/space)
+/area/sector/pyramid/field)
 "tV" = (
 /obj/effect/floor_decal/industrial/halfstair{
 	color = "#D9C179";
 	dir = 8
 	},
 /turf/simulated/floor/roguetown/greenstone,
-/area/space)
+/area/sector/pyramid/field)
 "uO" = (
 /obj/effect/floor_decal/industrial/halfstair{
 	color = "#D9C179";
 	dir = 4
 	},
 /turf/simulated/floor/roguetown/greenstone,
-/area/space)
+/area/sector/pyramid/field)
 "vi" = (
 /turf/simulated/floor/sandstone,
-/area/space)
+/area/sector/pyramid/field)
 "vG" = (
 /turf/simulated/floor/outdoors/dirtlight,
-/area/space)
+/area/sector/pyramid/field)
 "vH" = (
 /obj/effect/floor_decal/sand/corner{
 	dir = 4
 	},
 /turf/simulated/floor/roguetown/wood,
-/area/space)
+/area/sector/pyramid/field)
 "wc" = (
 /obj/structure/event/prop/survey,
 /turf/simulated/floor/roguetown/greenstone,
-/area/space)
+/area/sector/pyramid/field)
 "xt" = (
 /obj/structure/fence/wooden/post{
 	dir = 8
 	},
 /turf/simulated/floor/fey/dry_grass,
-/area/space)
+/area/sector/pyramid/field)
 "xB" = (
 /obj/item/seeds/wheatseed,
 /turf/simulated/floor/roguetown/greenstone,
-/area/space)
+/area/sector/pyramid/field)
 "yk" = (
 /obj/machinery/hyperpad/centre{
 	map_pad_id = "pyramid_desert";
@@ -222,55 +226,55 @@
 	newcolor = null
 	},
 /turf/simulated/floor/roguetown/greenstone,
-/area/space)
+/area/sector/pyramid/field)
 "yJ" = (
 /turf/simulated/floor/roguetown/wood,
-/area/space)
+/area/sector/pyramid/field)
 "AL" = (
 /turf/simulated/floor/outdoors/beach/sand/dirt,
-/area/space)
+/area/sector/pyramid/field)
 "Bm" = (
 /turf/simulated/floor/roguetown/greenstone,
-/area/space)
+/area/sector/pyramid/field)
 "BE" = (
 /obj/effect/floor_decal/sand,
 /obj/effect/floor_decal/sand/corner{
 	dir = 4
 	},
 /turf/simulated/floor/roguetown/wood,
-/area/space)
+/area/sector/pyramid/field)
 "BV" = (
 /obj/structure/barricade/miaphus/window,
 /turf/simulated/floor/outdoors/beach/sand/desert,
-/area/space)
+/area/sector/pyramid/field)
 "Cp" = (
 /obj/effect/floor_decal/sand/corner{
 	dir = 8
 	},
 /turf/simulated/floor/roguetown/wood,
-/area/space)
+/area/sector/pyramid/field)
 "Ct" = (
 /obj/structure/table/standard,
 /turf/simulated/floor/roguetown/greenstone,
-/area/space)
+/area/sector/pyramid/field)
 "Cv" = (
 /obj/structure/barricade/miaphus/window,
 /turf/simulated/floor/sandstone,
-/area/space)
+/area/sector/pyramid/field)
 "DG" = (
 /obj/structure/flora/tree/palm,
 /turf/simulated/floor/sandstone,
-/area/space)
+/area/sector/pyramid/field)
 "DS" = (
 /obj/structure/stairs/bottom{
 	dir = 2;
 	color = "#D9C179"
 	},
 /turf/simulated/floor/roguetown/greenstone,
-/area/space)
+/area/sector/pyramid/field)
 "Ep" = (
 /turf/simulated/floor/water/pool,
-/area/space)
+/area/sector/pyramid/field)
 "Fa" = (
 /obj/effect/floor_decal/sand{
 	dir = 4
@@ -279,30 +283,30 @@
 	dir = 1
 	},
 /turf/simulated/floor/roguetown/wood,
-/area/space)
+/area/sector/pyramid/field)
 "Gd" = (
 /obj/structure/event/prop/light2,
 /turf/simulated/floor/roguetown/grass,
-/area/space)
+/area/sector/pyramid/field)
 "Gm" = (
 /obj/effect/floor_decal/industrial/halfstair{
 	color = "#D9C179";
 	dir = 1
 	},
 /turf/simulated/floor/roguetown/greenstone,
-/area/space)
+/area/sector/pyramid/field)
 "GN" = (
 /obj/effect/shuttle_landmark/automatic{
 	name = "Foot of the pyramid"
 	},
 /turf/simulated/floor/outdoors/beach/sand/desert,
-/area/space)
+/area/sector/pyramid/field)
 "Hk" = (
 /obj/structure/statue/bone{
 	dir = 4
 	},
 /turf/simulated/floor/roguetown/greenstone,
-/area/space)
+/area/sector/pyramid/field)
 "Hr" = (
 /obj/structure/fence/wooden/corner{
 	dir = 1
@@ -310,36 +314,36 @@
 /turf/simulated/wall/sandstone{
 	opacity = 0
 	},
-/area/space)
+/area/sector/pyramid/field)
 "Ib" = (
 /turf/simulated/floor/outdoors/beach/sand/desert,
-/area/space)
+/area/sector/pyramid/field)
 "Il" = (
 /obj/effect/floor_decal/industrial/halfstair{
 	color = "#D9C179"
 	},
 /turf/simulated/floor/outdoors/dirtlight,
-/area/space)
+/area/sector/pyramid/field)
 "IO" = (
 /obj/effect/floor_decal/sand,
 /obj/effect/floor_decal/sand{
 	dir = 1
 	},
 /turf/simulated/floor/roguetown/wood,
-/area/space)
+/area/sector/pyramid/field)
 "Je" = (
 /obj/effect/floor_decal/sand/corner,
 /turf/simulated/floor/roguetown/wood,
-/area/space)
+/area/sector/pyramid/field)
 "JK" = (
 /obj/machinery/portable_atmospherics/canister/oxygen,
 /turf/simulated/floor/roguetown/greenstone,
-/area/space)
+/area/sector/pyramid/field)
 "JO" = (
 /obj/structure/table/standard,
 /obj/item/event/prop/laptop2,
 /turf/simulated/floor/roguetown/greenstone,
-/area/space)
+/area/sector/pyramid/field)
 "KG" = (
 /obj/effect/floor_decal/sand{
 	dir = 1
@@ -348,7 +352,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/roguetown/wood,
-/area/space)
+/area/sector/pyramid/field)
 "Lr" = (
 /obj/effect/floor_decal/sand{
 	dir = 8
@@ -357,32 +361,32 @@
 	dir = 1
 	},
 /turf/simulated/floor/roguetown/wood,
-/area/space)
+/area/sector/pyramid/field)
 "LJ" = (
 /obj/structure/fence/wooden/post,
 /turf/simulated/wall/sandstone{
 	opacity = 0
 	},
-/area/space)
+/area/sector/pyramid/field)
 "LK" = (
 /obj/structure/simple_door/sandstone,
 /turf/simulated/floor/outdoors/beach/sand/desert,
-/area/space)
+/area/sector/pyramid/field)
 "LW" = (
 /obj/item/seeds/wheatseed,
 /turf/simulated/floor/roguetown/grass,
-/area/space)
+/area/sector/pyramid/field)
 "Mv" = (
 /obj/machinery/seed_extractor/press,
 /turf/simulated/floor/roguetown/greenstone,
-/area/space)
+/area/sector/pyramid/field)
 "Nr" = (
 /turf/simulated/floor/fey/dry_grass,
-/area/space)
+/area/sector/pyramid/field)
 "NL" = (
 /obj/random/junk,
 /turf/simulated/floor/roguetown/greenstone,
-/area/space)
+/area/sector/pyramid/field)
 "Od" = (
 /obj/effect/floor_decal/sand,
 /obj/effect/floor_decal/sand{
@@ -392,32 +396,32 @@
 	dir = 1
 	},
 /turf/simulated/floor/roguetown/wood,
-/area/space)
+/area/sector/pyramid/field)
 "Ou" = (
 /obj/structure/table/sandstone,
 /obj/random/multiple/treasure,
 /turf/simulated/floor/sandstone,
-/area/space)
+/area/sector/pyramid/field)
 "Qx" = (
 /obj/effect/floor_decal/sand,
 /turf/simulated/floor/roguetown/wood,
-/area/space)
+/area/sector/pyramid/field)
 "QW" = (
 /obj/machinery/portable_atmospherics/canister/oxygen,
 /turf/simulated/floor/roguetown/grass,
-/area/space)
+/area/sector/pyramid/field)
 "Rx" = (
 /obj/structure/closet/crate/corporate/nanotrasen,
 /turf/simulated/floor/roguetown/greenstone,
-/area/space)
+/area/sector/pyramid/field)
 "Sf" = (
 /obj/effect/floor_decal/techfloor/hole,
 /turf/simulated/floor/sandstone,
-/area/space)
+/area/sector/pyramid/field)
 "So" = (
 /obj/machinery/portable_atmospherics/canister/phoron,
 /turf/simulated/floor/roguetown/greenstone,
-/area/space)
+/area/sector/pyramid/field)
 "SA" = (
 /obj/effect/floor_decal/sand{
 	dir = 4
@@ -429,29 +433,29 @@
 	dir = 4
 	},
 /turf/simulated/floor/roguetown/wood,
-/area/space)
+/area/sector/pyramid/field)
 "SR" = (
 /obj/structure/event/prop/yellow_barrel{
 	layer = 2.9
 	},
 /turf/simulated/floor/roguetown/grass,
-/area/space)
+/area/sector/pyramid/field)
 "TX" = (
 /mob/living/simple_mob/humanoid/merc/voxpirate/boarder,
 /turf/simulated/floor/sandstone,
-/area/space)
+/area/sector/pyramid/field)
 "UW" = (
 /obj/effect/floor_decal/sand{
 	dir = 4
 	},
 /turf/simulated/floor/roguetown/wood,
-/area/space)
+/area/sector/pyramid/field)
 "Vc" = (
 /obj/effect/floor_decal/sand{
 	dir = 1
 	},
 /turf/simulated/floor/roguetown/wood,
-/area/space)
+/area/sector/pyramid/field)
 "Vm" = (
 /obj/structure/event/prop/yellow_barrel{
 	pixel_x = 8
@@ -461,30 +465,30 @@
 	pixel_x = 21
 	},
 /turf/simulated/floor/roguetown/grass,
-/area/space)
+/area/sector/pyramid/field)
 "VQ" = (
 /obj/structure/statue/bone,
 /turf/simulated/floor/roguetown/greenstone,
-/area/space)
+/area/sector/pyramid/field)
 "Xq" = (
 /obj/structure/statue/bone/skull/half,
 /turf/simulated/floor/roguetown/greenstone,
-/area/space)
+/area/sector/pyramid/field)
 "Xu" = (
 /turf/simulated/wall/solidrock,
-/area/space)
+/area/sector/pyramid/field)
 "XF" = (
 /turf/simulated/wall/sandstone,
-/area/space)
+/area/sector/pyramid/field)
 "XZ" = (
 /obj/structure/fence/wooden/post{
 	dir = 8
 	},
 /turf/simulated/floor/outdoors/beach/sand/desert,
-/area/space)
+/area/sector/pyramid/field)
 "Yr" = (
 /turf/simulated/floor/roguetown/grass,
-/area/space)
+/area/sector/pyramid/field)
 
 (1,1,1) = {"
 Xu
@@ -871,7 +875,7 @@ Xu
 Xu
 Xu
 Xu
-Xu
+pz
 Xu
 "}
 (3,1,1) = {"

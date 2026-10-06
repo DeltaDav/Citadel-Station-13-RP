@@ -15,7 +15,15 @@
 		/datum/map/centcom/ncv_astral,
 	)
 	lateload = list(
-		/datum/map/sector/debrisfield_192,
+		/datum/map/sector/tundra_planet,
+		/datum/map/sector/fleet,
+		/datum/map/sector/pyramid,
+		/datum/map/sector/miningbase,
+		/datum/map/sector/asteroid_field1,
+		/datum/map/sector/asteroid_field2,
+		/datum/map/sector/delerict_casino,
+		/datum/map/sector/surt,
+		/datum/map/sector/ice_comet,
 	)
 
 	// todo: remove after dev is done
