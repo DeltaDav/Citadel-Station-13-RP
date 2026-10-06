@@ -238,7 +238,7 @@
 /area/space/miningbase/outpost)
 "qm" = (
 /obj/structure/lattice,
-/turf/space/basic,
+/turf/space,
 /area/space/miningbase/cave)
 "qx" = (
 /obj/machinery/conveyor{
@@ -310,7 +310,7 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/space/miningbase/outpost)
 "wb" = (
-/turf/space/basic,
+/turf/space,
 /area/space)
 "wx" = (
 /obj/machinery/light/flicker,
@@ -332,7 +332,7 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/space/miningbase/outpost)
 "wN" = (
-/turf/space/basic,
+/turf/space,
 /area/space/miningbase/cave)
 "wX" = (
 /turf/simulated/flooring/eldritch/dark_ice_smooth,
@@ -393,7 +393,7 @@
 "CP" = (
 /obj/structure/lattice,
 /obj/effect/shuttle_landmark/automatic,
-/turf/space/basic,
+/turf/space,
 /area/space)
 "Dq" = (
 /obj/spawner/window/low_wall/reinforced/firelocks,
@@ -483,7 +483,7 @@
 /area/space)
 "JJ" = (
 /obj/overmap/entity/visitable/sector/miningbase,
-/turf/space/basic,
+/turf/space,
 /area/space)
 "Kj" = (
 /obj/structure/bed,
@@ -583,11 +583,11 @@
 /area/space)
 "SY" = (
 /obj/structure/lattice,
-/turf/space/basic,
+/turf/space,
 /area/space)
 "Te" = (
 /obj/effect/shuttle_landmark/automatic,
-/turf/space/basic,
+/turf/space,
 /area/space)
 "UE" = (
 /obj/structure/table/steel,

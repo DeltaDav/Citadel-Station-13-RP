@@ -1,18 +1,18 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "i" = (
 /obj/asteroid_spawner,
-/turf/space/basic,
+/turf/space,
 /area/asteroid/rogue/zone1)
 "k" = (
 /obj/overmap/entity/visitable/sector/asteroid_field1,
-/turf/space/basic,
+/turf/space,
 /area/asteroid/rogue/zone1)
 "m" = (
 /obj/effect/shuttle_landmark/automatic,
-/turf/space/basic,
+/turf/space,
 /area/asteroid/rogue/zone1)
 "o" = (
-/turf/space/basic,
+/turf/space,
 /area/asteroid/rogue/zone1)
 "s" = (
 /obj/effect/shuttle_landmark{
@@ -21,23 +21,23 @@
 	landmark_tag = "belter_zone4";
 	name = "Belter Shuttle - Zone 4"
 	},
-/turf/space/basic,
+/turf/space,
 /area/asteroid/rogue/zone1)
 "A" = (
 /obj/effect/step_trigger/teleporter/asteroid_field1_loop/west,
-/turf/space/basic,
+/turf/space,
 /area/asteroid/rogue/zone1)
 "K" = (
 /obj/effect/step_trigger/teleporter/asteroid_field1_loop/south,
-/turf/space/basic,
+/turf/space,
 /area/asteroid/rogue/zone1)
 "N" = (
 /obj/effect/step_trigger/teleporter/asteroid_field1_loop/north,
-/turf/space/basic,
+/turf/space,
 /area/asteroid/rogue/zone1)
 "Z" = (
 /obj/effect/step_trigger/teleporter/asteroid_field1_loop/east,
-/turf/space/basic,
+/turf/space,
 /area/asteroid/rogue/zone1)
 
 (1,1,1) = {"

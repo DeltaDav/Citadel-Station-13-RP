@@ -8092,9 +8092,6 @@
 	},
 /turf/simulated/floor/reinforced,
 /area/strelka/hangardeck)
-"Iu" = (
-/turf/space/basic,
-/area/space)
 "Iw" = (
 /obj/effect/floor_decal/borderfloorblack,
 /obj/structure/flora/ausbushes/brflowers,
@@ -33970,7 +33967,7 @@ XR
 XR
 XR
 XR
-Iu
+XR
 qs
 Mk
 gz
@@ -34939,7 +34936,7 @@ XR
 XR
 XR
 XR
-Iu
+XR
 XR
 XR
 gz
@@ -35133,7 +35130,7 @@ XR
 XR
 XR
 XR
-Iu
+XR
 XR
 XR
 XR

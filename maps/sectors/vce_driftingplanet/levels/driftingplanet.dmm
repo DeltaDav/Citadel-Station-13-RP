@@ -5138,7 +5138,7 @@
 	icon_state = "damaged_1";
 	layer = 2
 	},
-/turf/space/basic,
+/turf/simulated/floor/tiled/techmaint,
 /area/sector/driftingplanet/field)
 "TR" = (
 /turf/simulated/floor/road{
