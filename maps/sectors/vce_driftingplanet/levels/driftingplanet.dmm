@@ -2087,11 +2087,6 @@
 	icon_state = "reno"
 	},
 /area/sector/driftingplanet/field)
-"rd" = (
-/obj/structure/girder/reinforced/rusted,
-/obj/structure/girder/reinforced/rusted,
-/turf/simulated/floor/plating/rust,
-/area/sector/driftingplanet/arena)
 "re" = (
 /obj/spawner/window/low_wall/nogrille,
 /turf/simulated/floor/tiled/kafel_full/yellow/virgo3b,
@@ -5724,11 +5719,6 @@
 	},
 /turf/simulated/floor/plating/indoors,
 /area/sector/driftingplanet/factory)
-"YK" = (
-/obj/structure/girder/reinforced/rusted,
-/obj/structure/girder/reinforced/rusted,
-/turf/simulated/floor/outdoors/ash_sand/outdoors,
-/area/sector/driftingplanet/field)
 "YL" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 8
@@ -6467,7 +6457,7 @@ yD
 yD
 yD
 yD
-rd
+yD
 ZP
 ZP
 ZP
@@ -6484,7 +6474,7 @@ ZP
 ZP
 yD
 yD
-rd
+yD
 yD
 ZP
 ZP
@@ -7624,7 +7614,7 @@ ZP
 ZP
 kM
 kM
-rd
+yD
 dj
 kM
 kM
@@ -19442,7 +19432,7 @@ pt
 pt
 pt
 iu
-YK
+aT
 iu
 iu
 iu
@@ -31917,7 +31907,7 @@ WO
 Bl
 ns
 mF
-YK
+aT
 IZ
 iu
 iu
