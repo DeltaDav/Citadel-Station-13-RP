@@ -14,3 +14,6 @@
 	path = "maps/sectors/drifting_planet/levels/drifting_planet.dmm"
 	base_turf = /turf/simulated/floor/outdoors/beach/sand/desert
 	base_area = /area/sector/driftingplanet/field
+
+	planet_path = /datum/planet/driftingplanet
+	air_outdoors = /datum/atmosphere/planet/driftingplanet

@@ -4,7 +4,7 @@
 /obj/machinery/button/remote/blast_door/strelka/blockade
 	icon = 'icons/obj/stationobjs.dmi'
 	name = "Blockade Runner mode button"
-	desc = "Makes the ship enter a mode that closes all external windows of the shuttles. Can add a small level of protection."
+	desc = "Makes the ship enter a mode that closes all external windows of the vessel. Can add a small level of protection in combat situation."
 	id = "blockade_runner"
 	var/sealed = FALSE
 	var/last_used = 0

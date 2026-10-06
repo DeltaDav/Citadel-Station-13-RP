@@ -1,33 +1,39 @@
 
 /area/sector/driftingplanet
-	initial_gas_mix = ATMOSPHERE_USE_OUTDOORS
-	initial_outdoors = TRUE
+	dynamic_lighting = 1
+	requires_power = 1
+
 
 /area/sector/driftingplanet/field
 	name = "\improper Away Mission - Drifting Planet : Fields"
 	icon_state = "away"
-	dynamic_lighting = 1
-	requires_power = 1
+	initial_gas_mix = ATMOSPHERE_USE_OUTDOORS
+	initial_outdoors = TRUE
+	ambience = list('sound/ambience/driftinplanet.ogg')
 
-/area/sector/driftingplanet/field/buildings
-	name = "\improper Away Mission - Drifting Planet : Fields"
+/area/sector/driftingplanet/buildings
+	name = "\improper Away Mission - Drifting Planet : Building"
 	icon_state = "blue2"
 	area_flags = AREA_RAD_SHIELDED
+	sound_env = SMALL_ENCLOSED
 
-/area/sector/driftingplanet/field/buildings/factory
+/area/sector/driftingplanet/factory
 	name = "\improper Away Mission - Drifting Planet : Factory"
 	icon_state = "blue2"
 	area_flags = AREA_RAD_SHIELDED
+	sound_env = SMALL_ENCLOSED
 
-/area/sector/driftingplanet/field/buildings/arena
+/area/sector/driftingplanet/arena
 	name = "\improper Away Mission - Drifting Planet : Arena"
 	icon_state = "blue2"
 	area_flags = AREA_RAD_SHIELDED
+	sound_env = LARGE_ENCLOSED
 
-/area/sector/driftingplanet/field/buildings/factory
+/area/sector/driftingplanet/factory
 	name = "\improper Away Mission - Drifting Planet : Factory"
 	icon_state = "blue2"
 	area_flags = AREA_RAD_SHIELDED
+	sound_env = LARGE_ENCLOSED
 
 /area/sector/driftingplanet/cave
 	area_flags = AREA_RAD_SHIELDED
@@ -37,3 +43,4 @@
 	area_flags = AREA_RAD_SHIELDED
 	initial_outdoors = FALSE
 	icon_state = "blue2"
+	sound_env = LARGE_ENCLOSED

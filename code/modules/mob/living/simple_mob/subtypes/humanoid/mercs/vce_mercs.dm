@@ -89,23 +89,23 @@
 
 /mob/living/simple_mob/humanoid/vce_people/colonist/two
 	icon = 'icons/obj/vce_asset/vce_humanoid.dmi'
-	icon_state = "civi2"
-	icon_living = "civi2"
+	icon_state = "civ2"
+	icon_living = "civ2"
 
-/mob/living/simple_mob/humanoid/vce_people/colonist/two
+/mob/living/simple_mob/humanoid/vce_people/colonist/tree
 	icon = 'icons/obj/vce_asset/vce_humanoid.dmi'
-	icon_state = "civi3"
-	icon_living = "civi3"
+	icon_state = "civ3"
+	icon_living = "civ3"
 
-/mob/living/simple_mob/humanoid/vce_people/colonist/two
+/mob/living/simple_mob/humanoid/vce_people/colonist/four
 	icon = 'icons/obj/vce_asset/vce_humanoid.dmi'
-	icon_state = "civi4"
-	icon_living = "civi4"
+	icon_state = "civ4"
+	icon_living = "civ4"
 
-/mob/living/simple_mob/humanoid/vce_people/colonist/two
+/mob/living/simple_mob/humanoid/vce_people/colonist/five
 	icon = 'icons/obj/vce_asset/vce_humanoid.dmi'
-	icon_state = "civi5"
-	icon_living = "civi5"
+	icon_state = "civ5"
+	icon_living = "civ5"
 
 // MILITIA
 

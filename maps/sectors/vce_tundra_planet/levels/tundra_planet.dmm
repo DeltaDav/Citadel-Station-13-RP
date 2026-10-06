@@ -9,17 +9,17 @@
 	dir = 6
 	},
 /turf/simulated/floor/carpet/patterened/blue/alt,
-/area/sector/tundra/field/shuttle3)
+/area/sector/tundra/shuttle2)
 "ai" = (
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/tundra/field/shuttle4)
+/area/sector/tundra/shuttle5)
 "ak" = (
 /obj/machinery/atmospherics/portables_connector{
 	dir = 1
 	},
 /obj/machinery/portable_atmospherics/canister/empty/phoron,
 /turf/simulated/floor/plating,
-/area/sector/tundra/field/shuttle1)
+/area/sector/tundra/shuttle4)
 "al" = (
 /obj/spawner/corpse/vintage/pilot,
 /turf/simulated/wall/r_wall/prepainted,
@@ -30,7 +30,7 @@
 /obj/item/cell/basic/tier_1,
 /obj/item/cell/basic/tier_1,
 /turf/simulated/floor/plating,
-/area/sector/tundra/field/shop)
+/area/sector/tundra/shop)
 "an" = (
 /obj/structure/bed/chair/backed_grey{
 	dir = 4
@@ -45,7 +45,7 @@
 	req_access = null
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/tundra/field/base)
+/area/sector/tundra/base)
 "ap" = (
 /obj/structure/cable{
 	icon_state = "2-8"
@@ -55,7 +55,7 @@
 "aq" = (
 /obj/machinery/door/airlock,
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/tundra/field/shed1)
+/area/sector/tundra/shed1)
 "aw" = (
 /obj/structure/window/reinforced/survival_pod{
 	dir = 8
@@ -81,7 +81,7 @@
 	icon_state = "4-8"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/tundra/field/base)
+/area/sector/tundra/base)
 "aE" = (
 /obj/structure/cable{
 	icon_state = "2-4"
@@ -102,7 +102,7 @@
 	id = "maquis2"
 	},
 /turf/simulated/floor/concrete/tile/outdoors,
-/area/sector/tundra/field/base)
+/area/sector/tundra/base)
 "aU" = (
 /turf/simulated/floor/concrete/tile/outdoors,
 /area/sector/tundra/field)
@@ -118,7 +118,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/steel_dirty/dark,
-/area/sector/tundra/field/shuttle5)
+/area/sector/tundra/shuttle3)
 "ba" = (
 /obj/structure/closet/secure_closet/freezer/meat,
 /obj/item/reagent_containers/food/drinks/soymilk,
@@ -141,7 +141,7 @@
 /obj/item/reagent_containers/food/drinks/bottle/cola,
 /obj/item/storage/box/glasses/meta,
 /turf/simulated/floor/tiled/old_tile/white,
-/area/sector/tundra/field/shuttle2)
+/area/sector/tundra/shuttle1)
 "bb" = (
 /obj/structure/shuttle/engine/heater{
 	dir = 4
@@ -150,14 +150,14 @@
 	dir = 6
 	},
 /turf/simulated/wall/rdshull,
-/area/sector/tundra/field/shuttle4)
+/area/sector/tundra/shuttle5)
 "bg" = (
 /obj/machinery/portable_atmospherics/canister/phoron,
 /obj/machinery/atmospherics/portables_connector{
 	dir = 1
 	},
 /turf/simulated/floor/plating,
-/area/sector/tundra/field/shuttle3)
+/area/sector/tundra/shuttle2)
 "bi" = (
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/techfloor/grid,
@@ -179,10 +179,10 @@
 	},
 /obj/structure/bookcase/manuals,
 /turf/simulated/floor/tiled/techfloor/monogrid,
-/area/sector/tundra/field/bar)
+/area/sector/tundra/bar)
 "br" = (
 /turf/simulated/wall/wood/hardwood/prepainted/command,
-/area/sector/tundra/field/base)
+/area/sector/tundra/base)
 "bu" = (
 /obj/spawner/window/borosillicate/reinforced/full/firelocks,
 /obj/machinery/door/blast/regular/open{
@@ -192,14 +192,14 @@
 /area/shuttle/maquis/raider)
 "bx" = (
 /turf/simulated/wall/r_wall,
-/area/sector/tundra/field/shuttle4)
+/area/sector/tundra/shuttle5)
 "by" = (
 /obj/machinery/light/small{
 	dir = 1
 	},
 /obj/structure/table/wooden_reinforced,
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/tundra/field/shed1)
+/area/sector/tundra/shed1)
 "bJ" = (
 /obj/effect/floor_decal/techfloor{
 	dir = 1
@@ -221,7 +221,7 @@
 "bL" = (
 /obj/machinery/space_heater,
 /turf/simulated/floor/plating,
-/area/sector/tundra/field/shop)
+/area/sector/tundra/shop)
 "bQ" = (
 /obj/machinery/door/airlock/hatch{
 	name = "Tug Airtight Hatch";
@@ -229,7 +229,7 @@
 	},
 /obj/map_helper/access_helper/airlock/disconnected,
 /turf/simulated/floor/tiled/techfloor,
-/area/sector/tundra/field/shop)
+/area/sector/tundra/shop)
 "bU" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden,
 /turf/simulated/wall/prepainted/command/alt,
@@ -239,7 +239,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/tundra/field/base)
+/area/sector/tundra/base)
 "bW" = (
 /obj/structure/bed/chair/bay/shuttle{
 	dir = 8
@@ -248,7 +248,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/steel_dirty/red,
-/area/sector/tundra/field/bar)
+/area/sector/tundra/bar)
 "bY" = (
 /obj/structure/cable/green{
 	icon_state = "4-8"
@@ -257,10 +257,10 @@
 	dir = 4
 	},
 /turf/simulated/floor/carpet/patterened/blue/alt,
-/area/sector/tundra/field/shuttle3)
+/area/sector/tundra/shuttle2)
 "ca" = (
 /turf/simulated/floor/concrete/tile/outdoors,
-/area/sector/tundra/field/base)
+/area/sector/tundra/base)
 "cb" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden{
 	dir = 8
@@ -269,7 +269,7 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/sector/tundra/field/shuttle4)
+/area/sector/tundra/shuttle5)
 "ce" = (
 /obj/machinery/atmospherics/pipe/tank/air{
 	dir = 8
@@ -281,7 +281,7 @@
 	req_one_access = null
 	},
 /turf/simulated/floor/tiled/techfloor/monogrid,
-/area/sector/tundra/field/bar)
+/area/sector/tundra/bar)
 "cf" = (
 /obj/structure/fence/wooden/post{
 	dir = 8
@@ -293,7 +293,7 @@
 /obj/structure/cable/orange,
 /obj/machinery/power/port_gen/pacman/mrs,
 /turf/simulated/floor/tiled/techfloor/monogrid,
-/area/sector/tundra/field/shuttle5)
+/area/sector/tundra/shuttle3)
 "ck" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -317,22 +317,22 @@
 "co" = (
 /obj/structure/sign/double/barsign,
 /turf/simulated/wall/dshull,
-/area/sector/tundra/field/bar)
+/area/sector/tundra/bar)
 "cq" = (
 /obj/machinery/telecomms/relay/preset/telecomms,
 /turf/simulated/floor/tiled/techfloor,
-/area/sector/tundra/field/shop)
+/area/sector/tundra/shop)
 "cr" = (
 /obj/structure/cable/green,
 /obj/machinery/power/apc/alarms_hidden/east_mount,
 /turf/simulated/floor/tiled/techfloor/monogrid,
-/area/sector/tundra/field/shuttle4)
+/area/sector/tundra/shuttle5)
 "cs" = (
 /obj/structure/cable/green{
 	icon_state = "1-4"
 	},
 /turf/simulated/wall/dshull,
-/area/sector/tundra/field/shuttle5)
+/area/sector/tundra/shuttle3)
 "cv" = (
 /obj/structure/table/hardwoodtable,
 /obj/machinery/vending/vce_bartender_thundra{
@@ -346,7 +346,7 @@
 	pixel_x = -7
 	},
 /turf/simulated/floor/tiled/techfloor/monogrid,
-/area/sector/tundra/field/bar)
+/area/sector/tundra/bar)
 "cw" = (
 /obj/structure/cable/green{
 	icon_state = "1-8"
@@ -365,7 +365,7 @@
 	},
 /obj/machinery/space_heater,
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/tundra/field/shed2)
+/area/sector/tundra/shuttle4)
 "cA" = (
 /obj/structure/bed/chair/comfy/brown{
 	dir = 8
@@ -374,16 +374,16 @@
 	pixel_y = -28
 	},
 /turf/simulated/floor/carpet/patterened/blue/alt,
-/area/sector/tundra/field/shuttle2)
+/area/sector/tundra/shuttle1)
 "cC" = (
 /turf/simulated/floor/plating/indoors,
-/area/sector/tundra/field/shuttle5)
+/area/sector/tundra/shuttle3)
 "cI" = (
 /obj/machinery/computer/ship/sensors/adv{
 	dir = 1
 	},
 /turf/simulated/floor/tiled/monotechmaint,
-/area/sector/tundra/field/shuttle4)
+/area/sector/tundra/shuttle5)
 "cK" = (
 /obj/effect/floor_decal/rust,
 /obj/machinery/turretid{
@@ -399,13 +399,13 @@
 	},
 /obj/structure/table/steel_reinforced,
 /turf/simulated/floor/tiled/old_tile/beige,
-/area/sector/tundra/field/shuttle3)
+/area/sector/tundra/shuttle2)
 "cQ" = (
 /obj/structure/toilet{
 	dir = 8
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/tundra/field/shed2)
+/area/sector/tundra/shuttle4)
 "cU" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 9
@@ -414,7 +414,7 @@
 	icon_state = "2-4"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/tundra/field/shop)
+/area/sector/tundra/shop)
 "cV" = (
 /obj/structure/railing/grey{
 	dir = 4
@@ -433,7 +433,7 @@
 	},
 /obj/structure/table/wooden_reinforced,
 /turf/simulated/floor/tiled/kafel_full/white,
-/area/sector/tundra/field/shuttle1)
+/area/sector/tundra/shuttle4)
 "db" = (
 /obj/machinery/door/blast/regular{
 	id = "maquis1"
@@ -442,7 +442,7 @@
 	icon_state = "4-8"
 	},
 /turf/simulated/floor/concrete/tile/outdoors,
-/area/sector/tundra/field/base)
+/area/sector/tundra/base)
 "dd" = (
 /obj/structure/cable/green{
 	icon_state = "1-2"
@@ -455,14 +455,14 @@
 "de" = (
 /obj/structure/flora/grass/event/bright_flowers1,
 /turf/simulated/floor/fey/snow_grass,
-/area/sector/tundra/field/base)
+/area/sector/tundra/base)
 "di" = (
 /obj/structure/table/steel_reinforced,
 /obj/item/storage/single_use/mre/random,
 /obj/item/storage/single_use/mre/random,
 /obj/item/storage/single_use/mre/random,
 /turf/simulated/floor/plating,
-/area/sector/tundra/field/shop)
+/area/sector/tundra/shop)
 "dp" = (
 /obj/structure/window/reinforced/tinted,
 /obj/machinery/power/smes/buildable{
@@ -473,7 +473,7 @@
 	icon_state = "0-4"
 	},
 /turf/simulated/floor/tiled/techfloor/monogrid,
-/area/sector/tundra/field/shop)
+/area/sector/tundra/shop)
 "dt" = (
 /obj/structure/table/steel,
 /obj/machinery/microwave,
@@ -487,7 +487,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/kafel_full/white,
-/area/sector/tundra/field/shuttle1)
+/area/sector/tundra/shuttle4)
 "dv" = (
 /obj/structure/bed/chair{
 	dir = 4
@@ -496,7 +496,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/tundra/field/base)
+/area/sector/tundra/base)
 "dz" = (
 /obj/structure/sink{
 	dir = 8;
@@ -514,14 +514,14 @@
 	},
 /obj/structure/curtain/black,
 /turf/simulated/floor/tiled/old_tile/yellow,
-/area/sector/tundra/field/shuttle2)
+/area/sector/tundra/shuttle1)
 "dD" = (
 /obj/machinery/computer/ship/helm{
 	req_one_access = null
 	},
 /obj/structure/table/steel_reinforced,
 /turf/simulated/floor/tiled/techfloor,
-/area/sector/tundra/field/shuttle1)
+/area/sector/tundra/shuttle4)
 "dE" = (
 /obj/structure/cable{
 	icon_state = "2-8"
@@ -530,7 +530,7 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/concrete/tile/outdoors,
-/area/sector/tundra/field/base)
+/area/sector/tundra/base)
 "dG" = (
 /obj/effect/floor_decal/rust,
 /obj/machinery/atmospherics/portables_connector{
@@ -565,7 +565,7 @@
 /area/shuttle/maquis/raider)
 "dN" = (
 /turf/simulated/floor/tiled/techfloor/monogrid,
-/area/sector/tundra/field/shuttle5)
+/area/sector/tundra/shuttle3)
 "dO" = (
 /obj/item/stool,
 /obj/structure/window/basic{
@@ -606,13 +606,13 @@
 	dir = 1
 	},
 /turf/simulated/floor/fey/forest_grass,
-/area/sector/tundra/field/shuttle4)
+/area/sector/tundra/shuttle5)
 "ea" = (
 /obj/structure/cable/green{
 	icon_state = "4-8"
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/sector/tundra/field/shuttle1)
+/area/sector/tundra/shuttle4)
 "eb" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/hatch{
@@ -622,13 +622,13 @@
 /obj/structure/fans/tiny,
 /obj/map_helper/access_helper/airlock/disconnected,
 /turf/simulated/floor/plating,
-/area/sector/tundra/field/shuttle2)
+/area/sector/tundra/shuttle1)
 "ec" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden{
 	dir = 1
 	},
 /turf/simulated/wall/r_wall,
-/area/sector/tundra/field/shuttle4)
+/area/sector/tundra/shuttle5)
 "ef" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 6
@@ -648,7 +648,7 @@
 "em" = (
 /obj/machinery/shipsensors,
 /turf/simulated/floor/tiled/techfloor,
-/area/sector/tundra/field/shop)
+/area/sector/tundra/shop)
 "en" = (
 /obj/structure/cable{
 	icon_state = "4-10"
@@ -663,7 +663,7 @@
 	icon_state = "1-4"
 	},
 /turf/simulated/wall/rdshull,
-/area/sector/tundra/field/shuttle2)
+/area/sector/tundra/shuttle1)
 "eq" = (
 /obj/machinery/atmospherics/portables_connector,
 /obj/machinery/portable_atmospherics/canister/empty/phoron,
@@ -671,15 +671,15 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/techfloor/monogrid,
-/area/sector/tundra/field/bar)
+/area/sector/tundra/bar)
 "ev" = (
 /obj/structure/closet/secure_closet/guncabinet/rifle,
 /turf/simulated/floor/plating,
-/area/sector/tundra/field/shop)
+/area/sector/tundra/shop)
 "ey" = (
 /obj/spawner/window/low_wall/reinforced/firelocks,
 /turf/simulated/floor/tiled/kafel_full/green,
-/area/sector/tundra/field/shuttle4)
+/area/sector/tundra/shuttle5)
 "ez" = (
 /obj/machinery/light_switch{
 	dir = 1;
@@ -689,13 +689,13 @@
 	dir = 1
 	},
 /turf/simulated/floor/carpet/patterened/blue/alt,
-/area/sector/tundra/field/shuttle3)
+/area/sector/tundra/shuttle2)
 "eI" = (
 /obj/machinery/light/small{
 	dir = 1
 	},
 /turf/simulated/floor/tiled/techfloor/monogrid,
-/area/sector/tundra/field/shuttle4)
+/area/sector/tundra/shuttle5)
 "eL" = (
 /obj/structure/bed/chair/bay/shuttle{
 	dir = 1
@@ -718,10 +718,7 @@
 /obj/structure/table/steel_reinforced,
 /obj/machinery/light/small,
 /turf/simulated/floor/tiled/techfloor,
-/area/sector/tundra/field/shuttle1)
-"eP" = (
-/turf/simulated/floor/snow/gravsnow,
-/area/sector/tundra/field/base)
+/area/sector/tundra/shuttle4)
 "eR" = (
 /obj/machinery/atmospherics/pipe/simple/hidden,
 /turf/simulated/wall/r_wall/prepainted,
@@ -731,12 +728,12 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/tundra/field/shed1)
+/area/sector/tundra/shed1)
 "eZ" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden,
 /obj/machinery/holopad/ship,
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/tundra/field/shop)
+/area/sector/tundra/shop)
 "fg" = (
 /obj/structure/bonfire/permanent,
 /turf/simulated/floor/snow,
@@ -757,14 +754,14 @@
 "fm" = (
 /obj/machinery/holopad/ship/starts_inactive,
 /turf/simulated/floor/tiled/steel_dirty/red,
-/area/sector/tundra/field/bar)
+/area/sector/tundra/bar)
 "fn" = (
 /turf/simulated/floor/tiled/techfloor/monogrid,
-/area/sector/tundra/field/bar)
+/area/sector/tundra/bar)
 "fu" = (
 /obj/structure/bookcase/manuals,
 /turf/simulated/floor/tiled/techfloor/monogrid,
-/area/sector/tundra/field/bar)
+/area/sector/tundra/bar)
 "fy" = (
 /turf/simulated/floor/snow,
 /area/sector/tundra/field)
@@ -780,19 +777,19 @@
 	req_one_access = null
 	},
 /turf/simulated/floor/tiled/monotechmaint,
-/area/sector/tundra/field/shuttle4)
+/area/sector/tundra/shuttle5)
 "fI" = (
 /obj/structure/cable/green{
 	icon_state = "4-8"
 	},
 /turf/simulated/floor/carpet/patterened/blue/alt,
-/area/sector/tundra/field/shuttle2)
+/area/sector/tundra/shuttle1)
 "fK" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 4
 	},
 /turf/simulated/wall/r_wall,
-/area/sector/tundra/field/shuttle4)
+/area/sector/tundra/shuttle5)
 "fN" = (
 /obj/structure/event/prop/green_barrel,
 /turf/simulated/floor/fey/snow_grass,
@@ -809,7 +806,7 @@
 	dir = 10
 	},
 /turf/simulated/floor/carpet/patterened,
-/area/sector/tundra/field/shuttle1)
+/area/sector/tundra/shuttle4)
 "fU" = (
 /obj/structure/railing/grey,
 /obj/effect/floor_decal/techfloor{
@@ -819,13 +816,13 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/steel_dirty/red,
-/area/sector/tundra/field/shuttle5)
+/area/sector/tundra/shuttle3)
 "fV" = (
 /obj/structure/cable{
 	icon_state = "0-1"
 	},
 /turf/simulated/floor/tiled/techfloor/monogrid,
-/area/sector/tundra/field/shuttle5)
+/area/sector/tundra/shuttle3)
 "fX" = (
 /obj/structure/ghost_role_spawner/maquis/commander,
 /obj/item/bedsheet/hos,
@@ -836,7 +833,7 @@
 	dir = 1
 	},
 /turf/simulated/wall/rdshull,
-/area/sector/tundra/field/shuttle4)
+/area/sector/tundra/shuttle5)
 "gg" = (
 /obj/structure/table/steel_reinforced,
 /obj/machinery/vending/vce_thundra_vendor{
@@ -855,7 +852,7 @@
 	pixel_x = 15
 	},
 /turf/simulated/floor/plating,
-/area/sector/tundra/field/shop)
+/area/sector/tundra/shop)
 "gl" = (
 /obj/structure/railing/grey,
 /obj/machinery/atmospherics/pipe/simple/hidden/red{
@@ -865,21 +862,21 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/steel_dirty/dark,
-/area/sector/tundra/field/bar)
+/area/sector/tundra/bar)
 "gn" = (
 /obj/machinery/power/terminal,
 /obj/structure/cable/orange{
 	dir = 8
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/tundra/field/shop)
+/area/sector/tundra/shop)
 "gA" = (
 /obj/structure/bed/chair/sofa/brown{
 	dir = 1
 	},
 /obj/effect/floor_decal/carpet,
 /turf/simulated/floor/carpet/patterened,
-/area/sector/tundra/field/shuttle1)
+/area/sector/tundra/shuttle4)
 "gE" = (
 /obj/machinery/button/remote/driver{
 	id = "pirate_plank";
@@ -907,7 +904,7 @@
 	icon_state = "2-8"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/tundra/field/base)
+/area/sector/tundra/base)
 "gL" = (
 /obj/structure/closet/secure_closet/freezer/fridge,
 /turf/simulated/floor/tiled/techfloor/grid,
@@ -934,7 +931,7 @@
 	dir = 6
 	},
 /turf/simulated/floor/carpet/patterened,
-/area/sector/tundra/field/shuttle1)
+/area/sector/tundra/shuttle4)
 "gY" = (
 /obj/machinery/atmospherics/component/unary/vent_pump/on{
 	dir = 8
@@ -953,21 +950,21 @@
 	dir = 1
 	},
 /turf/simulated/floor/carpet/patterened/blue/alt,
-/area/sector/tundra/field/shuttle2)
+/area/sector/tundra/shuttle1)
 "hd" = (
 /obj/structure/table/steel_reinforced,
 /obj/structure/window/basic{
 	dir = 1
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/tundra/field/base)
+/area/sector/tundra/base)
 "hg" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 10
 	},
 /obj/machinery/shipsensors,
 /turf/simulated/floor/plating,
-/area/sector/tundra/field/shuttle1)
+/area/sector/tundra/shuttle4)
 "hk" = (
 /obj/structure/cable/cyan{
 	icon_state = "2-8"
@@ -982,27 +979,27 @@
 	req_access = null
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/sector/tundra/field/shop)
+/area/sector/tundra/shop)
 "hr" = (
 /obj/machinery/atmospherics/component/unary/engine{
 	dir = 8
 	},
 /turf/simulated/floor/plating,
-/area/sector/tundra/field/shuttle2)
+/area/sector/tundra/shuttle1)
 "hu" = (
 /obj/structure/bed/chair/bay/chair/padded/black{
 	dir = 8
 	},
 /obj/item/clothing/head/soft/mbill,
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/tundra/field/shop)
+/area/sector/tundra/shop)
 "hx" = (
 /obj/structure/table/steel_reinforced,
 /obj/random/maintenance/clean,
 /obj/random/maintenance/clean,
 /obj/random/maintenance/clean,
 /turf/simulated/floor/plating,
-/area/sector/tundra/field/shop)
+/area/sector/tundra/shop)
 "hz" = (
 /obj/machinery/door/airlock/hatch{
 	req_one_access = null;
@@ -1012,7 +1009,7 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/tundra/field/base)
+/area/sector/tundra/base)
 "hC" = (
 /obj/structure/cable/cyan{
 	icon_state = "2-8"
@@ -1028,7 +1025,7 @@
 	icon_state = "4-8"
 	},
 /turf/simulated/floor/tiled/techfloor/monogrid,
-/area/sector/tundra/field/bar)
+/area/sector/tundra/bar)
 "hI" = (
 /obj/structure/cable/orange{
 	icon_state = "4-8"
@@ -1038,7 +1035,7 @@
 	req_one_access = null
 	},
 /turf/simulated/floor/tiled/techfloor/monogrid,
-/area/sector/tundra/field/bar)
+/area/sector/tundra/bar)
 "hL" = (
 /obj/effect/floor_decal/carpet{
 	dir = 1
@@ -1083,7 +1080,7 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/sector/tundra/field/shuttle4)
+/area/sector/tundra/shuttle5)
 "hW" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/green{
 	dir = 4
@@ -1099,27 +1096,27 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/techfloor/monogrid,
-/area/sector/tundra/field/shuttle1)
+/area/sector/tundra/shuttle4)
 "hZ" = (
 /obj/structure/table/bench/steel,
 /obj/machinery/light{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/tundra/field/base)
+/area/sector/tundra/base)
 "ib" = (
 /obj/structure/cable/green{
 	icon_state = "4-8"
 	},
 /obj/structure/table/hardwoodtable,
 /turf/simulated/floor/tiled/techfloor/monogrid,
-/area/sector/tundra/field/bar)
+/area/sector/tundra/bar)
 "id" = (
 /obj/structure/cable/green{
 	icon_state = "2-8"
 	},
 /turf/simulated/wall/wood/hardwood/prepainted/exploration,
-/area/sector/tundra/field/shuttle5)
+/area/sector/tundra/shuttle3)
 "if" = (
 /obj/machinery/button/remote/blast_door{
 	id = "maquis4";
@@ -1127,14 +1124,14 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/tundra/field/base)
+/area/sector/tundra/base)
 "ig" = (
 /obj/machinery/computer/ship/engines,
 /obj/effect/floor_decal/techfloor{
 	dir = 1
 	},
 /turf/simulated/floor/tiled/steel_dirty/red,
-/area/sector/tundra/field/shuttle5)
+/area/sector/tundra/shuttle3)
 "ik" = (
 /obj/effect/floor_decal/rust,
 /obj/structure/cable/green{
@@ -1148,7 +1145,7 @@
 	id = "maquis4"
 	},
 /turf/simulated/floor/concrete/tile/outdoors,
-/area/sector/tundra/field/base)
+/area/sector/tundra/base)
 "in" = (
 /obj/machinery/light{
 	dir = 1
@@ -1158,7 +1155,7 @@
 	},
 /obj/machinery/power/terminal,
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/tundra/field/base)
+/area/sector/tundra/base)
 "ip" = (
 /obj/machinery/floodlight{
 	on = 1
@@ -1173,13 +1170,13 @@
 "it" = (
 /obj/machinery/atmospherics/pipe/simple/hidden,
 /turf/simulated/wall/dshull,
-/area/sector/tundra/field/bar)
+/area/sector/tundra/bar)
 "iv" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 1
 	},
 /turf/simulated/floor/tiled/techfloor/monogrid,
-/area/sector/tundra/field/shuttle4)
+/area/sector/tundra/shuttle5)
 "ix" = (
 /obj/machinery/shipsensors,
 /turf/simulated/floor/airless,
@@ -1200,7 +1197,7 @@
 /obj/machinery/atmospheric_field_generator/perma,
 /obj/machinery/door/blast/regular,
 /turf/simulated/floor/plating,
-/area/sector/tundra/field/shop)
+/area/sector/tundra/shop)
 "iI" = (
 /obj/machinery/shipsensors,
 /turf/simulated/floor/tiled/techfloor,
@@ -1213,7 +1210,7 @@
 	pixel_y = -33
 	},
 /turf/simulated/floor/tiled/steel_dirty/dark,
-/area/sector/tundra/field/bar)
+/area/sector/tundra/bar)
 "iR" = (
 /obj/machinery/button/remote/blast_door{
 	dir = 4;
@@ -1223,13 +1220,13 @@
 	},
 /obj/structure/table/steel_reinforced,
 /turf/simulated/floor/tiled/techfloor,
-/area/sector/tundra/field/shuttle1)
+/area/sector/tundra/shuttle4)
 "iS" = (
 /obj/structure/cable/orange{
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/tiled/techfloor/monogrid,
-/area/sector/tundra/field/shuttle4)
+/area/sector/tundra/shuttle5)
 "iT" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 5
@@ -1237,7 +1234,7 @@
 /obj/structure/bed/double/padded,
 /obj/item/bedsheet/browndouble,
 /turf/simulated/floor/carpet/patterened/green,
-/area/sector/tundra/field/shuttle3)
+/area/sector/tundra/shuttle2)
 "iV" = (
 /obj/structure/cable/green{
 	icon_state = "4-8"
@@ -1249,7 +1246,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/monotechmaint,
-/area/sector/tundra/field/shuttle1)
+/area/sector/tundra/shuttle4)
 "iW" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden{
 	dir = 4
@@ -1261,7 +1258,7 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/tiled/techfloor/monogrid,
-/area/sector/tundra/field/shuttle4)
+/area/sector/tundra/shuttle5)
 "ji" = (
 /obj/structure/sandbag,
 /turf/simulated/floor/fey/snow_grass,
@@ -1275,7 +1272,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/sector/tundra/field/shop)
+/area/sector/tundra/shop)
 "jk" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 6
@@ -1290,11 +1287,11 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/steel_ridged,
-/area/sector/tundra/field/shuttle1)
+/area/sector/tundra/shuttle4)
 "jm" = (
 /obj/structure/bed/chair,
 /turf/simulated/floor/plating,
-/area/sector/tundra/field/shop)
+/area/sector/tundra/shop)
 "jn" = (
 /obj/machinery/button/remote/blast_door{
 	pixel_y = 25;
@@ -1315,7 +1312,7 @@
 /area/shuttle/maquis/raider)
 "jy" = (
 /turf/unsimulated/wall,
-/area/sector/tundra/field/base)
+/area/sector/tundra/base)
 "jz" = (
 /obj/effect/floor_decal/rust,
 /obj/machinery/atmospherics/pipe/simple/hidden{
@@ -1337,7 +1334,7 @@
 	dir = 5
 	},
 /turf/simulated/wall/rdshull,
-/area/sector/tundra/field/shuttle4)
+/area/sector/tundra/shuttle5)
 "jG" = (
 /obj/machinery/atmospherics/component/binary/pump/high_power{
 	dir = 4
@@ -1368,7 +1365,7 @@
 	icon_state = "0-2"
 	},
 /turf/simulated/floor/plating,
-/area/sector/tundra/field/shuttle3)
+/area/sector/tundra/shuttle2)
 "jM" = (
 /obj/structure/cable/green{
 	icon_state = "1-2"
@@ -1381,7 +1378,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/plating,
-/area/sector/tundra/field/shop)
+/area/sector/tundra/shop)
 "jT" = (
 /obj/structure/cable{
 	icon_state = "1-4"
@@ -1392,14 +1389,14 @@
 /obj/machinery/light/small,
 /obj/machinery/appliance/cooker/oven,
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/tundra/field/shed1)
+/area/sector/tundra/shed1)
 "ka" = (
 /obj/spawner/window/low_wall/reinforced/firelocks,
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 5
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/sector/tundra/field/shop)
+/area/sector/tundra/shop)
 "kb" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -1409,7 +1406,7 @@
 "kd" = (
 /obj/spawner/window/low_wall/reinforced/firelocks,
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/tundra/field/shuttle4)
+/area/sector/tundra/shuttle5)
 "kv" = (
 /obj/structure/flora/grass/green,
 /turf/simulated/floor/snow/gravsnow,
@@ -1438,7 +1435,7 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/tundra/field/shop)
+/area/sector/tundra/shop)
 "kJ" = (
 /obj/machinery/button/remote/blast_door{
 	id = "maquis1";
@@ -1453,7 +1450,7 @@
 	pixel_y = -25
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/tundra/field/base)
+/area/sector/tundra/base)
 "kM" = (
 /obj/structure/table/steel,
 /obj/machinery/microwave,
@@ -1464,29 +1461,29 @@
 	req_one_access = null
 	},
 /turf/simulated/floor/tiled/old_tile/white,
-/area/sector/tundra/field/shuttle2)
+/area/sector/tundra/shuttle1)
 "kO" = (
 /obj/effect/floor_decal/corner_techfloor_grid{
 	dir = 6
 	},
 /turf/simulated/floor/tiled/kafel_full/white,
-/area/sector/tundra/field/shuttle1)
+/area/sector/tundra/shuttle4)
 "kQ" = (
 /turf/simulated/wall/dshull,
-/area/sector/tundra/field/bar)
+/area/sector/tundra/bar)
 "kR" = (
 /obj/structure/fuel_port{
 	pixel_x = -27
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/sector/tundra/field/shuttle1)
+/area/sector/tundra/shuttle4)
 "kS" = (
 /obj/machinery/door/airlock/hatch{
 	name = "Caravan Airtight Hatch";
 	req_one_access = null
 	},
 /turf/simulated/floor/wood,
-/area/sector/tundra/field/shuttle1)
+/area/sector/tundra/shuttle4)
 "kW" = (
 /obj/structure/metal_edge,
 /turf/simulated/floor/concrete/tile/outdoors,
@@ -1496,7 +1493,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/techfloor/monogrid,
-/area/sector/tundra/field/shuttle4)
+/area/sector/tundra/shuttle5)
 "ld" = (
 /turf/simulated/floor/tiled/old_tile/white,
 /area/sector/tundra/field)
@@ -1507,7 +1504,7 @@
 /obj/machinery/portable_atmospherics/canister/phoron,
 /obj/machinery/atmospherics/portables_connector,
 /turf/simulated/floor/tiled/techfloor/monogrid,
-/area/sector/tundra/field/shop)
+/area/sector/tundra/shop)
 "ll" = (
 /turf/simulated/floor/tiled/techfloor,
 /area/shuttle/maquis/interceptor)
@@ -1520,7 +1517,7 @@
 	icon_state = "4-8"
 	},
 /turf/simulated/wall/dshull,
-/area/sector/tundra/field/bar)
+/area/sector/tundra/bar)
 "lq" = (
 /obj/structure/cable/green{
 	icon_state = "4-8"
@@ -1530,7 +1527,7 @@
 	},
 /obj/machinery/holopad/ship,
 /turf/simulated/floor/carpet/patterened/blue/alt,
-/area/sector/tundra/field/shuttle3)
+/area/sector/tundra/shuttle2)
 "lt" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -1545,14 +1542,14 @@
 	dir = 9
 	},
 /turf/simulated/floor/carpet/patterened/blue/alt,
-/area/sector/tundra/field/shuttle3)
+/area/sector/tundra/shuttle2)
 "lv" = (
 /obj/machinery/newscaster{
 	pixel_y = -28
 	},
 /obj/structure/table/bench/steel,
 /turf/simulated/floor/tiled/monotechmaint,
-/area/sector/tundra/field/shuttle1)
+/area/sector/tundra/shuttle4)
 "lx" = (
 /obj/machinery/power/terminal{
 	dir = 4
@@ -1579,14 +1576,14 @@
 	icon_state = "2-8"
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/sector/tundra/field/shop)
+/area/sector/tundra/shop)
 "lC" = (
 /obj/machinery/computer/ship/helm{
 	req_one_access = null
 	},
 /obj/structure/table/steel_reinforced,
 /turf/simulated/floor/tiled/old_tile/beige,
-/area/sector/tundra/field/shuttle2)
+/area/sector/tundra/shuttle1)
 "lG" = (
 /obj/structure/shuttle/engine/heater{
 	dir = 4
@@ -1595,7 +1592,7 @@
 	dir = 6
 	},
 /turf/simulated/wall/dshull,
-/area/sector/tundra/field/bar)
+/area/sector/tundra/bar)
 "lK" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 6
@@ -1608,13 +1605,13 @@
 	icon_state = "4-8"
 	},
 /turf/simulated/floor/carpet/patterened/green,
-/area/sector/tundra/field/shuttle2)
+/area/sector/tundra/shuttle1)
 "lQ" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden{
 	dir = 4
 	},
 /turf/simulated/wall/r_wall,
-/area/sector/tundra/field/shuttle4)
+/area/sector/tundra/shuttle5)
 "lU" = (
 /obj/structure/cable/green{
 	icon_state = "4-8"
@@ -1644,7 +1641,7 @@
 "ma" = (
 /obj/machinery/space_heater,
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/tundra/field/shed1)
+/area/sector/tundra/shed1)
 "md" = (
 /obj/machinery/power/rtg/advanced{
 	power_gen = 5
@@ -1656,14 +1653,10 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/tundra/field/base)
+/area/sector/tundra/base)
 "me" = (
 /turf/simulated/floor/fey/snow_grass,
-/area/sector/tundra/field/base)
-"mk" = (
-/obj/structure/flora/grass/green,
-/turf/simulated/floor/fey/snow_grass,
-/area/sector/tundra/field/shuttle1)
+/area/sector/tundra/base)
 "ml" = (
 /obj/structure/bed/chair/comfy/brown{
 	dir = 8
@@ -1672,7 +1665,7 @@
 	icon_state = "2-4"
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/sector/tundra/field/shuttle1)
+/area/sector/tundra/shuttle4)
 "mn" = (
 /obj/structure/cable/green{
 	icon_state = "4-8"
@@ -1684,7 +1677,7 @@
 	dir = 10
 	},
 /turf/simulated/floor/tiled/kafel_full/white,
-/area/sector/tundra/field/shuttle1)
+/area/sector/tundra/shuttle4)
 "ms" = (
 /obj/machinery/atmospherics/component/unary/vent_pump/on{
 	dir = 1
@@ -1693,7 +1686,7 @@
 /area/shuttle/maquis/raider)
 "mu" = (
 /turf/simulated/floor/tiled/kafel_full/white,
-/area/sector/tundra/field/shuttle1)
+/area/sector/tundra/shuttle4)
 "mx" = (
 /obj/structure/shuttle/engine/heater{
 	dir = 4
@@ -1702,10 +1695,10 @@
 	dir = 6
 	},
 /turf/simulated/wall/dshull,
-/area/sector/tundra/field/shuttle5)
+/area/sector/tundra/shuttle3)
 "mA" = (
 /turf/simulated/floor/tiled/steel_dirty/dark,
-/area/sector/tundra/field/shuttle5)
+/area/sector/tundra/shuttle3)
 "mB" = (
 /obj/structure/cable/green{
 	icon_state = "1-2"
@@ -1730,7 +1723,7 @@
 	},
 /obj/map_helper/access_helper/airlock/disconnected,
 /turf/simulated/floor/tiled/steel_dirty/dark,
-/area/sector/tundra/field/shuttle5)
+/area/sector/tundra/shuttle3)
 "mK" = (
 /obj/structure/fuel_port{
 	dir = 4;
@@ -1746,14 +1739,14 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/tiled/steel_dirty/dark,
-/area/sector/tundra/field/bar)
+/area/sector/tundra/bar)
 "mM" = (
 /obj/machinery/holopad/ship/starts_inactive,
 /turf/simulated/floor/tiled/monotechmaint,
-/area/sector/tundra/field/shuttle4)
+/area/sector/tundra/shuttle5)
 "mQ" = (
 /turf/simulated/floor/carpet/patterened/blue/alt,
-/area/sector/tundra/field/shuttle3)
+/area/sector/tundra/shuttle2)
 "mS" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/red{
 	dir = 6
@@ -1765,24 +1758,24 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/steel_dirty/dark,
-/area/sector/tundra/field/shuttle5)
+/area/sector/tundra/shuttle3)
 "mT" = (
 /obj/structure/closet/secure_closet/freezer/fridge,
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/tundra/field/shed2)
+/area/sector/tundra/shuttle4)
 "mU" = (
 /obj/structure/flora/fey/grass/grass7,
 /obj/structure/flora/grass/event/bright_flowers1,
 /mob/living/simple_mob/animal/passive/chicken,
 /turf/simulated/floor/fey/forest_grass,
-/area/sector/tundra/field/shuttle4)
+/area/sector/tundra/shuttle5)
 "mW" = (
 /obj/structure/table/steel,
 /obj/machinery/computer/ship/navigation/telescreen{
 	pixel_y = -33
 	},
 /turf/simulated/floor/carpet/patterened/blue/alt,
-/area/sector/tundra/field/shuttle2)
+/area/sector/tundra/shuttle1)
 "na" = (
 /obj/machinery/light{
 	dir = 8
@@ -1808,14 +1801,14 @@
 /obj/structure/curtain/black,
 /obj/structure/curtain/black,
 /turf/simulated/floor/tiled/techfloor,
-/area/sector/tundra/field/shuttle1)
+/area/sector/tundra/shuttle4)
 "ng" = (
 /obj/machinery/atmospherics/pipe/simple/hidden,
 /turf/simulated/wall/prepainted/command/alt,
 /area/sector/tundra/field)
 "nk" = (
 /turf/simulated/wall/r_wall/prepainted/command,
-/area/sector/tundra/field/shuttle4)
+/area/sector/tundra/shuttle5)
 "nl" = (
 /obj/structure/cable{
 	icon_state = "5-10"
@@ -1827,7 +1820,7 @@
 	dir = 1
 	},
 /turf/simulated/wall/rdshull,
-/area/sector/tundra/field/shuttle2)
+/area/sector/tundra/shuttle1)
 "nr" = (
 /obj/machinery/light,
 /obj/structure/cable/green{
@@ -1837,7 +1830,7 @@
 	icon_state = "4-8"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/tundra/field/base)
+/area/sector/tundra/base)
 "nv" = (
 /obj/structure/table/steel,
 /obj/item/storage/firstaid/surgery,
@@ -1884,7 +1877,7 @@
 	dir = 5
 	},
 /turf/simulated/floor/tiled/old_tile/white,
-/area/sector/tundra/field/shuttle1)
+/area/sector/tundra/shuttle4)
 "nK" = (
 /obj/effect/floor_decal/rust,
 /turf/simulated/floor/tiled/techfloor/grid,
@@ -1924,7 +1917,7 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/sector/tundra/field/shop)
+/area/sector/tundra/shop)
 "ob" = (
 /obj/structure/railing/grey,
 /obj/structure/bed/chair/bay/shuttle{
@@ -1934,7 +1927,7 @@
 	pixel_y = 32
 	},
 /turf/simulated/floor/tiled/steel_dirty/dark,
-/area/sector/tundra/field/shuttle5)
+/area/sector/tundra/shuttle3)
 "oc" = (
 /obj/structure/grille,
 /obj/structure/window/phoronreinforced/full,
@@ -1956,13 +1949,13 @@
 	icon_state = "2-4"
 	},
 /turf/simulated/floor/tiled/old_tile/beige,
-/area/sector/tundra/field/shuttle2)
+/area/sector/tundra/shuttle1)
 "oo" = (
 /obj/machinery/light,
 /obj/structure/cable/orange,
 /obj/machinery/power/port_gen/pacman/mrs,
 /turf/simulated/floor/tiled/techfloor/monogrid,
-/area/sector/tundra/field/bar)
+/area/sector/tundra/bar)
 "oq" = (
 /obj/machinery/power/terminal,
 /obj/structure/cable/green,
@@ -1970,7 +1963,7 @@
 	icon_state = "0-8"
 	},
 /turf/simulated/floor/tiled/techfloor/monogrid,
-/area/sector/tundra/field/shuttle4)
+/area/sector/tundra/shuttle5)
 "or" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/cyan{
 	dir = 4
@@ -1980,7 +1973,7 @@
 	req_one_access = null
 	},
 /turf/simulated/floor/tiled/old_tile/yellow,
-/area/sector/tundra/field/shuttle1)
+/area/sector/tundra/shuttle4)
 "ox" = (
 /obj/machinery/light{
 	dir = 1
@@ -2002,13 +1995,13 @@
 	icon_state = "4-8"
 	},
 /turf/simulated/floor/carpet/patterened/green,
-/area/sector/tundra/field/shuttle3)
+/area/sector/tundra/shuttle2)
 "oD" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden{
 	dir = 1
 	},
 /turf/simulated/wall/prepainted,
-/area/sector/tundra/field/shuttle1)
+/area/sector/tundra/shuttle4)
 "oE" = (
 /turf/simulated/floor/carpet/patterened/purple,
 /area/sector/tundra/field)
@@ -2029,7 +2022,7 @@
 	dir = 5
 	},
 /turf/simulated/floor/carpet/patterened,
-/area/sector/tundra/field/shuttle1)
+/area/sector/tundra/shuttle4)
 "oO" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden{
 	dir = 1
@@ -2045,7 +2038,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/techfloor/monogrid,
-/area/sector/tundra/field/shuttle5)
+/area/sector/tundra/shuttle3)
 "oT" = (
 /obj/spawner/window/borosillicate/full/firelocks,
 /turf/simulated/floor/tiled/techfloor/grid,
@@ -2066,13 +2059,13 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/sector/tundra/field/shuttle4)
+/area/sector/tundra/shuttle5)
 "pi" = (
 /obj/structure/cable{
 	icon_state = "1-8"
 	},
 /turf/simulated/floor/tiled/techfloor/monogrid,
-/area/sector/tundra/field/bar)
+/area/sector/tundra/bar)
 "pn" = (
 /obj/machinery/atmospherics/pipe/simple/hidden,
 /turf/simulated/floor/tiled/techfloor/grid,
@@ -2081,16 +2074,13 @@
 /obj/machinery/atmospherics/pipe/simple/hidden,
 /obj/machinery/door/airlock/command,
 /turf/simulated/floor/tiled/techfloor/monogrid,
-/area/sector/tundra/field/shuttle4)
+/area/sector/tundra/shuttle5)
 "pq" = (
 /turf/simulated/floor/tiled/monotechmaint,
-/area/sector/tundra/field/shuttle1)
-"pr" = (
-/turf/simulated/floor/fey/snow_grass,
-/area/sector/tundra/field/shuttle1)
+/area/sector/tundra/shuttle4)
 "pt" = (
 /turf/simulated/floor/fey/forest_grass,
-/area/sector/tundra/field/shuttle4)
+/area/sector/tundra/shuttle5)
 "pw" = (
 /obj/effect/floor_decal/techfloor{
 	dir = 1
@@ -2131,7 +2121,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/techfloor/monogrid,
-/area/sector/tundra/field/shuttle4)
+/area/sector/tundra/shuttle5)
 "pJ" = (
 /obj/structure/table/bench/wooden,
 /turf/simulated/floor/tiled/techfloor/grid,
@@ -2144,7 +2134,7 @@
 	id = "maquis3"
 	},
 /turf/simulated/floor/concrete/tile/outdoors,
-/area/sector/tundra/field/base)
+/area/sector/tundra/base)
 "pP" = (
 /obj/structure/cable/green{
 	icon_state = "1-2"
@@ -2154,7 +2144,7 @@
 	icon_state = "4-8"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/tundra/field/shop)
+/area/sector/tundra/shop)
 "pR" = (
 /obj/machinery/computer/security/telescreen/entertainment{
 	desc = "Looks like it's set to ree-Anur-ntertanment, I wonder what else is on?";
@@ -2165,7 +2155,7 @@
 	icon_state = "book-5"
 	},
 /turf/simulated/floor/wood,
-/area/sector/tundra/field/shuttle1)
+/area/sector/tundra/shuttle4)
 "pU" = (
 /obj/effect/floor_decal/rust,
 /obj/structure/table/steel_reinforced,
@@ -2176,7 +2166,7 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/tundra/field/base)
+/area/sector/tundra/base)
 "qd" = (
 /obj/structure/table/steel_reinforced,
 /obj/item/encryptionkey/maquis,
@@ -2191,7 +2181,7 @@
 /obj/structure/target_stake,
 /obj/item/target/humanoid,
 /turf/simulated/floor/fey/snow_grass,
-/area/sector/tundra/field/base)
+/area/sector/tundra/base)
 "qk" = (
 /obj/machinery/atmospherics/component/unary/vent_pump/on{
 	dir = 4
@@ -2200,7 +2190,7 @@
 	icon_state = "1-4"
 	},
 /turf/simulated/floor/tiled/monotechmaint,
-/area/sector/tundra/field/shuttle4)
+/area/sector/tundra/shuttle5)
 "ql" = (
 /obj/structure/event/prop/yellow_barrel,
 /turf/simulated/floor/fey/snow_grass,
@@ -2228,10 +2218,6 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/cyan,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/maquis/interceptor)
-"qy" = (
-/obj/structure/event/prop/green_barrel,
-/turf/simulated/floor/fey/snow_grass,
-/area/sector/tundra/field/shuttle1)
 "qz" = (
 /obj/machinery/light{
 	dir = 8
@@ -2241,7 +2227,7 @@
 "qA" = (
 /obj/spawner/window/low_wall/reinforced/firelocks,
 /turf/simulated/floor/tiled/old_tile/beige,
-/area/sector/tundra/field/shuttle3)
+/area/sector/tundra/shuttle2)
 "qC" = (
 /obj/structure/ghost_role_spawner/maquis,
 /obj/structure/fence/cut{
@@ -2270,7 +2256,7 @@
 	dir = 4
 	},
 /turf/simulated/wall/prepainted,
-/area/sector/tundra/field/shuttle1)
+/area/sector/tundra/shuttle4)
 "qG" = (
 /obj/structure/closet/walllocker_double/south,
 /obj/item/gps/medical,
@@ -2296,7 +2282,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/plating,
-/area/sector/tundra/field/shuttle3)
+/area/sector/tundra/shuttle2)
 "qJ" = (
 /obj/structure/cable{
 	icon_state = "5-8"
@@ -2308,7 +2294,7 @@
 	icon_state = "4-8"
 	},
 /turf/simulated/wall/prepainted,
-/area/sector/tundra/field/shuttle1)
+/area/sector/tundra/shuttle4)
 "qM" = (
 /obj/effect/floor_decal/rust,
 /obj/machinery/atmospherics/pipe/simple/hidden{
@@ -2325,25 +2311,25 @@
 	},
 /obj/machinery/light,
 /turf/simulated/floor/tiled/steel_dirty/dark,
-/area/sector/tundra/field/shuttle5)
+/area/sector/tundra/shuttle3)
 "qR" = (
 /obj/machinery/light/small{
 	dir = 4
 	},
 /turf/simulated/floor/wood,
-/area/sector/tundra/field/shuttle1)
+/area/sector/tundra/shuttle4)
 "qT" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/cyan{
 	dir = 4
 	},
 /turf/simulated/wall/rdshull,
-/area/sector/tundra/field/shuttle2)
+/area/sector/tundra/shuttle1)
 "ra" = (
 /obj/structure/panic_button{
 	pixel_y = -28
 	},
 /turf/simulated/floor/tiled/monotechmaint,
-/area/sector/tundra/field/shuttle1)
+/area/sector/tundra/shuttle4)
 "rc" = (
 /obj/structure/cable/green{
 	icon_state = "1-2"
@@ -2354,7 +2340,7 @@
 "rd" = (
 /obj/item/stool,
 /turf/simulated/floor/tiled/techfloor/monogrid,
-/area/sector/tundra/field/bar)
+/area/sector/tundra/bar)
 "rg" = (
 /obj/structure/bed/chair/bay/shuttle,
 /obj/machinery/light{
@@ -2372,7 +2358,7 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/tundra/field/shed1)
+/area/sector/tundra/shed1)
 "ri" = (
 /obj/machinery/atmospherics/component/unary/vent_pump/high_volume{
 	frequency = 1380;
@@ -2398,14 +2384,14 @@
 /obj/machinery/atmospheric_field_generator/perma,
 /obj/map_helper/access_helper/airlock/disconnected,
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/tundra/field/shop)
+/area/sector/tundra/shop)
 "rp" = (
 /obj/structure/closet/walllocker_double/east,
 /obj/machinery/atmospherics/component/binary/pump{
 	dir = 1
 	},
 /turf/simulated/floor/tiled/techfloor/monogrid,
-/area/sector/tundra/field/shuttle5)
+/area/sector/tundra/shuttle3)
 "rq" = (
 /obj/item/material/gravemarker,
 /turf/simulated/floor/fey/snow_grass,
@@ -2439,7 +2425,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/techfloor/monogrid,
-/area/sector/tundra/field/shuttle5)
+/area/sector/tundra/shuttle3)
 "ry" = (
 /obj/structure/cable/green{
 	icon_state = "1-2"
@@ -2453,7 +2439,7 @@
 "rD" = (
 /obj/structure/table/marble,
 /turf/simulated/floor/plating/indoors,
-/area/sector/tundra/field/shuttle5)
+/area/sector/tundra/shuttle3)
 "rE" = (
 /obj/machinery/door/airlock/external,
 /obj/map_helper/airlock/door/ext_door,
@@ -2481,7 +2467,7 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/concrete/tile/outdoors,
-/area/sector/tundra/field/base)
+/area/sector/tundra/base)
 "rN" = (
 /obj/structure/table/steel,
 /obj/machinery/light/small{
@@ -2492,16 +2478,16 @@
 	},
 /obj/machinery/appliance/cooker/oven,
 /turf/simulated/floor/tiled/old_tile/white,
-/area/sector/tundra/field/shuttle3)
+/area/sector/tundra/shuttle2)
 "rO" = (
 /obj/machinery/light/small,
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/tundra/field/shed2)
+/area/sector/tundra/shuttle4)
 "rP" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/structure/closet/walllocker_double/east,
 /turf/simulated/floor/tiled/techfloor,
-/area/sector/tundra/field/shuttle1)
+/area/sector/tundra/shuttle4)
 "rW" = (
 /obj/machinery/air_alarm/alarms_hidden/east_mount{
 	req_one_access = null
@@ -2513,13 +2499,13 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/tundra/field/shop)
+/area/sector/tundra/shop)
 "rY" = (
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/tiled/techfloor/monogrid,
-/area/sector/tundra/field/bar)
+/area/sector/tundra/bar)
 "rZ" = (
 /obj/machinery/computer/ship/helm{
 	dir = 1
@@ -2531,11 +2517,11 @@
 /obj/machinery/fire_alarm/north_mount,
 /obj/structure/table/hardwoodtable,
 /turf/simulated/floor/tiled/techfloor/monogrid,
-/area/sector/tundra/field/bar)
+/area/sector/tundra/bar)
 "sd" = (
 /obj/structure/flora/fey/grass/grass4,
 /turf/simulated/floor/fey/forest_grass,
-/area/sector/tundra/field/shuttle4)
+/area/sector/tundra/shuttle5)
 "se" = (
 /obj/effect/floor_decal/industrial/outline/blue,
 /obj/vehicle/sealed/mecha/combat/fighter/duke/cw,
@@ -2545,11 +2531,11 @@
 /obj/structure/target_stake,
 /obj/item/target/basic,
 /turf/simulated/floor/fey/snow_grass,
-/area/sector/tundra/field/base)
+/area/sector/tundra/base)
 "sj" = (
 /obj/machinery/door/airlock,
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/tundra/field/shed2)
+/area/sector/tundra/shuttle4)
 "sn" = (
 /obj/effect/floor_decal/borderfloorblack/shifted,
 /obj/machinery/door/window/brigdoor/westleft{
@@ -2582,7 +2568,7 @@
 	icon_state = "4-8"
 	},
 /turf/simulated/floor/carpet/patterened/green,
-/area/sector/tundra/field/shuttle3)
+/area/sector/tundra/shuttle2)
 "sC" = (
 /obj/structure/cable/green{
 	icon_state = "1-2"
@@ -2608,7 +2594,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/fey/snow_grass,
-/area/sector/tundra/field/shuttle5)
+/area/sector/tundra/shuttle3)
 "sK" = (
 /obj/item/stack/sandbags,
 /turf/simulated/floor/snow,
@@ -2619,6 +2605,10 @@
 	},
 /turf/simulated/floor/concrete/tile/outdoors,
 /area/sector/tundra/field)
+"sN" = (
+/mob/living/simple_mob/animal/icegoat,
+/turf/simulated/floor/fey/snow_grass,
+/area/sector/tundra/field)
 "sS" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -2627,7 +2617,7 @@
 	icon_state = "2-4"
 	},
 /turf/simulated/floor/concrete/tile/outdoors,
-/area/sector/tundra/field/base)
+/area/sector/tundra/base)
 "sV" = (
 /turf/simulated/floor/outdoors/dirt,
 /area/sector/tundra/field)
@@ -2653,7 +2643,7 @@
 /obj/item/clothing/head/helmet/space/emergency,
 /obj/machinery/atmospherics/pipe/simple/hidden,
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/tundra/field/shop)
+/area/sector/tundra/shop)
 "tl" = (
 /obj/machinery/airlock_sensor{
 	dir = 1;
@@ -2678,7 +2668,7 @@
 	icon_state = "1-8"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/tundra/field/base)
+/area/sector/tundra/base)
 "tr" = (
 /obj/machinery/light{
 	dir = 8
@@ -2695,7 +2685,7 @@
 "tv" = (
 /obj/structure/flora/grass/event/ferny_bush1,
 /turf/simulated/floor/fey/forest_grass,
-/area/sector/tundra/field/shuttle4)
+/area/sector/tundra/shuttle5)
 "tw" = (
 /obj/machinery/telecomms/allinone/maquis,
 /turf/simulated/floor/tiled/techfloor/grid,
@@ -2705,7 +2695,7 @@
 	id = "maquis6"
 	},
 /turf/simulated/floor/concrete/tile/outdoors,
-/area/sector/tundra/field/base)
+/area/sector/tundra/base)
 "tF" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 8
@@ -2724,7 +2714,7 @@
 	},
 /obj/machinery/holopad/ship,
 /turf/simulated/floor/carpet/patterened/blue/alt,
-/area/sector/tundra/field/shuttle2)
+/area/sector/tundra/shuttle1)
 "tJ" = (
 /obj/structure/handrail{
 	dir = 8
@@ -2743,14 +2733,14 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/tundra/field/shed1)
+/area/sector/tundra/shed1)
 "tL" = (
 /obj/machinery/portable_atmospherics/canister/phoron,
 /obj/machinery/atmospherics/portables_connector{
 	dir = 1
 	},
 /turf/simulated/floor/plating,
-/area/sector/tundra/field/shuttle2)
+/area/sector/tundra/shuttle1)
 "tM" = (
 /obj/machinery/light{
 	dir = 4
@@ -2764,7 +2754,7 @@
 "tP" = (
 /obj/machinery/door/airlock/command,
 /turf/simulated/floor/tiled/kafel_full/green,
-/area/sector/tundra/field/shuttle4)
+/area/sector/tundra/shuttle5)
 "tU" = (
 /obj/structure/table/steel,
 /obj/machinery/light/small{
@@ -2775,7 +2765,7 @@
 	},
 /obj/machinery/appliance/cooker/oven,
 /turf/simulated/floor/tiled/old_tile/white,
-/area/sector/tundra/field/shuttle2)
+/area/sector/tundra/shuttle1)
 "tV" = (
 /obj/machinery/light{
 	dir = 1
@@ -2786,7 +2776,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/tundra/field/base)
+/area/sector/tundra/base)
 "tW" = (
 /obj/machinery/atmospherics/portables_connector{
 	dir = 4
@@ -2814,7 +2804,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/steel_dirty/dark,
-/area/sector/tundra/field/bar)
+/area/sector/tundra/bar)
 "ug" = (
 /obj/effect/floor_decal/rust,
 /obj/structure/closet/crate,
@@ -2853,16 +2843,16 @@
 /obj/structure/flora/fey/grass/grass8,
 /mob/living/simple_mob/animal/passive/chick,
 /turf/simulated/floor/fey/forest_grass,
-/area/sector/tundra/field/shuttle4)
+/area/sector/tundra/shuttle5)
 "ux" = (
 /obj/structure/flora/fey/grass/grass1,
 /turf/simulated/floor/fey/forest_grass,
-/area/sector/tundra/field/shuttle4)
+/area/sector/tundra/shuttle5)
 "uA" = (
 /obj/spawner/window/low_wall/reinforced/firelocks,
 /obj/structure/curtain/black,
 /turf/simulated/floor/tiled/steel_dirty/dark,
-/area/sector/tundra/field/shuttle5)
+/area/sector/tundra/shuttle3)
 "uE" = (
 /obj/structure/closet/walllocker_double/south,
 /obj/structure/table/bench/wooden,
@@ -2882,7 +2872,7 @@
 /area/shuttle/maquis/raider)
 "uG" = (
 /turf/simulated/floor/carpet/patterened/blue/alt,
-/area/sector/tundra/field/shuttle2)
+/area/sector/tundra/shuttle1)
 "uH" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/cyan{
 	dir = 4
@@ -2891,14 +2881,14 @@
 	dir = 6
 	},
 /turf/simulated/floor/tiled/kafel_full/white,
-/area/sector/tundra/field/shuttle1)
+/area/sector/tundra/shuttle4)
 "uJ" = (
 /obj/machinery/atmospherics/component/unary/vent_pump/on,
 /turf/simulated/floor/tiled/techfloor/monogrid,
-/area/sector/tundra/field/shuttle4)
+/area/sector/tundra/shuttle5)
 "uK" = (
 /turf/simulated/floor/tiled/techfloor,
-/area/sector/tundra/field/shuttle1)
+/area/sector/tundra/shuttle4)
 "uW" = (
 /obj/machinery/light{
 	dir = 8
@@ -2908,7 +2898,11 @@
 /area/shuttle/maquis/raider)
 "uZ" = (
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/tundra/field/shed2)
+/area/sector/tundra/shuttle4)
+"va" = (
+/mob/living/simple_mob/animal/horing,
+/turf/simulated/floor/fey/snow_grass,
+/area/sector/tundra/field)
 "vc" = (
 /obj/machinery/atmospherics/component/unary/vent_pump/on{
 	dir = 4
@@ -2930,7 +2924,7 @@
 	dir = 9
 	},
 /turf/simulated/floor/carpet/patterened,
-/area/sector/tundra/field/shuttle1)
+/area/sector/tundra/shuttle4)
 "vi" = (
 /mob/living/simple_mob/animal/space/whaleshark/hostile,
 /turf/simulated/floor/water,
@@ -2938,11 +2932,11 @@
 "vm" = (
 /obj/structure/table/bench/wooden,
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/tundra/field/shed2)
+/area/sector/tundra/shuttle4)
 "vt" = (
 /obj/structure/closet/walllocker_double/south,
 /turf/simulated/floor/carpet/patterened/green,
-/area/sector/tundra/field/shuttle3)
+/area/sector/tundra/shuttle2)
 "vv" = (
 /obj/structure/cable/green{
 	icon_state = "4-8"
@@ -2952,7 +2946,7 @@
 	},
 /obj/machinery/holopad/ship,
 /turf/simulated/floor/tiled/monotechmaint,
-/area/sector/tundra/field/shuttle1)
+/area/sector/tundra/shuttle4)
 "vw" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 4
@@ -2961,7 +2955,7 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/tiled/techfloor/monogrid,
-/area/sector/tundra/field/shuttle4)
+/area/sector/tundra/shuttle5)
 "vB" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/hatch{
@@ -2972,7 +2966,7 @@
 /obj/machinery/door/firedoor,
 /obj/machinery/door/blast/regular,
 /turf/simulated/floor/tiled/techfloor,
-/area/sector/tundra/field/shuttle1)
+/area/sector/tundra/shuttle4)
 "vH" = (
 /obj/structure/shuttle/engine/heater{
 	dir = 4
@@ -3001,13 +2995,13 @@
 	},
 /obj/map_helper/access_helper/airlock/disconnected,
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/tundra/field/shop)
+/area/sector/tundra/shop)
 "vO" = (
 /obj/structure/cable{
 	icon_state = "2-4"
 	},
 /turf/simulated/floor/fey/snow_grass,
-/area/sector/tundra/field/shuttle1)
+/area/sector/tundra/field)
 "vR" = (
 /obj/machinery/light{
 	dir = 4
@@ -3017,13 +3011,13 @@
 "vS" = (
 /obj/spawner/window/reinforced/tinted/full/firelocks,
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/tundra/field/base)
+/area/sector/tundra/base)
 "vT" = (
 /obj/structure/cable/green{
 	icon_state = "4-8"
 	},
 /turf/simulated/floor/tiled/techfloor/monogrid,
-/area/sector/tundra/field/shuttle5)
+/area/sector/tundra/shuttle3)
 "vW" = (
 /obj/structure/cable/green{
 	icon_state = "4-8"
@@ -3055,28 +3049,28 @@
 	icon_state = "2-4"
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/sector/tundra/field/shuttle4)
+/area/sector/tundra/shuttle5)
 "wa" = (
 /obj/structure/bed/chair{
 	dir = 8
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/tundra/field/base)
+/area/sector/tundra/base)
 "wc" = (
 /obj/item/stool,
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
 /turf/simulated/floor/tiled/techfloor/monogrid,
-/area/sector/tundra/field/bar)
+/area/sector/tundra/bar)
 "wg" = (
 /obj/structure/table/steel,
 /obj/structure/sink/kitchen,
 /turf/simulated/floor/tiled/old_tile/white,
-/area/sector/tundra/field/shuttle2)
+/area/sector/tundra/shuttle1)
 "wh" = (
 /turf/simulated/floor/fey/snow_grass,
-/area/sector/tundra/field/shop)
+/area/sector/tundra/shop)
 "wk" = (
 /obj/effect/floor_decal/techfloor{
 	dir = 1
@@ -3106,7 +3100,7 @@
 	pixel_y = -33
 	},
 /turf/simulated/floor/carpet/patterened/blue/alt,
-/area/sector/tundra/field/shuttle3)
+/area/sector/tundra/shuttle2)
 "wy" = (
 /obj/structure/handrail{
 	dir = 8
@@ -3131,7 +3125,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/tundra/field/shed2)
+/area/sector/tundra/shuttle4)
 "wE" = (
 /obj/structure/cable/cyan{
 	icon_state = "4-8"
@@ -3151,14 +3145,14 @@
 	dir = 9
 	},
 /turf/simulated/wall/prepainted,
-/area/sector/tundra/field/shuttle1)
+/area/sector/tundra/shuttle4)
 "wO" = (
 /obj/spawner/window/low_wall/reinforced/firelocks,
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 6
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/sector/tundra/field/shop)
+/area/sector/tundra/shop)
 "wU" = (
 /obj/structure/fence/wooden/post{
 	dir = 8
@@ -3188,11 +3182,11 @@
 	},
 /obj/structure/table/steel_reinforced,
 /turf/simulated/floor/tiled/old_tile/beige,
-/area/sector/tundra/field/shuttle3)
+/area/sector/tundra/shuttle2)
 "xg" = (
 /obj/structure/closet/walllocker_double/south,
 /turf/simulated/floor/carpet/patterened/green,
-/area/sector/tundra/field/shuttle2)
+/area/sector/tundra/shuttle1)
 "xl" = (
 /obj/structure/shuttle/engine/heater{
 	dir = 4
@@ -3201,7 +3195,7 @@
 	dir = 5
 	},
 /turf/simulated/wall/dshull,
-/area/sector/tundra/field/shuttle5)
+/area/sector/tundra/shuttle3)
 "xm" = (
 /obj/structure/flora/grass/green,
 /turf/simulated/floor/concrete/outdoors,
@@ -3217,7 +3211,7 @@
 	dir = 4
 	},
 /turf/simulated/wall/rdshull,
-/area/sector/tundra/field/shuttle2)
+/area/sector/tundra/shuttle1)
 "xv" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 1
@@ -3226,7 +3220,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/techfloor/monogrid,
-/area/sector/tundra/field/shuttle4)
+/area/sector/tundra/shuttle5)
 "xw" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 8
@@ -3239,18 +3233,18 @@
 /area/shuttle/maquis/raider)
 "xy" = (
 /turf/simulated/wall/r_wall/prepainted/cargo,
-/area/sector/tundra/field/shuttle5)
+/area/sector/tundra/shuttle3)
 "xB" = (
 /obj/structure/table/steel_reinforced,
 /obj/machinery/space_heater,
 /turf/simulated/floor/tiled/old_tile/beige,
-/area/sector/tundra/field/shuttle3)
+/area/sector/tundra/shuttle2)
 "xF" = (
 /obj/machinery/light{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/tundra/field/base)
+/area/sector/tundra/base)
 "xG" = (
 /obj/machinery/floodlight{
 	on = 1
@@ -3285,7 +3279,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/tundra/field/shuttle4)
+/area/sector/tundra/shuttle5)
 "xX" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden{
 	dir = 1
@@ -3300,20 +3294,20 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/monotechmaint,
-/area/sector/tundra/field/shuttle4)
+/area/sector/tundra/shuttle5)
 "yi" = (
 /obj/structure/cable/orange{
 	icon_state = "1-4"
 	},
 /turf/simulated/floor/tiled/steel_dirty/dark,
-/area/sector/tundra/field/shuttle5)
+/area/sector/tundra/shuttle3)
 "yl" = (
 /obj/machinery/computer/ship/sensors/adv{
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden,
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/tundra/field/shop)
+/area/sector/tundra/shop)
 "yo" = (
 /obj/structure/shuttle/engine/heater{
 	dir = 4
@@ -3322,7 +3316,7 @@
 	dir = 4
 	},
 /turf/simulated/wall/prepainted,
-/area/sector/tundra/field/shop)
+/area/sector/tundra/shop)
 "yx" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 6
@@ -3331,7 +3325,7 @@
 	icon_state = "1-8"
 	},
 /turf/simulated/floor/tiled/techfloor/monogrid,
-/area/sector/tundra/field/shuttle4)
+/area/sector/tundra/shuttle5)
 "yy" = (
 /obj/structure/window/reinforced{
 	dir = 1
@@ -3347,7 +3341,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/techfloor/monogrid,
-/area/sector/tundra/field/shuttle5)
+/area/sector/tundra/shuttle3)
 "yB" = (
 /obj/item/radio/headset/maquis,
 /obj/item/gps/security,
@@ -3370,7 +3364,7 @@
 /area/shuttle/maquis/interceptor)
 "yG" = (
 /turf/simulated/floor/tiled/steel_dirty/red,
-/area/sector/tundra/field/bar)
+/area/sector/tundra/bar)
 "yK" = (
 /obj/structure/bed/chair/office/dark{
 	dir = 1
@@ -3381,12 +3375,12 @@
 "yL" = (
 /obj/machinery/atmospherics/pipe/simple/hidden,
 /turf/simulated/wall/dshull,
-/area/sector/tundra/field/shuttle5)
+/area/sector/tundra/shuttle3)
 "yP" = (
 /obj/structure/table/steel_reinforced,
 /obj/machinery/photocopier/faxmachine,
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/tundra/field/base)
+/area/sector/tundra/base)
 "yT" = (
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/sector/tundra/field)
@@ -3413,14 +3407,14 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/tundra/field/base)
+/area/sector/tundra/base)
 "za" = (
 /obj/structure/table/hardwoodtable,
 /obj/machinery/chemical_dispenser/catering/bar_alc{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/techfloor/monogrid,
-/area/sector/tundra/field/bar)
+/area/sector/tundra/bar)
 "zb" = (
 /obj/structure/railing/grey,
 /turf/simulated/floor/concrete/outdoors,
@@ -3469,7 +3463,7 @@
 	id = "maquis5"
 	},
 /turf/simulated/floor/concrete/tile/outdoors,
-/area/sector/tundra/field/base)
+/area/sector/tundra/base)
 "zw" = (
 /obj/machinery/light_switch{
 	dir = 1;
@@ -3496,7 +3490,7 @@
 /area/sector/tundra/field)
 "zC" = (
 /turf/simulated/floor/tiled/techfloor,
-/area/sector/tundra/field/shuttle4)
+/area/sector/tundra/shuttle5)
 "zD" = (
 /obj/structure/stairs/bottom{
 	dir = 1
@@ -3509,7 +3503,7 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/sector/tundra/field/shuttle4)
+/area/sector/tundra/shuttle5)
 "zJ" = (
 /obj/effect/floor_decal/carpet{
 	dir = 8
@@ -3530,7 +3524,7 @@
 	req_access = null
 	},
 /turf/simulated/floor/tiled/old_tile/beige,
-/area/sector/tundra/field/shuttle2)
+/area/sector/tundra/shuttle1)
 "zL" = (
 /obj/structure/railing/grey,
 /turf/simulated/floor/tiled/techfloor/grid,
@@ -3540,13 +3534,13 @@
 	icon_state = "1-4"
 	},
 /turf/simulated/wall/shull,
-/area/sector/tundra/field/shuttle3)
+/area/sector/tundra/shuttle2)
 "zO" = (
 /obj/machinery/atmospherics/component/unary/vent_pump/on{
 	dir = 1
 	},
 /turf/simulated/floor/tiled/techfloor/monogrid,
-/area/sector/tundra/field/shuttle4)
+/area/sector/tundra/shuttle5)
 "zP" = (
 /obj/structure/cable/green{
 	icon_state = "4-8"
@@ -3566,7 +3560,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/plating,
-/area/sector/tundra/field/shuttle1)
+/area/sector/tundra/shuttle4)
 "zS" = (
 /obj/effect/floor_decal/rust,
 /obj/effect/floor_decal/industrial/warning{
@@ -3579,18 +3573,18 @@
 /area/shuttle/maquis/raider)
 "Aa" = (
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/tundra/field/base)
+/area/sector/tundra/base)
 "Af" = (
 /obj/structure/bed/chair/comfy/brown{
 	dir = 4
 	},
 /turf/simulated/floor/carpet/patterened/blue/alt,
-/area/sector/tundra/field/shuttle2)
+/area/sector/tundra/shuttle1)
 "Ah" = (
 /obj/spawner/window/low_wall/reinforced/firelocks,
 /obj/structure/curtain/black,
 /turf/simulated/floor/tiled/techfloor/monogrid,
-/area/sector/tundra/field/shuttle5)
+/area/sector/tundra/shuttle3)
 "Ao" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 10
@@ -3605,7 +3599,7 @@
 	dir = 1
 	},
 /turf/simulated/wall/r_wall,
-/area/sector/tundra/field/shuttle4)
+/area/sector/tundra/shuttle5)
 "Aq" = (
 /obj/effect/floor_decal/carpet{
 	dir = 8
@@ -3639,18 +3633,18 @@
 	req_one_access = null
 	},
 /turf/simulated/floor/tiled/techfloor/monogrid,
-/area/sector/tundra/field/shuttle5)
+/area/sector/tundra/shuttle3)
 "Ax" = (
 /obj/structure/cable/white{
 	icon_state = "4-8"
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/sector/tundra/field/shuttle4)
+/area/sector/tundra/shuttle5)
 "AC" = (
 /obj/machinery/atmospheric_field_generator/perma,
 /obj/machinery/door/blast/regular/open,
 /turf/simulated/floor/plating,
-/area/sector/tundra/field/shop)
+/area/sector/tundra/shop)
 "AD" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden{
 	dir = 1
@@ -3665,13 +3659,13 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/tundra/field/base)
+/area/sector/tundra/base)
 "AH" = (
 /obj/structure/cable/orange{
 	icon_state = "2-4"
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/sector/tundra/field/shuttle4)
+/area/sector/tundra/shuttle5)
 "AO" = (
 /obj/structure/cable{
 	icon_state = "1-4"
@@ -3680,7 +3674,7 @@
 	icon_state = "1-8"
 	},
 /turf/simulated/floor/concrete/tile/outdoors,
-/area/sector/tundra/field/base)
+/area/sector/tundra/base)
 "AP" = (
 /obj/machinery/atmospherics/component/unary/vent_pump/high_volume{
 	frequency = 1380;
@@ -3698,12 +3692,12 @@
 	dir = 1
 	},
 /turf/simulated/wall/r_wall,
-/area/sector/tundra/field/shuttle4)
+/area/sector/tundra/shuttle5)
 "AS" = (
 /obj/spawner/window/low_wall/reinforced/firelocks,
 /obj/structure/curtain/black,
 /turf/simulated/floor/tiled/techfloor,
-/area/sector/tundra/field/shuttle1)
+/area/sector/tundra/shuttle4)
 "AT" = (
 /obj/structure/window/reinforced/tinted{
 	dir = 1
@@ -3711,13 +3705,13 @@
 /obj/machinery/portable_atmospherics/canister/empty/phoron,
 /obj/machinery/atmospherics/portables_connector,
 /turf/simulated/floor/tiled/techfloor/monogrid,
-/area/sector/tundra/field/shop)
+/area/sector/tundra/shop)
 "AX" = (
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/fey/snow_grass,
-/area/sector/tundra/field/shop)
+/area/sector/tundra/shop)
 "AY" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -3737,7 +3731,7 @@
 /obj/item/clothing/suit/storage/hooded/wintercoat/bar,
 /obj/item/clothing/suit/storage/hooded/wintercoat/janitor,
 /turf/simulated/floor/plating,
-/area/sector/tundra/field/shop)
+/area/sector/tundra/shop)
 "Ba" = (
 /obj/structure/railing/grey{
 	dir = 4
@@ -3748,10 +3742,10 @@
 /obj/spawner/window/low_wall/reinforced/firelocks,
 /obj/structure/curtain/black,
 /turf/simulated/floor/tiled/old_tile/beige,
-/area/sector/tundra/field/shuttle1)
+/area/sector/tundra/shuttle4)
 "Bg" = (
 /turf/simulated/wall/prepainted,
-/area/sector/tundra/field/shuttle1)
+/area/sector/tundra/shuttle4)
 "Bn" = (
 /obj/structure/railing/grey{
 	dir = 1
@@ -3767,7 +3761,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/steel_dirty/red,
-/area/sector/tundra/field/shuttle5)
+/area/sector/tundra/shuttle3)
 "Bq" = (
 /obj/machinery/atmospherics/component/unary/heater{
 	dir = 8
@@ -3776,7 +3770,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/techfloor/monogrid,
-/area/sector/tundra/field/shuttle4)
+/area/sector/tundra/shuttle5)
 "Bs" = (
 /obj/structure/window/reinforced{
 	dir = 1
@@ -3826,14 +3820,14 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/tiled/techfloor/monogrid,
-/area/sector/tundra/field/shuttle4)
+/area/sector/tundra/shuttle5)
 "BF" = (
 /obj/machinery/atmospherics/portables_connector{
 	dir = 1
 	},
 /obj/machinery/portable_atmospherics/canister/empty/phoron,
 /turf/simulated/floor/plating,
-/area/sector/tundra/field/shuttle2)
+/area/sector/tundra/shuttle1)
 "BJ" = (
 /obj/machinery/atmospherics/pipe/tank/air{
 	dir = 4
@@ -3867,10 +3861,7 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/tundra/field/base)
-"BQ" = (
-/turf/simulated/floor/snow/gravsnow,
-/area/sector/tundra/field/shuttle1)
+/area/sector/tundra/base)
 "BT" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 8
@@ -3879,7 +3870,7 @@
 	icon_state = "4-8"
 	},
 /turf/simulated/floor/tiled/techfloor/monogrid,
-/area/sector/tundra/field/shuttle4)
+/area/sector/tundra/shuttle5)
 "BY" = (
 /obj/machinery/door/blast/regular{
 	id = "maquis5"
@@ -3888,7 +3879,7 @@
 	icon_state = "4-8"
 	},
 /turf/simulated/floor/concrete/tile/outdoors,
-/area/sector/tundra/field/base)
+/area/sector/tundra/base)
 "Cc" = (
 /obj/structure/cable/green{
 	icon_state = "4-8"
@@ -3897,10 +3888,10 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/steel_ridged,
-/area/sector/tundra/field/shuttle1)
+/area/sector/tundra/shuttle4)
 "Cd" = (
 /turf/simulated/wall/wood/hardwood/prepainted/command,
-/area/sector/tundra/field/shed1)
+/area/sector/tundra/shed1)
 "Ce" = (
 /obj/machinery/button/remote/blast_door{
 	dir = 4;
@@ -3910,21 +3901,21 @@
 	},
 /obj/structure/table/steel_reinforced,
 /turf/simulated/floor/tiled/techfloor,
-/area/sector/tundra/field/shuttle1)
+/area/sector/tundra/shuttle4)
 "Ck" = (
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/tundra/field/shed1)
+/area/sector/tundra/shed1)
 "Cl" = (
 /obj/machinery/atmospherics/component/unary/engine{
 	dir = 8
 	},
 /turf/simulated/shuttle/plating/airless/carry,
-/area/sector/tundra/field/shuttle4)
+/area/sector/tundra/shuttle5)
 "Cp" = (
 /obj/machinery/light,
 /obj/structure/bed/chair,
 /turf/simulated/floor/plating,
-/area/sector/tundra/field/shop)
+/area/sector/tundra/shop)
 "Cs" = (
 /obj/structure/table/standard,
 /obj/structure/window/basic{
@@ -3958,7 +3949,7 @@
 	icon_state = "1-8"
 	},
 /turf/simulated/floor/plating,
-/area/sector/tundra/field/shuttle1)
+/area/sector/tundra/shuttle4)
 "CD" = (
 /obj/structure/cable/green,
 /obj/structure/table/steel_reinforced,
@@ -3969,43 +3960,43 @@
 	req_access = null
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/sector/tundra/field/shuttle1)
+/area/sector/tundra/shuttle4)
 "CH" = (
 /turf/simulated/wall/prepainted,
-/area/sector/tundra/field/shop)
+/area/sector/tundra/shop)
 "CI" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 10
 	},
 /obj/machinery/shipsensors,
 /turf/simulated/floor/plating,
-/area/sector/tundra/field/shuttle2)
+/area/sector/tundra/shuttle1)
 "CK" = (
 /obj/structure/closet/secure_closet/personal,
 /obj/item/storage/box/glasses/meta,
 /obj/item/storage/box/donkpockets,
 /turf/simulated/floor/plating/indoors,
-/area/sector/tundra/field/shuttle5)
+/area/sector/tundra/shuttle3)
 "CM" = (
 /turf/simulated/floor/tiled/techfloor/monogrid,
-/area/sector/tundra/field/shuttle1)
+/area/sector/tundra/shuttle4)
 "CW" = (
 /obj/machinery/atmospherics/pipe/simple/hidden,
 /obj/structure/cable/white{
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/tiled/techfloor/monogrid,
-/area/sector/tundra/field/shuttle4)
+/area/sector/tundra/shuttle5)
 "CX" = (
 /obj/machinery/computer/ship/helm{
 	dir = 1
 	},
 /turf/simulated/floor/tiled/steel_dirty/red,
-/area/sector/tundra/field/bar)
+/area/sector/tundra/bar)
 "CY" = (
 /obj/spawner/window/low_wall/reinforced/firelocks,
 /turf/simulated/floor/tiled/techfloor/monogrid,
-/area/sector/tundra/field/bar)
+/area/sector/tundra/bar)
 "CZ" = (
 /obj/machinery/portable_atmospherics/canister/phoron,
 /obj/machinery/atmospherics/portables_connector{
@@ -4018,7 +4009,7 @@
 	pixel_y = 30
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/sector/tundra/field/shuttle1)
+/area/sector/tundra/shuttle4)
 "Dg" = (
 /obj/item/radio/headset/maquis,
 /obj/item/gps/security,
@@ -4044,7 +4035,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/steel_dirty/dark,
-/area/sector/tundra/field/shuttle5)
+/area/sector/tundra/shuttle3)
 "Dl" = (
 /obj/effect/floor_decal/rust,
 /turf/simulated/floor/tiled/techfloor,
@@ -4061,16 +4052,13 @@
 	pixel_y = 32
 	},
 /turf/simulated/floor/tiled/steel_dirty/dark,
-/area/sector/tundra/field/bar)
+/area/sector/tundra/bar)
 "Ds" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden{
 	dir = 8
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/sector/tundra/field/shuttle4)
-"Dv" = (
-/turf/simulated/floor/water,
-/area/sector/tundra/field/base)
+/area/sector/tundra/shuttle5)
 "Dz" = (
 /obj/structure/flora/grass/event/bright_flowers1,
 /obj/structure/fence/wooden/post{
@@ -4095,7 +4083,7 @@
 	},
 /obj/structure/fans/tiny,
 /turf/simulated/floor/plating,
-/area/sector/tundra/field/shuttle3)
+/area/sector/tundra/shuttle2)
 "DE" = (
 /obj/structure/table/bench/wooden,
 /obj/effect/floor_decal/industrial/hatch/yellow,
@@ -4107,11 +4095,11 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/tundra/field/shop)
+/area/sector/tundra/shop)
 "DI" = (
 /obj/machinery/telecomms/allinone/maquis,
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/tundra/field/base)
+/area/sector/tundra/base)
 "DM" = (
 /obj/structure/table/rack/shelf/steel,
 /obj/item/reagent_containers/food/drinks/bottle/sourappleschnapps{
@@ -4130,13 +4118,13 @@
 /obj/random/tool,
 /obj/random/tool,
 /turf/simulated/floor/plating,
-/area/sector/tundra/field/shop)
+/area/sector/tundra/shop)
 "DT" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/cyan{
 	dir = 4
 	},
 /turf/simulated/wall/shull,
-/area/sector/tundra/field/shuttle3)
+/area/sector/tundra/shuttle2)
 "DU" = (
 /obj/machinery/atmospherics/component/unary/engine{
 	dir = 8
@@ -4155,11 +4143,18 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/techfloor/monogrid,
-/area/sector/tundra/field/bar)
+/area/sector/tundra/bar)
 "Eg" = (
 /obj/spawner/window/borosillicate/reinforced/full/firelocks,
 /turf/simulated/floor/tiled/techfloor,
 /area/shuttle/maquis/raider)
+"El" = (
+/obj/structure/railing/grey{
+	dir = 4
+	},
+/mob/living/simple_mob/animal/monster/wolf,
+/turf/simulated/floor/wood/sif/outdoors,
+/area/sector/tundra/field)
 "Em" = (
 /obj/structure/bed/chair/sofa/beige/left{
 	dir = 1
@@ -4168,7 +4163,12 @@
 	pixel_y = -32
 	},
 /turf/simulated/floor/carpet/patterened/blue/alt,
-/area/sector/tundra/field/shuttle2)
+/area/sector/tundra/shuttle1)
+"En" = (
+/obj/structure/flora/grass/green,
+/mob/living/simple_mob/animal/horing,
+/turf/simulated/floor/fey/snow_grass,
+/area/sector/tundra/field)
 "Eu" = (
 /obj/machinery/power/smes/buildable/offmap_spawn,
 /obj/structure/cable/orange{
@@ -4181,17 +4181,17 @@
 	icon_state = "0-2"
 	},
 /turf/simulated/floor/tiled/techfloor/monogrid,
-/area/sector/tundra/field/shuttle4)
+/area/sector/tundra/shuttle5)
 "Ev" = (
 /obj/structure/sandbag,
 /turf/simulated/floor/fey/snow_grass,
-/area/sector/tundra/field/base)
+/area/sector/tundra/base)
 "Ey" = (
 /obj/structure/cable/green{
 	icon_state = "2-4"
 	},
 /turf/simulated/wall/prepainted,
-/area/sector/tundra/field/shuttle1)
+/area/sector/tundra/shuttle4)
 "EA" = (
 /obj/structure/table/bench/wooden,
 /obj/machinery/air_alarm/alarms_hidden{
@@ -4200,21 +4200,21 @@
 	req_one_access = list(160)
 	},
 /turf/simulated/floor/plating/indoors,
-/area/sector/tundra/field/shuttle5)
+/area/sector/tundra/shuttle3)
 "ED" = (
 /turf/simulated/floor/tiled/techfloor/monogrid,
-/area/sector/tundra/field/shuttle4)
+/area/sector/tundra/shuttle5)
 "EH" = (
 /obj/structure/bed/chair{
 	dir = 1
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/tundra/field/base)
+/area/sector/tundra/base)
 "EJ" = (
 /obj/spawner/window/low_wall/reinforced/firelocks,
 /obj/structure/curtain/black,
 /turf/simulated/floor/tiled/steel_dirty/red,
-/area/sector/tundra/field/bar)
+/area/sector/tundra/bar)
 "EK" = (
 /obj/machinery/light/small{
 	dir = 1
@@ -4223,7 +4223,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/tundra/field/shed1)
+/area/sector/tundra/shed1)
 "EM" = (
 /obj/machinery/mass_driver{
 	dir = 1;
@@ -4238,13 +4238,13 @@
 "EN" = (
 /obj/structure/flora/rock/ice/alternative_1,
 /turf/simulated/floor/fey/snow_grass,
-/area/sector/tundra/field/base)
+/area/sector/tundra/base)
 "EQ" = (
 /obj/machinery/atmospherics/component/unary/engine{
 	dir = 8
 	},
 /turf/simulated/floor/fey/snow_grass,
-/area/sector/tundra/field/shuttle1)
+/area/sector/tundra/shuttle4)
 "ET" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/blast/regular{
@@ -4261,7 +4261,7 @@
 	},
 /obj/structure/fans/tiny,
 /turf/simulated/floor/plating,
-/area/sector/tundra/field/shuttle3)
+/area/sector/tundra/shuttle2)
 "Fc" = (
 /obj/machinery/atmospherics/pipe/manifold4w/hidden,
 /obj/structure/shuttle/engine/heater{
@@ -4272,7 +4272,7 @@
 "Ff" = (
 /obj/structure/table/steel_reinforced,
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/tundra/field/shed2)
+/area/sector/tundra/shuttle4)
 "Fi" = (
 /obj/machinery/computer/ship/navigation/telescreen{
 	pixel_y = -33
@@ -4281,7 +4281,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/monotechmaint,
-/area/sector/tundra/field/shuttle1)
+/area/sector/tundra/shuttle4)
 "Fk" = (
 /obj/machinery/power/smes/buildable{
 	charge = 15000;
@@ -4291,7 +4291,7 @@
 	icon_state = "0-2"
 	},
 /turf/simulated/floor/plating,
-/area/sector/tundra/field/shuttle1)
+/area/sector/tundra/shuttle4)
 "Fl" = (
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/structure/window/basic{
@@ -4325,11 +4325,11 @@
 	},
 /obj/machinery/space_heater,
 /turf/simulated/floor/tiled/techfloor/monogrid,
-/area/sector/tundra/field/bar)
+/area/sector/tundra/bar)
 "FA" = (
 /obj/spawner/window/low_wall/reinforced/firelocks,
 /turf/simulated/floor/tiled/techfloor,
-/area/sector/tundra/field/shuttle1)
+/area/sector/tundra/shuttle4)
 "FF" = (
 /obj/structure/fence/wooden/post{
 	dir = 8
@@ -4342,7 +4342,7 @@
 "FG" = (
 /obj/structure/table/bench/steel,
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/tundra/field/base)
+/area/sector/tundra/base)
 "FJ" = (
 /obj/machinery/microwave{
 	pixel_y = 8
@@ -4355,7 +4355,7 @@
 	dir = 5
 	},
 /turf/simulated/wall/prepainted,
-/area/sector/tundra/field/shuttle1)
+/area/sector/tundra/shuttle4)
 "FN" = (
 /obj/machinery/atmospherics/pipe/simple/hidden,
 /obj/machinery/door/airlock/hatch{
@@ -4369,7 +4369,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/fey/snow_grass,
-/area/sector/tundra/field/shop)
+/area/sector/tundra/shop)
 "FQ" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -4382,7 +4382,7 @@
 "FX" = (
 /obj/structure/closet/secure_closet/freezer/fridge,
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/tundra/field/shed1)
+/area/sector/tundra/shed1)
 "FY" = (
 /obj/machinery/atmospherics/portables_connector,
 /obj/machinery/portable_atmospherics/canister/empty/phoron,
@@ -4390,7 +4390,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/techfloor/monogrid,
-/area/sector/tundra/field/shuttle5)
+/area/sector/tundra/shuttle3)
 "Gd" = (
 /obj/structure/railing/grey,
 /turf/simulated/floor/wood/sif/outdoors,
@@ -4399,13 +4399,13 @@
 /obj/machinery/light/small,
 /obj/machinery/appliance/cooker/oven,
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/tundra/field/shed2)
+/area/sector/tundra/shuttle4)
 "Gh" = (
 /obj/structure/cable/orange{
 	icon_state = "0-2"
 	},
 /turf/simulated/floor/tiled/monotechmaint,
-/area/sector/tundra/field/shuttle4)
+/area/sector/tundra/shuttle5)
 "Gj" = (
 /obj/machinery/atmospherics/pipe/tank/phoron{
 	dir = 1
@@ -4422,13 +4422,13 @@
 	icon_state = "1-4"
 	},
 /turf/simulated/floor/concrete/tile/outdoors,
-/area/sector/tundra/field/base)
+/area/sector/tundra/base)
 "Gs" = (
 /obj/machinery/light/small{
 	dir = 1
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/sector/tundra/field/shuttle4)
+/area/sector/tundra/shuttle5)
 "Gv" = (
 /obj/structure/cable/cyan{
 	icon_state = "1-8"
@@ -4461,7 +4461,7 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/tiled/steel_dirty/dark,
-/area/sector/tundra/field/shuttle5)
+/area/sector/tundra/shuttle3)
 "GF" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -4477,7 +4477,7 @@
 	dir = 10
 	},
 /turf/simulated/floor/tiled/kafel_full/white,
-/area/sector/tundra/field/shuttle1)
+/area/sector/tundra/shuttle4)
 "GJ" = (
 /obj/structure/table/steel_reinforced,
 /obj/structure/fence{
@@ -4485,7 +4485,7 @@
 	pixel_y = 12
 	},
 /turf/simulated/floor/plating,
-/area/sector/tundra/field/shop)
+/area/sector/tundra/shop)
 "GK" = (
 /obj/machinery/power/smes/buildable{
 	charge = 15000;
@@ -4495,10 +4495,10 @@
 	icon_state = "0-4"
 	},
 /turf/simulated/floor/tiled/steel_dirty/dark,
-/area/sector/tundra/field/shuttle5)
+/area/sector/tundra/shuttle3)
 "GL" = (
 /turf/simulated/wall/wood/hardwood/prepainted,
-/area/sector/tundra/field/base)
+/area/sector/tundra/base)
 "GO" = (
 /obj/structure/railing/grey,
 /obj/structure/bed/pod,
@@ -4514,7 +4514,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/plating,
-/area/sector/tundra/field/shuttle1)
+/area/sector/tundra/shuttle4)
 "GQ" = (
 /obj/structure/cable{
 	icon_state = "1-4"
@@ -4532,27 +4532,27 @@
 "GV" = (
 /obj/structure/flora/grass/event/leafy_bush1,
 /turf/simulated/floor/fey/forest_grass,
-/area/sector/tundra/field/shuttle4)
+/area/sector/tundra/shuttle5)
 "GW" = (
 /obj/effect/floor_decal/corner_techfloor_grid{
 	dir = 9
 	},
 /turf/simulated/floor/tiled/kafel_full/white,
-/area/sector/tundra/field/shuttle1)
+/area/sector/tundra/shuttle4)
 "Hb" = (
 /obj/machinery/computer/ship/sensors,
 /obj/effect/floor_decal/techfloor{
 	dir = 1
 	},
 /turf/simulated/floor/tiled/steel_dirty/red,
-/area/sector/tundra/field/bar)
+/area/sector/tundra/bar)
 "He" = (
 /obj/machinery/light/small{
 	dir = 1
 	},
 /obj/structure/table/wooden_reinforced,
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/tundra/field/shed2)
+/area/sector/tundra/shuttle4)
 "Hg" = (
 /obj/machinery/atmospherics/component/unary/vent_pump/high_volume{
 	dir = 1
@@ -4562,14 +4562,14 @@
 	},
 /obj/overmap/entity/visitable/ship/landable/fleet/biodancy,
 /turf/simulated/floor/tiled/techfloor,
-/area/sector/tundra/field/shuttle4)
+/area/sector/tundra/shuttle5)
 "Hj" = (
 /obj/machinery/door/airlock,
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/tundra/field/shed2)
+/area/sector/tundra/shuttle4)
 "Hm" = (
 /obj/structure/flora/grass/green,
 /turf/simulated/floor/carpet/patterened/blue/alt,
@@ -4577,7 +4577,7 @@
 "Hp" = (
 /obj/structure/table/steel_reinforced,
 /turf/simulated/floor/tiled/old_tile/beige,
-/area/sector/tundra/field/shuttle3)
+/area/sector/tundra/shuttle2)
 "Hr" = (
 /obj/structure/cable/green{
 	icon_state = "0-2"
@@ -4589,7 +4589,7 @@
 	power_gen = 5
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/tundra/field/base)
+/area/sector/tundra/base)
 "Hs" = (
 /turf/simulated/floor/plating,
 /area/sector/tundra/field)
@@ -4598,7 +4598,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/steel_dirty/red,
-/area/sector/tundra/field/shuttle5)
+/area/sector/tundra/shuttle3)
 "HA" = (
 /obj/structure/event/prop/blue_barrel,
 /turf/simulated/floor/fey/snow_grass,
@@ -4614,7 +4614,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/tundra/field/base)
+/area/sector/tundra/base)
 "HH" = (
 /obj/structure/cable/green{
 	icon_state = "4-8"
@@ -4623,14 +4623,14 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/sector/tundra/field/shuttle1)
+/area/sector/tundra/shuttle4)
 "HM" = (
 /turf/simulated/floor/tiled/monodark,
 /area/sector/tundra/field)
 "HN" = (
 /obj/structure/table/steel,
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/tundra/field/base)
+/area/sector/tundra/base)
 "HR" = (
 /obj/structure/cable/green{
 	icon_state = "1-8"
@@ -4651,29 +4651,29 @@
 	req_one_access = null
 	},
 /turf/simulated/floor/tiled/old_tile/white,
-/area/sector/tundra/field/shuttle3)
+/area/sector/tundra/shuttle2)
 "Ia" = (
 /obj/machinery/door/airlock/hatch{
 	name = "Arrowhead Airtight Hatch";
 	req_one_access = null
 	},
 /turf/simulated/floor/tiled/steel_dirty/dark,
-/area/sector/tundra/field/bar)
+/area/sector/tundra/bar)
 "Ie" = (
 /obj/machinery/light/small{
 	dir = 1
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/sector/tundra/field/shuttle1)
+/area/sector/tundra/shuttle4)
 "Ii" = (
 /obj/structure/bed/chair/comfy/brown{
 	dir = 4
 	},
 /turf/simulated/floor/carpet/patterened/blue/alt,
-/area/sector/tundra/field/shuttle3)
+/area/sector/tundra/shuttle2)
 "Il" = (
 /turf/simulated/floor/tiled/steel_dirty/dark,
-/area/sector/tundra/field/bar)
+/area/sector/tundra/bar)
 "Im" = (
 /obj/structure/fence/wooden/post{
 	dir = 8
@@ -4684,7 +4684,7 @@
 /obj/structure/table/steel,
 /obj/structure/sink/kitchen,
 /turf/simulated/floor/tiled/old_tile/white,
-/area/sector/tundra/field/shuttle3)
+/area/sector/tundra/shuttle2)
 "Iw" = (
 /obj/structure/table/rack,
 /obj/structure/cable/cyan{
@@ -4706,7 +4706,7 @@
 	},
 /obj/overmap/entity/visitable/ship/landable/fleet/caravan,
 /turf/simulated/floor/carpet/patterened/blue/alt,
-/area/sector/tundra/field/shuttle3)
+/area/sector/tundra/shuttle2)
 "IE" = (
 /obj/structure/closet/secure_closet/freezer/meat,
 /obj/item/reagent_containers/food/drinks/soymilk,
@@ -4729,7 +4729,7 @@
 /obj/item/reagent_containers/food/drinks/bottle/cola,
 /obj/item/storage/box/glasses/meta,
 /turf/simulated/floor/tiled/old_tile/white,
-/area/sector/tundra/field/shuttle3)
+/area/sector/tundra/shuttle2)
 "IG" = (
 /obj/structure/flora/grass/green,
 /turf/simulated/floor/plating,
@@ -4738,7 +4738,7 @@
 /obj/spawner/window/low_wall/reinforced/firelocks,
 /obj/structure/curtain/black,
 /turf/simulated/floor/fey/snow_grass,
-/area/sector/tundra/field/shuttle1)
+/area/sector/tundra/shuttle4)
 "IK" = (
 /obj/machinery/door/blast/regular{
 	id = "maquis2"
@@ -4750,13 +4750,7 @@
 	icon_state = "4-8"
 	},
 /turf/simulated/floor/concrete/tile/outdoors,
-/area/sector/tundra/field/base)
-"IN" = (
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/turf/simulated/floor/fey/snow_grass,
-/area/sector/tundra/field/shuttle1)
+/area/sector/tundra/base)
 "IO" = (
 /obj/structure/cable/green{
 	icon_state = "2-8"
@@ -4791,7 +4785,7 @@
 	},
 /obj/overmap/entity/visitable/ship/landable/fleet/caravan,
 /turf/simulated/floor/carpet/patterened/blue/alt,
-/area/sector/tundra/field/shuttle2)
+/area/sector/tundra/shuttle1)
 "Jb" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/cyan{
 	dir = 5
@@ -4808,13 +4802,13 @@
 	icon_state = "4-8"
 	},
 /turf/simulated/floor/tiled/techfloor/monogrid,
-/area/sector/tundra/field/shuttle5)
+/area/sector/tundra/shuttle3)
 "Jf" = (
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/tundra/field/shed2)
+/area/sector/tundra/shuttle4)
 "Jg" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 10
@@ -4827,15 +4821,15 @@
 	icon_state = "4-8"
 	},
 /turf/simulated/floor/tiled/techfloor/monogrid,
-/area/sector/tundra/field/bar)
+/area/sector/tundra/bar)
 "Jj" = (
 /obj/spawner/window/low_wall/reinforced/firelocks,
 /turf/simulated/floor/tiled/techfloor,
-/area/sector/tundra/field/shuttle4)
+/area/sector/tundra/shuttle5)
 "Jk" = (
 /obj/machinery/atmospherics/component/unary/vent_pump/on,
 /turf/simulated/floor/tiled/techfloor,
-/area/sector/tundra/field/shuttle4)
+/area/sector/tundra/shuttle5)
 "Jv" = (
 /obj/map_helper/airlock/sensor/chamber_sensor,
 /turf/simulated/floor/tiled/techfloor,
@@ -4843,14 +4837,14 @@
 "Jy" = (
 /mob/living/simple_mob/animal/passive/chick,
 /turf/simulated/floor/fey/forest_grass,
-/area/sector/tundra/field/shuttle4)
+/area/sector/tundra/shuttle5)
 "Jz" = (
 /obj/machinery/light_switch{
 	dir = 1;
 	pixel_y = -24
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/sector/tundra/field/shuttle1)
+/area/sector/tundra/shuttle4)
 "JC" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/red{
 	dir = 6
@@ -4862,7 +4856,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/steel_dirty/dark,
-/area/sector/tundra/field/bar)
+/area/sector/tundra/bar)
 "JF" = (
 /obj/item/radio/headset/maquis,
 /obj/item/gps/security,
@@ -4891,13 +4885,13 @@
 	dir = 6
 	},
 /turf/simulated/floor/carpet/patterened/blue/alt,
-/area/sector/tundra/field/shuttle2)
+/area/sector/tundra/shuttle1)
 "JP" = (
 /obj/structure/cable/green{
 	icon_state = "1-8"
 	},
 /turf/simulated/wall/prepainted,
-/area/sector/tundra/field/shuttle1)
+/area/sector/tundra/shuttle4)
 "JT" = (
 /obj/structure/cable/green{
 	icon_state = "2-4"
@@ -4906,11 +4900,11 @@
 	dir = 9
 	},
 /turf/simulated/wall/shull,
-/area/sector/tundra/field/shuttle3)
+/area/sector/tundra/shuttle2)
 "JV" = (
 /obj/machinery/telecomms/relay/preset/telecomms,
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/tundra/field/shuttle5)
+/area/sector/tundra/shuttle3)
 "JY" = (
 /obj/machinery/door/airlock/external,
 /obj/map_helper/airlock/door/int_door,
@@ -4928,7 +4922,7 @@
 	dir = 9
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/sector/tundra/field/shuttle1)
+/area/sector/tundra/shuttle4)
 "Kb" = (
 /obj/structure/flora/grass/green,
 /obj/structure/cable{
@@ -4954,24 +4948,24 @@
 	},
 /obj/machinery/power/apc/alarms_hidden/west_mount,
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/tundra/field/shed1)
+/area/sector/tundra/shed1)
 "Kk" = (
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/concrete/tile/outdoors,
-/area/sector/tundra/field/base)
+/area/sector/tundra/base)
 "Kl" = (
 /obj/machinery/shipsensors,
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/tundra/field/bar)
+/area/sector/tundra/bar)
 "Km" = (
 /obj/machinery/atmospherics/pipe/manifold4w/hidden,
 /obj/structure/cable/orange{
 	icon_state = "4-8"
 	},
 /turf/simulated/floor/tiled/techfloor/monogrid,
-/area/sector/tundra/field/shuttle4)
+/area/sector/tundra/shuttle5)
 "Ko" = (
 /obj/structure/cable/green{
 	icon_state = "2-4"
@@ -4987,7 +4981,7 @@
 "KC" = (
 /obj/machinery/atmospherics/pipe/simple/hidden,
 /turf/simulated/floor/tiled/techfloor,
-/area/sector/tundra/field/shuttle4)
+/area/sector/tundra/shuttle5)
 "KD" = (
 /turf/simulated/floor/snow/gravsnow,
 /area/sector/tundra/field)
@@ -4996,7 +4990,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/techfloor/monogrid,
-/area/sector/tundra/field/shuttle4)
+/area/sector/tundra/shuttle5)
 "KG" = (
 /obj/machinery/light,
 /obj/structure/closet/secure_closet/guncabinet{
@@ -5009,7 +5003,7 @@
 "KH" = (
 /obj/structure/table/steel_reinforced,
 /turf/simulated/floor/tiled/old_tile/beige,
-/area/sector/tundra/field/shuttle2)
+/area/sector/tundra/shuttle1)
 "KI" = (
 /obj/structure/cable/green{
 	icon_state = "1-4"
@@ -5024,7 +5018,7 @@
 /area/shuttle/maquis/interceptor)
 "KK" = (
 /turf/simulated/wall/dshull,
-/area/sector/tundra/field/shuttle5)
+/area/sector/tundra/shuttle3)
 "KO" = (
 /turf/simulated/floor/reinforced,
 /area/shuttle/maquis/raider)
@@ -5044,7 +5038,7 @@
 	},
 /obj/structure/fans/tiny,
 /turf/simulated/floor/plating,
-/area/sector/tundra/field/shuttle2)
+/area/sector/tundra/shuttle1)
 "La" = (
 /obj/structure/cable/green{
 	icon_state = "4-8"
@@ -5053,14 +5047,14 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/monotechmaint,
-/area/sector/tundra/field/shuttle1)
+/area/sector/tundra/shuttle4)
 "Li" = (
 /obj/machinery/appliance/cooker/oven,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/maquis/raider)
 "Lq" = (
 /turf/simulated/wall/rdshull,
-/area/sector/tundra/field/shuttle4)
+/area/sector/tundra/shuttle5)
 "Lr" = (
 /obj/structure/shuttle/engine/heater{
 	dir = 4
@@ -5069,7 +5063,7 @@
 	dir = 8
 	},
 /turf/simulated/wall/dshull,
-/area/sector/tundra/field/shuttle5)
+/area/sector/tundra/shuttle3)
 "Ls" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden{
 	dir = 1
@@ -5090,13 +5084,13 @@
 /area/sector/tundra/field)
 "LB" = (
 /turf/simulated/wall/r_wall/prepainted/cargo,
-/area/sector/tundra/field/bar)
+/area/sector/tundra/bar)
 "LC" = (
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
 /turf/simulated/floor/tiled/techfloor/monogrid,
-/area/sector/tundra/field/bar)
+/area/sector/tundra/bar)
 "LG" = (
 /obj/structure/closet/secure_closet/freezer/meat,
 /obj/item/reagent_containers/food/drinks/soymilk,
@@ -5125,20 +5119,20 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/kafel_full/white,
-/area/sector/tundra/field/shuttle1)
+/area/sector/tundra/shuttle4)
 "LH" = (
 /obj/structure/curtain/black,
 /obj/structure/cable/green{
 	icon_state = "4-8"
 	},
 /turf/simulated/floor/carpet/patterened/green,
-/area/sector/tundra/field/shuttle2)
+/area/sector/tundra/shuttle1)
 "LJ" = (
 /obj/machinery/door/blast/regular{
 	id = "maquis1"
 	},
 /turf/simulated/floor/concrete/tile/outdoors,
-/area/sector/tundra/field/base)
+/area/sector/tundra/base)
 "LM" = (
 /obj/structure/cable/green{
 	icon_state = "4-8"
@@ -5147,7 +5141,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/techfloor/monogrid,
-/area/sector/tundra/field/bar)
+/area/sector/tundra/bar)
 "LN" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden,
 /obj/structure/cable/green{
@@ -5163,7 +5157,7 @@
 	icon_state = "4-8"
 	},
 /turf/simulated/floor/tiled/techfloor/monogrid,
-/area/sector/tundra/field/bar)
+/area/sector/tundra/bar)
 "LQ" = (
 /turf/simulated/wall/wood,
 /area/sector/tundra/field)
@@ -5171,12 +5165,12 @@
 /obj/structure/bed/pod,
 /obj/structure/curtain/open/bed,
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/tundra/field/shed1)
+/area/sector/tundra/shed1)
 "LS" = (
 /obj/spawner/window/low_wall/reinforced/firelocks,
 /obj/machinery/atmospherics/pipe/simple/hidden,
 /turf/simulated/floor/tiled/techfloor,
-/area/sector/tundra/field/shop)
+/area/sector/tundra/shop)
 "LV" = (
 /obj/structure/shuttle/engine/heater{
 	dir = 4
@@ -5185,7 +5179,7 @@
 	dir = 5
 	},
 /turf/simulated/wall/dshull,
-/area/sector/tundra/field/bar)
+/area/sector/tundra/bar)
 "LX" = (
 /obj/structure/railing/grey{
 	dir = 1
@@ -5203,7 +5197,7 @@
 	req_one_access = null
 	},
 /turf/simulated/floor/tiled/techfloor/monogrid,
-/area/sector/tundra/field/shuttle5)
+/area/sector/tundra/shuttle3)
 "Ma" = (
 /obj/structure/cable/cyan{
 	icon_state = "1-2"
@@ -5222,32 +5216,32 @@
 "Me" = (
 /obj/structure/flora/grass/event/bright_flowers1,
 /turf/simulated/floor/fey/forest_grass,
-/area/sector/tundra/field/shuttle4)
+/area/sector/tundra/shuttle5)
 "Mf" = (
 /obj/structure/cable{
 	icon_state = "4-10"
 	},
 /turf/simulated/floor/concrete/tile/outdoors,
-/area/sector/tundra/field/base)
+/area/sector/tundra/base)
 "Mj" = (
 /obj/structure/bed/double/padded,
 /obj/item/bedsheet/double,
 /turf/simulated/floor/tiled/steel_dirty/dark,
-/area/sector/tundra/field/bar)
+/area/sector/tundra/bar)
 "Ml" = (
 /obj/machinery/light{
 	dir = 1
 	},
 /obj/structure/table/bench/steel,
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/tundra/field/base)
+/area/sector/tundra/base)
 "Mt" = (
 /turf/simulated/wall/rdshull,
-/area/sector/tundra/field/shuttle2)
+/area/sector/tundra/shuttle1)
 "Mu" = (
 /obj/machinery/telecomms/relay/preset/telecomms,
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/tundra/field/bar)
+/area/sector/tundra/bar)
 "MA" = (
 /obj/machinery/power/smes/buildable{
 	charge = 1.5e+007;
@@ -5273,7 +5267,7 @@
 /area/shuttle/maquis/raider)
 "MG" = (
 /turf/simulated/floor/tiled/monotechmaint,
-/area/sector/tundra/field/shuttle4)
+/area/sector/tundra/shuttle5)
 "MI" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 6
@@ -5282,7 +5276,7 @@
 /area/sector/tundra/field)
 "MM" = (
 /turf/simulated/floor/tiled/steel_dirty/red,
-/area/sector/tundra/field/shuttle5)
+/area/sector/tundra/shuttle3)
 "MQ" = (
 /obj/structure/railing/grey{
 	dir = 8
@@ -5292,13 +5286,13 @@
 	},
 /obj/machinery/light,
 /turf/simulated/floor/tiled/steel_dirty/dark,
-/area/sector/tundra/field/bar)
+/area/sector/tundra/bar)
 "MS" = (
 /obj/structure/cable/green{
 	icon_state = "4-8"
 	},
 /turf/simulated/wall/dshull,
-/area/sector/tundra/field/shuttle5)
+/area/sector/tundra/shuttle3)
 "MU" = (
 /obj/structure/grille,
 /obj/structure/window/phoronreinforced/full,
@@ -5307,13 +5301,13 @@
 "MW" = (
 /obj/spawner/window/low_wall/reinforced/firelocks,
 /turf/simulated/floor/tiled/techfloor,
-/area/sector/tundra/field/shop)
+/area/sector/tundra/shop)
 "MY" = (
 /obj/structure/flora/fey/grass/grass1,
 /obj/structure/flora/grass/event/generic_bush1,
 /obj/machinery/light/small,
 /turf/simulated/floor/fey/forest_grass,
-/area/sector/tundra/field/shuttle4)
+/area/sector/tundra/shuttle5)
 "MZ" = (
 /obj/structure/closet/secure_closet/guncabinet,
 /obj/item/gun/projectile/ballistic/ax59,
@@ -5325,18 +5319,18 @@
 	dir = 5
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/sector/tundra/field/shuttle4)
+/area/sector/tundra/shuttle5)
 "Nc" = (
 /obj/structure/flora/rock/ice,
 /turf/simulated/floor/fey/snow_grass,
-/area/sector/tundra/field/base)
+/area/sector/tundra/base)
 "Ne" = (
 /obj/structure/flora/grass/event/bright_flowers1,
 /turf/simulated/floor/fey/snow_grass,
 /area/sector/tundra/field)
 "Nj" = (
 /turf/simulated/wall/wood/hardwood/prepainted/command,
-/area/sector/tundra/field/shed2)
+/area/sector/tundra/shuttle4)
 "Nn" = (
 /obj/structure/handrail{
 	dir = 1
@@ -5371,7 +5365,7 @@
 	pixel_y = 16
 	},
 /turf/simulated/floor/wood,
-/area/sector/tundra/field/shuttle1)
+/area/sector/tundra/shuttle4)
 "Nx" = (
 /obj/machinery/power/apc/alarms_hidden/north_mount{
 	req_access = null
@@ -5389,13 +5383,13 @@
 	icon_state = "4-8"
 	},
 /turf/simulated/floor/carpet/patterened/green,
-/area/sector/tundra/field/shuttle2)
+/area/sector/tundra/shuttle1)
 "NB" = (
 /obj/effect/floor_decal/carpet{
 	dir = 1
 	},
 /turf/simulated/floor/carpet/patterened,
-/area/sector/tundra/field/shuttle1)
+/area/sector/tundra/shuttle4)
 "NC" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/cyan,
 /obj/map_helper/airlock/door/int_door,
@@ -5423,16 +5417,16 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/tundra/field/shop)
+/area/sector/tundra/shop)
 "NH" = (
 /obj/machinery/computer/ship/engines/adv,
 /turf/simulated/floor/tiled/monotechmaint,
-/area/sector/tundra/field/shuttle4)
+/area/sector/tundra/shuttle5)
 "NL" = (
 /obj/spawner/window/low_wall/reinforced/firelocks,
 /obj/structure/curtain/black,
 /turf/simulated/floor/tiled/steel_dirty/dark,
-/area/sector/tundra/field/bar)
+/area/sector/tundra/bar)
 "NP" = (
 /obj/machinery/atmospheric_field_generator/perma,
 /obj/machinery/door/blast/regular{
@@ -5445,7 +5439,7 @@
 /obj/spawner/window/low_wall/reinforced/firelocks,
 /obj/structure/curtain/black,
 /turf/simulated/floor/tiled/steel_dirty/red,
-/area/sector/tundra/field/shuttle5)
+/area/sector/tundra/shuttle3)
 "NT" = (
 /obj/structure/railing/grey{
 	dir = 8
@@ -5457,7 +5451,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/sector/tundra/field/shuttle4)
+/area/sector/tundra/shuttle5)
 "NX" = (
 /obj/structure/fence/wooden/post{
 	dir = 8
@@ -5472,7 +5466,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/monotechmaint,
-/area/sector/tundra/field/shuttle4)
+/area/sector/tundra/shuttle5)
 "Od" = (
 /obj/structure/cable/green{
 	icon_state = "0-2"
@@ -5481,12 +5475,17 @@
 	power_gen = 5
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/tundra/field/base)
+/area/sector/tundra/base)
 "Oe" = (
 /obj/structure/bed/chair/backed_grey{
 	dir = 8
 	},
 /turf/simulated/floor/snow,
+/area/sector/tundra/field)
+"Om" = (
+/obj/structure/flora/grass/green,
+/mob/living/simple_mob/animal/icegoat,
+/turf/simulated/floor/fey/snow_grass,
 /area/sector/tundra/field)
 "Op" = (
 /obj/structure/cable/green{
@@ -5496,12 +5495,12 @@
 	dir = 9
 	},
 /turf/simulated/floor/carpet/patterened/blue/alt,
-/area/sector/tundra/field/shuttle2)
+/area/sector/tundra/shuttle1)
 "Ot" = (
 /obj/structure/closet/walllocker_double/east,
 /obj/machinery/atmospherics/component/binary/pump,
 /turf/simulated/floor/tiled/techfloor/monogrid,
-/area/sector/tundra/field/shuttle5)
+/area/sector/tundra/shuttle3)
 "Ou" = (
 /obj/structure/ghost_role_spawner/maquis/assault,
 /obj/item/bedsheet/brown,
@@ -5518,7 +5517,7 @@
 	dir = 4
 	},
 /turf/simulated/wall/prepainted,
-/area/sector/tundra/field/shuttle1)
+/area/sector/tundra/shuttle4)
 "OD" = (
 /obj/machinery/door/blast/regular{
 	id = "maquis4"
@@ -5527,20 +5526,20 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/concrete/tile/outdoors,
-/area/sector/tundra/field/base)
+/area/sector/tundra/base)
 "OH" = (
 /obj/machinery/light/small{
 	dir = 1
 	},
 /turf/simulated/floor/plating/indoors,
-/area/sector/tundra/field/shuttle5)
+/area/sector/tundra/shuttle3)
 "OI" = (
 /obj/effect/floor_decal/corner_techfloor_grid/full,
 /obj/machinery/shower{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/steel_ridged,
-/area/sector/tundra/field/shuttle1)
+/area/sector/tundra/shuttle4)
 "OK" = (
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/maquis/raider)
@@ -5561,7 +5560,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/plating,
-/area/sector/tundra/field/shuttle2)
+/area/sector/tundra/shuttle1)
 "OY" = (
 /obj/machinery/power/smes/buildable{
 	charge = 15000;
@@ -5571,11 +5570,11 @@
 	icon_state = "0-4"
 	},
 /turf/simulated/floor/tiled/steel_dirty/dark,
-/area/sector/tundra/field/bar)
+/area/sector/tundra/bar)
 "OZ" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden,
 /turf/simulated/wall/r_wall,
-/area/sector/tundra/field/shuttle4)
+/area/sector/tundra/shuttle5)
 "Pd" = (
 /obj/machinery/door/airlock/external,
 /obj/machinery/atmospherics/pipe/simple/hidden,
@@ -5583,14 +5582,14 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/sector/tundra/field/shuttle4)
+/area/sector/tundra/shuttle5)
 "Pe" = (
 /obj/machinery/light{
 	dir = 1
 	},
 /obj/structure/flora/pottedplant/hedge,
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/tundra/field/base)
+/area/sector/tundra/base)
 "Ph" = (
 /obj/spawner/window/borosillicate/full/firelocks,
 /obj/machinery/atmospherics/pipe/simple/hidden/green{
@@ -5604,7 +5603,7 @@
 /area/sector/tundra/field)
 "Pr" = (
 /turf/simulated/floor/plating,
-/area/sector/tundra/field/shop)
+/area/sector/tundra/shop)
 "Ps" = (
 /obj/structure/table/steel_reinforced,
 /obj/structure/fence{
@@ -5620,19 +5619,19 @@
 	pixel_x = 15
 	},
 /turf/simulated/floor/plating,
-/area/sector/tundra/field/shop)
+/area/sector/tundra/shop)
 "Pw" = (
 /obj/machinery/light/small{
 	dir = 1
 	},
 /turf/simulated/floor/tiled/techfloor/monogrid,
-/area/sector/tundra/field/bar)
+/area/sector/tundra/bar)
 "Px" = (
 /obj/structure/cable/orange{
 	icon_state = "4-8"
 	},
 /turf/simulated/floor/tiled/techfloor/monogrid,
-/area/sector/tundra/field/bar)
+/area/sector/tundra/bar)
 "Pz" = (
 /obj/machinery/door/blast/regular{
 	id = "maquis6"
@@ -5641,7 +5640,7 @@
 	icon_state = "4-8"
 	},
 /turf/simulated/floor/concrete/tile/outdoors,
-/area/sector/tundra/field/base)
+/area/sector/tundra/base)
 "PA" = (
 /obj/structure/flora/grass/green,
 /obj/structure/cable{
@@ -5662,7 +5661,7 @@
 /obj/structure/flora/fey/grass/grass7,
 /mob/living/simple_mob/animal/passive/chicken,
 /turf/simulated/floor/fey/forest_grass,
-/area/sector/tundra/field/shuttle4)
+/area/sector/tundra/shuttle5)
 "PE" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 4
@@ -5678,13 +5677,13 @@
 	icon_state = "4-8"
 	},
 /turf/simulated/floor/concrete/tile/outdoors,
-/area/sector/tundra/field/base)
+/area/sector/tundra/base)
 "PI" = (
 /obj/structure/bed/chair/comfy/blue{
 	dir = 8
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/tundra/field/shed2)
+/area/sector/tundra/shuttle4)
 "PJ" = (
 /obj/structure/railing/grey{
 	dir = 4
@@ -5702,11 +5701,11 @@
 	dir = 4
 	},
 /turf/simulated/floor/carpet/patterened/blue/alt,
-/area/sector/tundra/field/shuttle2)
+/area/sector/tundra/shuttle1)
 "PN" = (
 /obj/structure/bed/chair/bay/chair/padded/red/smallnest,
 /turf/simulated/floor/tiled/monotechmaint,
-/area/sector/tundra/field/shuttle4)
+/area/sector/tundra/shuttle5)
 "PP" = (
 /obj/machinery/floodlight{
 	on = 1
@@ -5718,16 +5717,16 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/tundra/field/shed1)
+/area/sector/tundra/shed1)
 "Qn" = (
 /obj/structure/cable/orange{
 	icon_state = "1-4"
 	},
 /turf/simulated/floor/tiled/steel_dirty/dark,
-/area/sector/tundra/field/bar)
+/area/sector/tundra/bar)
 "Qp" = (
 /turf/simulated/wall/r_wall/prepainted,
-/area/sector/tundra/field/shuttle4)
+/area/sector/tundra/shuttle5)
 "Qr" = (
 /obj/machinery/door/blast/regular/open{
 	id = "MAQUISantiboarding"
@@ -5742,17 +5741,17 @@
 	dir = 4
 	},
 /turf/simulated/wall/r_wall,
-/area/sector/tundra/field/shuttle4)
+/area/sector/tundra/shuttle5)
 "Qu" = (
 /obj/machinery/power/port_gen/pacman/mrs,
 /obj/structure/cable/orange{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/sector/tundra/field/shop)
+/area/sector/tundra/shop)
 "Qx" = (
 /turf/simulated/wall/shull,
-/area/sector/tundra/field/shuttle3)
+/area/sector/tundra/shuttle2)
 "QC" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 6
@@ -5765,18 +5764,18 @@
 "QG" = (
 /obj/structure/flora/grass/green,
 /turf/simulated/floor/fey/snow_grass,
-/area/sector/tundra/field/base)
+/area/sector/tundra/base)
 "QM" = (
 /obj/structure/flora/grass/event/bright_flowers1,
 /mob/living/simple_mob/animal/passive/chicken,
 /turf/simulated/floor/fey/forest_grass,
-/area/sector/tundra/field/shuttle4)
+/area/sector/tundra/shuttle5)
 "QQ" = (
 /obj/machinery/atmospherics/component/unary/engine{
 	dir = 8
 	},
 /turf/simulated/floor/fey/snow_grass,
-/area/sector/tundra/field/shuttle3)
+/area/sector/tundra/shuttle2)
 "QT" = (
 /obj/structure/shuttle/engine/heater{
 	dir = 4
@@ -5797,7 +5796,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/fey/snow_grass,
-/area/sector/tundra/field/bar)
+/area/sector/tundra/bar)
 "Rf" = (
 /obj/structure/bed/chair/sofa/beige/left{
 	dir = 1
@@ -5806,7 +5805,7 @@
 	pixel_y = -32
 	},
 /turf/simulated/floor/carpet/patterened/blue/alt,
-/area/sector/tundra/field/shuttle3)
+/area/sector/tundra/shuttle2)
 "Rq" = (
 /obj/structure/cable/green{
 	icon_state = "4-8"
@@ -5815,7 +5814,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/carpet/patterened/blue/alt,
-/area/sector/tundra/field/shuttle3)
+/area/sector/tundra/shuttle2)
 "Rs" = (
 /obj/item/toy/bouquet/fake,
 /turf/simulated/floor/fey/snow_grass,
@@ -5832,7 +5831,7 @@
 "Rv" = (
 /obj/spawner/window/reinforced/tinted/full/firelocks,
 /turf/simulated/floor/fey/snow_grass,
-/area/sector/tundra/field/base)
+/area/sector/tundra/base)
 "Rw" = (
 /obj/structure/flora/grass/green,
 /turf/simulated/floor/snow,
@@ -5841,7 +5840,7 @@
 /obj/machinery/door/airlock/command,
 /obj/machinery/atmospherics/pipe/simple/hidden,
 /turf/simulated/floor/tiled/techfloor,
-/area/sector/tundra/field/shuttle4)
+/area/sector/tundra/shuttle5)
 "Ry" = (
 /obj/structure/metal_edge,
 /turf/simulated/floor/water,
@@ -5864,30 +5863,30 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/tiled/techfloor/monogrid,
-/area/sector/tundra/field/bar)
+/area/sector/tundra/bar)
 "RH" = (
 /obj/structure/bed/double/padded,
 /obj/machinery/fire_alarm/north_mount,
 /obj/item/bedsheet/double,
 /turf/simulated/floor/plating/indoors,
-/area/sector/tundra/field/shuttle5)
+/area/sector/tundra/shuttle3)
 "RK" = (
 /obj/structure/cable/green{
 	icon_state = "1-4"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/tundra/field/base)
+/area/sector/tundra/base)
 "RM" = (
 /obj/spawner/window/low_wall/reinforced/firelocks,
 /turf/simulated/floor/tiled/techfloor/monogrid,
-/area/sector/tundra/field/shuttle4)
+/area/sector/tundra/shuttle5)
 "RN" = (
 /turf/simulated/wall/r_wall/prepainted,
 /area/sector/tundra/field)
 "RP" = (
 /obj/machinery/holopad/ship/starts_inactive,
 /turf/simulated/floor/tiled/steel_dirty/red,
-/area/sector/tundra/field/shuttle5)
+/area/sector/tundra/shuttle3)
 "RS" = (
 /obj/structure/bed/chair/bay/shuttle{
 	dir = 1
@@ -5915,7 +5914,7 @@
 	power_gen = 5
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/tundra/field/base)
+/area/sector/tundra/base)
 "Sb" = (
 /obj/map_helper/airlock/sensor/chamber_sensor,
 /obj/effect/shuttle_landmark/shuttle_initializer/maquis/raider,
@@ -5938,13 +5937,13 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden,
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/tundra/field/shop)
+/area/sector/tundra/shop)
 "Sk" = (
 /obj/structure/cable/orange{
 	icon_state = "1-4"
 	},
 /turf/simulated/wall/prepainted,
-/area/sector/tundra/field/shuttle1)
+/area/sector/tundra/shuttle4)
 "Sm" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 5
@@ -5968,36 +5967,36 @@
 	dir = 6
 	},
 /turf/simulated/wall/r_wall,
-/area/sector/tundra/field/shuttle4)
+/area/sector/tundra/shuttle5)
 "Sp" = (
 /obj/machinery/atmospherics/component/unary/vent_pump/on{
 	dir = 8
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/tundra/field/shuttle4)
+/area/sector/tundra/shuttle5)
 "Ss" = (
 /turf/simulated/floor/wood,
-/area/sector/tundra/field/shuttle1)
+/area/sector/tundra/shuttle4)
 "Su" = (
 /obj/structure/table/steel_reinforced,
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/tundra/field/base)
+/area/sector/tundra/base)
 "Sw" = (
 /turf/simulated/wall/solidrock,
 /area/sector/tundra/field)
 "SC" = (
 /obj/spawner/window/low_wall/reinforced/firelocks,
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/tundra/field/shed1)
+/area/sector/tundra/shed1)
 "SF" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/machinery/light/small,
 /turf/simulated/floor/tiled/techfloor,
-/area/sector/tundra/field/shuttle1)
+/area/sector/tundra/shuttle4)
 "SG" = (
 /obj/spawner/window/low_wall/reinforced/firelocks,
 /turf/simulated/floor/tiled/old_tile/beige,
-/area/sector/tundra/field/shuttle2)
+/area/sector/tundra/shuttle1)
 "SJ" = (
 /obj/machinery/recharger/wallcharger{
 	pixel_x = 5;
@@ -6028,7 +6027,7 @@
 	req_access = list(311)
 	},
 /turf/simulated/floor/concrete/tile/outdoors,
-/area/sector/tundra/field/base)
+/area/sector/tundra/base)
 "SP" = (
 /obj/machinery/light/small{
 	dir = 1
@@ -6037,7 +6036,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/tundra/field/shed2)
+/area/sector/tundra/shuttle4)
 "SS" = (
 /obj/machinery/door/airlock/hatch{
 	req_one_access = null;
@@ -6047,7 +6046,7 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/concrete/tile/outdoors,
-/area/sector/tundra/field/base)
+/area/sector/tundra/base)
 "SX" = (
 /obj/structure/flora/grass/event/purple_flowers1,
 /turf/simulated/floor/fey/snow_grass,
@@ -6055,7 +6054,7 @@
 "Tb" = (
 /obj/machinery/light,
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/tundra/field/base)
+/area/sector/tundra/base)
 "Te" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 6
@@ -6068,14 +6067,14 @@
 	icon_state = "4-8"
 	},
 /turf/simulated/floor/carpet/patterened/green,
-/area/sector/tundra/field/shuttle3)
+/area/sector/tundra/shuttle2)
 "Ti" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden,
 /obj/structure/cable/orange{
 	icon_state = "4-8"
 	},
 /turf/simulated/floor/tiled/techfloor/monogrid,
-/area/sector/tundra/field/shuttle4)
+/area/sector/tundra/shuttle5)
 "Tk" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 6
@@ -6127,7 +6126,7 @@
 "TE" = (
 /obj/structure/flora/tree/fey/small_tree/tree5,
 /turf/simulated/floor/fey/forest_grass,
-/area/sector/tundra/field/shuttle4)
+/area/sector/tundra/shuttle5)
 "TG" = (
 /obj/structure/bed/chair/bay/shuttle{
 	dir = 1
@@ -6136,7 +6135,7 @@
 	pixel_y = -33
 	},
 /turf/simulated/floor/tiled/steel_dirty/dark,
-/area/sector/tundra/field/shuttle5)
+/area/sector/tundra/shuttle3)
 "TH" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 5
@@ -6144,7 +6143,7 @@
 /obj/structure/bed/double/padded,
 /obj/item/bedsheet/browndouble,
 /turf/simulated/floor/carpet/patterened/green,
-/area/sector/tundra/field/shuttle2)
+/area/sector/tundra/shuttle1)
 "TI" = (
 /obj/structure/bed/chair/comfy/brown{
 	dir = 8
@@ -6153,14 +6152,14 @@
 	icon_state = "2-4"
 	},
 /turf/simulated/floor/tiled/old_tile/beige,
-/area/sector/tundra/field/shuttle3)
+/area/sector/tundra/shuttle2)
 "TJ" = (
 /obj/machinery/door/airlock/hatch{
 	req_one_access = null;
 	req_access = list(311)
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/tundra/field/base)
+/area/sector/tundra/base)
 "TL" = (
 /obj/effect/floor_decal/carpet{
 	dir = 4
@@ -6176,7 +6175,7 @@
 	dir = 5
 	},
 /turf/simulated/wall/r_wall,
-/area/sector/tundra/field/shuttle4)
+/area/sector/tundra/shuttle5)
 "TN" = (
 /obj/machinery/atmospherics/component/unary/vent_pump/high_volume{
 	dir = 8;
@@ -6212,7 +6211,7 @@
 	icon_state = "0-2"
 	},
 /turf/simulated/floor/plating,
-/area/sector/tundra/field/shuttle2)
+/area/sector/tundra/shuttle1)
 "Ud" = (
 /obj/structure/cable{
 	icon_state = "4-10"
@@ -6224,11 +6223,11 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/sector/tundra/field/shuttle1)
+/area/sector/tundra/shuttle4)
 "Ug" = (
 /obj/machinery/space_heater,
 /turf/simulated/floor/tiled/techfloor/monogrid,
-/area/sector/tundra/field/shuttle5)
+/area/sector/tundra/shuttle3)
 "Ui" = (
 /obj/structure/shuttle/engine/heater{
 	dir = 4
@@ -6237,7 +6236,7 @@
 	dir = 8
 	},
 /turf/simulated/wall/dshull,
-/area/sector/tundra/field/bar)
+/area/sector/tundra/bar)
 "Uj" = (
 /obj/machinery/lathe/autolathe,
 /obj/fiftyspawner/steel,
@@ -6249,20 +6248,20 @@
 	icon_state = "1-4"
 	},
 /turf/simulated/wall/dshull,
-/area/sector/tundra/field/bar)
+/area/sector/tundra/bar)
 "Up" = (
 /obj/structure/cable/orange{
 	icon_state = "2-8"
 	},
 /turf/simulated/floor/tiled/techfloor/monogrid,
-/area/sector/tundra/field/shuttle5)
+/area/sector/tundra/shuttle3)
 "Ur" = (
 /obj/machinery/telecomms/relay/preset/telecomms,
 /obj/structure/cable/green{
 	icon_state = "1-8"
 	},
 /turf/simulated/floor/plating,
-/area/sector/tundra/field/shuttle2)
+/area/sector/tundra/shuttle1)
 "Us" = (
 /obj/structure/bed/chair/bay/comfy/red{
 	dir = 8
@@ -6286,7 +6285,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/steel_dirty/red,
-/area/sector/tundra/field/bar)
+/area/sector/tundra/bar)
 "Uv" = (
 /obj/structure/table/steel_reinforced,
 /obj/machinery/cash_register{
@@ -6297,7 +6296,7 @@
 	pixel_y = 20
 	},
 /turf/simulated/floor/plating,
-/area/sector/tundra/field/shop)
+/area/sector/tundra/shop)
 "Ux" = (
 /obj/machinery/atmospherics/component/unary/vent_pump/high_volume{
 	dir = 4
@@ -6306,7 +6305,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/sector/tundra/field/shuttle4)
+/area/sector/tundra/shuttle5)
 "Uy" = (
 /obj/structure/cable/green{
 	icon_state = "4-8"
@@ -6315,7 +6314,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/carpet/patterened/blue/alt,
-/area/sector/tundra/field/shuttle2)
+/area/sector/tundra/shuttle1)
 "Uz" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/cyan{
 	dir = 4
@@ -6327,7 +6326,7 @@
 	dir = 9
 	},
 /turf/simulated/floor/tiled/kafel_full/white,
-/area/sector/tundra/field/shuttle1)
+/area/sector/tundra/shuttle4)
 "UA" = (
 /obj/machinery/light,
 /obj/machinery/portable_atmospherics/canister/empty/phoron,
@@ -6335,7 +6334,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/techfloor/monogrid,
-/area/sector/tundra/field/bar)
+/area/sector/tundra/bar)
 "UP" = (
 /obj/structure/bed/chair/bay/shuttle{
 	dir = 8
@@ -6344,7 +6343,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/steel_dirty/red,
-/area/sector/tundra/field/shuttle5)
+/area/sector/tundra/shuttle3)
 "US" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden,
 /obj/structure/shuttle/engine/heater{
@@ -6369,7 +6368,7 @@
 	},
 /obj/structure/curtain/black,
 /turf/simulated/floor/tiled/old_tile/yellow,
-/area/sector/tundra/field/shuttle3)
+/area/sector/tundra/shuttle2)
 "Vg" = (
 /obj/effect/floor_decal/techfloor,
 /obj/effect/floor_decal/industrial/warning/dust,
@@ -6377,24 +6376,28 @@
 	dir = 4
 	},
 /area/shuttle/maquis/raider)
+"Vh" = (
+/mob/living/simple_mob/animal/sif/shantak/polar,
+/turf/simulated/floor/fey/snow_grass,
+/area/sector/tundra/field)
 "Vi" = (
 /obj/structure/cable{
 	icon_state = "5-10"
 	},
 /turf/simulated/floor/concrete/tile/outdoors,
-/area/sector/tundra/field/base)
+/area/sector/tundra/base)
 "Vk" = (
 /obj/machinery/telecomms/relay/preset/telecomms,
 /obj/structure/cable/green{
 	icon_state = "1-8"
 	},
 /turf/simulated/floor/plating,
-/area/sector/tundra/field/shuttle3)
+/area/sector/tundra/shuttle2)
 "Vm" = (
 /obj/structure/bed/pod,
 /obj/structure/curtain/open/bed,
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/tundra/field/shed2)
+/area/sector/tundra/shuttle4)
 "Vn" = (
 /obj/machinery/porta_turret/industrial{
 	uid = "raider"
@@ -6409,7 +6412,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/sector/tundra/field/shop)
+/area/sector/tundra/shop)
 "Vw" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -6446,7 +6449,7 @@
 	dir = 5
 	},
 /turf/simulated/floor/tiled/old_tile/white,
-/area/sector/tundra/field/shuttle1)
+/area/sector/tundra/shuttle4)
 "VI" = (
 /obj/machinery/atmospherics/component/unary/heater{
 	dir = 1;
@@ -6461,7 +6464,7 @@
 	},
 /obj/machinery/shipsensors,
 /turf/simulated/floor/plating,
-/area/sector/tundra/field/shuttle3)
+/area/sector/tundra/shuttle2)
 "VQ" = (
 /obj/structure/railing/grey{
 	dir = 8
@@ -6474,7 +6477,7 @@
 "VR" = (
 /obj/machinery/door/airlock/external,
 /turf/simulated/floor/tiled/techfloor,
-/area/sector/tundra/field/shuttle4)
+/area/sector/tundra/shuttle5)
 "VS" = (
 /obj/machinery/door/airlock/hatch{
 	name = "Arrowhead Airtight Hatch";
@@ -6485,7 +6488,7 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/tiled/techfloor/monogrid,
-/area/sector/tundra/field/shuttle5)
+/area/sector/tundra/shuttle3)
 "VT" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 5
@@ -6498,7 +6501,7 @@
 	},
 /obj/machinery/power/apc/alarms_hidden/west_mount,
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/tundra/field/shed2)
+/area/sector/tundra/shuttle4)
 "Wj" = (
 /obj/structure/cable/green{
 	icon_state = "1-8"
@@ -6510,7 +6513,7 @@
 	dir = 4
 	},
 /turf/simulated/wall/shull,
-/area/sector/tundra/field/shuttle3)
+/area/sector/tundra/shuttle2)
 "Wk" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 8
@@ -6526,7 +6529,7 @@
 	},
 /obj/structure/table/steel_reinforced,
 /turf/simulated/floor/tiled/old_tile/beige,
-/area/sector/tundra/field/shuttle2)
+/area/sector/tundra/shuttle1)
 "Wq" = (
 /obj/structure/bed/chair/comfy/brown{
 	dir = 8
@@ -6535,7 +6538,7 @@
 	pixel_y = -28
 	},
 /turf/simulated/floor/carpet/patterened/blue/alt,
-/area/sector/tundra/field/shuttle3)
+/area/sector/tundra/shuttle2)
 "Ws" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/cyan{
 	dir = 4
@@ -6544,7 +6547,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/steel_ridged,
-/area/sector/tundra/field/shuttle1)
+/area/sector/tundra/shuttle4)
 "Wv" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 8
@@ -6561,23 +6564,23 @@
 	req_access = null
 	},
 /turf/simulated/floor/tiled/old_tile/beige,
-/area/sector/tundra/field/shuttle3)
+/area/sector/tundra/shuttle2)
 "Wy" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/techfloor/monogrid,
-/area/sector/tundra/field/shuttle4)
+/area/sector/tundra/shuttle5)
 "Wz" = (
 /obj/structure/table/bench/wooden,
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/tundra/field/shed1)
+/area/sector/tundra/shed1)
 "WA" = (
 /obj/machinery/atmospherics/pipe/tank/phoron{
 	dir = 8
 	},
 /turf/simulated/floor/tiled/techfloor/monogrid,
-/area/sector/tundra/field/shuttle4)
+/area/sector/tundra/shuttle5)
 "WD" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 5
@@ -6590,7 +6593,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/sector/tundra/field/shop)
+/area/sector/tundra/shop)
 "WF" = (
 /obj/machinery/light,
 /obj/machinery/power/terminal{
@@ -6604,7 +6607,7 @@
 /area/shuttle/maquis/interceptor)
 "WH" = (
 /turf/simulated/wall/prepainted/engineering,
-/area/sector/tundra/field/base)
+/area/sector/tundra/base)
 "WO" = (
 /obj/machinery/atmospherics/component/unary/vent_pump/on,
 /turf/simulated/floor/tiled/techfloor/grid,
@@ -6620,7 +6623,7 @@
 	pixel_y = 14
 	},
 /turf/simulated/floor/wood,
-/area/sector/tundra/field/shuttle1)
+/area/sector/tundra/shuttle4)
 "WZ" = (
 /obj/structure/flora/grass/green,
 /turf/simulated/floor/fey/snow_grass,
@@ -6628,13 +6631,13 @@
 "Xa" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/techfloor,
-/area/sector/tundra/field/shuttle1)
+/area/sector/tundra/shuttle4)
 "Xj" = (
 /obj/structure/cable/green{
 	icon_state = "2-8"
 	},
 /turf/simulated/wall/wood/hardwood/prepainted/exploration,
-/area/sector/tundra/field/bar)
+/area/sector/tundra/bar)
 "Xm" = (
 /obj/structure/cable/green{
 	icon_state = "4-8"
@@ -6643,14 +6646,14 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/kafel_full/white,
-/area/sector/tundra/field/shuttle1)
+/area/sector/tundra/shuttle4)
 "Xp" = (
 /obj/structure/shuttle/engine/heater{
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden,
 /turf/simulated/wall/r_wall,
-/area/sector/tundra/field/shuttle4)
+/area/sector/tundra/shuttle5)
 "Xq" = (
 /obj/structure/cable/green{
 	icon_state = "4-8"
@@ -6661,7 +6664,7 @@
 /obj/effect/floor_decal/corner_techfloor_grid/full,
 /obj/machinery/light/small,
 /turf/simulated/floor/tiled/kafel_full/white,
-/area/sector/tundra/field/shuttle1)
+/area/sector/tundra/shuttle4)
 "Xs" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden{
 	dir = 4
@@ -6670,7 +6673,7 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/sector/tundra/field/shuttle4)
+/area/sector/tundra/shuttle5)
 "Xt" = (
 /obj/machinery/button/remote/blast_door{
 	dir = 8;
@@ -6713,11 +6716,11 @@
 "Xw" = (
 /obj/structure/table/steel_reinforced,
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/tundra/field/shed1)
+/area/sector/tundra/shed1)
 "Xx" = (
 /obj/effect/floor_decal/corner_techfloor_grid/diagonal,
 /turf/simulated/floor/tiled/steel_ridged,
-/area/sector/tundra/field/shuttle1)
+/area/sector/tundra/shuttle4)
 "Xz" = (
 /obj/structure/lattice,
 /turf/template_noop,
@@ -6747,7 +6750,7 @@
 "XP" = (
 /obj/machinery/shipsensors,
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/tundra/field/shuttle5)
+/area/sector/tundra/shuttle3)
 "XQ" = (
 /obj/structure/cable/green{
 	icon_state = "2-4"
@@ -6756,7 +6759,7 @@
 	dir = 9
 	},
 /turf/simulated/wall/rdshull,
-/area/sector/tundra/field/shuttle2)
+/area/sector/tundra/shuttle1)
 "XV" = (
 /obj/structure/shuttle/engine/heater{
 	dir = 4
@@ -6765,13 +6768,13 @@
 	dir = 4
 	},
 /turf/simulated/wall/prepainted,
-/area/sector/tundra/field/shuttle1)
+/area/sector/tundra/shuttle4)
 "XY" = (
 /obj/structure/cable/orange{
 	icon_state = "1-2"
 	},
 /turf/simulated/wall/prepainted,
-/area/sector/tundra/field/shuttle1)
+/area/sector/tundra/shuttle4)
 "Ya" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden{
 	dir = 8
@@ -6783,13 +6786,13 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/steel_ridged,
-/area/sector/tundra/field/shuttle1)
+/area/sector/tundra/shuttle4)
 "Yj" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 6
 	},
 /turf/simulated/wall/r_wall,
-/area/sector/tundra/field/shuttle4)
+/area/sector/tundra/shuttle5)
 "Yl" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden{
 	dir = 8
@@ -6816,7 +6819,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/techfloor/monogrid,
-/area/sector/tundra/field/shop)
+/area/sector/tundra/shop)
 "Yt" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden{
 	dir = 8
@@ -6825,7 +6828,7 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/tiled/techfloor/monogrid,
-/area/sector/tundra/field/shuttle4)
+/area/sector/tundra/shuttle5)
 "Yv" = (
 /turf/simulated/floor/fey/snow_grass,
 /area/sector/tundra/field)
@@ -6853,7 +6856,7 @@
 	},
 /obj/structure/table/bench/steel,
 /turf/simulated/floor/tiled/monotechmaint,
-/area/sector/tundra/field/shuttle1)
+/area/sector/tundra/shuttle4)
 "YB" = (
 /obj/structure/cable/green{
 	icon_state = "4-8"
@@ -6862,14 +6865,14 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/tiled/techfloor/monogrid,
-/area/sector/tundra/field/bar)
+/area/sector/tundra/bar)
 "YD" = (
 /obj/machinery/atmospherics/portables_connector{
 	dir = 1
 	},
 /obj/machinery/portable_atmospherics/canister/empty/phoron,
 /turf/simulated/floor/plating,
-/area/sector/tundra/field/shuttle3)
+/area/sector/tundra/shuttle2)
 "YH" = (
 /obj/machinery/atmospheric_field_generator/perma,
 /turf/simulated/floor/reinforced,
@@ -6879,7 +6882,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/tundra/field/shed1)
+/area/sector/tundra/shed1)
 "YP" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/cyan{
 	dir = 4
@@ -6888,7 +6891,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/kafel_full/white,
-/area/sector/tundra/field/shuttle1)
+/area/sector/tundra/shuttle4)
 "YQ" = (
 /obj/structure/table/reinforced,
 /obj/machinery/light{
@@ -6912,7 +6915,7 @@
 	dir = 1
 	},
 /turf/simulated/wall/shull,
-/area/sector/tundra/field/shuttle3)
+/area/sector/tundra/shuttle2)
 "Zb" = (
 /obj/structure/railing/grey,
 /obj/effect/floor_decal/techfloor{
@@ -6922,11 +6925,11 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/steel_dirty/red,
-/area/sector/tundra/field/bar)
+/area/sector/tundra/bar)
 "Zc" = (
 /obj/structure/flora/ausbushes/fullgrass,
 /turf/simulated/floor/fey/forest_grass,
-/area/sector/tundra/field/shuttle4)
+/area/sector/tundra/shuttle5)
 "Zd" = (
 /obj/structure/closet/walllocker_double/north,
 /obj/structure/cable/green{
@@ -6970,7 +6973,7 @@
 	},
 /obj/item/stool,
 /turf/simulated/floor/tiled/techfloor/monogrid,
-/area/sector/tundra/field/bar)
+/area/sector/tundra/bar)
 "Zl" = (
 /obj/machinery/door/airlock/command,
 /obj/machinery/atmospherics/pipe/simple/hidden{
@@ -6980,7 +6983,7 @@
 	icon_state = "4-8"
 	},
 /turf/simulated/floor/tiled/techfloor/monogrid,
-/area/sector/tundra/field/shuttle4)
+/area/sector/tundra/shuttle5)
 "Zm" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 8
@@ -6995,20 +6998,20 @@
 /obj/structure/closet/walllocker_double/east,
 /obj/machinery/atmospherics/component/binary/pump,
 /turf/simulated/floor/tiled/techfloor/monogrid,
-/area/sector/tundra/field/bar)
+/area/sector/tundra/bar)
 "Zr" = (
 /obj/machinery/power/smes/buildable/offmap_spawn,
 /obj/structure/cable{
 	icon_state = "0-2"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/tundra/field/base)
+/area/sector/tundra/base)
 "Zt" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/cyan{
 	dir = 1
 	},
 /turf/simulated/floor/tiled/techfloor/monogrid,
-/area/sector/tundra/field/shuttle1)
+/area/sector/tundra/shuttle4)
 "Zu" = (
 /turf/simulated/floor/water,
 /area/sector/tundra/field)
@@ -7041,13 +7044,13 @@
 /obj/structure/fans/tiny,
 /obj/map_helper/access_helper/airlock/disconnected,
 /turf/simulated/floor/tiled/old_tile/blue,
-/area/sector/tundra/field/shuttle1)
+/area/sector/tundra/shuttle4)
 "ZE" = (
 /obj/structure/bed/chair{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/tundra/field/base)
+/area/sector/tundra/base)
 "ZG" = (
 /obj/machinery/floodlight{
 	on = 1
@@ -7063,21 +7066,21 @@
 	},
 /obj/machinery/light/small,
 /turf/simulated/floor/tiled/monotechmaint,
-/area/sector/tundra/field/shuttle1)
+/area/sector/tundra/shuttle4)
 "ZJ" = (
 /obj/machinery/light/small,
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/tundra/field/shed1)
+/area/sector/tundra/shed1)
 "ZM" = (
 /obj/spawner/window/low_wall/reinforced/firelocks,
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/tundra/field/shed2)
+/area/sector/tundra/shuttle4)
 "ZR" = (
 /obj/structure/cable/green{
 	icon_state = "4-8"
 	},
 /turf/simulated/floor/carpet/patterened/blue/alt,
-/area/sector/tundra/field/shuttle3)
+/area/sector/tundra/shuttle2)
 "ZT" = (
 /obj/structure/table/steel_reinforced,
 /obj/item/reagent_containers/food/snacks/algae,
@@ -7085,7 +7088,7 @@
 /obj/item/reagent_containers/food/snacks/algae,
 /obj/item/reagent_containers/food/snacks/algae,
 /turf/simulated/floor/plating,
-/area/sector/tundra/field/shop)
+/area/sector/tundra/shop)
 "ZU" = (
 /obj/machinery/atmospherics/portables_connector{
 	dir = 1
@@ -8144,7 +8147,7 @@ Yv
 WZ
 WZ
 Yv
-WZ
+Om
 WZ
 WZ
 WZ
@@ -8170,7 +8173,7 @@ fy
 Yv
 Yv
 Yv
-Yv
+Vh
 Yv
 Yv
 Yv
@@ -8744,7 +8747,7 @@ KD
 KD
 Yv
 Yv
-Yv
+Vh
 Yv
 Yv
 Yv
@@ -12437,7 +12440,7 @@ Yv
 Yv
 Yv
 Yv
-Yv
+sN
 Yv
 Yv
 Yv
@@ -14387,7 +14390,7 @@ Yv
 Yv
 Yv
 Yv
-Yv
+sN
 Yv
 Yv
 Yv
@@ -14721,7 +14724,7 @@ Yv
 WZ
 Yv
 Yv
-Yv
+sN
 Yv
 Yv
 Yv
@@ -14774,7 +14777,7 @@ WZ
 Yv
 Yv
 Yv
-Yv
+sN
 WZ
 Yv
 Yv
@@ -19353,7 +19356,7 @@ Yv
 Yv
 Yv
 Yv
-Yv
+sN
 Yv
 Yv
 Yv
@@ -20348,7 +20351,7 @@ Yv
 Yv
 Yv
 Yv
-Yv
+sN
 Yv
 Yv
 Yv
@@ -20926,7 +20929,7 @@ Yv
 WZ
 Yv
 Yv
-Yv
+sN
 Yv
 Yv
 Yv
@@ -21090,7 +21093,7 @@ jD
 Yv
 Yv
 Yv
-Yv
+sN
 Yv
 Yv
 Yv
@@ -21389,7 +21392,7 @@ WZ
 Yv
 Yv
 Yv
-Yv
+sN
 WZ
 Yv
 Yv
@@ -22750,7 +22753,7 @@ Yv
 Yv
 Yv
 Yv
-WZ
+En
 WZ
 Ne
 Yv
@@ -23130,7 +23133,7 @@ Yv
 Ne
 WZ
 Ne
-Yv
+sN
 Yv
 Yv
 Yv
@@ -24307,7 +24310,7 @@ Yv
 Yv
 Yv
 Ne
-Yv
+sN
 WZ
 WZ
 Yv
@@ -24573,7 +24576,7 @@ Yv
 Yv
 Yv
 Yv
-Yv
+va
 Yv
 Yv
 Yv
@@ -25270,7 +25273,7 @@ Yv
 Yv
 Yv
 WZ
-Yv
+sN
 Yv
 WZ
 Yv
@@ -27169,7 +27172,7 @@ Lz
 Ba
 Ba
 Ba
-Ba
+El
 Ba
 Ba
 Ba
@@ -27825,7 +27828,7 @@ Yv
 Yv
 WZ
 WZ
-Yv
+va
 WZ
 Yv
 Yv
@@ -29458,16 +29461,16 @@ KD
 Zu
 Zu
 Zu
-BQ
-BQ
+KD
+KD
 Bg
 Bd
 Bd
 Bd
 Bd
 Bg
-mk
-pr
+WZ
+Yv
 aU
 sM
 fy
@@ -29652,16 +29655,16 @@ KD
 Zu
 Zu
 Zu
-BQ
-BQ
+KD
+KD
 Bd
 Ie
 iR
 Ce
 eO
 Bd
-pr
-pr
+Yv
+Yv
 aU
 sM
 fy
@@ -29846,16 +29849,16 @@ KD
 Zu
 Zu
 Zu
-BQ
-pr
+KD
+Yv
 Bg
 dD
 Uf
 ml
 CD
 Bg
-pr
-pr
+Yv
+Yv
 aU
 sM
 fy
@@ -30040,16 +30043,16 @@ KD
 Zu
 Zu
 Zu
-BQ
-BQ
+KD
+KD
 vB
 uK
 uK
 vv
 ra
 Bg
-qy
-pr
+fN
+Yv
 aU
 sM
 fy
@@ -30234,16 +30237,16 @@ KD
 Zu
 Zu
 Zu
-BQ
-BQ
+KD
+KD
 Bg
 De
 uK
 La
 Fi
 Bg
-qy
-mk
+fN
+WZ
 aU
 AY
 kb
@@ -30428,7 +30431,7 @@ KD
 Zu
 Zu
 KD
-BQ
+KD
 AS
 AS
 CM
@@ -30436,8 +30439,8 @@ CM
 YA
 lv
 Bg
-qy
-pr
+fN
+Yv
 aU
 sM
 fy
@@ -30552,7 +30555,7 @@ Yv
 Yv
 Yv
 Yv
-Yv
+va
 Yv
 Yv
 Yv
@@ -30631,7 +30634,7 @@ iV
 ZI
 Bg
 Bg
-pr
+Yv
 aU
 sM
 Yv
@@ -32066,7 +32069,7 @@ Yv
 Yv
 Yv
 WZ
-Yv
+va
 WZ
 Yv
 Yv
@@ -32765,7 +32768,7 @@ Ya
 FM
 Bg
 Bg
-pr
+Yv
 aU
 sM
 Yv
@@ -32950,16 +32953,16 @@ Zu
 Zu
 KD
 KD
-IN
-pr
+Vw
+Yv
 GP
 wK
 Ox
 XV
 oD
 ak
-pr
-pr
+Yv
+Yv
 aU
 sM
 Yv
@@ -33144,16 +33147,16 @@ Zu
 KD
 KD
 KD
-IN
-pr
+Vw
+Yv
 Fk
 CB
 EQ
 EQ
 hg
 zQ
-pr
-mk
+Yv
+WZ
 aU
 sM
 Yv
@@ -35360,7 +35363,7 @@ WZ
 Yv
 Yv
 WZ
-WZ
+En
 nC
 Yv
 Yv
@@ -36855,9 +36858,9 @@ Zu
 Zu
 Zu
 Zu
-eP
-eP
-me
+KD
+KD
+Yv
 jy
 PF
 ca
@@ -37049,9 +37052,9 @@ Zu
 Zu
 Zu
 Zu
-Dv
-eP
-eP
+Zu
+KD
+KD
 jy
 PF
 SK
@@ -37243,9 +37246,9 @@ MU
 Kz
 Vn
 Zu
-Dv
-eP
-eP
+Zu
+KD
+KD
 jy
 Pz
 ty
