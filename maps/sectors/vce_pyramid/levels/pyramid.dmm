@@ -7,12 +7,6 @@
 /obj/structure/flora/tree/palm,
 /turf/simulated/floor/outdoors/beach/sand/desert,
 /area/sector/pyramid/field)
-"cd" = (
-/obj/effect/floor_decal/sand/corner{
-	dir = 1
-	},
-/turf/simulated/floor/roguetown/wood,
-/area/sector/pyramid/villa)
 "cQ" = (
 /obj/machinery/floodlight{
 	on = 1
@@ -34,13 +28,6 @@
 	},
 /turf/simulated/floor/roguetown/greenstone,
 /area/sector/pyramid/pyramid)
-"eX" = (
-/obj/effect/floor_decal/sand,
-/obj/effect/floor_decal/sand/corner{
-	dir = 8
-	},
-/turf/simulated/floor/roguetown/wood,
-/area/sector/pyramid/villa)
 "fu" = (
 /obj/effect/shuttle_landmark/automatic{
 	name = "Foot of the pyramid"
@@ -63,20 +50,6 @@
 	},
 /turf/simulated/floor/sandstone,
 /area/sector/pyramid/pyramid)
-"ga" = (
-/obj/effect/floor_decal/sand{
-	dir = 4
-	},
-/obj/effect/floor_decal/sand,
-/turf/simulated/floor/roguetown/wood,
-/area/sector/pyramid/villa)
-"gy" = (
-/obj/effect/floor_decal/sand,
-/obj/effect/floor_decal/sand{
-	dir = 8
-	},
-/turf/simulated/floor/roguetown/wood,
-/area/sector/pyramid/villa)
 "gO" = (
 /obj/effect/floor_decal/industrial/halfstair{
 	color = "#D9C179"
@@ -130,13 +103,6 @@
 /obj/structure/simple_door/sandstone,
 /turf/simulated/floor/sandstone,
 /area/sector/pyramid/pyramid)
-"of" = (
-/obj/effect/floor_decal/sand{
-	dir = 8
-	},
-/obj/effect/floor_decal/sand/corner,
-/turf/simulated/floor/roguetown/wood,
-/area/sector/pyramid/villa)
 "oJ" = (
 /obj/structure/fence/wooden/post{
 	dir = 8
@@ -153,12 +119,6 @@
 /obj/overmap/entity/visitable/sector/pyramid,
 /turf/simulated/wall/solidrock,
 /area/sector/pyramid/field)
-"pJ" = (
-/obj/effect/floor_decal/sand{
-	dir = 8
-	},
-/turf/simulated/floor/roguetown/wood,
-/area/sector/pyramid/villa)
 "qP" = (
 /turf/simulated/wall/sandstonediamond,
 /area/sector/pyramid/pyramid)
@@ -168,19 +128,6 @@
 /obj/random/maintenance/security,
 /turf/simulated/floor/roguetown/greenstone,
 /area/sector/pyramid/pyramid)
-"rS" = (
-/obj/effect/floor_decal/sand,
-/obj/effect/floor_decal/sand{
-	dir = 8
-	},
-/obj/effect/floor_decal/sand{
-	dir = 4
-	},
-/obj/effect/floor_decal/sand{
-	dir = 1
-	},
-/turf/simulated/floor/roguetown/wood,
-/area/sector/pyramid/villa)
 "rT" = (
 /obj/structure/event/prop/cables,
 /turf/simulated/floor/roguetown/greenstone,
@@ -188,16 +135,6 @@
 "su" = (
 /obj/structure/flora/tree/palm,
 /turf/simulated/floor/sandstone,
-/area/sector/pyramid/villa)
-"sR" = (
-/obj/effect/floor_decal/sand,
-/obj/effect/floor_decal/sand{
-	dir = 8
-	},
-/obj/effect/floor_decal/sand{
-	dir = 4
-	},
-/turf/simulated/floor/roguetown/wood,
 /area/sector/pyramid/villa)
 "tV" = (
 /obj/effect/floor_decal/industrial/halfstair{
@@ -222,12 +159,6 @@
 "vG" = (
 /turf/simulated/floor/outdoors/dirtlight,
 /area/sector/pyramid/field)
-"vH" = (
-/obj/effect/floor_decal/sand/corner{
-	dir = 4
-	},
-/turf/simulated/floor/roguetown/wood,
-/area/sector/pyramid/villa)
 "wc" = (
 /obj/structure/event/prop/survey,
 /turf/simulated/floor/roguetown/greenstone,
@@ -259,22 +190,9 @@
 "Bm" = (
 /turf/simulated/floor/roguetown/greenstone,
 /area/sector/pyramid/pyramid)
-"BE" = (
-/obj/effect/floor_decal/sand,
-/obj/effect/floor_decal/sand/corner{
-	dir = 4
-	},
-/turf/simulated/floor/roguetown/wood,
-/area/sector/pyramid/villa)
 "BV" = (
 /obj/structure/barricade/miaphus/window,
 /turf/simulated/floor/outdoors/beach/sand/desert,
-/area/sector/pyramid/villa)
-"Cp" = (
-/obj/effect/floor_decal/sand/corner{
-	dir = 8
-	},
-/turf/simulated/floor/roguetown/wood,
 /area/sector/pyramid/villa)
 "Ct" = (
 /obj/structure/table/standard,
@@ -297,15 +215,6 @@
 /area/sector/pyramid/field)
 "Ep" = (
 /turf/simulated/floor/water/pool,
-/area/sector/pyramid/villa)
-"Fa" = (
-/obj/effect/floor_decal/sand{
-	dir = 4
-	},
-/obj/effect/floor_decal/sand{
-	dir = 1
-	},
-/turf/simulated/floor/roguetown/wood,
 /area/sector/pyramid/villa)
 "Gd" = (
 /obj/structure/event/prop/light2,
@@ -350,17 +259,6 @@
 	},
 /turf/simulated/floor/outdoors/dirtlight,
 /area/sector/pyramid/field)
-"IO" = (
-/obj/effect/floor_decal/sand,
-/obj/effect/floor_decal/sand{
-	dir = 1
-	},
-/turf/simulated/floor/roguetown/wood,
-/area/sector/pyramid/villa)
-"Je" = (
-/obj/effect/floor_decal/sand/corner,
-/turf/simulated/floor/roguetown/wood,
-/area/sector/pyramid/villa)
 "JK" = (
 /obj/machinery/portable_atmospherics/canister/oxygen,
 /turf/simulated/floor/roguetown/greenstone,
@@ -370,24 +268,6 @@
 /obj/item/event/prop/laptop2,
 /turf/simulated/floor/roguetown/greenstone,
 /area/sector/pyramid/pyramid)
-"KG" = (
-/obj/effect/floor_decal/sand{
-	dir = 1
-	},
-/obj/effect/floor_decal/sand{
-	dir = 4
-	},
-/turf/simulated/floor/roguetown/wood,
-/area/sector/pyramid/villa)
-"Lr" = (
-/obj/effect/floor_decal/sand{
-	dir = 8
-	},
-/obj/effect/floor_decal/sand{
-	dir = 1
-	},
-/turf/simulated/floor/roguetown/wood,
-/area/sector/pyramid/villa)
 "LJ" = (
 /obj/structure/fence/wooden/post,
 /turf/simulated/wall/sandstone{
@@ -413,25 +293,11 @@
 /obj/random/junk,
 /turf/simulated/floor/roguetown/greenstone,
 /area/sector/pyramid/pyramid)
-"Od" = (
-/obj/effect/floor_decal/sand,
-/obj/effect/floor_decal/sand{
-	dir = 8
-	},
-/obj/effect/floor_decal/sand{
-	dir = 1
-	},
-/turf/simulated/floor/roguetown/wood,
-/area/sector/pyramid/villa)
 "Ou" = (
 /obj/structure/table/sandstone,
 /obj/random/multiple/treasure,
 /turf/simulated/floor/sandstone,
 /area/sector/pyramid/pyramid)
-"Qx" = (
-/obj/effect/floor_decal/sand,
-/turf/simulated/floor/roguetown/wood,
-/area/sector/pyramid/villa)
 "QW" = (
 /obj/machinery/portable_atmospherics/canister/oxygen,
 /turf/simulated/floor/roguetown/grass,
@@ -448,18 +314,6 @@
 /obj/machinery/portable_atmospherics/canister/phoron,
 /turf/simulated/floor/roguetown/greenstone,
 /area/sector/pyramid/pyramid)
-"SA" = (
-/obj/effect/floor_decal/sand{
-	dir = 4
-	},
-/obj/effect/floor_decal/sand/corner{
-	dir = 1
-	},
-/obj/effect/floor_decal/sand/corner{
-	dir = 4
-	},
-/turf/simulated/floor/roguetown/wood,
-/area/sector/pyramid/villa)
 "SR" = (
 /obj/structure/event/prop/yellow_barrel{
 	layer = 2.9
@@ -475,18 +329,6 @@
 	opacity = 0
 	},
 /area/sector/pyramid/pyramid)
-"UW" = (
-/obj/effect/floor_decal/sand{
-	dir = 4
-	},
-/turf/simulated/floor/roguetown/wood,
-/area/sector/pyramid/villa)
-"Vc" = (
-/obj/effect/floor_decal/sand{
-	dir = 1
-	},
-/turf/simulated/floor/roguetown/wood,
-/area/sector/pyramid/villa)
 "Vm" = (
 /obj/structure/event/prop/yellow_barrel{
 	pixel_x = 8
@@ -13278,8 +13120,8 @@ iX
 vy
 vy
 vy
-ga
-Fa
+yJ
+yJ
 vy
 vy
 vy
@@ -13470,12 +13312,12 @@ vi
 Ib
 iX
 vy
-ga
-UW
-Je
-Cp
-UW
-Fa
+yJ
+yJ
+yJ
+yJ
+yJ
+yJ
 vy
 VI
 he
@@ -13664,13 +13506,13 @@ vi
 Ib
 iX
 vy
-gy
 yJ
 yJ
 yJ
 yJ
-Cp
-UW
+yJ
+yJ
+yJ
 VI
 he
 he
@@ -13859,9 +13701,9 @@ Ib
 iX
 vy
 vy
-BE
-pJ
-pJ
+yJ
+yJ
+yJ
 yJ
 yJ
 yJ
@@ -14053,12 +13895,12 @@ Ib
 iX
 vy
 vy
-IO
+yJ
 vy
 vy
-BE
-pJ
-cd
+yJ
+yJ
+yJ
 Cv
 he
 he
@@ -14247,12 +14089,12 @@ Ib
 iX
 vy
 vy
-eX
-KG
+yJ
+yJ
 vy
-Od
+yJ
 vy
-gy
+yJ
 iX
 he
 he
@@ -14441,9 +14283,9 @@ Ib
 iX
 vy
 vy
-Qx
-Cp
-KG
+yJ
+yJ
+yJ
 vy
 vy
 vy
@@ -14635,9 +14477,9 @@ Ib
 iX
 vy
 vy
-gy
-cd
-Vc
+yJ
+yJ
+yJ
 vy
 vy
 vy
@@ -14828,12 +14670,12 @@ vi
 Ib
 iX
 vy
-rS
+yJ
 vy
-Qx
-Cp
-UW
-KG
+yJ
+yJ
+yJ
+yJ
 vy
 Cv
 he
@@ -15024,11 +14866,11 @@ iX
 vy
 vy
 vy
-Qx
 yJ
 yJ
-Cp
-KG
+yJ
+yJ
+yJ
 iX
 he
 he
@@ -15218,11 +15060,11 @@ iX
 vy
 vy
 vy
-Qx
-vH
-pJ
 yJ
-Vc
+yJ
+yJ
+yJ
+yJ
 iX
 he
 he
@@ -15410,13 +15252,13 @@ vi
 Ib
 iX
 vy
-sR
-SA
-of
-Lr
+yJ
+yJ
+yJ
+yJ
 vy
-gy
-Lr
+yJ
+yJ
 iX
 he
 he
@@ -15605,7 +15447,7 @@ aA
 iX
 vy
 vy
-Od
+yJ
 vy
 vy
 vy

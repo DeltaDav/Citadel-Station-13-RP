@@ -152,3 +152,31 @@
 	desc = "Its Fake snow. Well. Actually it is kinda real, still made with water, but with added additive to prevent it to melt until march and april."
 	slowdown = 0
 	outdoors = FALSE
+
+/obj/random/stelkaobjective
+	name = "random strelka objective"
+	desc = "This put a crew objective on the strelka."
+	icon = 'icons/obj/library.dmi'
+	icon_state = "book16"
+
+/obj/random/stelkaobjective/item_to_spawn()
+	var/list/stelka_objective = subtypesof(/obj/item/paper/strelkaobjective)
+	return pick(stelka_objective)
+
+
+/obj/item/gps/nt_lost
+	name = "global positioning system"
+	desc = "Triangulates the approximate co-ordinates using a nearby satellite network."
+	icon = 'icons/obj/gps.dmi'
+	icon_state = "gps-gen"
+	gps_tag = "NT-LOST"
+	on = TRUE
+
+/obj/structure/closet/crate/corporate/nanotrasen/lost
+	desc = "A crate emblazoned with the standard Nanotrasen livery."
+	icon_state = "nt"
+	starts_with = list(
+		/obj/random/projectile/random = 2,
+		/obj/random/spacecash,
+		/obj/random/single,
+		/obj/item/gps/nt_lost)

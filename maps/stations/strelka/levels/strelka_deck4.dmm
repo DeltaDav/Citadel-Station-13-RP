@@ -5327,6 +5327,11 @@
 	},
 /turf/simulated/floor/wood/indoors,
 /area/hallway/strelka/deck4)
+"uD" = (
+/obj/structure/table/carbon/reinforced,
+/obj/random/stelkaobjective,
+/turf/simulated/floor/tiled/techfloor,
+/area/bridge/strelka)
 "uF" = (
 /obj/structure/closet/secure_closet/freezer/fridge,
 /obj/item/reagent_containers/food/condiment/flour,
@@ -37807,7 +37812,7 @@ iZ
 ni
 Ez
 Yd
-al
+uD
 AL
 iZ
 ZW

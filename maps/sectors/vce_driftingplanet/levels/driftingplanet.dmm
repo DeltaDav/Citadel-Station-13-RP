@@ -352,6 +352,14 @@
 	},
 /turf/simulated/floor/plating,
 /area/sector/driftingplanet/factory)
+"cR" = (
+/obj/effect/floor_decal/rust,
+/obj/structure/table/steel{
+	color = "#803327"
+	},
+/obj/item/paper/alien/vcedriftingplanet,
+/turf/simulated/floor/plating,
+/area/sector/driftingplanet/factory)
 "cS" = (
 /obj/effect/decal/remains/ribcage{
 	color = "#803327"
@@ -649,6 +657,10 @@
 	icon_state = "horizontaltopbordertop0"
 	},
 /area/sector/driftingplanet/field)
+"eT" = (
+/mob/living/simple_mob/mechanical/mecha/combat/titan/gun/boss1,
+/turf/simulated/floor/outdoors/mud/indoors,
+/area/sector/driftingplanet/cave/arena)
 "eW" = (
 /obj/structure/railing{
 	dir = 4
@@ -1819,6 +1831,10 @@
 	icon_state = "reno_sidewalk2"
 	},
 /area/sector/driftingplanet/field)
+"oM" = (
+/obj/item/paper/alien/vcedriftingplanet/three,
+/turf/simulated/floor/outdoors/mud/indoors,
+/area/sector/driftingplanet/cave/arena)
 "oN" = (
 /obj/effect/floor_decal/rust,
 /obj/structure/salvageable/computer_os{
@@ -3686,6 +3702,13 @@
 /obj/structure/loot_pile/vce/building,
 /turf/simulated/floor/outdoors/ash_sand/outdoors,
 /area/sector/driftingplanet/factory)
+"FN" = (
+/obj/structure/salvageable/computer_os{
+	color = "#803327"
+	},
+/obj/item/paper/alien/vcedriftingplanet/two,
+/turf/simulated/floor/tiled/kafel_full/yellow/virgo3b,
+/area/sector/driftingplanet/arena)
 "FR" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 1
@@ -5493,6 +5516,14 @@
 	icon_state = "horizontaloutermain1"
 	},
 /area/sector/driftingplanet/field)
+"WU" = (
+/obj/effect/floor_decal/rust,
+/obj/structure/salvageable/console_broken_os{
+	color = "#803327"
+	},
+/obj/item/paper/alien/vcedriftingplanet/four,
+/turf/simulated/floor/plating/rust,
+/area/sector/driftingplanet/factory)
 "WV" = (
 /obj/effect/floor_decal/ash_edge{
 	dir = 1
@@ -11371,7 +11402,7 @@ yT
 dZ
 yT
 yT
-yT
+eT
 yT
 yT
 yT
@@ -12722,7 +12753,7 @@ yT
 yT
 yT
 yT
-yT
+oM
 yT
 yT
 yT
@@ -16757,7 +16788,7 @@ Fu
 Fv
 Fv
 YM
-ly
+FN
 kM
 kM
 kM
@@ -35112,7 +35143,7 @@ vY
 oX
 OS
 vY
-VT
+WU
 aa
 hj
 lT
@@ -36420,7 +36451,7 @@ nR
 hj
 Re
 rL
-rJ
+cR
 rL
 Xm
 bZ
