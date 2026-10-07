@@ -642,6 +642,10 @@
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/shuttle/fleet/battlestar)
+"aAe" = (
+/obj/machinery/vending/snack/fleet,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/sector/fleet/botany)
 "aAi" = (
 /obj/effect/floor_decal/industrial/outline/blue,
 /obj/machinery/door/window/westleft,
@@ -760,6 +764,11 @@
 /obj/structure/table/steel_reinforced,
 /turf/simulated/floor/tiled/techfloor,
 /area/shuttle/fleet/battlestar)
+"aFm" = (
+/obj/effect/floor_decal/borderfloorblack/full,
+/mob/living/simple_mob/animal/passive/dog/tamaskan,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/sector/fleet/commons)
 "aFJ" = (
 /obj/structure/shuttle/engine/heater{
 	dir = 4
@@ -1098,6 +1107,10 @@
 /obj/item/spacecash/c1000,
 /turf/simulated/floor/tiled/dark,
 /area/shuttle/fleet/battlestar)
+"aUX" = (
+/obj/machinery/vending/fitness,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/sector/fleet/botany)
 "aUZ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -1474,6 +1487,13 @@
 	},
 /turf/simulated/floor/plating,
 /area/shuttle/fleet/scoophead/main)
+"bhz" = (
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/mob/living/simple_mob/animal/passive/mouse/rat,
+/turf/simulated/floor/plating,
+/area/sector/fleet/botany)
 "bhN" = (
 /obj/structure/railing,
 /obj/structure/flora/ausbushes/sparsegrass,
@@ -3147,6 +3167,10 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/sector/fleet/commons)
+"cxg" = (
+/mob/living/simple_mob/animal/passive/cat,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/sector/fleet/botany)
 "cxp" = (
 /obj/machinery/light,
 /turf/simulated/floor/concrete,
@@ -5509,6 +5533,10 @@
 "eDs" = (
 /turf/simulated/wall/rshull,
 /area/shuttle/runabout)
+"eDv" = (
+/mob/living/simple_mob/animal/passive/mouse/brown,
+/turf/simulated/floor/plating,
+/area/sector/fleet/botany)
 "eDD" = (
 /obj/effect/floor_decal/carpet{
 	dir = 1
@@ -5678,6 +5706,13 @@
 	},
 /turf/simulated/floor,
 /area/shuttle/fleet/deneb)
+"eJk" = (
+/obj/effect/floor_decal/borderfloorblack{
+	dir = 1
+	},
+/mob/living/simple_mob/humanoid/vce_people/colonist/four,
+/turf/simulated/floor/tiled/monotechmaint,
+/area/sector/fleet/commons)
 "eJn" = (
 /obj/structure/bed/chair/comfy/beige{
 	dir = 1
@@ -7028,6 +7063,10 @@
 	},
 /turf/simulated/floor/roguetown/wood,
 /area/sector/fleet/bar)
+"gcT" = (
+/mob/living/simple_mob/humanoid/vce_people/colonist/tree,
+/turf/simulated/floor/plating,
+/area/sector/fleet/botany)
 "gdg" = (
 /obj/machinery/button/remote/blast_door{
 	id = "Arrowhead Airlock";
@@ -8435,6 +8474,10 @@
 	},
 /turf/simulated/floor,
 /area/shuttle/fleet/battlestar)
+"hnU" = (
+/mob/living/simple_mob/humanoid/vce_people/colonist/four,
+/turf/simulated/floor/roguetown/dark_wood,
+/area/sector/fleet/bar)
 "hnX" = (
 /obj/machinery/atmospherics/component/unary/vent_pump/on{
 	dir = 1
@@ -11326,6 +11369,11 @@
 "jMq" = (
 /turf/simulated/floor/plating/indoors,
 /area/sector/fleet/room14)
+"jME" = (
+/obj/effect/floor_decal/borderfloorblack/full,
+/mob/living/simple_mob/animal/passive/cat,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/sector/fleet/commons)
 "jNr" = (
 /obj/structure/cable/green{
 	icon_state = "1-8"
@@ -12388,6 +12436,10 @@
 /obj/effect/wingrille_spawn/reinforced_phoron,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/sector/fleet/church)
+"kLT" = (
+/mob/living/simple_mob/vore/redpanda,
+/turf/simulated/floor/fey/forest_grass,
+/area/sector/fleet/safarizoo)
 "kLX" = (
 /obj/machinery/holopad/ship/starts_inactive,
 /turf/simulated/floor/tiled/techfloor/grid,
@@ -17019,6 +17071,10 @@
 	},
 /turf/simulated/wall/prepainted/command,
 /area/shuttle/runabout)
+"oYq" = (
+/mob/living/simple_mob/animal/passive/bird/european_robin,
+/turf/simulated/floor/plating,
+/area/sector/fleet/botany)
 "oYG" = (
 /obj/structure/bed/chair/bay/chair/padded/black{
 	dir = 8
@@ -17729,6 +17785,10 @@
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/shuttle/fleet/parabellum)
+"pIn" = (
+/mob/living/simple_mob/animal/passive/mouse/gray,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/sector/fleet/commons)
 "pIu" = (
 /obj/effect/floor_decal/rust,
 /obj/machinery/atmospherics/component/unary/vent_pump/on,
@@ -19785,6 +19845,10 @@
 /obj/machinery/door/blast/regular,
 /turf/simulated/wall/r_wall/prepainted/exploration,
 /area/sector/fleet/room6)
+"rAF" = (
+/mob/living/simple_mob/animal/passive/mouse/rat,
+/turf/simulated/floor/plating,
+/area/sector/fleet/botany)
 "rBX" = (
 /turf/simulated/floor/outdoors/grass/heavy/indoors,
 /area/sector/fleet/botany)
@@ -20431,6 +20495,10 @@
 /obj/structure/window/phoronreinforced,
 /turf/simulated/floor/plating/indoors,
 /area/sector/fleet/commons)
+"sbI" = (
+/mob/living/simple_mob/animal/passive/bird/ringneck_dove,
+/turf/simulated/floor/fey/forest_grass,
+/area/sector/fleet/safarizoo)
 "sca" = (
 /obj/machinery/door/blast/regular/open{
 	id = "SDFantiboardingphaseengine"
@@ -24527,6 +24595,11 @@
 	},
 /turf/simulated/floor/plating/indoors,
 /area/sector/fleet/room10)
+"vLZ" = (
+/obj/effect/floor_decal/borderfloorblack/full,
+/mob/living/simple_mob/animal/passive/mouse/brown,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/sector/fleet/commons)
 "vML" = (
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
@@ -26378,6 +26451,11 @@
 	},
 /turf/simulated/floor/tiled/techfloor/lythios43c,
 /area/shuttle/fleet/colonial)
+"xCE" = (
+/obj/structure/flora/ausbushes/lavendergrass,
+/mob/living/simple_mob/vore/redpanda,
+/turf/simulated/floor/fey/forest_grass,
+/area/sector/fleet/safarizoo)
 "xCL" = (
 /obj/machinery/light{
 	dir = 8
@@ -35251,7 +35329,7 @@ dbP
 dbP
 oKt
 mLS
-acM
+jME
 gTV
 yjX
 kco
@@ -35648,7 +35726,7 @@ ltK
 ltK
 ltK
 ltK
-ltK
+pIn
 ltK
 qPQ
 oKt
@@ -37580,7 +37658,7 @@ mmD
 gZa
 aiW
 yee
-gTV
+eJk
 yjX
 kco
 kgJ
@@ -40489,7 +40567,7 @@ uvM
 uvM
 uvM
 uvM
-acM
+aFm
 gTV
 yjX
 kco
@@ -41818,7 +41896,7 @@ aeS
 aeS
 aeS
 imE
-vgI
+cxg
 qUX
 tnP
 imE
@@ -42372,7 +42450,7 @@ aeS
 aeS
 imE
 qUX
-qUX
+oYq
 vgI
 imE
 aeS
@@ -42402,7 +42480,7 @@ aeS
 imE
 vgI
 qUX
-tnP
+bhz
 imE
 aeS
 aeS
@@ -46533,7 +46611,7 @@ bai
 fMy
 lno
 fMy
-fMy
+hnU
 fMy
 fMy
 idK
@@ -49176,7 +49254,7 @@ oUR
 lMH
 kse
 kse
-pyl
+xCE
 qHO
 kse
 nUd
@@ -49756,7 +49834,7 @@ kse
 kse
 kse
 rGX
-kse
+kLT
 rGX
 kse
 ths
@@ -51159,7 +51237,7 @@ wQw
 wOF
 wOF
 ltK
-acM
+vLZ
 gTV
 yjX
 kco
@@ -51877,7 +51955,7 @@ ikY
 tdD
 aeS
 imE
-qUX
+rAF
 sfW
 imE
 utR
@@ -51907,7 +51985,7 @@ wKf
 vgI
 vgI
 vgI
-qUX
+gcT
 tnP
 imE
 aeS
@@ -53636,7 +53714,7 @@ aeS
 oUR
 oUR
 lMH
-kse
+sbI
 kse
 kse
 rIl
@@ -54817,7 +54895,7 @@ idk
 tBe
 vgI
 imE
-qUX
+eDv
 tnP
 imE
 aeS
@@ -55179,7 +55257,7 @@ qUX
 qUX
 imE
 vgI
-vgI
+aUX
 jmX
 wYk
 imE
@@ -55202,7 +55280,7 @@ aeS
 imE
 sgV
 bae
-vgI
+aAe
 vgI
 vgI
 qUX
@@ -55373,7 +55451,7 @@ qUX
 qUX
 vgI
 vgI
-vgI
+aUX
 jmX
 jmX
 imE
@@ -55396,7 +55474,7 @@ aeS
 imE
 bae
 bae
-vgI
+aAe
 vgI
 vgI
 qUX
@@ -60442,7 +60520,7 @@ aeS
 aeS
 aeS
 imE
-qUX
+eDv
 qUX
 qUX
 imE
