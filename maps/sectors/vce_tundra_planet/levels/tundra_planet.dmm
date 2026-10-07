@@ -3258,7 +3258,7 @@
 /obj/structure/closet/secure_closet/guncabinet{
 	req_one_access = list(311)
 	},
-/obj/item/gun/projectile/ballistic/automatic/sts35,
+/obj/item/gun/projectile/ballistic/automatic/pdw,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/maquis/raider)
 "xK" = (
@@ -3940,7 +3940,7 @@
 /obj/structure/closet/secure_closet/guncabinet{
 	req_one_access = list(311)
 	},
-/obj/item/gun/projectile/ballistic/automatic/sts35,
+/obj/item/gun/projectile/ballistic/automatic/pdw,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/maquis/raider)
 "CB" = (
