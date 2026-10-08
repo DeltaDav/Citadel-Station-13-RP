@@ -7,20 +7,100 @@
 /obj/structure/flora/tree/palm,
 /turf/simulated/floor/outdoors/beach/sand/desert,
 /area/sector/pyramid/field)
+"bo" = (
+/obj/structure/spider/stickyweb,
+/turf/simulated/floor/airless,
+/area/sector/pyramid/field)
+"bN" = (
+/obj/effect/floor_decal/techfloor{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/tank/air,
+/turf/simulated/floor/tiled/techfloor,
+/area/sector/pyramid/field)
+"cb" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden,
+/obj/structure/handrail{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/sector/pyramid/field)
+"cr" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/fuel,
+/obj/machinery/light{
+	dir = 4
+	},
+/obj/effect/floor_decal/rust,
+/turf/simulated/floor/plating/indoors,
+/area/sector/pyramid/field)
+"cA" = (
+/obj/structure/cable/orange{
+	icon_state = "4-8"
+	},
+/obj/structure/cable/orange{
+	icon_state = "1-4"
+	},
+/obj/structure/spider/stickyweb,
+/turf/simulated/floor/tiled/techfloor,
+/area/sector/pyramid/field)
+"cB" = (
+/turf/simulated/floor/sandstone{
+	outdoors = 1
+	},
+/area/sector/pyramid/pyramid)
+"cO" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden{
+	dir = 4
+	},
+/obj/structure/spider/stickyweb,
+/turf/simulated/floor/plating/indoors,
+/area/sector/pyramid/field)
 "cQ" = (
 /obj/machinery/floodlight{
 	on = 1
 	},
 /turf/simulated/floor/roguetown/grass,
 /area/sector/pyramid/pyramid)
+"cY" = (
+/obj/machinery/suit_cycler/syndicate,
+/obj/effect/floor_decal/techfloor{
+	dir = 4
+	},
+/obj/machinery/light{
+	dir = 4;
+	old_wall = 1
+	},
+/obj/effect/floor_decal/industrial/outline/yellow,
+/turf/simulated/floor/tiled/techfloor,
+/area/sector/pyramid/field)
+"de" = (
+/obj/machinery/atmospherics/component/unary/vent_pump/high_volume,
+/obj/structure/spider/stickyweb,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/sector/pyramid/field)
+"dG" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden,
+/obj/structure/spider/stickyweb,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/sector/pyramid/field)
 "dJ" = (
 /obj/machinery/portable_atmospherics/hydroponics/soil/grassy,
 /turf/simulated/floor/outdoors/dirtlight,
 /area/sector/pyramid/field)
 "dW" = (
 /turf/simulated/wall/sandstone{
-	opacity = 0
+	opacity = 0;
+	outdoors = 1
 	},
+/area/sector/pyramid/field)
+"ea" = (
+/obj/machinery/atmospherics/component/binary/pump,
+/obj/effect/floor_decal/rust,
+/turf/simulated/floor/plating/indoors,
+/area/sector/pyramid/field)
+"em" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/turf/simulated/floor/tiled/techmaint,
 /area/sector/pyramid/field)
 "eo" = (
 /obj/structure/statue/bone{
@@ -28,28 +108,107 @@
 	},
 /turf/simulated/floor/roguetown/greenstone,
 /area/sector/pyramid/pyramid)
+"ev" = (
+/obj/structure/cable/orange{
+	icon_state = "2-8"
+	},
+/obj/random/mob/spider,
+/turf/simulated/floor/tiled/techfloor,
+/area/sector/pyramid/field)
+"eI" = (
+/obj/machinery/recharger/wallcharger{
+	pixel_y = -28;
+	pixel_x = 3
+	},
+/obj/effect/floor_decal/techfloor{
+	dir = 10
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/sector/pyramid/field)
+"eW" = (
+/obj/machinery/door/airlock/hatch,
+/obj/machinery/door/firedoor/glass,
+/turf/simulated/floor/plating/indoors,
+/area/sector/pyramid/field)
+"eY" = (
+/obj/machinery/atmospherics/pipe/manifold4w/hidden/fuel,
+/obj/machinery/meter{
+	pixel_y = 9;
+	pixel_x = 7
+	},
+/obj/effect/floor_decal/rust,
+/turf/simulated/floor/plating/indoors,
+/area/sector/pyramid/field)
+"fb" = (
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 9
+	},
+/obj/effect/floor_decal/rust,
+/turf/simulated/floor/plating/indoors,
+/area/sector/pyramid/field)
 "fu" = (
 /obj/effect/shuttle_landmark/automatic{
 	name = "Foot of the pyramid"
 	},
 /turf/simulated/floor/outdoors/beach/sand/dirt,
 /area/sector/pyramid/field)
+"fA" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/fuel,
+/obj/effect/floor_decal/rust,
+/turf/simulated/floor/plating/indoors,
+/area/sector/pyramid/field)
 "fE" = (
 /mob/living/simple_mob/humanoid/merc/voxpirate/shotgun,
-/turf/simulated/floor/sandstone,
+/turf/simulated/floor/sandstone{
+	outdoors = 1
+	},
 /area/sector/pyramid/field)
 "fF" = (
 /obj/structure/fence/door/wooden{
 	dir = 4
 	},
-/turf/simulated/floor/sandstone,
+/turf/simulated/floor/sandstone{
+	outdoors = 1
+	},
 /area/sector/pyramid/villa)
+"fJ" = (
+/obj/spawner/window/reinforced/full,
+/obj/machinery/door/blast/regular{
+	density = 0;
+	dir = 2;
+	icon_state = "pdoor0";
+	id = "reaver_lockdown";
+	name = "Shuttle Blast Doors";
+	opacity = 0
+	},
+/turf/simulated/floor/plating/indoors,
+/area/sector/pyramid/field)
 "fS" = (
 /obj/effect/floor_decal/techfloor/hole{
 	dir = 1
 	},
-/turf/simulated/floor/sandstone,
+/turf/simulated/floor/sandstone{
+	outdoors = 1
+	},
 /area/sector/pyramid/pyramid)
+"gm" = (
+/obj/structure/sign/signnew/flammables{
+	pixel_x = 32
+	},
+/obj/effect/floor_decal/techfloor{
+	dir = 5
+	},
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/sector/pyramid/field)
+"gw" = (
+/obj/effect/floor_decal/techfloor{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/sector/pyramid/field)
 "gO" = (
 /obj/effect/floor_decal/industrial/halfstair{
 	color = "#D9C179"
@@ -63,51 +222,225 @@
 	},
 /turf/simulated/floor/outdoors/dirtlight,
 /area/sector/pyramid/field)
+"gX" = (
+/obj/effect/floor_decal/techfloor,
+/obj/effect/floor_decal/borderfloorblack{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/danger{
+	dir = 4
+	},
+/obj/structure/handrail{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/sector/pyramid/field)
+"hd" = (
+/obj/structure/cable/orange{
+	icon_state = "1-2"
+	},
+/obj/structure/spider/stickyweb,
+/turf/simulated/floor/tiled/techfloor,
+/area/sector/pyramid/field)
 "he" = (
-/turf/simulated/floor/sandstone,
+/turf/simulated/floor/sandstone{
+	outdoors = 1
+	},
 /area/sector/pyramid/villa)
+"hh" = (
+/obj/machinery/door/airlock/glass_external{
+	name = "Ship Hatch"
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/sector/pyramid/field)
 "hy" = (
 /obj/structure/closet/crate,
 /obj/random/maintenance/security,
 /obj/random/maintenance/security,
 /turf/simulated/floor/roguetown/grass,
 /area/sector/pyramid/pyramid)
+"hJ" = (
+/obj/structure/cable/orange{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/sector/pyramid/field)
+"ia" = (
+/obj/machinery/power/smes/buildable{
+	capacity = 1.5e+007;
+	charge = 1.5e+007;
+	cur_coils = 3;
+	input_attempt = 1
+	},
+/obj/structure/cable/orange,
+/obj/machinery/light,
+/turf/simulated/floor/plating/indoors,
+/area/sector/pyramid/field)
+"iH" = (
+/obj/effect/floor_decal/techfloor{
+	dir = 4
+	},
+/obj/structure/handrail{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 9
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/sector/pyramid/field)
+"iL" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/universal{
+	dir = 4
+	},
+/obj/effect/floor_decal/rust,
+/turf/simulated/floor/plating/indoors,
+/area/sector/pyramid/field)
 "iN" = (
 /obj/structure/event/prop/white_barrel,
 /turf/simulated/floor/roguetown/grass,
 /area/sector/pyramid/pyramid)
 "iT" = (
 /obj/structure/table/sandstone,
-/turf/simulated/floor/sandstone,
+/turf/simulated/floor/sandstone{
+	outdoors = 1
+	},
 /area/sector/pyramid/pyramid)
 "iX" = (
 /turf/simulated/wall/sandstone,
 /area/sector/pyramid/villa)
+"jI" = (
+/obj/effect/floor_decal/techfloor,
+/obj/machinery/recharger/wallcharger{
+	pixel_y = -28;
+	pixel_x = 3
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/sector/pyramid/field)
 "jN" = (
 /obj/structure/event/prop/light2,
 /turf/simulated/floor/roguetown/greenstone,
 /area/sector/pyramid/pyramid)
+"jS" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/fuel{
+	dir = 4
+	},
+/obj/random/ntcrate,
+/obj/effect/floor_decal/rust,
+/turf/simulated/floor/plating/indoors,
+/area/sector/pyramid/field)
+"kd" = (
+/obj/structure/dispenser/oxygen,
+/obj/effect/floor_decal/techfloor{
+	dir = 6
+	},
+/obj/machinery/light{
+	dir = 4;
+	old_wall = 1
+	},
+/obj/effect/floor_decal/industrial/outline/grey,
+/turf/simulated/floor/tiled/techfloor,
+/area/sector/pyramid/field)
 "kp" = (
 /obj/structure/flora/tree/palm,
 /turf/simulated/floor/outdoors/beach/sand/dirt,
 /area/sector/pyramid/field)
+"ky" = (
+/obj/effect/floor_decal/techfloor/corner{
+	dir = 1
+	},
+/obj/effect/floor_decal/techfloor/corner{
+	dir = 8
+	},
+/obj/structure/cable/orange{
+	icon_state = "4-8"
+	},
+/obj/structure/spider/stickyweb,
+/turf/simulated/floor/tiled/techfloor,
+/area/sector/pyramid/field)
+"kA" = (
+/obj/machinery/atmospherics/portables_connector{
+	name = "Engine Fuel Port"
+	},
+/obj/effect/floor_decal/industrial/outline/red,
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/effect/debris/cleanable/cobweb,
+/obj/effect/floor_decal/rust,
+/turf/simulated/floor/plating/indoors,
+/area/sector/pyramid/field)
 "lf" = (
 /mob/living/simple_mob/humanoid/merc/voxpirate/pirate,
-/turf/simulated/floor/sandstone,
+/turf/simulated/floor/sandstone{
+	outdoors = 1
+	},
+/area/sector/pyramid/field)
+"lu" = (
+/obj/structure/handrail,
+/obj/effect/floor_decal/rust,
+/turf/simulated/floor/airless,
+/area/sector/pyramid/field)
+"lA" = (
+/obj/structure/closet/firecloset/full,
+/obj/effect/floor_decal/techfloor{
+	dir = 10
+	},
+/obj/effect/floor_decal/industrial/outline/red,
+/turf/simulated/floor/tiled/techfloor,
+/area/sector/pyramid/field)
+"lM" = (
+/obj/structure/table/steel_reinforced,
+/turf/simulated/floor/tiled/monotechmaint,
 /area/sector/pyramid/field)
 "mu" = (
 /obj/structure/simple_door/sandstone,
 /turf/simulated/floor/roguetown/greenstone,
 /area/sector/pyramid/pyramid)
+"nj" = (
+/obj/effect/floor_decal/rust,
+/turf/simulated/floor/plating/indoors,
+/area/sector/pyramid/field)
+"no" = (
+/obj/machinery/atmospherics/pipe/tank/phoron{
+	dir = 4
+	},
+/obj/effect/debris/cleanable/cobweb,
+/turf/simulated/floor/plating/indoors,
+/area/sector/pyramid/field)
+"nK" = (
+/obj/machinery/recharger/wallcharger{
+	pixel_x = 32;
+	pixel_y = 3
+	},
+/obj/machinery/recharger/wallcharger{
+	pixel_x = 32;
+	pixel_y = -10
+	},
+/obj/structure/cable/orange{
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/sector/pyramid/field)
 "nZ" = (
 /obj/structure/simple_door/sandstone,
-/turf/simulated/floor/sandstone,
+/turf/simulated/floor/sandstone{
+	outdoors = 1
+	},
 /area/sector/pyramid/pyramid)
+"ok" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden/fuel{
+	dir = 8
+	},
+/obj/effect/floor_decal/rust,
+/turf/simulated/floor/plating/indoors,
+/area/sector/pyramid/field)
 "oJ" = (
 /obj/structure/fence/wooden/post{
 	dir = 8
 	},
-/turf/simulated/floor/sandstone,
+/turf/simulated/floor/sandstone{
+	outdoors = 1
+	},
 /area/sector/pyramid/field)
 "oQ" = (
 /obj/effect/floor_decal/industrial/halfstair{
@@ -115,33 +448,120 @@
 	},
 /turf/simulated/floor/outdoors/dirtlight,
 /area/sector/pyramid/villa)
+"pg" = (
+/obj/machinery/door/airlock/glass_external{
+	name = "Ship Hatch"
+	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/sector/pyramid/field)
 "pz" = (
 /obj/overmap/entity/visitable/sector/pyramid,
 /turf/simulated/wall/solidrock,
 /area/sector/pyramid/field)
+"pF" = (
+/obj/spawner/window/reinforced/full/firelocks,
+/turf/simulated/floor/plating/indoors,
+/area/sector/pyramid/field)
+"ql" = (
+/obj/effect/floor_decal/techfloor/corner{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/sector/pyramid/field)
+"qL" = (
+/obj/structure/cable/orange{
+	icon_state = "1-4"
+	},
+/obj/structure/cable/orange{
+	icon_state = "2-4"
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/sector/pyramid/field)
 "qP" = (
 /turf/simulated/wall/sandstonediamond,
 /area/sector/pyramid/pyramid)
+"qQ" = (
+/obj/effect/floor_decal/techfloor,
+/turf/simulated/floor/tiled/techfloor,
+/area/sector/pyramid/field)
+"rr" = (
+/obj/effect/floor_decal/techfloor,
+/obj/machinery/power/apc/south_mount,
+/obj/structure/cable/orange{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/sector/pyramid/field)
 "rx" = (
 /obj/structure/closet/crate,
 /obj/random/maintenance/security,
 /obj/random/maintenance/security,
 /turf/simulated/floor/roguetown/greenstone,
 /area/sector/pyramid/pyramid)
+"rF" = (
+/obj/machinery/door/airlock/hatch,
+/obj/machinery/door/firedoor/glass,
+/obj/structure/cable/orange{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/plating/indoors,
+/area/sector/pyramid/field)
+"rH" = (
+/obj/structure/closet,
+/obj/effect/floor_decal/techfloor{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/sector/pyramid/field)
 "rT" = (
 /obj/structure/event/prop/cables,
 /turf/simulated/floor/roguetown/greenstone,
 /area/sector/pyramid/pyramid)
 "su" = (
 /obj/structure/flora/tree/palm,
-/turf/simulated/floor/sandstone,
+/turf/simulated/floor/sandstone{
+	outdoors = 1
+	},
 /area/sector/pyramid/villa)
+"tr" = (
+/obj/machinery/atmospherics/component/unary/engine{
+	dir = 8
+	},
+/turf/simulated/wall/solidrock,
+/area/sector/pyramid/field)
+"tx" = (
+/obj/random/mob/spider,
+/obj/effect/floor_decal/rust,
+/turf/simulated/floor/airless,
+/area/sector/pyramid/field)
 "tV" = (
 /obj/effect/floor_decal/industrial/halfstair{
 	color = "#D9C179";
 	dir = 8
 	},
 /turf/simulated/floor/roguetown/greenstone,
+/area/sector/pyramid/field)
+"uk" = (
+/obj/effect/floor_decal/techfloor{
+	dir = 1
+	},
+/obj/effect/floor_decal/borderfloorblack{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/danger{
+	dir = 4
+	},
+/obj/structure/cable/orange{
+	icon_state = "4-8"
+	},
+/obj/effect/debris/cleanable/cobweb2,
+/turf/simulated/floor/tiled/techfloor,
+/area/sector/pyramid/field)
+"uH" = (
+/obj/machinery/atmospherics/component/unary/vent_pump/high_volume,
+/obj/effect/debris/cleanable/cobweb,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/sector/pyramid/field)
 "uO" = (
 /obj/effect/floor_decal/industrial/halfstair{
@@ -150,12 +570,25 @@
 	},
 /turf/simulated/floor/roguetown/greenstone,
 /area/sector/pyramid/field)
+"uR" = (
+/obj/structure/cable/orange{
+	icon_state = "2-8"
+	},
+/obj/effect/floor_decal/rust,
+/turf/simulated/floor/plating/indoors,
+/area/sector/pyramid/field)
 "vi" = (
-/turf/simulated/floor/sandstone,
+/turf/simulated/floor/sandstone{
+	outdoors = 1
+	},
 /area/sector/pyramid/field)
 "vy" = (
 /turf/simulated/floor/outdoors/beach/sand/desert,
 /area/sector/pyramid/villa)
+"vD" = (
+/obj/machinery/atmospherics/component/unary/vent_pump/high_volume,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/sector/pyramid/field)
 "vG" = (
 /turf/simulated/floor/outdoors/dirtlight,
 /area/sector/pyramid/field)
@@ -163,6 +596,20 @@
 /obj/structure/event/prop/survey,
 /turf/simulated/floor/roguetown/greenstone,
 /area/sector/pyramid/pyramid)
+"wr" = (
+/turf/simulated/floor/tiled/techfloor,
+/area/sector/pyramid/field)
+"wF" = (
+/obj/structure/closet/emcloset,
+/obj/effect/floor_decal/techfloor{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/outline/blue,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/sector/pyramid/field)
 "xt" = (
 /obj/structure/fence/wooden/post{
 	dir = 8
@@ -173,6 +620,13 @@
 /obj/item/seeds/wheatseed,
 /turf/simulated/floor/roguetown/greenstone,
 /area/sector/pyramid/pyramid)
+"xY" = (
+/obj/machinery/door/airlock/hatch,
+/obj/structure/cable/orange{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/sector/pyramid/field)
 "yk" = (
 /obj/machinery/hyperpad/centre{
 	map_pad_id = "pyramid_desert";
@@ -181,11 +635,46 @@
 	},
 /turf/simulated/floor/roguetown/greenstone,
 /area/sector/pyramid/pyramid)
+"yA" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/light{
+	dir = 8;
+	light_range = 12
+	},
+/obj/structure/spider/stickyweb,
+/turf/simulated/floor/tiled/techmaint,
+/area/sector/pyramid/field)
 "yJ" = (
 /turf/simulated/floor/roguetown/wood,
 /area/sector/pyramid/villa)
+"zo" = (
+/obj/structure/closet,
+/obj/effect/floor_decal/techfloor{
+	dir = 8
+	},
+/obj/machinery/light{
+	dir = 8;
+	light_range = 12
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/sector/pyramid/field)
+"zH" = (
+/obj/spawner/window/reinforced/full,
+/turf/simulated/floor/plating/indoors,
+/area/sector/pyramid/field)
 "AL" = (
 /turf/simulated/floor/outdoors/beach/sand/dirt,
+/area/sector/pyramid/field)
+"AW" = (
+/obj/effect/floor_decal/techfloor/corner{
+	dir = 8
+	},
+/obj/machinery/light,
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 8
+	},
+/obj/random/mob/spider,
+/turf/simulated/floor/tiled/techfloor,
 /area/sector/pyramid/field)
 "Bm" = (
 /turf/simulated/floor/roguetown/greenstone,
@@ -200,11 +689,56 @@
 /area/sector/pyramid/pyramid)
 "Cv" = (
 /obj/structure/barricade/miaphus/window,
-/turf/simulated/floor/sandstone,
+/turf/simulated/floor/sandstone{
+	outdoors = 1
+	},
 /area/sector/pyramid/villa)
+"CB" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/fuel{
+	dir = 5
+	},
+/obj/machinery/power/port_gen/pacman{
+	anchored = 1
+	},
+/obj/structure/cable/yellow{
+	dir = 4
+	},
+/turf/simulated/floor/plating/indoors,
+/area/sector/pyramid/field)
+"Dg" = (
+/turf/simulated/wall/sandstonediamond,
+/area/sector/pyramid/field)
+"Dh" = (
+/obj/machinery/atmospherics/component/binary/pump{
+	dir = 4
+	},
+/obj/effect/floor_decal/rust,
+/turf/simulated/floor/plating/indoors,
+/area/sector/pyramid/field)
+"Dl" = (
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 5
+	},
+/obj/machinery/light,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/sector/pyramid/field)
+"Dt" = (
+/obj/effect/floor_decal/techfloor/corner{
+	dir = 1
+	},
+/obj/effect/floor_decal/techfloor/corner{
+	dir = 8
+	},
+/obj/structure/cable/orange{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/sector/pyramid/field)
 "DG" = (
 /obj/structure/flora/tree/palm,
-/turf/simulated/floor/sandstone,
+/turf/simulated/floor/sandstone{
+	outdoors = 1
+	},
 /area/sector/pyramid/field)
 "DS" = (
 /obj/structure/stairs/bottom{
@@ -216,16 +750,88 @@
 "Ep" = (
 /turf/simulated/floor/water/pool,
 /area/sector/pyramid/villa)
+"EC" = (
+/obj/effect/floor_decal/techfloor{
+	dir = 1
+	},
+/obj/structure/table/rack/shelf/steel,
+/turf/simulated/floor/tiled/techfloor,
+/area/sector/pyramid/field)
+"EX" = (
+/obj/structure/cable/orange{
+	icon_state = "4-8"
+	},
+/obj/structure/spider/stickyweb,
+/turf/simulated/floor/tiled/techfloor,
+/area/sector/pyramid/field)
+"FJ" = (
+/obj/effect/floor_decal/techfloor/corner,
+/obj/structure/cable/orange{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/sector/pyramid/field)
+"FK" = (
+/obj/effect/floor_decal/techfloor{
+	dir = 9
+	},
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/structure/bed/chair/bay/chair/padded/black,
+/obj/effect/debris/cleanable/cobweb,
+/turf/simulated/floor/tiled/techfloor,
+/area/sector/pyramid/field)
+"Gc" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/power/apc/west_mount,
+/obj/structure/cable/orange{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/sector/pyramid/field)
 "Gd" = (
 /obj/structure/event/prop/light2,
 /turf/simulated/floor/roguetown/grass,
 /area/sector/pyramid/pyramid)
+"Gg" = (
+/obj/machinery/door/airlock/hatch,
+/obj/structure/cable/orange{
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/sector/pyramid/field)
+"Gi" = (
+/obj/structure/spider/stickyweb,
+/obj/effect/floor_decal/rust,
+/turf/simulated/floor/plating/indoors,
+/area/sector/pyramid/field)
 "Gm" = (
 /obj/effect/floor_decal/industrial/halfstair{
 	color = "#D9C179";
 	dir = 1
 	},
 /turf/simulated/floor/roguetown/greenstone,
+/area/sector/pyramid/field)
+"Gv" = (
+/obj/structure/closet,
+/obj/effect/floor_decal/techfloor{
+	dir = 10
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/sector/pyramid/field)
+"Gw" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/fuel{
+	dir = 6
+	},
+/obj/random/mob/spider,
+/obj/structure/spider/stickyweb,
+/turf/simulated/floor/plating/indoors,
+/area/sector/pyramid/field)
+"Gx" = (
+/obj/effect/floor_decal/techfloor,
+/obj/random/mob/spider,
+/turf/simulated/floor/tiled/techfloor,
 /area/sector/pyramid/field)
 "GN" = (
 /obj/effect/shuttle_landmark/automatic{
@@ -247,9 +853,28 @@
 	dir = 1
 	},
 /turf/simulated/wall/sandstone{
-	opacity = 0
+	opacity = 0;
+	outdoors = 1
 	},
 /area/sector/pyramid/villa)
+"HU" = (
+/obj/structure/table/steel_reinforced,
+/obj/item/storage/firstaid/regular,
+/obj/machinery/power/apc/east_mount,
+/obj/structure/cable/orange{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/monotechmaint,
+/area/sector/pyramid/field)
+"HY" = (
+/obj/effect/floor_decal/techfloor{
+	dir = 5
+	},
+/obj/structure/handrail{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/sector/pyramid/field)
 "Ib" = (
 /turf/simulated/floor/outdoors/beach/sand/desert,
 /area/sector/pyramid/field)
@@ -258,6 +883,47 @@
 	color = "#D9C179"
 	},
 /turf/simulated/floor/outdoors/dirtlight,
+/area/sector/pyramid/field)
+"Jk" = (
+/obj/effect/floor_decal/techfloor{
+	dir = 4
+	},
+/obj/structure/handrail{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden,
+/turf/simulated/floor/tiled/techfloor,
+/area/sector/pyramid/field)
+"Jq" = (
+/obj/structure/fuel_port{
+	pixel_x = -27
+	},
+/obj/effect/floor_decal/techfloor{
+	dir = 9
+	},
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/sector/pyramid/field)
+"Jv" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden,
+/obj/machinery/meter,
+/turf/simulated/floor/plating/indoors,
+/area/sector/pyramid/field)
+"Jw" = (
+/obj/effect/floor_decal/techfloor/corner,
+/obj/effect/floor_decal/techfloor/corner{
+	dir = 4
+	},
+/obj/structure/cable/orange{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/sector/pyramid/field)
+"JI" = (
+/obj/structure/spider/stickyweb,
+/turf/simulated/floor/tiled/techmaint,
 /area/sector/pyramid/field)
 "JK" = (
 /obj/machinery/portable_atmospherics/canister/oxygen,
@@ -268,10 +934,35 @@
 /obj/item/event/prop/laptop2,
 /turf/simulated/floor/roguetown/greenstone,
 /area/sector/pyramid/pyramid)
+"KU" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/structure/closet/crate{
+	dir = 1
+	},
+/obj/item/storage/briefcase/inflatable,
+/obj/item/stack/material/phoron{
+	amount = 20
+	},
+/obj/item/stack/material/steel{
+	amount = 25
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/sector/pyramid/field)
+"LH" = (
+/obj/effect/floor_decal/techfloor{
+	dir = 4
+	},
+/obj/structure/handrail{
+	dir = 8
+	},
+/obj/structure/spider/stickyweb,
+/turf/simulated/floor/tiled/techfloor,
+/area/sector/pyramid/field)
 "LJ" = (
 /obj/structure/fence/wooden/post,
 /turf/simulated/wall/sandstone{
-	opacity = 0
+	opacity = 0;
+	outdoors = 1
 	},
 /area/sector/pyramid/villa)
 "LK" = (
@@ -286,49 +977,226 @@
 /obj/machinery/seed_extractor/press,
 /turf/simulated/floor/roguetown/greenstone,
 /area/sector/pyramid/pyramid)
+"MD" = (
+/obj/effect/floor_decal/rust,
+/turf/simulated/floor/airless,
+/area/sector/pyramid/field)
+"MU" = (
+/obj/machinery/suit_storage_unit/syndicate,
+/obj/effect/floor_decal/techfloor{
+	dir = 5
+	},
+/obj/effect/debris/cleanable/cobweb2,
+/turf/simulated/floor/tiled/techfloor,
+/area/sector/pyramid/field)
+"MW" = (
+/obj/random/mob/spider,
+/turf/simulated/floor/tiled/monotechmaint,
+/area/sector/pyramid/field)
+"Nd" = (
+/obj/structure/table/rack/shelf/steel,
+/obj/item/storage/toolbox/electrical{
+	pixel_y = -4
+	},
+/obj/effect/floor_decal/techfloor,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/light,
+/obj/item/storage/toolbox/syndicate{
+	pixel_y = 5
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/sector/pyramid/field)
+"Nf" = (
+/obj/machinery/atmospherics/component/unary/engine/bigger{
+	dir = 8
+	},
+/turf/simulated/wall/sandstonediamond,
+/area/sector/pyramid/field)
+"Np" = (
+/obj/effect/debris/cleanable/cobweb2,
+/obj/effect/floor_decal/rust,
+/turf/simulated/floor/plating/indoors,
+/area/sector/pyramid/field)
 "Nr" = (
 /turf/simulated/floor/fey/dry_grass,
 /area/sector/pyramid/villa)
+"ND" = (
+/obj/machinery/suit_storage_unit/syndicate,
+/obj/effect/floor_decal/techfloor{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/sector/pyramid/field)
 "NL" = (
 /obj/random/junk,
 /turf/simulated/floor/roguetown/greenstone,
 /area/sector/pyramid/pyramid)
+"NZ" = (
+/obj/structure/shuttle/engine/heater{
+	dir = 4
+	},
+/turf/simulated/wall/sandstonediamond,
+/area/sector/pyramid/field)
+"Oo" = (
+/obj/structure/bed/chair/bay/comfy{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/monotechmaint,
+/area/sector/pyramid/field)
 "Ou" = (
 /obj/structure/table/sandstone,
 /obj/random/multiple/treasure,
-/turf/simulated/floor/sandstone,
+/turf/simulated/floor/sandstone{
+	outdoors = 1
+	},
 /area/sector/pyramid/pyramid)
+"Qx" = (
+/obj/machinery/atmospherics/component/unary/engine{
+	dir = 8
+	},
+/turf/simulated/shuttle/plating/airless/carry,
+/area/sector/pyramid/field)
+"QT" = (
+/obj/effect/floor_decal/techfloor{
+	dir = 1
+	},
+/obj/structure/cable/orange{
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/sector/pyramid/field)
 "QW" = (
 /obj/machinery/portable_atmospherics/canister/oxygen,
 /turf/simulated/floor/roguetown/grass,
 /area/sector/pyramid/pyramid)
+"Re" = (
+/obj/machinery/door/airlock/glass_external{
+	name = "Ship Hatch"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/sector/pyramid/field)
+"Rh" = (
+/obj/effect/floor_decal/techfloor,
+/obj/random/mob/spider,
+/obj/structure/spider/stickyweb,
+/turf/simulated/floor/tiled/techfloor,
+/area/sector/pyramid/field)
 "Rx" = (
 /obj/structure/closet/crate/corporate/nanotrasen,
 /turf/simulated/floor/roguetown/greenstone,
 /area/sector/pyramid/pyramid)
+"RH" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/light{
+	dir = 4;
+	old_wall = 1
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/sector/pyramid/field)
+"Sd" = (
+/obj/effect/floor_decal/techfloor{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden,
+/turf/simulated/floor/tiled/techfloor,
+/area/sector/pyramid/field)
 "Sf" = (
 /obj/effect/floor_decal/techfloor/hole,
-/turf/simulated/floor/sandstone,
+/turf/simulated/floor/sandstone{
+	outdoors = 1
+	},
 /area/sector/pyramid/pyramid)
 "So" = (
 /obj/machinery/portable_atmospherics/canister/phoron,
 /turf/simulated/floor/roguetown/greenstone,
 /area/sector/pyramid/pyramid)
+"SL" = (
+/obj/structure/cable/orange{
+	icon_state = "4-8"
+	},
+/obj/structure/cable/orange{
+	icon_state = "2-4"
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/sector/pyramid/field)
 "SR" = (
 /obj/structure/event/prop/yellow_barrel{
 	layer = 2.9
 	},
 /turf/simulated/floor/roguetown/grass,
 /area/sector/pyramid/pyramid)
+"Tc" = (
+/obj/structure/cable/orange{
+	icon_state = "1-8"
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/sector/pyramid/field)
+"Td" = (
+/obj/effect/floor_decal/techfloor{
+	dir = 8
+	},
+/obj/structure/spider/stickyweb,
+/turf/simulated/floor/tiled/techfloor,
+/area/sector/pyramid/field)
+"Tn" = (
+/obj/structure/handrail,
+/obj/effect/floor_decal/rust,
+/turf/simulated/floor/plating/indoors,
+/area/sector/pyramid/field)
+"Ts" = (
+/obj/effect/floor_decal/techfloor/corner{
+	dir = 8
+	},
+/obj/structure/cable/orange{
+	icon_state = "4-8"
+	},
+/obj/structure/spider/stickyweb,
+/turf/simulated/floor/tiled/techfloor,
+/area/sector/pyramid/field)
 "TX" = (
 /mob/living/simple_mob/humanoid/merc/voxpirate/boarder,
-/turf/simulated/floor/sandstone,
+/turf/simulated/floor/sandstone{
+	outdoors = 1
+	},
+/area/sector/pyramid/field)
+"Up" = (
+/obj/random/mob/spider,
+/obj/effect/floor_decal/rust,
+/turf/simulated/floor/plating/indoors,
+/area/sector/pyramid/field)
+"Us" = (
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 6
+	},
+/obj/effect/floor_decal/rust,
+/turf/simulated/floor/plating/indoors,
+/area/sector/pyramid/field)
+"UN" = (
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 5
+	},
+/obj/machinery/fire_alarm/west_mount,
+/obj/effect/floor_decal/rust,
+/turf/simulated/floor/plating/indoors,
 /area/sector/pyramid/field)
 "UT" = (
 /turf/simulated/wall/sandstone{
-	opacity = 0
+	opacity = 0;
+	outdoors = 1
 	},
 /area/sector/pyramid/pyramid)
+"Vf" = (
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 10
+	},
+/obj/machinery/air_alarm/alarms_hidden/north_mount,
+/obj/effect/debris/cleanable/cobweb2,
+/obj/structure/spider/stickyweb,
+/turf/simulated/floor/plating/indoors,
+/area/sector/pyramid/field)
 "Vm" = (
 /obj/structure/event/prop/yellow_barrel{
 	pixel_x = 8
@@ -339,14 +1207,65 @@
 	},
 /turf/simulated/floor/roguetown/grass,
 /area/sector/pyramid/pyramid)
+"Vn" = (
+/obj/machinery/portable_atmospherics/canister/oxygen,
+/obj/effect/floor_decal/techfloor,
+/obj/machinery/power/apc/south_mount,
+/obj/structure/cable/orange,
+/turf/simulated/floor/tiled/techfloor,
+/area/sector/pyramid/field)
 "VI" = (
 /obj/structure/simple_door/sandstone,
-/turf/simulated/floor/sandstone,
+/turf/simulated/floor/sandstone{
+	outdoors = 1
+	},
 /area/sector/pyramid/villa)
 "VQ" = (
 /obj/structure/statue/bone,
 /turf/simulated/floor/roguetown/greenstone,
 /area/sector/pyramid/pyramid)
+"VV" = (
+/obj/machinery/light{
+	dir = 8;
+	light_range = 12
+	},
+/turf/simulated/floor/tiled/monotechmaint,
+/area/sector/pyramid/field)
+"Wb" = (
+/turf/simulated/floor/tiled/monotechmaint,
+/area/sector/pyramid/field)
+"Wd" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/structure/closet/crate/freezer,
+/obj/item/storage/firstaid/adv{
+	pixel_x = -2
+	},
+/obj/item/reagent_containers/blood/OMinus,
+/obj/item/reagent_containers/blood/OMinus,
+/obj/item/reagent_containers/blood/OMinus,
+/turf/simulated/floor/tiled/techmaint,
+/area/sector/pyramid/field)
+"WM" = (
+/obj/effect/floor_decal/techfloor{
+	dir = 1
+	},
+/obj/structure/bed/chair/bay/chair/padded/black,
+/obj/structure/spider/stickyweb,
+/turf/simulated/floor/tiled/techfloor,
+/area/sector/pyramid/field)
+"WN" = (
+/obj/structure/handrail{
+	dir = 4
+	},
+/turf/simulated/floor/plating/indoors,
+/area/sector/pyramid/field)
+"WT" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/fuel{
+	dir = 4
+	},
+/obj/effect/floor_decal/rust,
+/turf/simulated/floor/plating/indoors,
+/area/sector/pyramid/field)
 "Xq" = (
 /obj/structure/statue/bone/skull/half,
 /turf/simulated/floor/roguetown/greenstone,
@@ -357,23 +1276,74 @@
 "XF" = (
 /turf/simulated/wall/sandstone,
 /area/sector/pyramid/field)
+"XL" = (
+/obj/structure/cable/orange{
+	icon_state = "1-2"
+	},
+/obj/structure/spider/stickyweb,
+/turf/simulated/floor/plating/indoors,
+/area/sector/pyramid/field)
+"XN" = (
+/obj/structure/cable/orange{
+	icon_state = "2-4"
+	},
+/obj/random/ntcrate,
+/turf/simulated/floor/tiled/monotechmaint,
+/area/sector/pyramid/field)
+"XX" = (
+/obj/machinery/atmospherics/pipe/tank/phoron{
+	dir = 4
+	},
+/turf/simulated/floor/plating/indoors,
+/area/sector/pyramid/field)
 "XZ" = (
 /obj/structure/fence/wooden/post{
 	dir = 8
 	},
 /turf/simulated/floor/outdoors/beach/sand/desert,
 /area/sector/pyramid/field)
+"Yq" = (
+/obj/structure/cable/yellow{
+	icon_state = "0-4"
+	},
+/obj/machinery/power/apc/south_mount,
+/obj/machinery/power/terminal{
+	dir = 8
+	},
+/obj/effect/floor_decal/rust,
+/turf/simulated/floor/plating/indoors,
+/area/sector/pyramid/field)
 "Yr" = (
 /turf/simulated/floor/roguetown/grass,
 /area/sector/pyramid/pyramid)
+"YK" = (
+/obj/structure/closet/firecloset/full,
+/obj/effect/floor_decal/techfloor{
+	dir = 9
+	},
+/obj/effect/floor_decal/industrial/outline/red,
+/turf/simulated/floor/tiled/techfloor,
+/area/sector/pyramid/field)
 "Zd" = (
 /turf/simulated/floor/sandstone,
 /area/sector/pyramid/pyramid)
 "Zi" = (
 /turf/simulated/wall/sandstone{
-	opacity = 0
+	opacity = 0;
+	outdoors = 1
 	},
 /area/sector/pyramid/villa)
+"Zs" = (
+/obj/effect/floor_decal/techfloor/corner,
+/obj/effect/floor_decal/techfloor/corner{
+	dir = 4
+	},
+/obj/structure/cable/orange{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden,
+/turf/simulated/floor/tiled/techfloor,
+/area/sector/pyramid/field)
 
 (1,1,1) = {"
 Xu
@@ -18883,12 +19853,12 @@ Bm
 Bm
 Bm
 Bm
-Zd
-Zd
-Zd
-Zd
-Zd
-nZ
+Bm
+Bm
+Bm
+Bm
+Bm
+mu
 Zd
 vi
 vi
@@ -27113,7 +28083,7 @@ qP
 qP
 qP
 qP
-Zd
+cB
 qP
 qP
 qP
@@ -27501,7 +28471,7 @@ Hh
 qP
 Ou
 Sf
-Zd
+cB
 Sf
 iT
 qP
@@ -27694,9 +28664,9 @@ Xu
 qP
 qP
 iT
-Zd
-Zd
-Zd
+cB
+cB
+cB
 Ou
 qP
 qP
@@ -27888,9 +28858,9 @@ vi
 qP
 qP
 iT
-Zd
-Zd
-Zd
+cB
+cB
+cB
 iT
 qP
 qP
@@ -28082,9 +29052,9 @@ vi
 qP
 qP
 Ou
-Zd
-Zd
-Zd
+cB
+cB
+cB
 iT
 qP
 qP
@@ -28277,7 +29247,7 @@ qP
 qP
 iT
 fS
-Zd
+cB
 fS
 iT
 qP
@@ -28724,8 +29694,8 @@ Ib
 Ib
 Ib
 Ib
-Ib
-Ib
+Xu
+Xu
 Ib
 Ib
 Ib
@@ -28917,11 +29887,11 @@ Ib
 Ib
 Ib
 Ib
-Ib
-Ib
-Ib
-Ib
-Ib
+Xu
+Xu
+Xu
+Xu
+Xu
 Ib
 Ib
 Ib
@@ -29109,13 +30079,13 @@ Ib
 Ib
 Ib
 Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
+Xu
+Xu
+Xu
+Xu
+Xu
+Xu
+Xu
 Ib
 Ib
 Ib
@@ -29299,16 +30269,16 @@ Xu
 Xu
 Xu
 Xu
+Xu
 Ib
 Ib
 Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
+Xu
+Xu
+Xu
+Xu
+Xu
+Xu
 Ib
 Ib
 Ib
@@ -29492,16 +30462,16 @@ Xu
 Xu
 Xu
 Xu
+Xu
+Xu
+Xu
 Ib
 Ib
 Ib
 Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
+Xu
+Xu
+Xu
 Ib
 Ib
 Ib
@@ -29686,16 +30656,16 @@ Xu
 Xu
 Xu
 Xu
+Xu
+Xu
+Xu
 Ib
 Ib
 Ib
 Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
+Xu
+Xu
+Xu
 Ib
 Ib
 Ib
@@ -29879,10 +30849,10 @@ Xu
 Xu
 Xu
 Xu
-Ib
-Ib
-Ib
-Ib
+Xu
+Xu
+Xu
+Xu
 Ib
 Ib
 Ib
@@ -30073,6 +31043,13 @@ Xu
 Xu
 Xu
 Xu
+Xu
+Xu
+Ib
+Ib
+Ib
+Ib
+aA
 Ib
 Ib
 Ib
@@ -30082,15 +31059,8 @@ Ib
 Ib
 Ib
 Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
+Xu
+Xu
 Ib
 Ib
 Ib
@@ -30267,6 +31237,7 @@ Xu
 Xu
 Xu
 Xu
+Xu
 Ib
 Ib
 Ib
@@ -30280,12 +31251,11 @@ Ib
 Ib
 Ib
 Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
+Xu
+Xu
+Xu
+Xu
+Xu
 Ib
 Ib
 Ib
@@ -30461,6 +31431,7 @@ Xu
 Xu
 Xu
 Xu
+Xu
 Ib
 Ib
 Ib
@@ -30474,13 +31445,12 @@ Ib
 Ib
 Ib
 Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
+Xu
+Xu
+Xu
+Xu
+Xu
+Xu
 Ib
 Ib
 Ib
@@ -30655,24 +31625,24 @@ Xu
 Xu
 Xu
 Xu
+Xu
+Ib
+Dg
+Dg
+fJ
+Dg
+lu
+MD
+MD
 Ib
 Ib
 Ib
 Ib
 Ib
 Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
+Xu
+Xu
+Xu
 Ib
 Ib
 Ib
@@ -30849,6 +31819,15 @@ Xu
 Xu
 Xu
 Xu
+Xu
+Ib
+Dg
+FK
+eI
+Dg
+pg
+pg
+Dg
 Ib
 Ib
 Ib
@@ -30856,16 +31835,7 @@ Ib
 Ib
 Ib
 Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
+Xu
 Ib
 Ib
 Ib
@@ -31043,15 +32013,15 @@ Xu
 Xu
 Xu
 Xu
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
+Xu
+Xu
+Dg
+WM
+jI
+Dg
+uH
+Dl
+Dg
 Ib
 Ib
 Ib
@@ -31237,15 +32207,15 @@ Xu
 Xu
 Xu
 Xu
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
+Xu
+Xu
+fJ
+WM
+qQ
+zH
+de
+dG
+fJ
 Ib
 Ib
 Ib
@@ -31431,20 +32401,20 @@ Xu
 Xu
 Xu
 Xu
+Xu
+Xu
+Dg
+EC
+Gx
+Dg
+vD
+cb
+Dg
 Ib
 Ib
 Ib
 Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
+aA
 Ib
 Ib
 Ib
@@ -31625,15 +32595,15 @@ Xu
 Xu
 Xu
 Xu
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
+Xu
+Xu
+Xu
+Xu
+rr
+Dg
+hh
+Re
+Dg
 Ib
 Ib
 Ib
@@ -31819,6 +32789,16 @@ Xu
 Xu
 Xu
 Xu
+Xu
+Xu
+Xu
+Xu
+Ts
+Td
+ql
+AW
+Dg
+MD
 Ib
 Ib
 Ib
@@ -31831,18 +32811,8 @@ Ib
 Ib
 Ib
 Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
+Xu
+Xu
 Ib
 Ib
 Ib
@@ -32013,6 +32983,16 @@ Xu
 Xu
 Xu
 Xu
+Xu
+Xu
+Xu
+bN
+Zs
+Sd
+Jk
+iH
+Dg
+MD
 Ib
 Ib
 Ib
@@ -32024,20 +33004,10 @@ Ib
 Ib
 Ib
 Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
+Xu
+Xu
+Xu
+Xu
 Ib
 Ib
 Ib
@@ -32207,6 +33177,17 @@ Xu
 Xu
 Xu
 Xu
+Xu
+Xu
+Dg
+Dg
+xY
+Dg
+Dg
+Dg
+Dg
+MD
+MD
 Ib
 Ib
 Ib
@@ -32215,23 +33196,12 @@ Ib
 Ib
 Ib
 Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
+Xu
+Xu
+Xu
+Xu
+Xu
+Xu
 Ib
 Ib
 Ib
@@ -32401,31 +33371,31 @@ Xu
 Xu
 Xu
 Xu
+Xu
+Xu
+Dg
+YK
+Dt
+Dg
+Gc
+yA
+Wd
+MD
+MD
+Ib
+Ib
+Ib
+Xu
 Ib
 Ib
 Ib
 Ib
 Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
+Xu
+Xu
+Xu
+Xu
+Xu
 Ib
 Ib
 Ib
@@ -32596,29 +33566,29 @@ Xu
 Xu
 Xu
 Xu
+Xu
+Dg
+wF
+SL
+Gg
+Tc
+JI
+JI
+bo
+MD
+Ib
+Ib
+Xu
+Xu
+Xu
+Xu
 Ib
 Ib
 Ib
 Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
+Xu
+Xu
+Xu
 Ib
 Ib
 Ib
@@ -32791,20 +33761,20 @@ Xu
 Xu
 Xu
 Xu
+fJ
+HY
+Jw
+Dg
+KU
+RH
+em
+tx
+MD
 Ib
 Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
+Xu
+Xu
+Xu
 Ib
 Ib
 Ib
@@ -32985,19 +33955,19 @@ Xu
 Xu
 Xu
 Xu
+Xu
+Dg
+xY
+Dg
+Dg
+Dg
+Dg
+Dg
 Ib
 Ib
 Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
+Xu
+Xu
 Ib
 Ib
 Ib
@@ -33179,6 +34149,14 @@ Xu
 Xu
 Xu
 Xu
+Xu
+Xu
+ky
+rH
+rH
+zo
+Gv
+Dg
 Ib
 Ib
 Ib
@@ -33189,15 +34167,7 @@ Ib
 Ib
 Ib
 Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
+aA
 Ib
 Ib
 Ib
@@ -33373,17 +34343,17 @@ Xu
 Xu
 Xu
 Xu
+Xu
+wr
+EX
+wr
+wr
+wr
+qQ
+fJ
 Ib
 Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
+aA
 Ib
 Ib
 Ib
@@ -33567,20 +34537,20 @@ Xu
 Xu
 Xu
 Xu
-Xu
-Xu
+ND
+wr
+ev
+nK
+qL
+hd
+Vn
+Dg
 Ib
 Ib
 Ib
 Ib
 Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
-Ib
+aA
 Ib
 Ib
 Ib
@@ -33761,14 +34731,14 @@ Xu
 Xu
 Xu
 Xu
-Xu
-Xu
-Xu
-Xu
-Xu
-Xu
-Ib
-Ib
+MU
+gw
+cY
+Dg
+FJ
+LH
+kd
+Dg
 Ib
 Ib
 Ib
@@ -33955,14 +34925,14 @@ Xu
 Xu
 Xu
 Xu
-Xu
-Xu
-Xu
-Xu
-Xu
-Xu
-Xu
-Ib
+Dg
+zH
+Dg
+Dg
+xY
+Dg
+Dg
+Dg
 Ib
 Ib
 Ib
@@ -34149,13 +35119,13 @@ Xu
 Xu
 Xu
 Xu
-Xu
-Xu
-Xu
-Xu
-Xu
-Xu
-Xu
+VV
+MW
+Wb
+Jq
+hJ
+lA
+Dg
 Ib
 Ib
 Ib
@@ -34166,7 +35136,7 @@ Ib
 Ib
 Ib
 Ib
-Ib
+aA
 Ib
 Xu
 Xu
@@ -34344,14 +35314,14 @@ Xu
 Xu
 Xu
 Xu
+Oo
+XN
+QT
+cA
+Nd
+Dg
 Xu
 Xu
-Xu
-Xu
-Xu
-Xu
-Xu
-Ib
 Ib
 Ib
 Ib
@@ -34538,18 +35508,18 @@ Xu
 Xu
 Xu
 Xu
-Xu
-Xu
-Xu
-Xu
-Xu
-Xu
+lM
+HU
+gm
+hJ
+Rh
+fJ
 Xu
 Xu
 Ib
 Ib
 Ib
-Ib
+aA
 Ib
 Ib
 Ib
@@ -34729,15 +35699,15 @@ Xu
 Xu
 Xu
 Xu
-Xu
-Xu
-Xu
-Xu
-Xu
-Xu
-Xu
-Xu
-Xu
+Dg
+Dg
+Dg
+pF
+Dg
+Dg
+uk
+gX
+Dg
 Xu
 Xu
 Xu
@@ -34923,15 +35893,15 @@ Xu
 Xu
 Xu
 Xu
-Xu
-Xu
-Xu
-Xu
-Xu
-Xu
-Xu
-Xu
-Xu
+Dg
+no
+XX
+Us
+UN
+Dg
+rF
+eW
+Dg
 Xu
 Xu
 Xu
@@ -35117,15 +36087,15 @@ Xu
 Xu
 Xu
 Xu
-Xu
-Xu
-Xu
-Xu
-Xu
-Xu
-Xu
-Xu
-Xu
+Dg
+Vf
+cO
+Jv
+Dh
+WN
+uR
+XL
+ia
 Xu
 Xu
 Xu
@@ -35311,15 +36281,15 @@ Xu
 Xu
 Xu
 Xu
-Xu
-Xu
-Xu
-Xu
-Xu
-Xu
-Xu
-Xu
-Xu
+Dg
+kA
+ea
+fb
+iL
+Up
+nj
+Gi
+Yq
 Xu
 Xu
 Xu
@@ -35505,16 +36475,16 @@ Xu
 Xu
 Xu
 Xu
-Xu
-Xu
-Xu
-Xu
-Xu
-Xu
-Xu
-Xu
-Xu
-Xu
+Dg
+Tn
+Gw
+fA
+eY
+cr
+ok
+ok
+CB
+Dg
 Xu
 Xu
 Xu
@@ -35699,16 +36669,16 @@ Xu
 Xu
 Xu
 Xu
-Xu
-Xu
-Xu
-Xu
-Xu
-Xu
-Xu
-Xu
-Xu
-Xu
+Dg
+Np
+jS
+nj
+WT
+Dg
+NZ
+NZ
+NZ
+Dg
 Xu
 Xu
 Xu
@@ -35894,14 +36864,14 @@ Xu
 Xu
 Xu
 Xu
-Xu
-Xu
-Xu
-Xu
-Xu
-Xu
-Xu
-Xu
+Dg
+Nf
+Dg
+Nf
+Dg
+Qx
+Qx
+tr
 Xu
 Xu
 Xu

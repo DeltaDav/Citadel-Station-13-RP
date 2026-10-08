@@ -174,7 +174,7 @@
 	worth = 1000
 
 /obj/random/spacecash
-	name = "1000 Thaler"
+	name = "Random Thaler"
 	icon = 'icons/obj/items.dmi'
 	icon_state = "spacecash1000"
 

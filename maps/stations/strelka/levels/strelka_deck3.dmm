@@ -68,7 +68,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/quartermaster/strelka/cargo/mining)
+/area/shuttle/strelka_mining)
 "ao" = (
 /obj/machinery/computer/ship/navigation/telescreen{
 	pixel_x = -30
@@ -775,7 +775,7 @@
 /obj/spawner/window/low_wall/reinforced/firelocks,
 /obj/machinery/door/blast/strelka/blockade,
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/quartermaster/strelka/cargo/mining)
+/area/shuttle/strelka_mining)
 "cZ" = (
 /obj/structure/cable{
 	icon_state = "5-10"
@@ -795,8 +795,12 @@
 /obj/structure/extinguisher_cabinet{
 	pixel_y = -31
 	},
+/obj/machinery/computer/shuttle_control/explore/strelka_mining{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/techfloor,
-/area/quartermaster/strelka/cargo/mining)
+/area/shuttle/strelka_mining)
 "de" = (
 /obj/machinery/atmospherics/component/unary/vent_pump/on{
 	dir = 4
@@ -804,10 +808,10 @@
 /obj/machinery/button/remote/blast_door{
 	pixel_x = 9;
 	pixel_y = 24;
-	id = "personel4"
+	id = "strelka_mining"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/quartermaster/strelka/cargo/mining)
+/area/shuttle/strelka_mining)
 "df" = (
 /mob/living/bot/secbot/slime/slimesky,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -3378,11 +3382,11 @@
 "lp" = (
 /obj/structure/fans/tiny,
 /obj/machinery/door/blast/regular/open{
-	id = "miningshut"
+	id = "strelka_mining"
 	},
 /obj/machinery/door/airlock,
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/quartermaster/strelka/cargo/mining)
+/area/shuttle/strelka_mining)
 "lr" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 4
@@ -3522,7 +3526,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/quartermaster/strelka/cargo/mining)
+/area/shuttle/strelka_mining)
 "lP" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 10
@@ -3992,11 +3996,11 @@
 "nk" = (
 /obj/machinery/light,
 /obj/effect/floor_decal/industrial/outline/yellow,
-/obj/machinery/computer/shuttle_control/explore/personalmicro4{
+/obj/machinery/computer/ship/engines{
 	dir = 1
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/quartermaster/strelka/cargo/mining)
+/area/shuttle/strelka_mining)
 "nl" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1
@@ -4444,8 +4448,10 @@
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 4
 	},
+/obj/overmap/entity/visitable/ship/landable/trade/strelka_mining,
+/obj/effect/shuttle_landmark/strelka/deck3,
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/quartermaster/strelka/cargo/mining)
+/area/shuttle/strelka_mining)
 "oN" = (
 /obj/effect/floor_decal/borderfloorblack/corner{
 	dir = 8
@@ -4490,7 +4496,7 @@
 	dir = 8
 	},
 /turf/simulated/wall/r_wall,
-/area/quartermaster/strelka/cargo/mining)
+/area/shuttle/strelka_mining)
 "oV" = (
 /obj/spawner/window/low_wall/borosillicate/reinforced/firelocks,
 /obj/structure/curtain/open/black,
@@ -4511,7 +4517,7 @@
 "oZ" = (
 /obj/machinery/computer/ship/helm,
 /turf/simulated/floor/tiled/techfloor,
-/area/quartermaster/strelka/cargo/mining)
+/area/shuttle/strelka_mining)
 "pa" = (
 /obj/effect/floor_decal/spline/fancy/wood/cee{
 	dir = 4
@@ -4917,7 +4923,7 @@
 	},
 /obj/structure/ore_box,
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/quartermaster/strelka/cargo/mining)
+/area/shuttle/strelka_mining)
 "qv" = (
 /obj/effect/floor_decal/borderfloorblack{
 	dir = 1
@@ -5838,7 +5844,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/quartermaster/strelka/cargo/mining)
+/area/shuttle/strelka_mining)
 "th" = (
 /obj/effect/floor_decal/borderfloorblack,
 /obj/effect/floor_decal/spline/fancy/wood,
@@ -5955,7 +5961,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/quartermaster/strelka/cargo/mining)
+/area/shuttle/strelka_mining)
 "tz" = (
 /obj/effect/floor_decal/borderfloorblack{
 	alpha = 255;
@@ -6552,7 +6558,7 @@
 	dir = 4
 	},
 /turf/simulated/wall/r_wall,
-/area/quartermaster/strelka/cargo/mining)
+/area/shuttle/strelka_mining)
 "vx" = (
 /obj/effect/floor_decal/borderfloorblack{
 	alpha = 255;
@@ -7020,7 +7026,7 @@
 	icon_state = "4-8"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/quartermaster/strelka/cargo/mining)
+/area/shuttle/strelka_mining)
 "wV" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 10
@@ -7957,7 +7963,7 @@
 	icon_state = "0-8"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/quartermaster/strelka/cargo/mining)
+/area/shuttle/strelka_mining)
 "zX" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 1
@@ -8077,7 +8083,7 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/quartermaster/strelka/cargo/mining)
+/area/shuttle/strelka_mining)
 "Au" = (
 /obj/machinery/light{
 	dir = 8
@@ -8307,7 +8313,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/quartermaster/strelka/cargo/mining)
+/area/shuttle/strelka_mining)
 "Ba" = (
 /obj/machinery/lathe/autolathe,
 /obj/machinery/light{
@@ -9328,7 +9334,7 @@
 	},
 /obj/machinery/holopad/ship,
 /turf/simulated/floor/tiled/techfloor,
-/area/quartermaster/strelka/cargo/mining)
+/area/shuttle/strelka_mining)
 "DV" = (
 /obj/effect/floor_decal/spline/fancy/wood/cee,
 /turf/simulated/floor/carpet/purcarpet,
@@ -9438,23 +9444,6 @@
 /obj/machinery/shield_diffuser,
 /turf/simulated/floor/tiled/monodark,
 /area/space)
-"Eq" = (
-/obj/machinery/door/firedoor/glass{
-	dir = 4
-	},
-/obj/structure/window/phoronreinforced{
-	dir = 1
-	},
-/obj/structure/window/phoronreinforced,
-/obj/structure/window/phoronreinforced{
-	dir = 4
-	},
-/obj/structure/window/phoronreinforced{
-	dir = 8
-	},
-/obj/structure/flora/grass/event/stalky_bush1,
-/turf/simulated/floor/fey/forest_grass,
-/area/hallway/strelka/deck3)
 "Er" = (
 /obj/machinery/botany/editor,
 /obj/machinery/light,
@@ -9736,11 +9725,11 @@
 	},
 /obj/structure/fans/tiny,
 /obj/machinery/door/blast/regular/open{
-	id = "miningshut"
+	id = "strelka_mining"
 	},
 /obj/machinery/door/airlock,
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/quartermaster/strelka/cargo/mining)
+/area/shuttle/strelka_mining)
 "Fc" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 8
@@ -11314,7 +11303,7 @@
 "Kl" = (
 /obj/machinery/light,
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/quartermaster/strelka/cargo/mining)
+/area/shuttle/strelka_mining)
 "Km" = (
 /obj/machinery/body_scanconsole,
 /obj/effect/floor_decal/steeldecal/steel_decals10,
@@ -11415,7 +11404,7 @@
 	dir = 8
 	},
 /turf/simulated/wall/r_wall,
-/area/quartermaster/strelka/cargo/mining)
+/area/shuttle/strelka_mining)
 "KJ" = (
 /obj/structure/table/reinforced,
 /obj/item/storage/firstaid/surgery,
@@ -12352,7 +12341,7 @@
 "Ns" = (
 /obj/structure/closet/walllocker_double/south,
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/quartermaster/strelka/cargo/mining)
+/area/shuttle/strelka_mining)
 "Nu" = (
 /obj/structure/bed/chair,
 /turf/simulated/floor/wood/indoors,
@@ -12966,7 +12955,7 @@
 /area/hallway/strelka/deck3)
 "Py" = (
 /turf/simulated/wall/r_wall,
-/area/quartermaster/strelka/cargo/mining)
+/area/shuttle/strelka_mining)
 "PA" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -13063,7 +13052,7 @@
 	dir = 6
 	},
 /turf/simulated/wall/r_wall,
-/area/quartermaster/strelka/cargo/mining)
+/area/shuttle/strelka_mining)
 "PN" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 10
@@ -13411,7 +13400,7 @@
 "QT" = (
 /obj/machinery/shipsensors,
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/quartermaster/strelka/cargo/mining)
+/area/shuttle/strelka_mining)
 "QV" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -14533,7 +14522,7 @@
 	dir = 8
 	},
 /turf/simulated/shuttle/plating/airless/carry,
-/area/quartermaster/strelka/cargo/mining)
+/area/shuttle/strelka_mining)
 "Us" = (
 /obj/effect/floor_decal/borderfloorblack{
 	dir = 1
@@ -15432,7 +15421,7 @@
 	},
 /obj/structure/cable,
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/quartermaster/strelka/cargo/mining)
+/area/shuttle/strelka_mining)
 "WX" = (
 /obj/item/aiModule/teleporterOffline,
 /obj/structure/table/standard,
@@ -15633,7 +15622,7 @@
 	},
 /obj/machinery/computer/ship/sensors,
 /turf/simulated/floor/tiled/techfloor,
-/area/quartermaster/strelka/cargo/mining)
+/area/shuttle/strelka_mining)
 "XM" = (
 /obj/effect/floor_decal/borderfloorblack,
 /obj/machinery/camera/network/security{
@@ -15863,7 +15852,7 @@
 /area/rnd/strelka/science/secondary)
 "Yy" = (
 /turf/simulated/wall/r_wall/prepainted/cargo,
-/area/quartermaster/strelka/cargo/mining)
+/area/shuttle/strelka_mining)
 "Yz" = (
 /obj/effect/floor_decal/industrial/outline/grey,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -15947,7 +15936,7 @@
 	dir = 9
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/quartermaster/strelka/cargo/mining)
+/area/shuttle/strelka_mining)
 "YN" = (
 /obj/effect/floor_decal/borderfloorblack,
 /turf/simulated/floor/tiled/techfloor/grid,
@@ -16164,7 +16153,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/quartermaster/strelka/cargo/mining)
+/area/shuttle/strelka_mining)
 "Zu" = (
 /obj/spawner/window/low_wall/reinforced/firelocks,
 /turf/simulated/floor/plating,
@@ -31431,7 +31420,7 @@ PZ
 uD
 uD
 uD
-Eq
+XQ
 Wt
 Wt
 sw

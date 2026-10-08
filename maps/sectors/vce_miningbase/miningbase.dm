@@ -11,6 +11,6 @@
 	id = "miningbase"
 	name = "Sector Crucis Expanse - Mining base"
 	display_name = "miningbasespace"
-	path = "maps/sectors/miningbase/levels/miningbase.dmm"
+	path = "maps/sectors/vce_miningbase/levels/miningbase.dmm"
 	base_turf = /turf/simulated/floor/outdoors/icesand/lythios43c/indoor
 	base_area = /area/space

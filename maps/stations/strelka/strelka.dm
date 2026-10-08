@@ -41,6 +41,7 @@
 		/datum/shuttle/autodock/overmap/trade/personalmicro2,
 		/datum/shuttle/autodock/overmap/trade/personalmicro3,
 		/datum/shuttle/autodock/overmap/trade/personalmicro4,
+		/datum/shuttle/autodock/overmap/trade/strelka_mining,
 	)
 
 	full_name = "NEV Strelka"

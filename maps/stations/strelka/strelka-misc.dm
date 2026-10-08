@@ -180,3 +180,13 @@
 		/obj/random/spacecash,
 		/obj/random/single,
 		/obj/item/gps/nt_lost)
+
+/obj/random/ntcrate
+	name = "Random crate"
+	icon = 'icons/obj/items.dmi'
+	icon_state = "gift"
+	spawn_nothing_percentage = 50
+
+/obj/random/ntcrate/item_to_spawn()
+	return pick(/obj/structure/closet/crate/corporate/nanotrasen/lost)
+

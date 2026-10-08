@@ -11,7 +11,7 @@
 	id = "driftingplanet"
 	name = "Sector Crucis Expanse - Asteroid field Alpha"
 	display_name = "Asteroid field Alpha"
-	path = "maps/sectors/drifting_planet/levels/drifting_planet.dmm"
+	path = "maps/sectors/vce_driftingplanet/levels/driftingplanet.dmm"
 	base_turf = /turf/simulated/floor/outdoors/beach/sand/desert
 	base_area = /area/sector/driftingplanet/field
 

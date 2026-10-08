@@ -1454,6 +1454,7 @@
 /obj/effect/floor_decal/spline/plain{
 	dir = 10
 	},
+/obj/machinery/door/window/southright,
 /turf/simulated/floor/carpet/patterened/blue,
 /area/hallway/strelka/deck2)
 "dL" = (
@@ -1771,9 +1772,6 @@
 /obj/structure/cable/orange{
 	icon_state = "1-2"
 	},
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
 /obj/machinery/atmospherics/component/unary/vent_pump/on{
 	dir = 1
 	},
@@ -1992,23 +1990,6 @@
 /obj/machinery/door/blast/strelka/blockade,
 /turf/simulated/floor/tiled/techfloor,
 /area/bridge/strelka/iaa)
-"fi" = (
-/obj/machinery/door/firedoor/glass{
-	dir = 4
-	},
-/obj/structure/flora/grass/event/purple_flowers1,
-/obj/structure/window/phoronreinforced,
-/obj/structure/window/phoronreinforced{
-	dir = 1
-	},
-/obj/structure/window/phoronreinforced{
-	dir = 8
-	},
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/turf/simulated/floor/fey/forest_grass,
-/area/hallway/strelka/deck2)
 "fk" = (
 /obj/structure/table/steel,
 /obj/item/flashlight/lamp,
@@ -2115,7 +2096,7 @@
 /obj/machinery/light{
 	dir = 4
 	},
-/obj/structure/cable/orange{
+/obj/structure/cable{
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/wood/indoors,
@@ -2831,6 +2812,7 @@
 /obj/effect/floor_decal/spline/plain{
 	dir = 10
 	},
+/obj/machinery/door/window/southright,
 /turf/simulated/floor/carpet/patterened/blue,
 /area/hallway/strelka/deck2)
 "hl" = (
@@ -3830,6 +3812,7 @@
 	dir = 1
 	},
 /obj/effect/floor_decal/spline/fancy/wood,
+/obj/machinery/door/window/southright,
 /turf/simulated/floor/carpet/patterened/blue,
 /area/hallway/strelka/deck2)
 "jY" = (
@@ -4224,9 +4207,6 @@
 /turf/simulated/floor/tiled/techfloor/monogrid,
 /area/strelka/explo/emt)
 "lb" = (
-/obj/structure/cable{
-	icon_state = "5-8"
-	},
 /obj/structure/cable/orange{
 	icon_state = "1-2"
 	},
@@ -4235,6 +4215,9 @@
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 1
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
 	},
 /turf/simulated/floor/roguetown/church_marble,
 /area/hallway/strelka/deck2)
@@ -4330,6 +4313,9 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/hallway/strelka/deck2)
@@ -4534,9 +4520,6 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 8
 	},
-/obj/structure/cable/orange{
-	icon_state = "2-8"
-	},
 /turf/simulated/floor/roguetown/church_marble,
 /area/hallway/strelka/deck2)
 "lX" = (
@@ -4688,7 +4671,7 @@
 /area/engineering/strelka/coms)
 "mw" = (
 /obj/effect/floor_decal/spline/fancy/wood,
-/obj/structure/cable/orange{
+/obj/structure/cable{
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/wood/indoors,
@@ -5102,23 +5085,6 @@
 	},
 /turf/simulated/floor/reinforced,
 /area/engineering/strelka/nacelle)
-"nt" = (
-/obj/structure/flora/grass/event/yellow_flowers1,
-/obj/machinery/door/firedoor/glass{
-	dir = 4
-	},
-/obj/structure/window/phoronreinforced{
-	dir = 1
-	},
-/obj/structure/window/phoronreinforced,
-/obj/structure/window/phoronreinforced{
-	dir = 4
-	},
-/obj/structure/window/phoronreinforced{
-	dir = 8
-	},
-/turf/simulated/floor/fey/forest_grass,
-/area/engineering/hallway/strelka/engineering)
 "nu" = (
 /obj/machinery/door/blast/regular{
 	dir = 4;
@@ -5147,7 +5113,7 @@
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1
 	},
-/obj/structure/cable/orange{
+/obj/structure/cable{
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/wood/indoors,
@@ -5813,16 +5779,6 @@
 "oQ" = (
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/engineering/strelka/gas)
-"oR" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/effect/floor_decal/spline/fancy/wood{
-	dir = 1
-	},
-/obj/structure/cable/orange{
-	icon_state = "1-2"
-	},
-/turf/simulated/floor/wood/indoors,
-/area/hallway/strelka/deck2)
 "oS" = (
 /turf/simulated/floor/tiled/techfloor,
 /area/bridge/strelka/hallway)
@@ -6032,6 +5988,7 @@
 /obj/structure/statue/gold/ce{
 	pixel_y = 12
 	},
+/obj/machinery/door/window/northleft,
 /turf/simulated/floor/carpet/patterened/blue,
 /area/hallway/strelka/deck2)
 "pw" = (
@@ -6394,6 +6351,7 @@
 /obj/structure/cable/blue{
 	icon_state = "1-2"
 	},
+/obj/machinery/door/window/southright,
 /turf/simulated/floor/carpet/patterened/blue,
 /area/hallway/strelka/deck2)
 "qt" = (
@@ -6840,7 +6798,7 @@
 /obj/machinery/door/airlock/multi_tile/glass{
 	dir = 4
 	},
-/obj/structure/cable/orange{
+/obj/structure/cable{
 	icon_state = "4-8"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
@@ -6979,6 +6937,7 @@
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1
 	},
+/obj/machinery/door/window/northleft,
 /turf/simulated/floor/carpet/patterened/blue,
 /area/hallway/strelka/deck2)
 "rP" = (
@@ -7111,6 +7070,9 @@
 /obj/machinery/power/terminal,
 /obj/structure/cable{
 	icon_state = "0-8"
+	},
+/obj/machinery/computer/message_monitor{
+	dir = 8
 	},
 /turf/simulated/floor/reinforced,
 /area/engineering/strelka/coms)
@@ -8179,14 +8141,13 @@
 /obj/structure/table/marble,
 /obj/item/storage/bible/booze,
 /obj/structure/window/basic{
-	dir = 1
-	},
-/obj/structure/window/basic{
 	dir = 8
 	},
 /obj/structure/window/basic{
 	dir = 4
 	},
+/obj/machinery/door/window/northleft,
+/obj/structure/window/basic,
 /turf/simulated/floor/carpet/patterened/blue,
 /area/hallway/strelka/deck2)
 "uI" = (
@@ -8820,23 +8781,6 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/engineering/hallway/strelka/engineering)
-"wz" = (
-/obj/machinery/door/firedoor/glass{
-	dir = 4
-	},
-/obj/structure/flora/grass/event/purple_flowers1,
-/obj/structure/window/phoronreinforced,
-/obj/structure/window/phoronreinforced{
-	dir = 1
-	},
-/obj/structure/window/phoronreinforced{
-	dir = 4
-	},
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/turf/simulated/floor/fey/forest_grass,
-/area/hallway/strelka/deck2)
 "wA" = (
 /obj/effect/floor_decal/spline/fancy/wood,
 /obj/effect/floor_decal/spline/fancy/wood{
@@ -9142,6 +9086,7 @@
 /obj/structure/window/basic{
 	dir = 4
 	},
+/obj/machinery/door/window/northleft,
 /turf/simulated/floor/carpet/patterened/blue,
 /area/hallway/strelka/deck2)
 "xm" = (
@@ -9161,6 +9106,7 @@
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1
 	},
+/obj/machinery/door/window/northleft,
 /turf/simulated/floor/carpet/patterened/blue,
 /area/hallway/strelka/deck2)
 "xp" = (
@@ -9305,16 +9251,6 @@
 /obj/structure/flora/pottedplant/hedge,
 /turf/simulated/floor/wood,
 /area/bridge/strelka/iaa)
-"xI" = (
-/obj/structure/cable{
-	icon_state = "1-10"
-	},
-/obj/structure/cable{
-	icon_state = "1-6"
-	},
-/obj/effect/floor_decal/spline/fancy/wood,
-/turf/simulated/floor/wood/indoors,
-/area/hallway/strelka/deck2)
 "xJ" = (
 /obj/structure/cable/blue{
 	icon_state = "0-8"
@@ -9498,6 +9434,7 @@
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1
 	},
+/obj/machinery/door/window/northleft,
 /turf/simulated/floor/carpet/patterened/blue,
 /area/hallway/strelka/deck2)
 "yf" = (
@@ -9838,6 +9775,7 @@
 /obj/effect/floor_decal/spline/plain{
 	dir = 10
 	},
+/obj/machinery/door/window/southright,
 /turf/simulated/floor/carpet/turcarpet,
 /area/hallway/strelka/deck2)
 "yN" = (
@@ -9873,6 +9811,7 @@
 	dir = 1
 	},
 /obj/effect/floor_decal/spline/fancy/wood,
+/obj/machinery/door/window/southright,
 /turf/simulated/floor/carpet/patterened/blue,
 /area/hallway/strelka/deck2)
 "yR" = (
@@ -10045,15 +9984,6 @@
 /obj/machinery/air_alarm/south_mount,
 /turf/simulated/floor/reinforced,
 /area/rnd/strelka/tele)
-"zo" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/effect/floor_decal/spline/fancy/wood,
-/obj/machinery/air_alarm/east_mount,
-/obj/structure/cable/orange{
-	icon_state = "1-2"
-	},
-/turf/simulated/floor/wood/indoors,
-/area/hallway/strelka/deck2)
 "zp" = (
 /obj/structure/cable/white{
 	icon_state = "4-8"
@@ -10382,6 +10312,7 @@
 	dir = 1
 	},
 /obj/effect/floor_decal/spline/fancy/wood,
+/obj/machinery/door/window/southright,
 /turf/simulated/floor/carpet/patterened/blue,
 /area/hallway/strelka/deck2)
 "Af" = (
@@ -10865,6 +10796,7 @@
 /obj/structure/window/basic{
 	dir = 4
 	},
+/obj/machinery/door/window/northleft,
 /turf/simulated/floor/carpet/patterened/blue,
 /area/hallway/strelka/deck2)
 "Bb" = (
@@ -11105,6 +11037,7 @@
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1
 	},
+/obj/machinery/door/window/northleft,
 /turf/simulated/floor/carpet/patterened/blue,
 /area/hallway/strelka/deck2)
 "BF" = (
@@ -12467,6 +12400,7 @@
 /obj/item/clothing/head/collectable/tophat{
 	pixel_y = 11
 	},
+/obj/machinery/door/window/northleft,
 /turf/simulated/floor/carpet/patterened/blue,
 /area/hallway/strelka/deck2)
 "Fv" = (
@@ -14272,14 +14206,14 @@
 /turf/simulated/floor/wood/indoors,
 /area/engineering/hallway/strelka/engineering)
 "Kx" = (
-/obj/structure/cable{
-	icon_state = "4-10"
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/hallway/strelka/deck2)
@@ -14596,6 +14530,7 @@
 	dir = 4
 	},
 /obj/structure/plushie/drone,
+/obj/machinery/door/window/southright,
 /turf/simulated/floor/carpet/patterened/blue,
 /area/hallway/strelka/deck2)
 "Lq" = (
@@ -14836,7 +14771,7 @@
 /turf/simulated/floor/carpet/patterened/blue,
 /area/hallway/strelka/deck2)
 "LV" = (
-/obj/structure/cable/orange{
+/obj/structure/cable{
 	icon_state = "1-4"
 	},
 /turf/simulated/floor/roguetown/church_marble,
@@ -15280,20 +15215,6 @@
 	},
 /turf/simulated/wall/r_wall/prepainted,
 /area/engineering/strelka/nacelle2)
-"MV" = (
-/obj/machinery/door/firedoor/glass{
-	dir = 4
-	},
-/obj/structure/flora/grass/event/purple_flowers1,
-/obj/structure/window/phoronreinforced,
-/obj/structure/window/phoronreinforced{
-	dir = 1
-	},
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/turf/simulated/floor/fey/forest_grass,
-/area/hallway/strelka/deck2)
 "MW" = (
 /obj/effect/floor_decal/spline/plain{
 	dir = 6
@@ -15308,17 +15229,12 @@
 /turf/simulated/floor/tiled/monotechmaint,
 /area/shuttle/emt/strelka/cockpit)
 "MZ" = (
-/obj/structure/cable{
-	icon_state = "1-4";
-	dir = 1
-	},
-/obj/structure/cable{
-	icon_state = "1-4";
-	dir = 4
-	},
 /obj/effect/floor_decal/spline/fancy/wood,
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
 	},
 /turf/simulated/floor/roguetown/church_marble,
 /area/hallway/strelka/deck2)
@@ -15580,17 +15496,15 @@
 /turf/simulated/wall/r_wall/prepainted,
 /area/shuttle/emt/strelka/main)
 "NP" = (
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
 /obj/machinery/atmospherics/component/unary/vent_scrubber/on{
 	dir = 1
 	},
 /obj/effect/floor_decal/spline/fancy/wood/cee{
 	dir = 4
 	},
-/obj/structure/cable/orange{
-	icon_state = "1-2"
+/obj/structure/cable{
+	icon_state = "1-4";
+	dir = 1
 	},
 /turf/simulated/floor/roguetown/church_marble,
 /area/hallway/strelka/deck2)
@@ -15933,9 +15847,8 @@
 /obj/structure/window/basic{
 	dir = 4
 	},
-/obj/structure/window/basic{
-	dir = 1
-	},
+/obj/machinery/door/window/northleft,
+/obj/structure/window/basic,
 /turf/simulated/floor/carpet/patterened/blue,
 /area/hallway/strelka/deck2)
 "OH" = (
@@ -16627,16 +16540,6 @@
 	},
 /obj/machinery/door/firedoor/glass,
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/hallway/strelka/deck2)
-"Qd" = (
-/obj/machinery/light{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/structure/cable/orange{
-	icon_state = "1-2"
-	},
-/turf/simulated/floor/wood/indoors,
 /area/hallway/strelka/deck2)
 "Qe" = (
 /obj/machinery/atmospherics/pipe/simple/visible/black{
@@ -17759,6 +17662,7 @@
 /obj/effect/floor_decal/spline/plain{
 	dir = 10
 	},
+/obj/machinery/door/window/southright,
 /turf/simulated/floor/carpet/patterened/blue,
 /area/hallway/strelka/deck2)
 "SI" = (
@@ -18602,6 +18506,13 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
+/obj/structure/cable{
+	icon_state = "1-4";
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
 /turf/simulated/floor/roguetown/church_marble,
 /area/hallway/strelka/deck2)
 "Vp" = (
@@ -19102,9 +19013,6 @@
 /turf/simulated/floor/tiled/asteroid_steel,
 /area/security/strelka/detective/lab)
 "Wu" = (
-/obj/machinery/door/airlock/glass/engineering{
-	name = "Telecommunications Monitoring"
-	},
 /obj/map_helper/access_helper/airlock/station/engineering/department,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -19113,7 +19021,11 @@
 	icon_state = "1-2"
 	},
 /obj/structure/cable{
-	icon_state = "5-10"
+	icon_state = "1-10"
+	},
+/obj/machinery/door/airlock/highsecurity{
+	name = "Balista Airlock";
+	req_one_access = null
 	},
 /turf/simulated/floor/reinforced,
 /area/hallway/strelka/deck2)
@@ -19342,6 +19254,7 @@
 /obj/item/storage/fancy/cigar/taj{
 	layer = 2.9
 	},
+/obj/machinery/door/window/southright,
 /turf/simulated/floor/carpet/turcarpet,
 /area/hallway/strelka/deck2)
 "WX" = (
@@ -19751,14 +19664,14 @@
 /turf/simulated/floor/tiled/monodark,
 /area/strelka/explo)
 "XK" = (
-/obj/structure/cable{
-	icon_state = "4-9"
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
 	},
 /turf/simulated/floor/roguetown/church_marble,
 /area/hallway/strelka/deck2)
@@ -20055,14 +19968,18 @@
 /turf/simulated/floor/carpet,
 /area/security/strelka/detective)
 "YI" = (
-/obj/structure/cable/orange{
-	icon_state = "2-8"
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 6
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 6
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	icon_state = "1-4";
+	dir = 1
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/hallway/strelka/deck2)
@@ -20401,7 +20318,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/structure/cable/orange{
-	icon_state = "1-2"
+	icon_state = "0-2"
 	},
 /turf/simulated/floor/reinforced,
 /area/engineering/strelka/coms)
@@ -35568,7 +35485,7 @@ hM
 UP
 UP
 UP
-nt
+Pp
 qB
 iS
 Ho
@@ -37503,9 +37420,9 @@ Tx
 Ke
 zf
 lU
-oR
-Qd
-zo
+gs
+yI
+PZ
 NP
 nx
 fA
@@ -37700,7 +37617,7 @@ yD
 vS
 DJ
 RK
-fi
+fB
 RK
 DJ
 oh
@@ -37894,7 +37811,7 @@ fr
 ac
 aH
 RK
-MV
+NV
 RK
 cD
 KZ
@@ -38088,7 +38005,7 @@ fr
 ac
 vu
 RK
-MV
+NV
 RK
 ST
 KZ
@@ -38282,7 +38199,7 @@ Qc
 vS
 WX
 RK
-wz
+rw
 RK
 WX
 oh
@@ -38673,7 +38590,7 @@ NC
 MZ
 jD
 FC
-xI
+mw
 Vo
 fQ
 ZW
@@ -43149,7 +43066,7 @@ hD
 UY
 Za
 po
-KP
+FB
 KP
 KP
 KP
@@ -43343,7 +43260,7 @@ hD
 UY
 Za
 po
-KP
+FB
 KP
 KP
 KP
@@ -43537,7 +43454,7 @@ WF
 Za
 hO
 Lv
-KP
+FB
 KP
 KP
 KP
@@ -43730,8 +43647,8 @@ dl
 VF
 sx
 po
-KP
-KP
+FB
+FB
 KP
 KP
 KP
@@ -43924,8 +43841,8 @@ VF
 VF
 Za
 po
-KP
-KP
+FB
+FB
 KP
 KP
 KP
@@ -44118,8 +44035,8 @@ VF
 Za
 hO
 IW
-KP
-KP
+FB
+FB
 KP
 KP
 KP

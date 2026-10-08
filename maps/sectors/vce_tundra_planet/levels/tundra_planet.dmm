@@ -298,7 +298,9 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/fey/snow_grass,
+/turf/simulated/floor/fey/snow_grass{
+	outdoors = 1
+	},
 /area/sector/tundra/field)
 "cl" = (
 /obj/structure/curtain/open/shower/medical,
@@ -454,7 +456,9 @@
 /area/shuttle/maquis/interceptor)
 "de" = (
 /obj/structure/flora/grass/event/bright_flowers1,
-/turf/simulated/floor/fey/snow_grass,
+/turf/simulated/floor/fey/snow_grass{
+	outdoors = 1
+	},
 /area/sector/tundra/base)
 "di" = (
 /obj/structure/table/steel_reinforced,
@@ -784,6 +788,12 @@
 	},
 /turf/simulated/floor/carpet/patterened/blue/alt,
 /area/sector/tundra/shuttle1)
+"fJ" = (
+/obj/machinery/air_alarm/alarms_hidden/north_mount{
+	req_one_access = null
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/shuttle/maquis/raider)
 "fK" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 4
@@ -792,7 +802,9 @@
 /area/sector/tundra/shuttle5)
 "fN" = (
 /obj/structure/event/prop/green_barrel,
-/turf/simulated/floor/fey/snow_grass,
+/turf/simulated/floor/fey/snow_grass{
+	outdoors = 1
+	},
 /area/sector/tundra/field)
 "fS" = (
 /obj/structure/bed/chair/sofa/brown/left{
@@ -826,6 +838,7 @@
 "fX" = (
 /obj/structure/ghost_role_spawner/maquis/commander,
 /obj/item/bedsheet/hos,
+/obj/machinery/air_alarm/alarms_hidden/south_mount,
 /turf/simulated/floor/tiled/techfloor,
 /area/shuttle/maquis/raider)
 "ge" = (
@@ -1066,7 +1079,9 @@
 /obj/structure/fence/wooden/end{
 	dir = 4
 	},
-/turf/simulated/floor/fey/snow_grass,
+/turf/simulated/floor/fey/snow_grass{
+	outdoors = 1
+	},
 /area/sector/tundra/field)
 "hS" = (
 /obj/effect/floor_decal/industrial/hatch/yellow,
@@ -1261,7 +1276,9 @@
 /area/sector/tundra/shuttle5)
 "ji" = (
 /obj/structure/sandbag,
-/turf/simulated/floor/fey/snow_grass,
+/turf/simulated/floor/fey/snow_grass{
+	outdoors = 1
+	},
 /area/sector/tundra/field)
 "jj" = (
 /obj/machinery/door/blast/shutters{
@@ -1407,6 +1424,10 @@
 /obj/spawner/window/low_wall/reinforced/firelocks,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/sector/tundra/shuttle5)
+"ku" = (
+/obj/random/ntcrate,
+/turf/simulated/floor/concrete/outdoors,
+/area/sector/tundra/field)
 "kv" = (
 /obj/structure/flora/grass/green,
 /turf/simulated/floor/snow/gravsnow,
@@ -1451,6 +1472,13 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/sector/tundra/base)
+"kK" = (
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 4
+	},
+/obj/machinery/air_alarm/alarms_hidden/south_mount,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/shuttle/maquis/raider)
 "kM" = (
 /obj/structure/table/steel,
 /obj/machinery/microwave,
@@ -1557,6 +1585,9 @@
 /obj/structure/cable/green{
 	icon_state = "0-2"
 	},
+/obj/machinery/air_alarm/alarms_hidden/north_mount{
+	req_one_access = null
+	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/maquis/raider)
 "lz" = (
@@ -1655,7 +1686,9 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/sector/tundra/base)
 "me" = (
-/turf/simulated/floor/fey/snow_grass,
+/turf/simulated/floor/fey/snow_grass{
+	outdoors = 1
+	},
 /area/sector/tundra/base)
 "ml" = (
 /obj/structure/bed/chair/comfy/brown{
@@ -1866,7 +1899,9 @@
 "nC" = (
 /obj/structure/flora/grass/green,
 /obj/structure/flora/grass/event/bright_flowers1,
-/turf/simulated/floor/fey/snow_grass,
+/turf/simulated/floor/fey/snow_grass{
+	outdoors = 1
+	},
 /area/sector/tundra/field)
 "nE" = (
 /obj/item/reagent_containers/glass/beaker{
@@ -1906,6 +1941,11 @@
 	},
 /turf/simulated/floor/reinforced,
 /area/shuttle/maquis/raider)
+"nZ" = (
+/turf/simulated/floor/snow/gravsnow{
+	outdoors = 1
+	},
+/area/sector/tundra/field)
 "oa" = (
 /obj/structure/fuel_port{
 	pixel_x = -27
@@ -2096,7 +2136,9 @@
 /obj/structure/fence/wooden/post{
 	dir = 1
 	},
-/turf/simulated/floor/fey/snow_grass,
+/turf/simulated/floor/fey/snow_grass{
+	outdoors = 1
+	},
 /area/sector/tundra/field)
 "pB" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden{
@@ -2175,12 +2217,15 @@
 /obj/item/encryptionkey/maquis,
 /obj/item/encryptionkey/maquis,
 /obj/item/encryptionkey/maquis,
+/obj/machinery/air_alarm/alarms_hidden/east_mount,
 /turf/simulated/floor/tiled/techfloor,
 /area/shuttle/maquis/raider)
 "qh" = (
 /obj/structure/target_stake,
 /obj/item/target/humanoid,
-/turf/simulated/floor/fey/snow_grass,
+/turf/simulated/floor/fey/snow_grass{
+	outdoors = 1
+	},
 /area/sector/tundra/base)
 "qk" = (
 /obj/machinery/atmospherics/component/unary/vent_pump/on{
@@ -2193,7 +2238,9 @@
 /area/sector/tundra/shuttle5)
 "ql" = (
 /obj/structure/event/prop/yellow_barrel,
-/turf/simulated/floor/fey/snow_grass,
+/turf/simulated/floor/fey/snow_grass{
+	outdoors = 1
+	},
 /area/sector/tundra/field)
 "qn" = (
 /obj/machinery/suit_cycler/pirate,
@@ -2394,7 +2441,9 @@
 /area/sector/tundra/shuttle3)
 "rq" = (
 /obj/item/material/gravemarker,
-/turf/simulated/floor/fey/snow_grass,
+/turf/simulated/floor/fey/snow_grass{
+	outdoors = 1
+	},
 /area/sector/tundra/field)
 "rs" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
@@ -2530,7 +2579,9 @@
 "sh" = (
 /obj/structure/target_stake,
 /obj/item/target/basic,
-/turf/simulated/floor/fey/snow_grass,
+/turf/simulated/floor/fey/snow_grass{
+	outdoors = 1
+	},
 /area/sector/tundra/base)
 "sj" = (
 /obj/machinery/door/airlock,
@@ -2593,7 +2644,9 @@
 /obj/machinery/atmospherics/component/unary/engine{
 	dir = 8
 	},
-/turf/simulated/floor/fey/snow_grass,
+/turf/simulated/floor/fey/snow_grass{
+	outdoors = 1
+	},
 /area/sector/tundra/shuttle3)
 "sK" = (
 /obj/item/stack/sandbags,
@@ -2607,7 +2660,9 @@
 /area/sector/tundra/field)
 "sN" = (
 /mob/living/simple_mob/animal/icegoat,
-/turf/simulated/floor/fey/snow_grass,
+/turf/simulated/floor/fey/snow_grass{
+	outdoors = 1
+	},
 /area/sector/tundra/field)
 "sS" = (
 /obj/structure/cable{
@@ -2693,6 +2748,20 @@
 "ty" = (
 /obj/machinery/door/blast/regular{
 	id = "maquis6"
+	},
+/obj/machinery/button/remote/blast_door{
+	id = "maquis6";
+	pixel_x = 7;
+	dir = 1;
+	pixel_y = -25;
+	req_access = list(311)
+	},
+/obj/machinery/button/remote/blast_door{
+	id = "maquis5";
+	pixel_x = -6;
+	dir = 1;
+	pixel_y = -25;
+	req_access = list(311)
 	},
 /turf/simulated/floor/concrete/tile/outdoors,
 /area/sector/tundra/base)
@@ -2901,7 +2970,9 @@
 /area/sector/tundra/shuttle4)
 "va" = (
 /mob/living/simple_mob/animal/horing,
-/turf/simulated/floor/fey/snow_grass,
+/turf/simulated/floor/fey/snow_grass{
+	outdoors = 1
+	},
 /area/sector/tundra/field)
 "vc" = (
 /obj/machinery/atmospherics/component/unary/vent_pump/on{
@@ -3000,7 +3071,9 @@
 /obj/structure/cable{
 	icon_state = "2-4"
 	},
-/turf/simulated/floor/fey/snow_grass,
+/turf/simulated/floor/fey/snow_grass{
+	outdoors = 1
+	},
 /area/sector/tundra/field)
 "vR" = (
 /obj/machinery/light{
@@ -3069,7 +3142,9 @@
 /turf/simulated/floor/tiled/old_tile/white,
 /area/sector/tundra/shuttle1)
 "wh" = (
-/turf/simulated/floor/fey/snow_grass,
+/turf/simulated/floor/fey/snow_grass{
+	outdoors = 1
+	},
 /area/sector/tundra/shop)
 "wk" = (
 /obj/effect/floor_decal/techfloor{
@@ -3118,7 +3193,9 @@
 /obj/structure/cable{
 	icon_state = "1-4"
 	},
-/turf/simulated/floor/fey/snow_grass,
+/turf/simulated/floor/fey/snow_grass{
+	outdoors = 1
+	},
 /area/sector/tundra/field)
 "wC" = (
 /obj/structure/bed/chair/comfy/blue{
@@ -3160,7 +3237,9 @@
 /obj/structure/fence/wooden/end{
 	dir = 8
 	},
-/turf/simulated/floor/fey/snow_grass,
+/turf/simulated/floor/fey/snow_grass{
+	outdoors = 1
+	},
 /area/sector/tundra/field)
 "xa" = (
 /obj/machinery/computer/shuttle_control/explore/maquis/raider,
@@ -3249,7 +3328,9 @@
 /obj/machinery/floodlight{
 	on = 1
 	},
-/turf/simulated/floor/fey/snow_grass,
+/turf/simulated/floor/fey/snow_grass{
+	outdoors = 1
+	},
 /area/sector/tundra/field)
 "xH" = (
 /obj/machinery/light{
@@ -3456,11 +3537,27 @@
 /area/sector/tundra/field)
 "zt" = (
 /obj/structure/flora/grass/event/yellow_flowers1,
-/turf/simulated/floor/fey/snow_grass,
+/turf/simulated/floor/fey/snow_grass{
+	outdoors = 1
+	},
 /area/sector/tundra/field)
 "zu" = (
 /obj/machinery/door/blast/regular{
 	id = "maquis5"
+	},
+/obj/machinery/button/remote/blast_door{
+	id = "maquis6";
+	pixel_x = 7;
+	dir = 1;
+	pixel_y = -25;
+	req_access = list(311)
+	},
+/obj/machinery/button/remote/blast_door{
+	id = "maquis5";
+	pixel_x = -6;
+	dir = 1;
+	pixel_y = -25;
+	req_access = list(311)
 	},
 /turf/simulated/floor/concrete/tile/outdoors,
 /area/sector/tundra/base)
@@ -3710,7 +3807,9 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/fey/snow_grass,
+/turf/simulated/floor/fey/snow_grass{
+	outdoors = 1
+	},
 /area/sector/tundra/shop)
 "AY" = (
 /obj/structure/cable{
@@ -3807,7 +3906,9 @@
 /obj/structure/cable{
 	icon_state = "2-8"
 	},
-/turf/simulated/floor/fey/snow_grass,
+/turf/simulated/floor/fey/snow_grass{
+	outdoors = 1
+	},
 /area/sector/tundra/field)
 "BA" = (
 /turf/unsimulated/wall,
@@ -4064,7 +4165,9 @@
 /obj/structure/fence/wooden/post{
 	dir = 8
 	},
-/turf/simulated/floor/fey/snow_grass,
+/turf/simulated/floor/fey/snow_grass{
+	outdoors = 1
+	},
 /area/sector/tundra/field)
 "DB" = (
 /obj/structure/cable{
@@ -4167,7 +4270,9 @@
 "En" = (
 /obj/structure/flora/grass/green,
 /mob/living/simple_mob/animal/horing,
-/turf/simulated/floor/fey/snow_grass,
+/turf/simulated/floor/fey/snow_grass{
+	outdoors = 1
+	},
 /area/sector/tundra/field)
 "Eu" = (
 /obj/machinery/power/smes/buildable/offmap_spawn,
@@ -4184,7 +4289,9 @@
 /area/sector/tundra/shuttle5)
 "Ev" = (
 /obj/structure/sandbag,
-/turf/simulated/floor/fey/snow_grass,
+/turf/simulated/floor/fey/snow_grass{
+	outdoors = 1
+	},
 /area/sector/tundra/base)
 "Ey" = (
 /obj/structure/cable/green{
@@ -4237,13 +4344,17 @@
 /area/shuttle/maquis/interceptor)
 "EN" = (
 /obj/structure/flora/rock/ice/alternative_1,
-/turf/simulated/floor/fey/snow_grass,
+/turf/simulated/floor/fey/snow_grass{
+	outdoors = 1
+	},
 /area/sector/tundra/base)
 "EQ" = (
 /obj/machinery/atmospherics/component/unary/engine{
 	dir = 8
 	},
-/turf/simulated/floor/fey/snow_grass,
+/turf/simulated/floor/fey/snow_grass{
+	outdoors = 1
+	},
 /area/sector/tundra/shuttle4)
 "ET" = (
 /obj/machinery/door/firedoor,
@@ -4313,7 +4424,9 @@
 /obj/effect/shuttle_landmark/automatic{
 	name = "Wilderness"
 	},
-/turf/simulated/floor/fey/snow_grass,
+/turf/simulated/floor/fey/snow_grass{
+	outdoors = 1
+	},
 /area/sector/tundra/field)
 "Fz" = (
 /obj/machinery/power/apc/alarms_hidden/east_mount,
@@ -4368,7 +4481,9 @@
 /obj/machinery/atmospherics/component/unary/engine{
 	dir = 8
 	},
-/turf/simulated/floor/fey/snow_grass,
+/turf/simulated/floor/fey/snow_grass{
+	outdoors = 1
+	},
 /area/sector/tundra/shop)
 "FQ" = (
 /obj/structure/cable{
@@ -4601,7 +4716,9 @@
 /area/sector/tundra/shuttle3)
 "HA" = (
 /obj/structure/event/prop/blue_barrel,
-/turf/simulated/floor/fey/snow_grass,
+/turf/simulated/floor/fey/snow_grass{
+	outdoors = 1
+	},
 /area/sector/tundra/field)
 "HC" = (
 /turf/simulated/floor/carpet/sblucarpet,
@@ -4635,7 +4752,9 @@
 /obj/structure/cable/green{
 	icon_state = "1-8"
 	},
-/turf/simulated/floor/fey/snow_grass,
+/turf/simulated/floor/fey/snow_grass{
+	outdoors = 1
+	},
 /area/sector/tundra/field)
 "HV" = (
 /obj/structure/handrail,
@@ -4671,6 +4790,10 @@
 	},
 /turf/simulated/floor/carpet/patterened/blue/alt,
 /area/sector/tundra/shuttle2)
+"Ik" = (
+/obj/structure/flora/pottedplant/hedge,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/sector/tundra/base)
 "Il" = (
 /turf/simulated/floor/tiled/steel_dirty/dark,
 /area/sector/tundra/bar)
@@ -4678,7 +4801,9 @@
 /obj/structure/fence/wooden/post{
 	dir = 8
 	},
-/turf/simulated/floor/fey/snow_grass,
+/turf/simulated/floor/fey/snow_grass{
+	outdoors = 1
+	},
 /area/sector/tundra/field)
 "Iu" = (
 /obj/structure/table/steel,
@@ -4737,7 +4862,9 @@
 "IJ" = (
 /obj/spawner/window/low_wall/reinforced/firelocks,
 /obj/structure/curtain/black,
-/turf/simulated/floor/fey/snow_grass,
+/turf/simulated/floor/fey/snow_grass{
+	outdoors = 1
+	},
 /area/sector/tundra/shuttle4)
 "IK" = (
 /obj/machinery/door/blast/regular{
@@ -5077,7 +5204,9 @@
 "Lx" = (
 /obj/structure/target_stake,
 /obj/item/target/humanoid,
-/turf/simulated/floor/fey/snow_grass,
+/turf/simulated/floor/fey/snow_grass{
+	outdoors = 1
+	},
 /area/sector/tundra/field)
 "Lz" = (
 /turf/simulated/floor/wood/sif/outdoors,
@@ -5322,11 +5451,15 @@
 /area/sector/tundra/shuttle5)
 "Nc" = (
 /obj/structure/flora/rock/ice,
-/turf/simulated/floor/fey/snow_grass,
+/turf/simulated/floor/fey/snow_grass{
+	outdoors = 1
+	},
 /area/sector/tundra/base)
 "Ne" = (
 /obj/structure/flora/grass/event/bright_flowers1,
-/turf/simulated/floor/fey/snow_grass,
+/turf/simulated/floor/fey/snow_grass{
+	outdoors = 1
+	},
 /area/sector/tundra/field)
 "Nj" = (
 /turf/simulated/wall/wood/hardwood/prepainted/command,
@@ -5485,7 +5618,9 @@
 "Om" = (
 /obj/structure/flora/grass/green,
 /mob/living/simple_mob/animal/icegoat,
-/turf/simulated/floor/fey/snow_grass,
+/turf/simulated/floor/fey/snow_grass{
+	outdoors = 1
+	},
 /area/sector/tundra/field)
 "Op" = (
 /obj/structure/cable/green{
@@ -5548,7 +5683,9 @@
 	icon_state = "closed";
 	opened = 0
 	},
-/turf/simulated/floor/fey/snow_grass,
+/turf/simulated/floor/fey/snow_grass{
+	outdoors = 1
+	},
 /area/sector/tundra/field)
 "OV" = (
 /obj/machinery/portable_atmospherics/canister/air/airlock,
@@ -5646,7 +5783,9 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/fey/snow_grass,
+/turf/simulated/floor/fey/snow_grass{
+	outdoors = 1
+	},
 /area/sector/tundra/field)
 "PB" = (
 /obj/structure/table/steel_reinforced,
@@ -5763,7 +5902,9 @@
 /area/shuttle/maquis/raider)
 "QG" = (
 /obj/structure/flora/grass/green,
-/turf/simulated/floor/fey/snow_grass,
+/turf/simulated/floor/fey/snow_grass{
+	outdoors = 1
+	},
 /area/sector/tundra/base)
 "QM" = (
 /obj/structure/flora/grass/event/bright_flowers1,
@@ -5774,7 +5915,9 @@
 /obj/machinery/atmospherics/component/unary/engine{
 	dir = 8
 	},
-/turf/simulated/floor/fey/snow_grass,
+/turf/simulated/floor/fey/snow_grass{
+	outdoors = 1
+	},
 /area/sector/tundra/shuttle2)
 "QT" = (
 /obj/structure/shuttle/engine/heater{
@@ -5795,7 +5938,9 @@
 /obj/machinery/atmospherics/component/unary/engine{
 	dir = 8
 	},
-/turf/simulated/floor/fey/snow_grass,
+/turf/simulated/floor/fey/snow_grass{
+	outdoors = 1
+	},
 /area/sector/tundra/bar)
 "Rf" = (
 /obj/structure/bed/chair/sofa/beige/left{
@@ -5817,7 +5962,9 @@
 /area/sector/tundra/shuttle2)
 "Rs" = (
 /obj/item/toy/bouquet/fake,
-/turf/simulated/floor/fey/snow_grass,
+/turf/simulated/floor/fey/snow_grass{
+	outdoors = 1
+	},
 /area/sector/tundra/field)
 "Ru" = (
 /obj/structure/cable{
@@ -5830,7 +5977,9 @@
 /area/sector/tundra/field)
 "Rv" = (
 /obj/spawner/window/reinforced/tinted/full/firelocks,
-/turf/simulated/floor/fey/snow_grass,
+/turf/simulated/floor/fey/snow_grass{
+	outdoors = 1
+	},
 /area/sector/tundra/base)
 "Rw" = (
 /obj/structure/flora/grass/green,
@@ -5951,6 +6100,7 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 10
 	},
+/obj/structure/closet/crate,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/maquis/raider)
 "Sn" = (
@@ -6005,29 +6155,6 @@
 /obj/structure/table/steel_reinforced,
 /turf/simulated/floor/tiled/techfloor,
 /area/shuttle/maquis/interceptor)
-"SK" = (
-/obj/machinery/button/remote/blast_door{
-	id = "maquis5";
-	pixel_x = -6;
-	dir = 1;
-	pixel_y = -25;
-	req_access = list(311)
-	},
-/obj/machinery/button/remote/blast_door{
-	id = "maquis6";
-	pixel_x = 7;
-	dir = 1;
-	pixel_y = -25
-	},
-/obj/machinery/button/remote/blast_door{
-	id = "maquis6";
-	pixel_x = 7;
-	dir = 1;
-	pixel_y = -25;
-	req_access = list(311)
-	},
-/turf/simulated/floor/concrete/tile/outdoors,
-/area/sector/tundra/base)
 "SP" = (
 /obj/machinery/light/small{
 	dir = 1
@@ -6049,7 +6176,9 @@
 /area/sector/tundra/base)
 "SX" = (
 /obj/structure/flora/grass/event/purple_flowers1,
-/turf/simulated/floor/fey/snow_grass,
+/turf/simulated/floor/fey/snow_grass{
+	outdoors = 1
+	},
 /area/sector/tundra/field)
 "Tb" = (
 /obj/machinery/light,
@@ -6099,6 +6228,11 @@
 /obj/machinery/computer/cryopod/travel/maquis{
 	pixel_x = -33
 	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/shuttle/maquis/raider)
+"Tu" = (
+/obj/effect/floor_decal/rust,
+/obj/machinery/air_alarm/alarms_hidden/south_mount,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/maquis/raider)
 "Tv" = (
@@ -6189,7 +6323,9 @@
 "TR" = (
 /obj/structure/flora/grass/green,
 /obj/structure/flora/grass/green,
-/turf/simulated/floor/fey/snow_grass,
+/turf/simulated/floor/fey/snow_grass{
+	outdoors = 1
+	},
 /area/sector/tundra/field)
 "TT" = (
 /obj/structure/table/standard,
@@ -6378,7 +6514,9 @@
 /area/shuttle/maquis/raider)
 "Vh" = (
 /mob/living/simple_mob/animal/sif/shantak/polar,
-/turf/simulated/floor/fey/snow_grass,
+/turf/simulated/floor/fey/snow_grass{
+	outdoors = 1
+	},
 /area/sector/tundra/field)
 "Vi" = (
 /obj/structure/cable{
@@ -6417,7 +6555,9 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/fey/snow_grass,
+/turf/simulated/floor/fey/snow_grass{
+	outdoors = 1
+	},
 /area/sector/tundra/field)
 "Vy" = (
 /obj/effect/floor_decal/techfloor{
@@ -6626,7 +6766,9 @@
 /area/sector/tundra/shuttle4)
 "WZ" = (
 /obj/structure/flora/grass/green,
-/turf/simulated/floor/fey/snow_grass,
+/turf/simulated/floor/fey/snow_grass{
+	outdoors = 1
+	},
 /area/sector/tundra/field)
 "Xa" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
@@ -6805,7 +6947,9 @@
 	opened = 0
 	},
 /obj/item/toy/plushie/grey_cat,
-/turf/simulated/floor/fey/snow_grass,
+/turf/simulated/floor/fey/snow_grass{
+	outdoors = 1
+	},
 /area/sector/tundra/field)
 "Ys" = (
 /obj/structure/window/reinforced/tinted,
@@ -6830,8 +6974,15 @@
 /turf/simulated/floor/tiled/techfloor/monogrid,
 /area/sector/tundra/shuttle5)
 "Yv" = (
-/turf/simulated/floor/fey/snow_grass,
+/turf/simulated/floor/fey/snow_grass{
+	outdoors = 1
+	},
 /area/sector/tundra/field)
+"Yx" = (
+/obj/structure/table/reinforced,
+/obj/machinery/air_alarm/alarms_hidden/south_mount,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/shuttle/maquis/raider)
 "Yy" = (
 /obj/item/radio/headset/maquis,
 /obj/item/gps/security,
@@ -7025,7 +7176,9 @@
 /obj/effect/shuttle_landmark/automatic{
 	name = "Settlement Field"
 	},
-/turf/simulated/floor/fey/snow_grass,
+/turf/simulated/floor/fey/snow_grass{
+	outdoors = 1
+	},
 /area/sector/tundra/field)
 "ZB" = (
 /obj/machinery/door/blast/regular{
@@ -7058,7 +7211,9 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/fey/snow_grass,
+/turf/simulated/floor/fey/snow_grass{
+	outdoors = 1
+	},
 /area/sector/tundra/field)
 "ZI" = (
 /obj/structure/bed/chair/sofa/brown/left{
@@ -7106,6 +7261,7 @@
 	dir = 8
 	},
 /obj/structure/table/bench/wooden,
+/obj/machinery/air_alarm/alarms_hidden/south_mount,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/maquis/raider)
 
@@ -12857,7 +13013,7 @@ Zu
 Zu
 Zu
 KD
-KD
+nZ
 KD
 KD
 KD
@@ -18276,7 +18432,7 @@ Yv
 Yv
 Yv
 pE
-pE
+ku
 pE
 KD
 Zu
@@ -18753,7 +18909,7 @@ IW
 Sw
 Yv
 pE
-pE
+ku
 pE
 Yv
 Yv
@@ -31630,7 +31786,7 @@ me
 Nc
 me
 GL
-Aa
+Ik
 Aa
 Aa
 GL
@@ -32595,7 +32751,7 @@ ca
 PF
 me
 GL
-Aa
+Ik
 Aa
 Aa
 Aa
@@ -32789,7 +32945,7 @@ ca
 PF
 me
 GL
-Aa
+Ik
 Aa
 FG
 hZ
@@ -36475,7 +36631,7 @@ WH
 WH
 WH
 PF
-SK
+ca
 jy
 KD
 Zu
@@ -36824,7 +36980,7 @@ Zu
 Zu
 Zu
 pE
-pE
+ku
 pE
 KD
 Yv
@@ -36878,7 +37034,7 @@ OK
 KO
 KO
 JL
-nK
+Tu
 Do
 Xz
 Zu
@@ -37057,7 +37213,7 @@ KD
 KD
 jy
 PF
-SK
+ca
 jy
 Zu
 Zu
@@ -39011,7 +39167,7 @@ dI
 wo
 wo
 hS
-JL
+kK
 Do
 el
 cl
@@ -40752,7 +40908,7 @@ OK
 OK
 gH
 OK
-Gz
+Yx
 Do
 lx
 gY
@@ -40953,7 +41109,7 @@ OK
 Ls
 VI
 Do
-OK
+fJ
 OK
 OK
 OK

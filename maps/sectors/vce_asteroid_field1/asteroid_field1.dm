@@ -11,7 +11,7 @@
 	id = "asteroidfield1"
 	name = "Sector Crucis Expanse - Asteroid field Alpha"
 	display_name = "Asteroid field Alpha"
-	path = "maps/sectors/asteroid_field1/levels/asteroid_field1.dmm"
+	path = "maps/sectors/vce_asteroid_field1/levels/asteroid_field1.dmm"
 	base_turf = /turf/space
 	base_area = /area/space
 

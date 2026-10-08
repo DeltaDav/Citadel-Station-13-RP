@@ -672,7 +672,7 @@
 /area/bridge/strelka/captain)
 "cn" = (
 /obj/machinery/atmospherics/component/unary/vent_pump/on,
-/turf/simulated/floor/wood/indoors,
+/turf/simulated/floor/roguetown/church_marble,
 /area/crew_quarters/bar/strelka)
 "cp" = (
 /obj/spawner/window/low_wall/borosillicate/reinforced/firelocks,
@@ -929,7 +929,7 @@
 /obj/structure/cable/orange{
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/wood/indoors,
+/turf/simulated/floor/roguetown/church_marble,
 /area/crew_quarters/bar/strelka)
 "de" = (
 /obj/effect/floor_decal/spline/fancy/wood,
@@ -1312,7 +1312,7 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/wood/indoors,
+/turf/simulated/floor/roguetown/church_marble,
 /area/crew_quarters/bar/strelka)
 "fc" = (
 /obj/machinery/door/blast/strelka/blockade,
@@ -2037,7 +2037,7 @@
 /obj/structure/cable/orange{
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/wood/indoors,
+/turf/simulated/floor/roguetown/church_marble,
 /area/crew_quarters/bar/strelka)
 "hX" = (
 /turf/simulated/floor/tiled/dark,
@@ -2538,7 +2538,7 @@
 /obj/machinery/light/fairy{
 	dir = 1
 	},
-/turf/simulated/floor/wood/indoors,
+/turf/simulated/floor/roguetown/church_marble,
 /area/crew_quarters/bar/strelka)
 "jT" = (
 /obj/structure/grille,
@@ -2706,7 +2706,7 @@
 /obj/structure/cable/orange{
 	icon_state = "2-4"
 	},
-/turf/simulated/floor/wood/indoors,
+/turf/simulated/floor/roguetown/church_marble,
 /area/crew_quarters/bar/strelka)
 "kx" = (
 /obj/machinery/atmospherics/component/unary/vent_scrubber/on,
@@ -3026,7 +3026,7 @@
 /obj/machinery/status_display{
 	pixel_x = 30
 	},
-/turf/simulated/floor/wood/indoors,
+/turf/simulated/floor/roguetown/church_marble,
 /area/crew_quarters/bar/strelka)
 "lD" = (
 /obj/structure/cable{
@@ -3049,7 +3049,7 @@
 /obj/structure/cable/orange{
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/wood/indoors,
+/turf/simulated/floor/roguetown/church_marble,
 /area/crew_quarters/bar/strelka)
 "lF" = (
 /obj/effect/floor_decal/techfloor,
@@ -3268,7 +3268,7 @@
 	name = "Bar and crew quarters"
 	},
 /obj/machinery/door/firedoor/glass,
-/turf/simulated/floor/wood/indoors,
+/turf/simulated/floor/roguetown/church_marble,
 /area/crew_quarters/bar/strelka)
 "mn" = (
 /obj/spawner/window/low_wall/borosillicate/reinforced/firelocks,
@@ -3695,7 +3695,7 @@
 /obj/structure/cable/orange{
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/wood/indoors,
+/turf/simulated/floor/roguetown/church_marble,
 /area/crew_quarters/bar/strelka)
 "on" = (
 /obj/spawner/window/low_wall/borosillicate/reinforced/firelocks,
@@ -4287,7 +4287,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 8
 	},
-/turf/simulated/floor/wood/indoors,
+/turf/simulated/floor/roguetown/church_marble,
 /area/crew_quarters/bar/strelka)
 "qz" = (
 /obj/machinery/door/firedoor/glass{
@@ -4364,7 +4364,7 @@
 /obj/machinery/door/airlock/glass{
 	name = "Bar"
 	},
-/turf/simulated/floor/wood/indoors,
+/turf/simulated/floor/roguetown/church_marble,
 /area/crew_quarters/bar/strelka)
 "qS" = (
 /obj/spawner/window/low_wall/borosillicate/reinforced/firelocks,
@@ -4438,7 +4438,7 @@
 	dir = 8;
 	pixel_x = -20
 	},
-/turf/simulated/floor/wood/indoors,
+/turf/simulated/floor/roguetown/church_marble,
 /area/crew_quarters/bar/strelka)
 "rl" = (
 /turf/simulated/floor/tiled/asteroid_steel,
@@ -4725,7 +4725,7 @@
 /obj/structure/cable/orange{
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/wood/indoors,
+/turf/simulated/floor/roguetown/church_marble,
 /area/crew_quarters/bar/strelka)
 "rZ" = (
 /obj/structure/toilet{
@@ -4837,7 +4837,7 @@
 /obj/effect/floor_decal/techfloor{
 	dir = 1
 	},
-/turf/simulated/floor/wood/indoors,
+/turf/simulated/floor/roguetown/church_marble,
 /area/crew_quarters/bar/strelka)
 "sq" = (
 /obj/machinery/light{
@@ -5063,6 +5063,9 @@
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/bridge/strelka)
+"tj" = (
+/turf/simulated/floor/roguetown/church_marble,
+/area/crew_quarters/bar/strelka)
 "tk" = (
 /obj/structure/table/woodentable,
 /obj/effect/floor_decal/spline/plain{
@@ -5356,7 +5359,7 @@
 /obj/structure/cable/orange{
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/wood/indoors,
+/turf/simulated/floor/roguetown/church_marble,
 /area/crew_quarters/bar/strelka)
 "uH" = (
 /obj/structure/sink{
@@ -6000,23 +6003,6 @@
 	},
 /turf/simulated/floor/water/pool,
 /area/strelka/dormhallway/pool)
-"xa" = (
-/obj/structure/flora/grass/event/yellow_flowers1,
-/obj/machinery/door/firedoor/glass{
-	dir = 4
-	},
-/obj/structure/window/phoronreinforced{
-	dir = 1
-	},
-/obj/structure/window/phoronreinforced,
-/obj/structure/window/phoronreinforced{
-	dir = 4
-	},
-/obj/structure/window/phoronreinforced{
-	dir = 8
-	},
-/turf/simulated/floor/fey/forest_grass,
-/area/hallway/strelka/deck4)
 "xb" = (
 /obj/structure/grille,
 /turf/simulated/floor/plating,
@@ -6413,7 +6399,7 @@
 	pixel_y = 32
 	},
 /obj/item/trash/raisins,
-/turf/simulated/floor/wood/indoors,
+/turf/simulated/floor/roguetown/church_marble,
 /area/crew_quarters/bar/strelka)
 "yu" = (
 /obj/structure/table/carbon/reinforced,
@@ -6629,7 +6615,7 @@
 /obj/machinery/light/small/old{
 	dir = 8
 	},
-/turf/simulated/floor/wood/indoors,
+/turf/simulated/floor/roguetown/church_marble,
 /area/crew_quarters/bar/strelka)
 "ze" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -6995,7 +6981,7 @@
 /area/fitness/strelka/mime)
 "Ap" = (
 /obj/machinery/atmospherics/component/unary/vent_scrubber/on,
-/turf/simulated/floor/wood/indoors,
+/turf/simulated/floor/roguetown/church_marble,
 /area/crew_quarters/bar/strelka)
 "Au" = (
 /obj/structure/window/reinforced/survival_pod{
@@ -8264,7 +8250,7 @@
 /obj/machinery/computer/ship/navigation/telescreen{
 	pixel_x = 31
 	},
-/turf/simulated/floor/wood/indoors,
+/turf/simulated/floor/roguetown/church_marble,
 /area/crew_quarters/bar/strelka)
 "Fm" = (
 /obj/effect/floor_decal/spline/fancy/wood,
@@ -8500,7 +8486,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/wood/indoors,
+/turf/simulated/floor/roguetown/church_marble,
 /area/crew_quarters/bar/strelka)
 "Gh" = (
 /obj/structure/reagent_dispensers/watertank/high,
@@ -8530,7 +8516,7 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 8
 	},
-/turf/simulated/floor/wood/indoors,
+/turf/simulated/floor/roguetown/church_marble,
 /area/crew_quarters/bar/strelka)
 "Gu" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -8820,7 +8806,7 @@
 /obj/machinery/computer/ship/navigation/telescreen{
 	pixel_x = -31
 	},
-/turf/simulated/floor/wood/indoors,
+/turf/simulated/floor/roguetown/church_marble,
 /area/crew_quarters/bar/strelka)
 "HO" = (
 /turf/simulated/wall/r_wall/prepainted,
@@ -9095,7 +9081,7 @@
 	dir = 1
 	},
 /mob/living/simple_mob/animal/passive/cat/kitten,
-/turf/simulated/floor/wood/indoors,
+/turf/simulated/floor/roguetown/church_marble,
 /area/crew_quarters/bar/strelka)
 "IJ" = (
 /obj/structure/table/carbon/reinforced,
@@ -9633,7 +9619,7 @@
 /obj/structure/cable/orange{
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/wood/indoors,
+/turf/simulated/floor/roguetown/church_marble,
 /area/crew_quarters/bar/strelka)
 "Ky" = (
 /obj/structure/grille,
@@ -9823,7 +9809,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 5
 	},
-/turf/simulated/floor/wood/indoors,
+/turf/simulated/floor/roguetown/church_marble,
 /area/crew_quarters/bar/strelka)
 "Lq" = (
 /obj/machinery/power/apc/north_mount,
@@ -10883,7 +10869,7 @@
 	dir = 8
 	},
 /obj/machinery/vending/cigarette,
-/turf/simulated/floor/wood/indoors,
+/turf/simulated/floor/roguetown/church_marble,
 /area/crew_quarters/bar/strelka)
 "Pm" = (
 /obj/effect/floor_decal/spline/fancy/wood{
@@ -11637,7 +11623,7 @@
 /obj/machinery/atmospherics/component/unary/vent_scrubber/on{
 	dir = 4
 	},
-/turf/simulated/floor/wood/indoors,
+/turf/simulated/floor/roguetown/church_marble,
 /area/crew_quarters/bar/strelka)
 "Sy" = (
 /turf/simulated/wall/r_wall/prepainted/command,
@@ -11863,7 +11849,7 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply,
-/turf/simulated/floor/wood/indoors,
+/turf/simulated/floor/roguetown/church_marble,
 /area/crew_quarters/bar/strelka)
 "Tk" = (
 /obj/effect/floor_decal/industrial/halfstair{
@@ -11957,7 +11943,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/wood/indoors,
+/turf/simulated/floor/roguetown/church_marble,
 /area/crew_quarters/bar/strelka)
 "TG" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -12464,9 +12450,6 @@
 	},
 /turf/simulated/floor/carpet/turcarpet,
 /area/library/strelka/library)
-"VJ" = (
-/turf/simulated/floor/wood/indoors,
-/area/crew_quarters/bar/strelka)
 "VL" = (
 /turf/simulated/floor/roguetown/church_marble,
 /area/hallway/strelka/deck4)
@@ -12501,7 +12484,7 @@
 /obj/structure/cable/orange{
 	icon_state = "0-2"
 	},
-/turf/simulated/floor/wood/indoors,
+/turf/simulated/floor/roguetown/church_marble,
 /area/crew_quarters/bar/strelka)
 "VV" = (
 /turf/simulated/wall/wood/hardwood/prepainted/command,
@@ -12761,7 +12744,7 @@
 /obj/structure/cable/orange{
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/wood/indoors,
+/turf/simulated/floor/roguetown/church_marble,
 /area/crew_quarters/bar/strelka)
 "Xl" = (
 /obj/structure/table/bench/wooden,
@@ -13128,7 +13111,7 @@
 /obj/machinery/atmospherics/component/unary/vent_pump/on{
 	dir = 8
 	},
-/turf/simulated/floor/wood/indoors,
+/turf/simulated/floor/roguetown/church_marble,
 /area/crew_quarters/bar/strelka)
 "Yi" = (
 /obj/structure/catwalk,
@@ -13219,7 +13202,7 @@
 	dir = 8
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
-/turf/simulated/floor/wood/indoors,
+/turf/simulated/floor/roguetown/church_marble,
 /area/crew_quarters/bar/strelka)
 "YB" = (
 /obj/item/stool/padded,
@@ -13506,7 +13489,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/wood/indoors,
+/turf/simulated/floor/roguetown/church_marble,
 /area/crew_quarters/bar/strelka)
 "Zw" = (
 /obj/structure/bed,
@@ -28695,7 +28678,7 @@ Mn
 zO
 zO
 zO
-xa
+mw
 VL
 cv
 LN
@@ -31596,7 +31579,7 @@ TN
 TN
 jW
 sV
-VJ
+tj
 mm
 Xw
 dY
@@ -31978,7 +31961,7 @@ VA
 QD
 LD
 fo
-VJ
+tj
 cn
 Tj
 cZ
@@ -32172,8 +32155,8 @@ VA
 Wm
 wv
 mZ
-VJ
-VJ
+tj
+tj
 Gf
 sX
 cQ
@@ -32366,8 +32349,8 @@ VA
 Wm
 LD
 XI
-VJ
-VJ
+tj
+tj
 qy
 Ku
 qH
@@ -33531,7 +33514,7 @@ lk
 ZC
 cQ
 SB
-VJ
+tj
 TE
 YL
 SP
@@ -34507,7 +34490,7 @@ Gs
 lE
 Sw
 Ln
-XO
+tj
 PZ
 nH
 wA

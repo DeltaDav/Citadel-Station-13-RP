@@ -4,7 +4,9 @@
 /area/sector/pyramid/caves)
 "aw" = (
 /obj/item/clothing/suit/storage/hooded/roguetown/hide,
-/turf/simulated/floor/fey/forest_grass,
+/turf/simulated/floor/fey/forest_grass{
+	outdoors = 1
+	},
 /area/sector/pyramid/monastery)
 "aE" = (
 /obj/structure/flora/ausbushes/fullgrass,
@@ -12,7 +14,9 @@
 /area/sector/pyramid/forest)
 "aI" = (
 /obj/item/spellbook/oneuse/smoke,
-/turf/simulated/floor/fey/forest_grass,
+/turf/simulated/floor/fey/forest_grass{
+	outdoors = 1
+	},
 /area/sector/pyramid/monastery)
 "bb" = (
 /turf/simulated/wall/rt_medieval/stone/brick,
@@ -23,7 +27,9 @@
 /area/sector/pyramid/monastery)
 "bt" = (
 /obj/structure/bed/chair/pew,
-/turf/simulated/floor/fey/forest_grass,
+/turf/simulated/floor/fey/forest_grass{
+	outdoors = 1
+	},
 /area/sector/pyramid/monastery)
 "bw" = (
 /turf/simulated/wall/rt_medieval/stone/moss_green,
@@ -36,11 +42,15 @@
 /obj/effect/floor_decal/industrial/halfstair{
 	dir = 1
 	},
-/turf/simulated/floor/fey/forest_grass,
+/turf/simulated/floor/fey/forest_grass{
+	outdoors = 1
+	},
 /area/sector/pyramid/monastery)
 "cl" = (
 /obj/structure/bed/chair/pew/left,
-/turf/simulated/floor/fey/forest_grass,
+/turf/simulated/floor/fey/forest_grass{
+	outdoors = 1
+	},
 /area/sector/pyramid/monastery)
 "dB" = (
 /obj/structure/bonfire/permanent,
@@ -60,7 +70,9 @@
 /area/sector/pyramid/caves)
 "eA" = (
 /obj/item/clothing/hood/roguetown/hide,
-/turf/simulated/floor/fey/forest_grass,
+/turf/simulated/floor/fey/forest_grass{
+	outdoors = 1
+	},
 /area/sector/pyramid/monastery)
 "fn" = (
 /obj/structure/flora/ausbushes/fullgrass,
@@ -103,7 +115,9 @@
 /area/sector/pyramid/caves)
 "iG" = (
 /obj/random/multiple/corp_crate,
-/turf/simulated/floor/fey/forest_grass,
+/turf/simulated/floor/fey/forest_grass{
+	outdoors = 1
+	},
 /area/sector/pyramid/monastery)
 "iX" = (
 /obj/structure/flora/ausbushes/fullgrass,
@@ -129,7 +143,9 @@
 /area/sector/pyramid/pyramid2)
 "kt" = (
 /obj/structure/closet/crate,
-/turf/simulated/floor/fey/forest_grass,
+/turf/simulated/floor/fey/forest_grass{
+	outdoors = 1
+	},
 /area/sector/pyramid/forest)
 "lf" = (
 /obj/structure/simple_door/wood,
@@ -163,15 +179,21 @@
 /obj/structure/bookcase{
 	icon_state = "book-5"
 	},
-/turf/simulated/floor/fey/forest_grass,
+/turf/simulated/floor/fey/forest_grass{
+	outdoors = 1
+	},
 /area/sector/pyramid/monastery)
 "nU" = (
 /obj/structure/flora/ausbushes/fullgrass,
-/turf/simulated/floor/fey/forest_grass,
+/turf/simulated/floor/fey/forest_grass{
+	outdoors = 1
+	},
 /area/sector/pyramid/monastery)
 "nZ" = (
 /obj/structure/flora/ausbushes/fullgrass,
-/turf/simulated/floor/fey/forest_grass,
+/turf/simulated/floor/fey/forest_grass{
+	outdoors = 1
+	},
 /area/sector/pyramid/forest)
 "oe" = (
 /obj/structure/flora/ausbushes/fullgrass,
@@ -187,7 +209,9 @@
 /turf/simulated/floor/roguetown/paving,
 /area/sector/pyramid/caves)
 "oz" = (
-/turf/simulated/floor/fey/forest_grass,
+/turf/simulated/floor/fey/forest_grass{
+	outdoors = 1
+	},
 /area/sector/pyramid/caves)
 "oE" = (
 /obj/item/clothing/suit/armor/roguetown/plate,
@@ -209,12 +233,16 @@
 /turf/simulated/floor/roguetown/paving,
 /area/sector/pyramid/monastery)
 "pb" = (
-/turf/simulated/floor/fey/dry_grass,
+/turf/simulated/floor/fey/dry_grass{
+	outdoors = 1
+	},
 /area/sector/pyramid/forest)
 "pe" = (
 /obj/structure/flora/ausbushes/fullgrass,
 /obj/item/spellbook/oneuse/knock,
-/turf/simulated/floor/fey/forest_grass,
+/turf/simulated/floor/fey/forest_grass{
+	outdoors = 1
+	},
 /area/sector/pyramid/monastery)
 "pf" = (
 /turf/simulated/floor/roguetown/paving,
@@ -230,14 +258,18 @@
 /mob/living/simple_mob/humanoid/possessed{
 	name = "lost independant explorator"
 	},
-/turf/simulated/floor/fey/forest_grass,
+/turf/simulated/floor/fey/forest_grass{
+	outdoors = 1
+	},
 /area/sector/pyramid/monastery)
 "qM" = (
 /turf/simulated/wall/rt_medieval/stone/moss_green,
 /area/sector/pyramid/caves)
 "qV" = (
 /obj/structure/table/bench/wooden,
-/turf/simulated/floor/fey/forest_grass,
+/turf/simulated/floor/fey/forest_grass{
+	outdoors = 1
+	},
 /area/sector/pyramid/forest)
 "qX" = (
 /obj/machinery/hyperpad/centre{
@@ -249,11 +281,14 @@
 /area/sector/pyramid/pyramid2)
 "ru" = (
 /mob/living/simple_mob/animal/monster/wolf,
-/turf/simulated/floor/fey/forest_grass,
+/turf/simulated/floor/fey/forest_grass{
+	outdoors = 1
+	},
 /area/sector/pyramid/forest)
 "ry" = (
 /turf/simulated/wall/rt_medieval/stone/moss_green{
-	opacity = 0
+	opacity = 0;
+	outdoors = 1
 	},
 /area/sector/pyramid/forest)
 "rz" = (
@@ -261,7 +296,9 @@
 /area/sector/pyramid/monastery)
 "rA" = (
 /obj/structure/flora/ausbushes/fullgrass,
-/turf/simulated/floor/fey/dry_grass,
+/turf/simulated/floor/fey/dry_grass{
+	outdoors = 1
+	},
 /area/sector/pyramid/forest)
 "rO" = (
 /obj/structure/bed,
@@ -294,7 +331,9 @@
 /area/sector/pyramid/forest)
 "tk" = (
 /obj/structure/flora/grass/event/purple_flowers1,
-/turf/simulated/floor/fey/forest_grass,
+/turf/simulated/floor/fey/forest_grass{
+	outdoors = 1
+	},
 /area/sector/pyramid/forest)
 "to" = (
 /turf/simulated/floor/roguetown/grass,
@@ -313,7 +352,9 @@
 /mob/living/simple_mob/humanoid/possessed{
 	name = "lost independant explorator"
 	},
-/turf/simulated/floor/fey/forest_grass,
+/turf/simulated/floor/fey/forest_grass{
+	outdoors = 1
+	},
 /area/sector/pyramid/monastery)
 "uV" = (
 /obj/structure/bed/chair/pew/right,
@@ -339,7 +380,9 @@
 /area/sector/pyramid/pyramid2)
 "xe" = (
 /obj/structure/flora/tree/fey/large_tree/tree1,
-/turf/simulated/floor/fey/forest_grass,
+/turf/simulated/floor/fey/forest_grass{
+	outdoors = 1
+	},
 /area/sector/pyramid/monastery)
 "xf" = (
 /mob/living/simple_mob/aggressive/dragoon/blue,
@@ -367,7 +410,9 @@
 "zV" = (
 /obj/structure/flora/ausbushes/fullgrass,
 /obj/structure/flora/grass/fey/bush/bushrandom,
-/turf/simulated/floor/fey/forest_grass,
+/turf/simulated/floor/fey/forest_grass{
+	outdoors = 1
+	},
 /area/sector/pyramid/forest)
 "Ay" = (
 /obj/structure/bonfire/permanent,
@@ -375,7 +420,9 @@
 /area/sector/pyramid/caves)
 "AF" = (
 /obj/structure/flora/tree/fey/large_tree/tree1,
-/turf/simulated/floor/fey/forest_grass,
+/turf/simulated/floor/fey/forest_grass{
+	outdoors = 1
+	},
 /area/sector/pyramid/forest)
 "AH" = (
 /obj/effect/decal/remains/human,
@@ -397,7 +444,9 @@
 "BE" = (
 /obj/structure/flora/ausbushes/fullgrass,
 /mob/living/simple_mob/animal/space/bats,
-/turf/simulated/floor/fey/forest_grass,
+/turf/simulated/floor/fey/forest_grass{
+	outdoors = 1
+	},
 /area/sector/pyramid/forest)
 "BK" = (
 /obj/structure/flora/ausbushes/fullgrass,
@@ -417,7 +466,9 @@
 /area/sector/pyramid/monastery)
 "Cz" = (
 /obj/structure/bed,
-/turf/simulated/floor/fey/forest_grass,
+/turf/simulated/floor/fey/forest_grass{
+	outdoors = 1
+	},
 /area/sector/pyramid/monastery)
 "CU" = (
 /obj/item/toy/plushie/carp/gold,
@@ -437,7 +488,9 @@
 /turf/simulated/floor/roguetown/paving,
 /area/sector/pyramid/monastery)
 "DU" = (
-/turf/simulated/floor/fey/forest_grass,
+/turf/simulated/floor/fey/forest_grass{
+	outdoors = 1
+	},
 /area/sector/pyramid/monastery)
 "En" = (
 /obj/item/clothing/gloves/ring/material/gold,
@@ -449,7 +502,9 @@
 /area/sector/pyramid/monastery)
 "EA" = (
 /mob/living/simple_mob/animal/space/bats,
-/turf/simulated/floor/fey/forest_grass,
+/turf/simulated/floor/fey/forest_grass{
+	outdoors = 1
+	},
 /area/sector/pyramid/forest)
 "Fr" = (
 /mob/living/simple_mob/aggressive/dragoon/yellow,
@@ -466,7 +521,9 @@
 /area/sector/pyramid/forest)
 "Ij" = (
 /obj/item/syndie/c4explosive,
-/turf/simulated/floor/fey/forest_grass,
+/turf/simulated/floor/fey/forest_grass{
+	outdoors = 1
+	},
 /area/sector/pyramid/monastery)
 "IC" = (
 /turf/simulated/floor/roguetown/grass,
@@ -494,15 +551,26 @@
 	color = "#D9C179";
 	name = "old phoron tank"
 	},
-/turf/simulated/floor/fey/forest_grass,
+/turf/simulated/floor/fey/forest_grass{
+	outdoors = 1
+	},
+/area/sector/pyramid/forest)
+"KC" = (
+/turf/simulated/floor/roguetown/cobblestone{
+	outdoors = 1
+	},
 /area/sector/pyramid/forest)
 "KI" = (
 /obj/structure/flora/ausbushes/ywflowers,
-/turf/simulated/floor/fey/forest_grass,
+/turf/simulated/floor/fey/forest_grass{
+	outdoors = 1
+	},
 /area/sector/pyramid/forest)
 "Li" = (
 /obj/structure/flora/grass/fey/bush/bushrandom,
-/turf/simulated/floor/fey/forest_grass,
+/turf/simulated/floor/fey/forest_grass{
+	outdoors = 1
+	},
 /area/sector/pyramid/forest)
 "Lm" = (
 /turf/simulated/wall/solidrock,
@@ -515,7 +583,8 @@
 /area/sector/pyramid/pyramid2)
 "NO" = (
 /turf/simulated/wall/rt_medieval/stone/moss_green{
-	opacity = 0
+	opacity = 0;
+	outdoors = 1
 	},
 /area/sector/pyramid/pyramid2)
 "NQ" = (
@@ -526,7 +595,8 @@
 "Or" = (
 /obj/structure/flora/ausbushes/fullgrass,
 /turf/simulated/wall/rt_medieval/stone/moss_green{
-	opacity = 0
+	opacity = 0;
+	outdoors = 1
 	},
 /area/sector/pyramid/forest)
 "OJ" = (
@@ -535,7 +605,9 @@
 /area/sector/pyramid/caves)
 "OL" = (
 /obj/structure/bed/chair/pew/right,
-/turf/simulated/floor/fey/forest_grass,
+/turf/simulated/floor/fey/forest_grass{
+	outdoors = 1
+	},
 /area/sector/pyramid/monastery)
 "Qy" = (
 /obj/item/clothing/under/roguetown/plate,
@@ -562,19 +634,25 @@
 /obj/item/clothing/shoes/roguetown/buckle,
 /obj/item/clothing/under/roguetown/leather,
 /obj/item/clothing/suit/armor/roguetown/half_plate,
-/turf/simulated/floor/fey/forest_grass,
+/turf/simulated/floor/fey/forest_grass{
+	outdoors = 1
+	},
 /area/sector/pyramid/monastery)
 "Sm" = (
 /obj/item/nullrod/claymore{
 	name = "old claymore";
 	color = "#D9C179"
 	},
-/turf/simulated/floor/fey/forest_grass,
+/turf/simulated/floor/fey/forest_grass{
+	outdoors = 1
+	},
 /area/sector/pyramid/forest)
 "SK" = (
 /obj/structure/flora/ausbushes/fullgrass,
 /obj/structure/flora/ausbushes/fullgrass,
-/turf/simulated/floor/fey/forest_grass,
+/turf/simulated/floor/fey/forest_grass{
+	outdoors = 1
+	},
 /area/sector/pyramid/forest)
 "Tx" = (
 /turf/simulated/floor/roguetown/cobblestone,
@@ -592,7 +670,9 @@
 /obj/structure/gravemarker{
 	color = "#D9C179"
 	},
-/turf/simulated/floor/fey/forest_grass,
+/turf/simulated/floor/fey/forest_grass{
+	outdoors = 1
+	},
 /area/sector/pyramid/forest)
 "TZ" = (
 /obj/effect/floor_decal/industrial/halfstair{
@@ -604,30 +684,42 @@
 "Uf" = (
 /obj/structure/flora/tree/fey/large_tree/tree1,
 /obj/structure/flora/ausbushes/fullgrass,
-/turf/simulated/floor/fey/forest_grass,
+/turf/simulated/floor/fey/forest_grass{
+	outdoors = 1
+	},
 /area/sector/pyramid/forest)
 "US" = (
-/turf/simulated/floor/fey/forest_grass,
+/turf/simulated/floor/fey/forest_grass{
+	outdoors = 1
+	},
 /area/sector/pyramid/forest)
 "UU" = (
 /obj/structure/flora/tree/fey/large_tree/tree1,
-/turf/simulated/floor/fey/dry_grass,
+/turf/simulated/floor/fey/dry_grass{
+	outdoors = 1
+	},
 /area/sector/pyramid/forest)
 "Vb" = (
 /obj/item/syndie/c4explosive/heavy,
-/turf/simulated/floor/fey/forest_grass,
+/turf/simulated/floor/fey/forest_grass{
+	outdoors = 1
+	},
 /area/sector/pyramid/monastery)
 "Vs" = (
 /obj/structure/flora/ausbushes/fullgrass,
 /mob/living/simple_mob/animal/monster/wolf,
-/turf/simulated/floor/fey/forest_grass,
+/turf/simulated/floor/fey/forest_grass{
+	outdoors = 1
+	},
 /area/sector/pyramid/forest)
 "Vw" = (
 /turf/simulated/floor/roguetown/rock,
 /area/sector/pyramid/caves)
 "Vy" = (
 /obj/item/clothing/suit/armor/roguetown/ancient_plate,
-/turf/simulated/floor/fey/forest_grass,
+/turf/simulated/floor/fey/forest_grass{
+	outdoors = 1
+	},
 /area/sector/pyramid/forest)
 "VG" = (
 /obj/structure/bed/chair/pew/left,
@@ -635,7 +727,9 @@
 /area/sector/pyramid/monastery)
 "Wj" = (
 /mob/living/simple_mob/animal/space/bats,
-/turf/simulated/floor/fey/dry_grass,
+/turf/simulated/floor/fey/dry_grass{
+	outdoors = 1
+	},
 /area/sector/pyramid/forest)
 "Wr" = (
 /mob/living/simple_mob/humanoid/merc/voxpirate/technician{
@@ -651,7 +745,9 @@
 /area/sector/pyramid/caves)
 "Xo" = (
 /obj/structure/flora/ausbushes/brflowers,
-/turf/simulated/floor/fey/forest_grass,
+/turf/simulated/floor/fey/forest_grass{
+	outdoors = 1
+	},
 /area/sector/pyramid/forest)
 "XC" = (
 /obj/structure/flora/ausbushes/fullgrass,
@@ -668,7 +764,9 @@
 "ZT" = (
 /obj/structure/table/woodentable,
 /obj/item/clothing/head/helmet/space/vox/pressure,
-/turf/simulated/floor/fey/forest_grass,
+/turf/simulated/floor/fey/forest_grass{
+	outdoors = 1
+	},
 /area/sector/pyramid/forest)
 "ZX" = (
 /obj/structure/closet/cabinet,
@@ -676,7 +774,9 @@
 /obj/random/multiple/gun/projectile/shotgun,
 /obj/random/multiple/gun/projectile/rifle,
 /obj/random/multiple/gun/projectile/handgun,
-/turf/simulated/floor/fey/forest_grass,
+/turf/simulated/floor/fey/forest_grass{
+	outdoors = 1
+	},
 /area/sector/pyramid/monastery)
 
 (1,1,1) = {"
@@ -19393,7 +19493,7 @@ Tx
 Tx
 Tx
 kd
-kd
+KC
 TE
 TE
 TE

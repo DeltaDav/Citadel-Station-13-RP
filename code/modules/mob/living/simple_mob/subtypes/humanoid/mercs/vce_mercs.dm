@@ -66,11 +66,11 @@
 	icon_state = "office"
 	icon_living = "office"
 
-/mob/living/bot/medibot/medass/vce_doctor
+/mob/living/bot/medibot/vce_doctor
 	name = "Fleet Doctor"
 	desc = "Don't even try to get bedtime manners from him, since doctor are rare here, he is overworked."
 	icon = 'icons/obj/vce_asset/vce_humanoid.dmi'
-	icon_state = "office"
+	icon_state = "doctor"
 	vocal = FALSE
 
 /mob/living/simple_mob/humanoid/vce_people/mechanic

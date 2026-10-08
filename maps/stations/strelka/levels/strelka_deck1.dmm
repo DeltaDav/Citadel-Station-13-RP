@@ -225,17 +225,6 @@
 /obj/structure/flora/ausbushes/sparsegrass,
 /turf/simulated/floor/reinforced,
 /area/strelka/hangardeck)
-"bi" = (
-/obj/effect/floor_decal/borderfloorblack{
-	dir = 1
-	},
-/obj/effect/floor_decal/industrial/warning/dust{
-	dir = 1
-	},
-/turf/simulated/floor/maglev{
-	dir = 4
-	},
-/area/strelka/fighterbay)
 "bj" = (
 /obj/effect/floor_decal/industrial/halfstair{
 	dir = 1
@@ -1263,7 +1252,7 @@
 "fi" = (
 /obj/machinery/door/airlock/maintenance,
 /turf/simulated/floor/airless,
-/area/strelka/fighterbay)
+/area/maintenance/strelka/civ)
 "fp" = (
 /obj/structure/bed/chair/shuttle{
 	dir = 8
@@ -1524,12 +1513,11 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 9
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 9
-	},
 /obj/structure/cable{
 	icon_state = "1-8"
 	},
+/obj/machinery/light,
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/maintenance/strelka/civ)
 "gz" = (
@@ -1843,7 +1831,7 @@
 /obj/machinery/door/blast/strelka/blockade,
 /obj/machinery/shield_diffuser,
 /obj/machinery/access_button/airlock_exterior{
-	pixel_x = -20;
+	pixel_x = -23;
 	master_tag = "strelka_south_docking"
 	},
 /turf/simulated/floor/tiled/asteroid_steel,
@@ -4530,6 +4518,10 @@
 	},
 /obj/map_helper/airlock/door/ext_door,
 /obj/machinery/door/blast/strelka/blockade,
+/obj/machinery/access_button/airlock_exterior{
+	master_tag = "strelka_south_docking";
+	pixel_y = 23
+	},
 /turf/simulated/floor/tiled/asteroid_steel,
 /area/strelka/hangardeck)
 "sT" = (
@@ -5446,7 +5438,7 @@
 	pixel_y = -22
 	},
 /turf/simulated/floor/airless,
-/area/strelka/fighterbay)
+/area/maintenance/strelka/civ)
 "xh" = (
 /obj/machinery/shipsensors,
 /turf/simulated/floor/tiled/techfloor,
@@ -6875,6 +6867,7 @@
 /obj/landmark{
 	name = "blobstart"
 	},
+/obj/machinery/power/apc/west_mount,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/maintenance/strelka/civ)
 "Do" = (
@@ -7552,6 +7545,15 @@
 	},
 /turf/space,
 /area/space)
+"Gb" = (
+/obj/machinery/camera/network/security{
+	dir = 1
+	},
+/obj/machinery/atmospherics/component/unary/vent_scrubber/on{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/maintenance/strelka/civ)
 "Gf" = (
 /obj/effect/floor_decal/techfloor{
 	dir = 6
@@ -8808,7 +8810,7 @@
 /area/strelka/hangardeck)
 "Lf" = (
 /turf/simulated/floor/airless,
-/area/strelka/fighterbay)
+/area/maintenance/strelka/civ)
 "Ln" = (
 /obj/effect/floor_decal/borderfloorblack{
 	alpha = 255;
@@ -9053,12 +9055,10 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 5
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 5
-	},
 /obj/structure/cable{
 	icon_state = "1-4"
 	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/maintenance/strelka/civ)
 "Mv" = (
@@ -10262,6 +10262,9 @@
 /obj/machinery/camera/network/security{
 	dir = 1
 	},
+/obj/machinery/atmospherics/component/unary/vent_pump/on{
+	dir = 4
+	},
 /turf/simulated/floor/airless,
 /area/maintenance/strelka/civ)
 "RM" = (
@@ -10594,13 +10597,6 @@
 /obj/structure/marker_beacon/green,
 /turf/simulated/floor,
 /area/space)
-"Td" = (
-/obj/effect/floor_decal/borderfloorblack,
-/obj/effect/floor_decal/industrial/warning/dust,
-/turf/simulated/floor/maglev{
-	dir = 4
-	},
-/area/strelka/fighterbay)
 "Te" = (
 /obj/structure/lattice,
 /obj/structure/marker_beacon/green,
@@ -10697,9 +10693,6 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/hallway/strelka/deck1)
 "TB" = (
-/obj/machinery/camera/network/security{
-	dir = 1
-	},
 /obj/structure/cable{
 	icon_state = "16-0"
 	},
@@ -11315,6 +11308,11 @@
 	req_one_access = null
 	},
 /obj/map_helper/access_helper/airlock/station/external_airlock,
+/obj/machinery/access_button/airlock_exterior{
+	pixel_x = 21;
+	master_tag = "strelka_trade_beruang_docking";
+	pixel_y = 22
+	},
 /turf/simulated/floor/tiled/monodark,
 /area/strelka/hangardeck)
 "Wq" = (
@@ -12156,6 +12154,18 @@
 	},
 /obj/machinery/requests_console{
 	pixel_y = -30
+	},
+/turf/simulated/floor/tiled/asteroid_steel,
+/area/strelka/hangardeck)
+"ZY" = (
+/obj/machinery/door/airlock/glass_external{
+	req_one_access = null
+	},
+/obj/map_helper/airlock/door/ext_door,
+/obj/machinery/door/blast/strelka/blockade,
+/obj/machinery/access_button/airlock_exterior{
+	master_tag = "strelka_north_docking";
+	pixel_y = -20
 	},
 /turf/simulated/floor/tiled/asteroid_steel,
 /area/strelka/hangardeck)
@@ -24254,7 +24264,7 @@ XR
 XR
 XR
 qL
-sR
+ZY
 qL
 qL
 qL
@@ -31475,14 +31485,14 @@ rk
 rk
 gL
 Up
-bi
-Td
+Jw
+mv
 If
-bi
-Td
+Jw
+mv
 If
-bi
-Td
+Jw
+mv
 Os
 is
 is
@@ -32056,7 +32066,7 @@ LR
 FO
 TO
 fi
-is
+ol
 nd
 Jm
 is
@@ -32250,7 +32260,7 @@ Ou
 ec
 TO
 Lf
-is
+ol
 yD
 eU
 is
@@ -32444,7 +32454,7 @@ Ou
 ec
 TO
 Lf
-is
+ol
 fd
 fd
 is
@@ -32638,7 +32648,7 @@ Ou
 Ig
 TO
 Lf
-is
+ol
 lc
 lc
 is
@@ -32832,7 +32842,7 @@ ZJ
 ec
 TO
 xd
-is
+ol
 lc
 lc
 is
@@ -33026,7 +33036,7 @@ RH
 nF
 TO
 Lf
-is
+ol
 lc
 lc
 Te
@@ -33220,7 +33230,7 @@ DM
 dd
 TO
 Lf
-is
+ol
 lc
 lc
 YQ
@@ -33414,7 +33424,7 @@ hk
 IV
 TO
 Lf
-is
+ol
 zT
 zT
 Qs
@@ -33607,8 +33617,8 @@ JV
 JV
 JV
 TO
-fi
-is
+Lf
+ol
 lc
 lc
 lc
@@ -33802,7 +33812,7 @@ rn
 BV
 Dn
 RI
-is
+ol
 ft
 XR
 XR
@@ -33996,7 +34006,7 @@ tA
 aG
 eX
 Mt
-is
+ol
 XR
 XR
 XR
@@ -35353,7 +35363,7 @@ xs
 EH
 zu
 TB
-Zx
+Gb
 Zx
 XR
 XR
@@ -35548,7 +35558,7 @@ zu
 zu
 Zx
 Zx
-XR
+Zx
 XR
 XR
 XR

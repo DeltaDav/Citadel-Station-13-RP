@@ -108,10 +108,11 @@
 	name = "Icey Grass"
 	desc = "A patch of grass frozen in place."
 	footstep_sounds = list("human" = list(
-		'sound/effects/footstep/asteroid1.ogg',
-		'sound/effects/footstep/asteroid2.ogg',
-		'sound/effects/footstep/asteroid3.ogg',
-		'sound/effects/footstep/asteroid4.ogg'))
+		'sound/effects/footstep/snow1.ogg',
+		'sound/effects/footstep/snow2.ogg',
+		'sound/effects/footstep/snow3.ogg',
+		'sound/effects/footstep/snow4.ogg',
+		'sound/effects/footstep/snow5.ogg'))
 
 
 /obj/structure/flora/rock/fey

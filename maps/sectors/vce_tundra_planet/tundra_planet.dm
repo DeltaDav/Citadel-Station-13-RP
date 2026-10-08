@@ -8,6 +8,11 @@
 		/datum/map_level/sector/tundra_planet/west,
 	)
 
+	legacy_assert_shuttle_datums = list(
+		/datum/shuttle/autodock/overmap/maquis/raider,
+		/datum/shuttle/autodock/overmap/maquis/interceptor,
+	)
+
 /datum/map_level/sector/tundra_planet
 	id = "tundra_planet"
 	name = "Sector Crucis Expanse - Tundra Planet East"
