@@ -23,7 +23,7 @@
 	},
 /obj/machinery/door/airlock/atmos{
 	name = "Modified Atmospherics Airlock";
-	req_one_access = list(150)
+	req_one_access = null
 	},
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/dark,
@@ -205,7 +205,9 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/aux{
 	dir = 8
 	},
-/obj/machinery/door/airlock/glass_external,
+/obj/machinery/door/airlock/glass_external{
+	req_one_access = null
+	},
 /turf/simulated/floor,
 /area/sector/tundra/pirate)
 "dV" = (
@@ -281,11 +283,11 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-/obj/machinery/door/airlock/atmos{
-	name = "Modified Atmospherics Airlock";
-	req_one_access = list(150)
-	},
 /obj/machinery/door/firedoor,
+/obj/machinery/door/airlock/hatch{
+	name = "Caravan Airtight Hatch";
+	req_one_access = null
+	},
 /turf/simulated/floor/tiled/dark,
 /area/sector/tundra/pirate)
 "fd" = (
@@ -413,10 +415,20 @@
 	},
 /turf/simulated/floor/plating,
 /area/sector/tundra/field)
+"iD" = (
+/mob/living/simple_mob/humanoid/merc/voxpirate/captain,
+/turf/simulated/floor/reinforced,
+/area/sector/tundra/pirate)
 "iG" = (
 /obj/random/multiple/corp_crate,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/sector/tundra/field)
+"iP" = (
+/obj/machinery/door/airlock/glass_external{
+	req_one_access = null
+	},
+/turf/simulated/floor,
+/area/sector/tundra/pirate)
 "iQ" = (
 /obj/machinery/light{
 	dir = 1
@@ -473,15 +485,14 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 8
 	},
-/obj/machinery/door/airlock/security{
-	name = "Modified Security Airlock";
-	req_one_access = list(150)
-	},
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
 /obj/machinery/door/firedoor,
-/obj/machinery/holopad/ship/starts_inactive,
+/obj/machinery/door/airlock/hatch{
+	name = "Caravan Airtight Hatch";
+	req_one_access = null
+	},
 /turf/simulated/floor/tiled/dark,
 /area/sector/tundra/pirate)
 "jD" = (
@@ -574,11 +585,6 @@
 "kR" = (
 /turf/simulated/floor,
 /area/sector/tundra/pirate)
-"kZ" = (
-/obj/effect/floor_decal/rust,
-/mob/living/simple_mob/humanoid/merc/voxpirate/shotgun,
-/turf/simulated/floor/plating/outdoors,
-/area/sector/tundra/field)
 "li" = (
 /obj/structure/cable{
 	icon_state = "2-8"
@@ -599,16 +605,6 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/sector/tundra/pirate)
-"lq" = (
-/obj/machinery/airlock_sensor/airlock_exterior{
-	frequency = 1200;
-	id_tag = "westairlock";
-	master_tag = "westexteriorsensor"
-	},
-/turf/simulated/floor/fey/snow_grass{
-	outdoors = 1
-	},
-/area/sector/tundra/field)
 "ls" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 9
@@ -684,6 +680,22 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/sector/tundra/pirate)
+"mQ" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 8
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/door/airlock/hatch{
+	name = "Caravan Airtight Hatch";
+	req_one_access = null
+	},
+/turf/simulated/floor/tiled/dark,
+/area/sector/tundra/pirate)
 "mS" = (
 /obj/structure/cable{
 	icon_state = "0-2"
@@ -733,19 +745,6 @@
 /obj/structure/cable{
 	icon_state = "2-8"
 	},
-/turf/simulated/floor/tiled/dark,
-/area/sector/tundra/pirate)
-"ny" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/door/airlock/security{
-	name = "Modified Security Airlock";
-	req_one_access = list(150)
-	},
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/dark,
 /area/sector/tundra/pirate)
 "nz" = (
@@ -895,14 +894,6 @@
 	outdoors = 1
 	},
 /area/sector/tundra/field)
-"qz" = (
-/obj/machinery/airlock_sensor/airlock_interior{
-	frequency = 1200;
-	id_tag = "westairlock";
-	master_tag = "westinteriorsensor"
-	},
-/turf/simulated/floor/tiled/dark,
-/area/sector/tundra/pirate)
 "qH" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 8
@@ -962,11 +953,11 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-/obj/machinery/door/airlock/medical{
-	name = "Modified Medical Airlock";
-	req_one_access = list(150)
-	},
 /obj/machinery/door/firedoor,
+/obj/machinery/door/airlock/hatch{
+	name = "Caravan Airtight Hatch";
+	req_one_access = null
+	},
 /turf/simulated/floor/tiled/dark,
 /area/sector/tundra/pirate)
 "rV" = (
@@ -981,18 +972,6 @@
 /area/sector/tundra/pirate)
 "sC" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/aux,
-/turf/simulated/floor,
-/area/sector/tundra/pirate)
-"sE" = (
-/obj/machinery/atmospherics/component/unary/vent_pump/high_volume/aux{
-	frequency = 1200;
-	id_tag = "westpump"
-	},
-/obj/machinery/airlock_sensor/airlock_interior{
-	frequency = 1200;
-	id_tag = "westairlock";
-	master_tag = "westchambersensor"
-	},
 /turf/simulated/floor,
 /area/sector/tundra/pirate)
 "sI" = (
@@ -1092,7 +1071,9 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/aux{
 	dir = 8
 	},
-/obj/machinery/door/airlock/glass_external,
+/obj/machinery/door/airlock/glass_external{
+	req_one_access = null
+	},
 /turf/simulated/floor/plating,
 /area/sector/tundra/pirate)
 "uA" = (
@@ -1101,14 +1082,6 @@
 /obj/structure/cable{
 	icon_state = "2-8"
 	},
-/turf/simulated/floor/tiled/dark,
-/area/sector/tundra/pirate)
-"uD" = (
-/obj/machinery/door/airlock/security{
-	name = "Modified Security Airlock";
-	req_one_access = list(150)
-	},
-/obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/dark,
 /area/sector/tundra/pirate)
 "uJ" = (
@@ -1195,6 +1168,12 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/sector/tundra/pirate)
+"ws" = (
+/obj/machinery/door/airlock/glass_external{
+	req_one_access = null
+	},
+/turf/simulated/floor/plating,
+/area/sector/tundra/pirate)
 "wA" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 8
@@ -1258,14 +1237,14 @@
 "yn" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/door/airlock/glass{
-	name = "Secure Glass Airlock";
-	req_one_access = list(150)
-	},
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
 /obj/machinery/door/firedoor,
+/obj/machinery/door/airlock/hatch{
+	name = "Caravan Airtight Hatch";
+	req_one_access = null
+	},
 /turf/simulated/floor/tiled/dark,
 /area/sector/tundra/pirate)
 "yB" = (
@@ -1274,10 +1253,6 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 8
-	},
-/obj/machinery/door/airlock/glass/security{
-	name = "Modified Security Airlock";
-	req_one_access = list(150)
 	},
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -1769,24 +1744,7 @@
 /obj/machinery/appliance/cooker/oven,
 /turf/simulated/floor/tiled/dark,
 /area/sector/tundra/pirate)
-"IK" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/obj/machinery/door/airlock/engineering{
-	name = "Modified Engineering Airlock";
-	req_one_access = list(150)
-	},
-/obj/machinery/door/firedoor,
-/turf/simulated/floor/tiled/dark,
-/area/sector/tundra/pirate)
 "Js" = (
-/obj/machinery/door/airlock/glass/security{
-	name = "Modified Security Airlock";
-	req_one_access = list(150)
-	},
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/dark,
 /area/sector/tundra/pirate)
@@ -1858,7 +1816,10 @@
 /turf/simulated/floor/plating,
 /area/sector/tundra/pirate)
 "Kr" = (
-/obj/machinery/door/airlock/glass_external,
+/obj/machinery/door/airlock/glass_external{
+	req_one_access = null
+	},
+/obj/structure/fans/tiny,
 /turf/simulated/floor/plating,
 /area/sector/tundra/pirate)
 "Kt" = (
@@ -2058,11 +2019,11 @@
 /turf/simulated/floor/plating,
 /area/sector/tundra/pirate)
 "Nw" = (
-/obj/machinery/door/airlock/medical{
-	name = "Modified Medical Airlock";
-	req_one_access = list(150)
-	},
 /obj/machinery/door/firedoor,
+/obj/machinery/door/airlock/hatch{
+	name = "Caravan Airtight Hatch";
+	req_one_access = null
+	},
 /turf/simulated/floor/tiled/dark,
 /area/sector/tundra/pirate)
 "NB" = (
@@ -2132,6 +2093,10 @@
 /obj/item/spacecash/c1000,
 /turf/simulated/floor/tiled/dark,
 /area/sector/tundra/pirate)
+"Pp" = (
+/mob/living/simple_mob/animal/space/whaleshark/hostile,
+/turf/simulated/floor/water,
+/area/sector/tundra/field)
 "Pr" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -2157,6 +2122,10 @@
 "PD" = (
 /turf/simulated/floor/tiled/dark,
 /area/sector/tundra/pirate)
+"PF" = (
+/mob/living/simple_mob/humanoid/merc/voxpirate/shotgun,
+/turf/simulated/floor/tiled/dark,
+/area/sector/tundra/pirate)
 "PO" = (
 /obj/machinery/power/apc/south_mount,
 /obj/machinery/power/terminal,
@@ -2177,6 +2146,13 @@
 "Ql" = (
 /obj/structure/poster,
 /turf/simulated/wall/r_wall,
+/area/sector/tundra/pirate)
+"Qt" = (
+/obj/machinery/door/airlock/hatch{
+	name = "Caravan Airtight Hatch";
+	req_one_access = null
+	},
+/turf/simulated/floor/tiled/dark,
 /area/sector/tundra/pirate)
 "Qz" = (
 /obj/structure/cable{
@@ -2272,12 +2248,6 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/sector/tundra/pirate)
-"SD" = (
-/obj/structure/railing/grey{
-	dir = 4
-	},
-/turf/simulated/floor/water,
-/area/sector/tundra/field)
 "SE" = (
 /obj/structure/table/standard,
 /obj/item/soap/syndie,
@@ -2298,10 +2268,6 @@
 /obj/structure/cable{
 	icon_state = "2-4"
 	},
-/turf/simulated/floor/tiled/dark,
-/area/sector/tundra/pirate)
-"Tj" = (
-/mob/living/simple_mob/humanoid/merc/voxpirate/captain,
 /turf/simulated/floor/tiled/dark,
 /area/sector/tundra/pirate)
 "Tr" = (
@@ -2419,23 +2385,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/sector/tundra/pirate)
-"Vy" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 8
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 8
-	},
-/obj/machinery/door/airlock/security{
-	name = "Modified Security Airlock";
-	req_one_access = list(150)
-	},
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/obj/machinery/door/firedoor,
-/turf/simulated/floor/tiled/dark,
-/area/sector/tundra/pirate)
 "VC" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/aux{
 	dir = 5
@@ -2463,9 +2412,9 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/obj/machinery/door/airlock/atmos{
-	name = "Modified Atmospherics Airlock";
-	req_one_access = list(150)
+/obj/machinery/door/airlock/hatch{
+	name = "Caravan Airtight Hatch";
+	req_one_access = null
 	},
 /turf/simulated/floor/tiled/dark,
 /area/sector/tundra/pirate)
@@ -2515,11 +2464,11 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/obj/machinery/door/airlock/engineering{
-	name = "Modified Engineering Airlock";
-	req_one_access = list(150)
-	},
 /obj/machinery/door/firedoor,
+/obj/machinery/door/airlock/hatch{
+	name = "Caravan Airtight Hatch";
+	req_one_access = null
+	},
 /turf/simulated/floor/tiled/dark,
 /area/sector/tundra/pirate)
 "WY" = (
@@ -2551,7 +2500,10 @@
 /turf/simulated/floor/tiled/dark,
 /area/sector/tundra/pirate)
 "Xx" = (
-/obj/machinery/door/airlock/glass_external,
+/obj/machinery/door/airlock/glass_external{
+	req_one_access = null
+	},
+/obj/structure/fans/tiny,
 /turf/simulated/floor,
 /area/sector/tundra/pirate)
 "XB" = (
@@ -2619,6 +2571,11 @@
 /obj/item/roller/adv,
 /turf/simulated/floor/tiled/dark,
 /area/sector/tundra/pirate)
+"Yt" = (
+/obj/effect/floor_decal/rust,
+/mob/living/simple_mob/humanoid/merc/voxpirate/boarder,
+/turf/simulated/floor/plating/outdoors,
+/area/sector/tundra/field)
 "Yx" = (
 /obj/machinery/atmospherics/portables_connector{
 	dir = 8
@@ -4459,7 +4416,7 @@ pY
 pY
 pY
 pY
-lq
+pY
 HA
 HA
 pY
@@ -5236,7 +5193,7 @@ ly
 PD
 Lw
 lG
-sE
+Go
 sC
 lG
 WY
@@ -5430,7 +5387,7 @@ bt
 PD
 cD
 lG
-Xx
+iP
 dU
 Dc
 lG
@@ -5624,7 +5581,7 @@ PD
 PD
 PD
 lG
-qz
+PD
 dV
 PD
 MD
@@ -6779,7 +6736,7 @@ PD
 jy
 lG
 lG
-Vy
+jB
 no
 lG
 jB
@@ -6962,7 +6919,7 @@ pY
 pY
 De
 PD
-PD
+PF
 kG
 BN
 PC
@@ -6970,7 +6927,7 @@ UK
 jI
 PD
 PD
-uD
+Nw
 PD
 PD
 qH
@@ -7156,7 +7113,7 @@ pY
 pY
 De
 PD
-Tj
+PD
 TU
 Mj
 Pk
@@ -7164,7 +7121,7 @@ Kj
 Cl
 LD
 Ze
-ny
+yn
 Et
 jf
 cl
@@ -8520,8 +8477,8 @@ pY
 pY
 fv
 lG
-PD
-kH
+Qt
+mQ
 lG
 Gf
 PD
@@ -9873,7 +9830,7 @@ ZM
 ZM
 ZM
 ZM
-ZM
+iD
 ZM
 ZM
 ZM
@@ -11437,7 +11394,7 @@ mS
 av
 kl
 Et
-IK
+yn
 Et
 Et
 Et
@@ -11832,7 +11789,7 @@ PD
 PD
 fX
 lG
-Kr
+ws
 uw
 lG
 KA
@@ -32577,7 +32534,7 @@ ow
 ow
 pY
 ZJ
-kZ
+Ib
 pY
 pY
 ZJ
@@ -32772,7 +32729,7 @@ ow
 ZJ
 ZJ
 Ib
-Ib
+Yt
 pY
 ow
 ZJ
@@ -33546,7 +33503,7 @@ pY
 ow
 ow
 ZJ
-kZ
+Ib
 Qh
 Ib
 Ib
@@ -33742,7 +33699,7 @@ ow
 pY
 pY
 pY
-Ib
+Yt
 Qh
 ow
 Ib
@@ -35619,7 +35576,7 @@ ow
 ow
 aQ
 aQ
-aQ
+Pp
 aQ
 aQ
 ow
@@ -37191,7 +37148,7 @@ aQ
 aQ
 aQ
 aQ
-aQ
+Pp
 aQ
 aQ
 ow
@@ -37943,8 +37900,8 @@ ee
 rz
 rz
 ee
-ee
-ee
+aQ
+aQ
 ee
 ee
 rz
@@ -37966,10 +37923,10 @@ Ft
 ee
 ee
 ee
-ee
-ee
-rz
-rz
+Ft
+aQ
+aQ
+aQ
 ee
 ee
 ee
@@ -38136,10 +38093,10 @@ AE
 AE
 AE
 AE
-AE
-SD
-SD
-SD
+aQ
+aQ
+aQ
+aQ
 AE
 AE
 AE
@@ -38158,12 +38115,12 @@ ow
 ow
 Ft
 AE
-SD
-SD
-AE
-AE
-AE
-AE
+aQ
+aQ
+Ft
+aQ
+aQ
+Ft
 AE
 AE
 AE

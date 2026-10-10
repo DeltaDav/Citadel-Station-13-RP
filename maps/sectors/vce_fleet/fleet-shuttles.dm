@@ -12,12 +12,11 @@
 	fuel_consumption = 5
 	move_time = 10
 
-/obj/effect/shuttle_landmark/shuttle_initializer/fleet/trade
+/obj/effect/shuttle_landmark/fleet/trade
 	name = "fleet"
 	base_area = /area/space
 	base_turf = /turf/space
 	landmark_tag = "fleet_trade_1"
-	shuttle_type = /datum/shuttle/autodock/overmap/fleet/trade
 
 /obj/overmap/entity/visitable/ship/landable/fleet/trade
 	name = "Entdecker Trade Ship"
@@ -53,12 +52,11 @@ Colonial Militia files state that this vessel is the main FTU Vessel in the area
 //Scoophead trade Shuttle - Returning shuttle. Fits the place well, secondary trade shuttle.
 
 
-/obj/effect/shuttle_landmark/shuttle_initializer/fleet/trade2
+/obj/effect/shuttle_landmark/fleet/trade2
 	name = "fleet"
 	base_area = /area/space
 	base_turf = /turf/space
 	landmark_tag = "tradeport_scoophead"
-	shuttle_type = /datum/shuttle/autodock/overmap/fleet/trade
 
 /datum/shuttle/autodock/overmap/fleet/trade/scoophead
 	name = "Scoophead trade Shuttle"
@@ -107,12 +105,11 @@ Colonial Militia files state that this vessel is the main FTU Vessel in the area
 
 //Ani Shuttle - Naboo Star-fighter misxed with the Naboo royal transport.
 
-/obj/effect/shuttle_landmark/shuttle_initializer/fleet/ani
+/obj/effect/shuttle_landmark/fleet/ani
 	name = "fleet"
 	base_area = /area/space
 	base_turf = /turf/space
 	landmark_tag = "fleet_ani"
-	shuttle_type = /datum/shuttle/autodock/overmap/fleet/ani
 
 /datum/shuttle/autodock/overmap/fleet/ani
 	name = "Ani Runabout Shuttle"
@@ -152,12 +149,11 @@ Colonial Militia files state that this vessel is the main FTU Vessel in the area
 
 //Deneb Shuttle - Inspired by a BSG Vessel, its class name.
 
-/obj/effect/shuttle_landmark/shuttle_initializer/fleet/deneb
+/obj/effect/shuttle_landmark/fleet/deneb
 	name = "fleet"
 	base_area = /area/space
 	base_turf = /turf/space
 	landmark_tag = "fleet_deneb"
-	shuttle_type = /datum/shuttle/autodock/overmap/fleet/deneb
 
 /datum/shuttle/autodock/overmap/fleet/deneb
 	name = "Deneb Shuttle"
@@ -198,12 +194,11 @@ Now used a private vessel available to colonist, files do note that the ship als
 
 //Spacena Caravan Shuttle
 
-/obj/effect/shuttle_landmark/shuttle_initializer/fleet/caravan
+/obj/effect/shuttle_landmark/fleet/caravan
 	name = "fleet"
 	base_area = /area/space
 	base_turf = /turf/space
 	landmark_tag = "fleet_caravan"
-	shuttle_type = /datum/shuttle/autodock/overmap/fleet/caravan
 
 
 /datum/shuttle/autodock/overmap/fleet/caravan
@@ -244,12 +239,11 @@ Colonial Militia files state that this shuttle is one of the most popular vessel
 
 //Runabout
 
-/obj/effect/shuttle_landmark/shuttle_initializer/fleet/runabout
+/obj/effect/shuttle_landmark/fleet/runabout
 	name = "fleet"
 	base_area = /area/space
 	base_turf = /turf/space
 	landmark_tag = "fleet_runabout"
-	shuttle_type = /datum/shuttle/autodock/overmap/fleet/runabout
 
 
 /datum/shuttle/autodock/overmap/fleet/runabout
@@ -284,12 +278,11 @@ Colonial Militia files state that this shuttle is one of the most popular vessel
 
 //Radio shuttle
 
-/obj/effect/shuttle_landmark/shuttle_initializer/fleet/starcutter
+/obj/effect/shuttle_landmark/fleet/starcutter
 	name = "fleet"
 	base_area = /area/space
 	base_turf = /turf/space
 	landmark_tag = "occulum_fleet"
-	shuttle_type = /datum/shuttle/autodock/overmap/fleet/starcutter
 
 /datum/shuttle/autodock/overmap/fleet/starcutter
 	name = "ORS Starcutter Radio Shuttle"
@@ -328,12 +321,11 @@ Colonial Militia files state that this shuttle is one of the most popular vessel
 
 //Cargoravan
 
-/obj/effect/shuttle_landmark/shuttle_initializer/fleet/cargoravana
+/obj/effect/shuttle_landmark/fleet/cargoravana
 	name = "fleet"
 	base_area = /area/space
 	base_turf = /turf/space
 	landmark_tag = "cargoravana_start"
-	shuttle_type = /datum/shuttle/autodock/overmap/fleet/cargoravana
 
 /datum/shuttle/autodock/overmap/fleet/cargoravana
 	name = "Spacena Cargoravana Shuttle"
@@ -373,12 +365,11 @@ This class of shuttle is the home of many fammilies."}
 
 //Spacena adventurer Shuttle
 
-/obj/effect/shuttle_landmark/shuttle_initializer/fleet/adventurer
+/obj/effect/shuttle_landmark/fleet/adventurer
 	name = "fleet"
 	base_area = /area/space
 	base_turf = /turf/space
 	landmark_tag = "fleet_adventurer"
-	shuttle_type = /datum/shuttle/autodock/overmap/fleet/adventurer
 
 /datum/shuttle/autodock/overmap/fleet/adventurer
 	name = "Spacena Adventurer Shuttle"
@@ -416,12 +407,11 @@ This class of shuttle is the home of many fammilies."}
 
 //Cargo tug Shuttle
 
-/obj/effect/shuttle_landmark/shuttle_initializer/fleet/tug
+/obj/effect/shuttle_landmark/fleet/tug
 	name = "fleet"
 	base_area = /area/space
 	base_turf = /turf/space
 	landmark_tag = "fleet_tug"
-	shuttle_type = /datum/shuttle/autodock/overmap/fleet/tug
 
 /datum/shuttle/autodock/overmap/fleet/tug
 	name = "Cargo Tug Hauler Shuttle"
@@ -459,12 +449,11 @@ This class of shuttle is the home of many fammilies."}
 
 //Utility Micro Shuttle
 
-/obj/effect/shuttle_landmark/shuttle_initializer/fleet/micro
+/obj/effect/shuttle_landmark/fleet/micro
 	name = "fleet"
 	base_area = /area/space
 	base_turf = /turf/space
 	landmark_tag = "fleet_utilitymicro"
-	shuttle_type = /datum/shuttle/autodock/overmap/fleet/utilitymicro
 
 /datum/shuttle/autodock/overmap/fleet/utilitymicro
 	name = "Utility Micro Shuttle"
@@ -502,12 +491,11 @@ This class of shuttle is the home of many fammilies."}
 
 //Utility Micro Shuttle 2
 
-/obj/effect/shuttle_landmark/shuttle_initializer/fleet/micro2
+/obj/effect/shuttle_landmark/fleet/micro2
 	name = "fleet"
 	base_area = /area/space
 	base_turf = /turf/space
 	landmark_tag = "fleet_utilitymicro2"
-	shuttle_type = /datum/shuttle/autodock/overmap/fleet/utilitymicro2
 
 /datum/shuttle/autodock/overmap/fleet/utilitymicro2
 	name = "Utility Micro Shuttle 2"
@@ -547,12 +535,11 @@ This class of shuttle is the home of many fammilies."}
 //It is usable by Event min only. They just need to set down the jump console themselve.
 //
 
-/obj/effect/shuttle_landmark/shuttle_initializer/fleet/colonial
+/obj/effect/shuttle_landmark/fleet/colonial
 	name = "fleet"
 	base_area = /area/space
 	base_turf = /turf/space
 	landmark_tag = "colonial_start"
-	shuttle_type = /datum/shuttle/autodock/overmap/fleet/colonial
 
 /datum/shuttle/autodock/overmap/fleet/colonial
 	name = "RCV Roseline"
@@ -594,12 +581,11 @@ Colonial Militia files state that this Vessel got all archives and docuement to 
 //Battlestar - ... I mean its litteraly a Battlestar.
 //
 
-/obj/effect/shuttle_landmark/shuttle_initializer/fleet/battlestar
+/obj/effect/shuttle_landmark/fleet/battlestar
 	name = "fleet"
 	base_area = /area/space
 	base_turf = /turf/space
 	landmark_tag = "battlestar_start"
-	shuttle_type = /datum/shuttle/autodock/overmap/fleet/battlestar
 
 /datum/shuttle/autodock/overmap/fleet/battlestar
 	name = "RCMV Adamant"
@@ -639,12 +625,11 @@ Colonial Militia files state that this Vessel got all archives and docuement to 
 
 //Parabellum militia shuttle
 
-/obj/effect/shuttle_landmark/shuttle_initializer/parabellum
+/obj/effect/shuttle_landmark/fleet/parabellum
 	name = "Fleet"
 	base_area = /area/space
 	base_turf = /turf/space
 	landmark_tag = "parabelum_start"
-	shuttle_type = /datum/shuttle/autodock/overmap/fleet/parabellum
 
 /obj/overmap/entity/visitable/ship/landable/fleet/parabellum
 	name = "RCMV Parabellum"
@@ -687,12 +672,11 @@ Colonial Militia files state that this Vessel got all archives and docuement to 
 
 //Providence shuttle - Star trek HMS Bounty inspired
 
-/obj/effect/shuttle_landmark/shuttle_initializer/providence
+/obj/effect/shuttle_landmark/fleet/providence
 	name = "Fleet"
 	base_area = /area/space
 	base_turf = /turf/space
 	landmark_tag = "fleet_providence"
-	shuttle_type = /datum/shuttle/autodock/overmap/fleet/providence
 
 /datum/shuttle/autodock/overmap/fleet/providence
 	name = "Providence Shuttle"
@@ -734,19 +718,18 @@ Now used a private vessel available to colonist, it as been repaired."}
 
 //Biodancy Shuttle - Space Dandy Shuttle
 
-/obj/effect/shuttle_landmark/shuttle_initializer/biodancy
+/obj/effect/shuttle_landmark/fleet/biodancy
 	name = "Fleet"
 	base_area = /area/space
 	base_turf = /turf/space
 	landmark_tag = "fleet_biodancy"
-	shuttle_type = /datum/shuttle/autodock/overmap/fleet/fleet/biodancy
 
 /datum/shuttle/autodock/overmap/fleet/fleet/biodancy
 	name = "Biodancy Shuttle"
 	warmup_time = 8
 	shuttle_area = list(/area/shuttle/fleet/biodancy)
 	current_location = "fleet_biodancy"
-	docking_controller_tag = "fleet_providence_docker"
+	docking_controller_tag = "fleet_biodancy_docker"
 	fuel_consumption = 5
 	move_time = 10
 
@@ -791,12 +774,11 @@ Now used a private vessel available to colonist."}
 
 //Tour shuttle
 
-/obj/effect/shuttle_landmark/shuttle_initializer/tour
+/obj/effect/shuttle_landmark/fleet/tour
 	name = "Fleet"
 	base_area = /area/space
 	base_turf = /turf/space
 	landmark_tag = "fleet_tour"
-	shuttle_type = /datum/shuttle/autodock/overmap/fleet/tour
 
 
 /datum/shuttle/autodock/overmap/fleet/tour
@@ -832,12 +814,11 @@ Now used a private vessel available to colonist."}
 
 //passenger shuttle
 
-/obj/effect/shuttle_landmark/shuttle_initializer/passenger
+/obj/effect/shuttle_landmark/fleet/passenger
 	name = "Fleet"
 	base_area = /area/space
 	base_turf = /turf/space
 	landmark_tag = "fleet_passenger"
-	shuttle_type = /datum/shuttle/autodock/overmap/fleet/passenger
 
 /datum/shuttle/autodock/overmap/fleet/passenger
 	name = "Passenger Shuttle"
@@ -871,12 +852,11 @@ Now used a private vessel available to colonist."}
 
 //Bolt shuttle
 
-/obj/effect/shuttle_landmark/shuttle_initializer/bolt
+/obj/effect/shuttle_landmark/fleet/bolt
 	name = "Fleet"
 	base_area = /area/space
 	base_turf = /turf/space
 	landmark_tag = "fleet_bolt"
-	shuttle_type = /datum/shuttle/autodock/overmap/fleet/bolt
 
 /datum/shuttle/autodock/overmap/fleet/bolt
 	name = "Bolt Transport Shuttle"

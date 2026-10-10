@@ -172,14 +172,16 @@
 	gps_tag = "NT-LOST"
 	on = TRUE
 
-/obj/structure/closet/crate/corporate/nanotrasen/lost
-	desc = "A crate emblazoned with the standard Nanotrasen livery."
+/obj/structure/closet/crate/secure/corporate/nanotrasen/lost
+	name = "Lost NT Crate"
+	desc = "A crate emblazoned with the standard Nanotrasen livery. This one is from a lost package. NT will surely want it back."
 	icon_state = "nt"
 	starts_with = list(
 		/obj/random/projectile/random = 2,
 		/obj/random/spacecash,
 		/obj/random/single,
 		/obj/item/gps/nt_lost)
+	req_access = "list(12)"
 
 /obj/random/ntcrate
 	name = "Random crate"
@@ -188,5 +190,5 @@
 	spawn_nothing_percentage = 50
 
 /obj/random/ntcrate/item_to_spawn()
-	return pick(/obj/structure/closet/crate/corporate/nanotrasen/lost)
+	return pick(/obj/structure/closet/crate/secure/corporate/nanotrasen/lost)
 

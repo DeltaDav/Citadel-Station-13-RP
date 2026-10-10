@@ -1,11 +1,10 @@
 //raider
 
-/obj/effect/shuttle_landmark/shuttle_initializer/maquis/raider
+/obj/effect/shuttle_landmark/maquis/raider
 	name = "maquis"
-	base_area = /area/space
+	base_area = /area/sector/tundra/field
 	base_turf = /turf/simulated/floor/water
 	landmark_tag = "raider_start"
-	shuttle_type = /datum/shuttle/autodock/overmap/maquis/raider
 
 /datum/shuttle/autodock/overmap/maquis/raider
 	name = "DMV Raider"
@@ -42,22 +41,14 @@
 	area_flags = AREA_RAD_SHIELDED | AREA_FLAG_ERODING
 	sound_env = SMALL_ENCLOSED
 
-/obj/effect/shuttle_landmark/shuttle_initializer/raider
-	name = "maquis"
-	base_area = /area/space
-	base_turf = /turf/simulated/floor/water
-	landmark_tag = "raider_start"
-	shuttle_type = /datum/shuttle/autodock/overmap/maquis/raider
-
 
 //Interceptor
 
-/obj/effect/shuttle_landmark/shuttle_initializer/interceptor
+/obj/effect/shuttle_landmark/maquis/interceptor
 	name = "maquis"
-	base_area = /area/space
-	base_turf = /turf/space
-	landmark_tag = "parabelum_start"
-	shuttle_type = /datum/shuttle/autodock/overmap/maquis/interceptor
+	base_area = /area/sector/tundra/field
+	base_turf = /turf/simulated/floor/water
+	landmark_tag = "interceptor_start"
 
 /obj/overmap/entity/visitable/ship/landable/maquis/interceptor
 	name = "DMV Interceptor"
@@ -77,10 +68,10 @@
 	name = "DMV Interceptor"
 	warmup_time = 8
 	shuttle_area = list(/area/shuttle/maquis/interceptor)
-	docking_controller_tag = "parabelum_docker"
+	docking_controller_tag = "interceptor_docker"
 	fuel_consumption = 3
 	move_time = 10
-	current_location = "parabelum_start"
+	current_location = "interceptor_start"
 
 
 /obj/machinery/computer/shuttle_control/explore/maquis/interceptor

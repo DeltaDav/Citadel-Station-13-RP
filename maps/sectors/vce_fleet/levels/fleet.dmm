@@ -8,7 +8,7 @@
 	dir = 4
 	},
 /obj/structure/fans/tiny,
-/obj/machinery/door/airlock/external/glass,
+/obj/machinery/door/airlock/glass_external,
 /turf/simulated/floor/tiled/monotechmaint,
 /area/sector/fleet/dock)
 "aaG" = (
@@ -78,7 +78,6 @@
 	master_tag = "occulum_safehouse_docker";
 	id_tag = "occulum_safehouse_docker"
 	},
-/obj/overmap/entity/visitable/ship/landable/trade/crescend,
 /obj/map_helper/airlock/sensor/chamber_sensor,
 /obj/machinery/atmospherics/pipe/simple/hidden,
 /turf/simulated/floor/tiled/techfloor/grid,
@@ -213,6 +212,7 @@
 /area/sector/fleet/church)
 "ajn" = (
 /obj/structure/table/rack/shelf/steel,
+/obj/item/bluespace_radio/military,
 /turf/simulated/floor/tiled/techfloor/monogrid,
 /area/shuttle/fleet/battlestar)
 "ajD" = (
@@ -230,6 +230,19 @@
 /obj/structure/cable/green,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/fleet/utilitymicro)
+"aks" = (
+/obj/machinery/seed_storage/random,
+/turf/simulated/floor/tiled/monotechmaint,
+/area/shuttle/fleet/trade_ship/general)
+"aku" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/obj/machinery/atm{
+	pixel_x = -28
+	},
+/turf/simulated/floor/tiled/monotechmaint,
+/area/shuttle/fleet/trade_ship/general)
 "akN" = (
 /obj/structure/table/rack/shelf/steel,
 /obj/item/clothing/under/bodysuit/bodysuithazard,
@@ -278,7 +291,9 @@
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 4
 	},
-/obj/machinery/door/airlock/hatch,
+/obj/machinery/door/airlock/hatch{
+	req_one_access = null
+	},
 /obj/effect/floor_decal/techfloor,
 /turf/simulated/floor/wood/indoors,
 /area/shuttle/fleet/starcutter)
@@ -367,6 +382,10 @@
 /obj/machinery/computer/ship/helm{
 	dir = 4
 	},
+/obj/item/gps/internal/base{
+	name = "entdecker beacon";
+	gps_tag = "ENTDECKER"
+	},
 /turf/simulated/floor/tiled/monodark,
 /area/shuttle/fleet/trade_ship/cockpit)
 "aqK" = (
@@ -383,10 +402,6 @@
 	},
 /turf/simulated/floor/tiled/kafel_full/beige,
 /area/shuttle/fleet/colonial)
-"ark" = (
-/obj/machinery/atmospherics/component/unary/vent_pump/high_volume,
-/turf/simulated/floor/tiled/techfloor/monogrid,
-/area/shuttle/fleet/providence)
 "arF" = (
 /obj/effect/floor_decal/spline/fancy/wood/cee{
 	dir = 8
@@ -415,6 +430,13 @@
 	},
 /turf/simulated/floor/wood,
 /area/shuttle/fleet/trade_ship/general)
+"arM" = (
+/obj/machinery/atmospherics/pipe/simple/hidden,
+/obj/structure/fuel_port{
+	pixel_x = 30
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/shuttle/fleet/deneb)
 "arO" = (
 /obj/machinery/atmospherics/component/unary/vent_pump/on,
 /turf/simulated/floor/tiled/dark,
@@ -537,7 +559,7 @@
 	icon_state = "1-2"
 	},
 /obj/structure/fans/tiny,
-/obj/machinery/door/airlock/external/glass,
+/obj/machinery/door/airlock/glass_external,
 /turf/simulated/floor/tiled/steel_ridged,
 /area/sector/fleet/commons)
 "awp" = (
@@ -710,7 +732,7 @@
 /turf/simulated/floor/tiled/techfloor/monogrid,
 /area/shuttle/fleet/providence)
 "aDC" = (
-/obj/machinery/door/airlock/external/glass,
+/obj/machinery/door/airlock/glass_external,
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
 	},
@@ -738,7 +760,7 @@
 	dir = 1
 	},
 /obj/machinery/light/small/emergency/flicker{
-	dir = 4
+	dir = 1
 	},
 /turf/simulated/floor/reinforced,
 /area/shuttle/fleet/providence)
@@ -894,6 +916,13 @@
 /obj/item/trash/liquidprotein,
 /turf/simulated/floor/plating,
 /area/sector/fleet/trash)
+"aLK" = (
+/obj/effect/floor_decal/industrial/halfstair,
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
+/area/shuttle/fleet/battlestar)
 "aMD" = (
 /obj/effect/floor_decal/rust,
 /obj/machinery/atmospherics/component/unary/vent_pump/on,
@@ -1049,6 +1078,18 @@
 /obj/structure/table/bench/steel,
 /turf/simulated/floor/tiled/techfloor,
 /area/shuttle/fleet/battlestar)
+"aSW" = (
+/obj/machinery/door/airlock/external,
+/obj/map_helper/airlock/door/ext_door,
+/obj/machinery/access_button/airlock_exterior{
+	frequency = 1380;
+	master_tag = "fleet_providence3_docker";
+	name = "external access button";
+	pixel_x = -1;
+	pixel_y = -26
+	},
+/turf/simulated/floor/tiled/techfloor/monogrid,
+/area/shuttle/fleet/providence)
 "aSY" = (
 /obj/machinery/conveyor{
 	dir = 9
@@ -1203,6 +1244,9 @@
 "aXS" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 5
+	},
+/obj/structure/cable/white{
+	icon_state = "1-4"
 	},
 /turf/simulated/floor/plating,
 /area/shuttle/fleet/trade_ship/general)
@@ -1666,20 +1710,17 @@
 	},
 /turf/simulated/floor/tiled/techfloor/monogrid,
 /area/shuttle/fleet/bolt)
+"bpt" = (
+/obj/structure/fuel_port{
+	dir = 4;
+	pixel_y = -32
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/shuttle/fleet/ani)
 "bpL" = (
 /obj/structure/table/steel_reinforced,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/sector/fleet/commons)
-"bpZ" = (
-/obj/machinery/computer/ship/helm{
-	dir = 1
-	},
-/obj/item/reagent_containers/food/drinks/golden_cup{
-	pixel_y = 7;
-	pixel_x = -6
-	},
-/turf/simulated/floor/tiled/steel_dirty/red,
-/area/sector/fleet/occupied)
 "bqf" = (
 /obj/machinery/light/small{
 	dir = 1
@@ -1859,7 +1900,9 @@
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 1
 	},
-/obj/machinery/door/airlock/hatch,
+/obj/machinery/door/airlock/hatch{
+	req_one_access = null
+	},
 /turf/simulated/floor/roguetown/dark_wood,
 /area/shuttle/fleet/starcutter)
 "bwR" = (
@@ -1902,6 +1945,13 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/fleet/trade_ship/general)
+"bxR" = (
+/obj/machinery/lathe/autolathe{
+	desc = "Your typical Autolathe. It appears to have much more options than your regular one, however...";
+	name = "Unlocked Autolathe"
+	},
+/turf/simulated/floor/concrete,
+/area/sector/fleet/dock)
 "bxX" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/cyan{
 	dir = 6
@@ -1984,7 +2034,7 @@
 /obj/effect/floor_decal/borderfloorblack{
 	dir = 8
 	},
-/obj/machinery/door/airlock/external/glass,
+/obj/machinery/door/airlock/glass_external,
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
 	},
@@ -2071,7 +2121,6 @@
 	},
 /obj/map_helper/airlock/sensor/chamber_sensor,
 /obj/overmap/entity/visitable/ship/landable/fleet/passenger,
-/obj/effect/shuttle_landmark/shuttle_initializer/passenger,
 /turf/simulated/floor/tiled/eris/techmaint_cargo,
 /area/shuttle/fleet/passenger)
 "bEm" = (
@@ -2157,6 +2206,15 @@
 	},
 /turf/simulated/floor/plating,
 /area/shuttle/fleet/trade_ship/general)
+"bHo" = (
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 9
+	},
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/monotechmaint,
+/area/shuttle/fleet/trade_ship/general)
 "bHr" = (
 /obj/machinery/door/blast/regular{
 	id = "trade2starboard"
@@ -2224,13 +2282,21 @@
 /area/sector/fleet/occupied)
 "bJx" = (
 /obj/machinery/atmospherics/component/unary/vent_pump/high_volume{
-	dir = 2
+	dir = 2;
+	id_tag = "fleet_biodancy_docker"
 	},
 /obj/structure/cable/white{
 	icon_state = "1-2"
 	},
 /obj/overmap/entity/visitable/ship/landable/fleet/biodancy,
-/obj/effect/shuttle_landmark/shuttle_initializer/biodancy,
+/obj/effect/shuttle_landmark/fleet/biodancy,
+/obj/machinery/airlock_sensor{
+	frequency = 1380;
+	id_tag = "fleet_biodancy_docker";
+	pixel_x = 25
+	},
+/obj/map_helper/airlock/sensor/chamber_sensor,
+/obj/map_helper/airlock/atmos/chamber_pump,
 /turf/simulated/floor/tiled/techfloor,
 /area/shuttle/fleet/biodancy)
 "bKu" = (
@@ -2380,6 +2446,16 @@
 /obj/machinery/atmospherics/component/unary/vent_pump/on,
 /turf/simulated/floor/tiled/monotechmaint,
 /area/shuttle/fleet/battlestar)
+"bPP" = (
+/obj/effect/floor_decal/techfloor/orange{
+	dir = 1
+	},
+/obj/machinery/atmospherics/portables_connector{
+	dir = 1
+	},
+/obj/machinery/light,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/shuttle/fleet/trade_ship/general)
 "bQb" = (
 /obj/spawner/window/low_wall/reinforced/firelocks,
 /obj/structure/curtain/black,
@@ -2502,8 +2578,13 @@
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 10
 	},
-/obj/effect/shuttle_landmark/shuttle_initializer/fleet/trade,
 /obj/overmap/entity/visitable/ship/landable/fleet/trade,
+/obj/machinery/embedded_controller/radio/airlock/docking_port{
+	frequency = 1380;
+	id_tag = "fleet_trade_docker";
+	pixel_x = 25
+	},
+/obj/effect/shuttle_landmark/fleet/trade,
 /turf/simulated/floor/tiled/monotechmaint,
 /area/shuttle/fleet/trade_ship/general)
 "bSZ" = (
@@ -2532,11 +2613,17 @@
 	},
 /turf/simulated/floor/carpet/patterened/blue/alt,
 /area/shuttle/fleet/starcutter)
+"bTO" = (
+/obj/effect/shuttle_landmark/automatic{
+	name = "Giga Hauler dock 5"
+	},
+/turf/space,
+/area/space)
 "bTQ" = (
 /obj/machinery/door/airlock/glass_external,
 /obj/map_helper/airlock/door/ext_door,
 /obj/machinery/access_button/airlock_exterior{
-	master_tag = "deneb_docker2";
+	master_tag = "fleet_deneb_docker";
 	name = "external access button";
 	pixel_x = 25
 	},
@@ -2596,7 +2683,7 @@
 /area/shuttle/fleet/cargoravana)
 "bVy" = (
 /obj/machinery/light/small/emergency/flicker{
-	dir = 8
+	dir = 1
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden{
 	dir = 8
@@ -2793,6 +2880,12 @@
 /obj/structure/lattice,
 /turf/template_noop,
 /area/shuttle/fleet/battlestar)
+"cdd" = (
+/obj/structure/cable/white{
+	icon_state = "1-4"
+	},
+/turf/simulated/floor/tiled/monotechmaint,
+/area/shuttle/fleet/trade_ship/general)
 "cdl" = (
 /obj/structure/bed/chair/sofa/red/left{
 	dir = 8
@@ -2803,7 +2896,9 @@
 /turf/simulated/floor/plating/indoors,
 /area/sector/fleet/room13)
 "cdy" = (
-/obj/machinery/door/airlock/hatch,
+/obj/machinery/door/airlock/hatch{
+	req_one_access = null
+	},
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 4
 	},
@@ -2832,6 +2927,10 @@
 "ceh" = (
 /turf/simulated/wall/prepainted/civilian,
 /area/sector/fleet/occupied)
+"cew" = (
+/obj/machinery/door/airlock/derelict,
+/turf/simulated/floor/wood,
+/area/shuttle/fleet/trade_ship/general)
 "ceM" = (
 /obj/structure/window/reinforced{
 	dir = 4
@@ -2928,7 +3027,7 @@
 	dir = 8
 	},
 /obj/structure/fans/tiny,
-/obj/machinery/door/airlock/external/glass,
+/obj/machinery/door/airlock/glass_external,
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
 	},
@@ -2965,7 +3064,7 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/shuttle/fleet/parabellum)
 "cmv" = (
-/obj/machinery/door/airlock/external/glass,
+/obj/machinery/door/airlock/glass_external,
 /obj/effect/floor_decal/rust,
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 4
@@ -3077,7 +3176,7 @@
 /obj/effect/floor_decal/borderfloorblack{
 	dir = 4
 	},
-/obj/machinery/door/airlock/external/glass,
+/obj/machinery/door/airlock/glass_external,
 /turf/simulated/floor/tiled/monotechmaint,
 /area/sector/fleet/commons)
 "cqw" = (
@@ -3113,7 +3212,7 @@
 /turf/simulated/floor/plating/indoors,
 /area/sector/fleet/room7)
 "cqP" = (
-/obj/machinery/light/small/old{
+/obj/machinery/light{
 	dir = 4
 	},
 /turf/simulated/floor/roguetown/dark_wood,
@@ -3161,10 +3260,40 @@
 	},
 /turf/simulated/floor/tiled/monotechmaint,
 /area/sector/fleet/occupied)
+"cun" = (
+/obj/machinery/door/airlock/external,
+/obj/map_helper/airlock/door/ext_door,
+/obj/machinery/access_button/airlock_exterior{
+	frequency = 1380;
+	master_tag = "fleet_providence2_docker";
+	name = "external access button";
+	pixel_x = 25
+	},
+/turf/simulated/floor/tiled/techfloor/monogrid,
+/area/shuttle/fleet/providence)
 "cur" = (
 /obj/machinery/suit_storage_unit/syndicate,
 /turf/simulated/floor/tiled/techmaint,
 /area/sector/fleet/engineering)
+"cuI" = (
+/obj/structure/table/rack/shelf/steel,
+/obj/machinery/door/window/westleft{
+	name = "Storefront";
+	req_access = list(160);
+	dir = 4
+	},
+/obj/machinery/door/blast/shutters{
+	id = "shopentdecker1"
+	},
+/obj/item/cell/basic/tier_3/weapon,
+/obj/item/cell/basic/tier_3/weapon,
+/obj/item/cell/basic/tier_3/weapon,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/shuttle/fleet/trade_ship/general)
+"cvm" = (
+/obj/machinery/telecomms/relay/preset/telecomms,
+/turf/simulated/floor/tiled/techfloor/lythios43c,
+/area/shuttle/fleet/providence)
 "cvV" = (
 /obj/effect/floor_decal/rust,
 /obj/machinery/atmospherics/component/unary/vent_pump/on,
@@ -3209,7 +3338,7 @@
 /area/shuttle/fleet/trade_ship/general)
 "cyT" = (
 /obj/machinery/light/small/emergency/flicker{
-	dir = 4
+	dir = 1
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/fleet/providence)
@@ -3221,6 +3350,12 @@
 /obj/machinery/atmospherics/component/unary/vent_pump/on,
 /turf/simulated/floor/tiled/old_tile/white,
 /area/shuttle/fleet/providence)
+"cAd" = (
+/obj/effect/shuttle_landmark/automatic{
+	name = "Giga Hauler Proximity"
+	},
+/turf/space,
+/area/space)
 "cAl" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 4
@@ -3250,7 +3385,7 @@
 /obj/map_helper/airlock/door/int_door,
 /obj/machinery/access_button/airlock_interior{
 	frequency = 1380;
-	master_tag = "battlestar_docker2";
+	master_tag = "battlestar_docker";
 	name = "internal access button";
 	pixel_x = 22;
 	req_access = "310"
@@ -3360,6 +3495,16 @@
 /obj/machinery/door/blast/regular,
 /turf/simulated/wall/r_wall/prepainted/science,
 /area/sector/fleet/room14)
+"cKb" = (
+/obj/structure/railing/grey,
+/obj/structure/railing/grey{
+	dir = 8
+	},
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/steel_dirty/dark,
+/area/sector/fleet/occupied)
 "cKw" = (
 /obj/spawner/window/low_wall/reinforced/firelocks,
 /turf/simulated/floor/tiled/techfloor/grid,
@@ -3372,11 +3517,13 @@
 /area/shuttle/fleet/scoophead/main)
 "cLk" = (
 /obj/machinery/atmospherics/component/unary/vent_pump/high_volume{
-	dir = 4
+	dir = 4;
+	id_tag = "fleet_biodancy2_docker"
 	},
 /obj/machinery/light/small{
 	dir = 8
 	},
+/obj/map_helper/airlock/atmos/chamber_pump,
 /turf/simulated/floor/tiled/techfloor,
 /area/shuttle/fleet/biodancy)
 "cLu" = (
@@ -3418,7 +3565,7 @@
 	dir = 4
 	},
 /obj/overmap/entity/visitable/ship/landable/fleet/tour,
-/obj/effect/shuttle_landmark/shuttle_initializer/tour,
+/obj/effect/shuttle_landmark/fleet/tour,
 /turf/simulated/floor/tiled/dark,
 /area/shuttle/fleet/tour)
 "cMc" = (
@@ -3519,8 +3666,16 @@
 /turf/simulated/floor/roguetown/dark_wood,
 /area/shuttle/fleet/starcutter)
 "cRt" = (
-/obj/machinery/atmospherics/component/unary/vent_pump/high_volume,
+/obj/machinery/atmospherics/component/unary/vent_pump/high_volume{
+	id_tag = "parabelum_docker2"
+	},
 /obj/map_helper/airlock/atmos/chamber_pump,
+/obj/map_helper/airlock/sensor/chamber_sensor,
+/obj/machinery/airlock_sensor{
+	frequency = 1380;
+	id_tag = "parabelum_docker2";
+	pixel_x = 25
+	},
 /turf/simulated/floor/tiled/techfloor,
 /area/shuttle/fleet/parabellum)
 "cRx" = (
@@ -3628,6 +3783,13 @@
 "cYn" = (
 /obj/machinery/door/airlock/glass_external,
 /obj/map_helper/airlock/door/ext_door,
+/obj/machinery/access_button/airlock_exterior{
+	frequency = 1380;
+	master_tag = "parabelum_docker";
+	name = "external access button";
+	pixel_x = 25;
+	req_access = "310"
+	},
 /turf/simulated/floor/tiled/techfloor,
 /area/shuttle/fleet/parabellum)
 "cYT" = (
@@ -3750,6 +3912,18 @@
 /obj/machinery/atmospheric_field_generator/perma,
 /turf/simulated/floor/plating,
 /area/shuttle/fleet/tug)
+"ddK" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden{
+	dir = 1
+	},
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
+/obj/structure/cable/white{
+	icon_state = "2-4"
+	},
+/turf/simulated/floor/tiled/monotechmaint,
+/area/shuttle/fleet/trade_ship/general)
 "deO" = (
 /obj/effect/floor_decal/borderfloorblack/full,
 /obj/structure/cable/yellow{
@@ -3774,11 +3948,11 @@
 /obj/map_helper/airlock/atmos/chamber_pump,
 /obj/map_helper/airlock/sensor/chamber_sensor,
 /obj/machinery/airlock_sensor{
-	id_tag = "deneb_docker2";
+	id_tag = "fleet_deneb_docker";
 	pixel_x = 25
 	},
 /obj/overmap/entity/visitable/ship/landable/fleet/deneb,
-/obj/effect/shuttle_landmark/shuttle_initializer/fleet/deneb,
+/obj/effect/shuttle_landmark/fleet/deneb,
 /turf/simulated/floor,
 /area/shuttle/fleet/deneb)
 "dfX" = (
@@ -3825,7 +3999,7 @@
 /turf/simulated/floor/tiled/monotechmaint,
 /area/sector/fleet/commons)
 "dhJ" = (
-/obj/machinery/light/small/emergency/flicker,
+/obj/machinery/light/small/flicker,
 /turf/simulated/floor/tiled/techfloor/lythios43c,
 /area/shuttle/fleet/providence)
 "diN" = (
@@ -3863,6 +4037,17 @@
 /obj/spawner/window/low_wall/reinforced/firelocks,
 /turf/simulated/floor/tiled/techfloor/monogrid,
 /area/shuttle/fleet/adventurer)
+"dlI" = (
+/obj/machinery/door/airlock/external,
+/obj/map_helper/airlock/door/ext_door,
+/obj/machinery/access_button/airlock_exterior{
+	frequency = 1380;
+	master_tag = "fleet_providence_docker";
+	name = "external access button";
+	pixel_x = 25
+	},
+/turf/simulated/floor/tiled/techfloor/monogrid,
+/area/shuttle/fleet/providence)
 "dmf" = (
 /obj/structure/table/hardwoodtable,
 /obj/machinery/microwave{
@@ -4077,6 +4262,12 @@
 /obj/item/surgical/surgicaldrill,
 /turf/simulated/floor/tiled/old_cargo/white,
 /area/sector/fleet/commons)
+"dvt" = (
+/obj/structure/toilet{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/old_cargo/white,
+/area/shuttle/fleet/trade_ship/cockpit)
 "dvP" = (
 /obj/structure/table/marble,
 /obj/machinery/reagentgrinder{
@@ -4260,7 +4451,7 @@
 	pixel_x = 25
 	},
 /obj/overmap/entity/visitable/ship/landable/fleet/colonial,
-/obj/effect/shuttle_landmark/shuttle_initializer/fleet/colonial,
+/obj/effect/shuttle_landmark/fleet/colonial,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/fleet/colonial)
 "dDD" = (
@@ -4333,6 +4524,10 @@
 	},
 /turf/simulated/floor/reinforced,
 /area/shuttle/fleet/battlestar)
+"dFU" = (
+/obj/structure/flora/pottedplant/hedge,
+/turf/simulated/floor/tiled/monotechmaint,
+/area/shuttle/fleet/trade_ship/general)
 "dFY" = (
 /obj/effect/floor_decal/carpet/blue,
 /turf/simulated/floor/carpet/bcarpet,
@@ -4591,7 +4786,7 @@
 /area/sector/fleet/room10)
 "dRH" = (
 /obj/structure/fans/tiny,
-/obj/machinery/door/airlock/external/glass,
+/obj/machinery/door/airlock/glass_external,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/sector/fleet/bar)
 "dSd" = (
@@ -4656,6 +4851,7 @@
 /area/sector/fleet/commons)
 "dUx" = (
 /obj/structure/table/rack/shelf,
+/obj/item/bluespace_radio/commerce,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/fleet/trade_ship/general)
 "dUy" = (
@@ -5218,7 +5414,7 @@
 /obj/map_helper/airlock/door/ext_door,
 /obj/machinery/access_button/airlock_exterior{
 	frequency = 1380;
-	master_tag = "battlestar_docker";
+	master_tag = "battlestar_docker2";
 	name = "external access button";
 	pixel_x = 25;
 	req_access = "310"
@@ -5448,6 +5644,14 @@
 /obj/machinery/power/apc/alarms_hidden/west_mount,
 /turf/simulated/floor/plating/indoors,
 /area/sector/fleet/room4)
+"ezS" = (
+/obj/machinery/atmospherics/component/unary/vent_pump/high_volume{
+	frequency = 1380;
+	id_tag = "fleet_providence3_docker"
+	},
+/obj/map_helper/airlock/atmos/chamber_pump,
+/turf/simulated/floor/tiled/techfloor/monogrid,
+/area/shuttle/fleet/providence)
 "eAg" = (
 /obj/machinery/door/airlock/glass_external,
 /turf/simulated/floor/tiled/steel_ridged,
@@ -5892,7 +6096,7 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/shuttle/fleet/deneb)
 "eSu" = (
-/obj/machinery/light/small/emergency/flicker,
+/obj/machinery/light/small/flicker,
 /obj/machinery/atmospherics/pipe/tank/air{
 	dir = 1
 	},
@@ -5955,6 +6159,18 @@
 	},
 /turf/simulated/floor/carpet/patterened/blue/alt,
 /area/shuttle/fleet/caravan)
+"eTM" = (
+/obj/machinery/door/airlock/derelict{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 4
+	},
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/shuttle/fleet/trade_ship/general)
 "eTU" = (
 /obj/structure/closet/crate,
 /obj/item/storage/daki{
@@ -6070,6 +6286,18 @@
 /obj/structure/flora/grass/fey/bush/bushrandom,
 /turf/simulated/floor/water/river,
 /area/sector/fleet/safarizoo)
+"fbM" = (
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 9
+	},
+/obj/machinery/airlock_sensor{
+	frequency = 1380;
+	id_tag = "fleet_providence1_docker";
+	pixel_y = -26
+	},
+/obj/map_helper/airlock/sensor/chamber_sensor,
+/turf/simulated/floor/tiled/techfloor/monogrid,
+/area/shuttle/fleet/providence)
 "fcx" = (
 /obj/effect/debris/cleanable/cobweb2,
 /obj/structure/noticeboard{
@@ -6081,6 +6309,10 @@
 	},
 /turf/simulated/floor/roguetown/dark_wood,
 /area/sector/fleet/bar)
+"fcK" = (
+/obj/spawner/window/low_wall/reinforced/firelocks,
+/turf/simulated/floor/concrete,
+/area/shuttle/fleet/trade_ship/general)
 "fcV" = (
 /obj/structure/cable/orange{
 	icon_state = "2-8"
@@ -6159,10 +6391,10 @@
 "ffm" = (
 /obj/machinery/embedded_controller/radio/airlock/docking_port{
 	pixel_x = 25;
-	id_tag = "tradeport_arrowhead_docker"
+	id_tag = "fleet_bolt_docker"
 	},
-/obj/effect/shuttle_landmark/shuttle_initializer/bolt,
 /obj/overmap/entity/visitable/ship/landable/fleet/bolt,
+/obj/effect/shuttle_landmark/fleet/bolt,
 /turf/simulated/floor/tiled/steel_dirty/dark,
 /area/shuttle/fleet/bolt)
 "ffD" = (
@@ -6456,7 +6688,7 @@
 /area/sector/fleet/room14)
 "fzp" = (
 /obj/structure/fans/tiny,
-/obj/machinery/door/airlock/external/glass,
+/obj/machinery/door/airlock/glass_external,
 /turf/simulated/floor/tiled/steel_ridged,
 /area/sector/fleet/commons)
 "fzu" = (
@@ -6467,10 +6699,6 @@
 /obj/machinery/power/port_gen/pacman/super,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/fleet/battlestar)
-"fzy" = (
-/obj/machinery/atmospherics/pipe/simple/hidden,
-/turf/simulated/wall/r_wall,
-/area/space)
 "fzE" = (
 /obj/structure/closet/walllocker_double/medical/east,
 /obj/item/storage/box/bodybags,
@@ -6526,12 +6754,6 @@
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/shuttle/fleet/scoophead/main)
-"fCf" = (
-/obj/machinery/atmospherics/component/unary/vent_pump/high_volume{
-	dir = 1
-	},
-/turf/simulated/floor/tiled/techfloor/monogrid,
-/area/shuttle/fleet/providence)
 "fCj" = (
 /turf/simulated/floor/event/derelict_floor6,
 /area/shuttle/fleet/colonial)
@@ -6743,7 +6965,7 @@
 	dir = 8
 	},
 /obj/structure/fans/tiny,
-/obj/machinery/door/airlock/external/glass,
+/obj/machinery/door/airlock/glass_external,
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
 	},
@@ -6871,6 +7093,17 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/fleet/trade_ship/general)
+"fRy" = (
+/obj/machinery/atmospherics/component/unary/vent_pump/high_volume{
+	dir = 4;
+	id_tag = "fleet_biodancy_docker"
+	},
+/obj/machinery/light/small{
+	dir = 8
+	},
+/obj/map_helper/airlock/atmos/chamber_pump,
+/turf/simulated/floor/tiled/techfloor,
+/area/shuttle/fleet/biodancy)
 "fRV" = (
 /obj/machinery/power/port_gen/pacman/mrs,
 /obj/structure/cable/cyan,
@@ -7022,6 +7255,16 @@
 /obj/machinery/light/small,
 /turf/simulated/floor/fey/forest_grass,
 /area/shuttle/fleet/biodancy)
+"gaa" = (
+/obj/effect/shuttle_landmark/automatic{
+	name = "Terrafirma Dock 4"
+	},
+/turf/space,
+/area/space)
+"gaG" = (
+/obj/machinery/appliance/cooker/oven,
+/turf/simulated/floor/tiled/kafel_full,
+/area/shuttle/fleet/trade_ship/general)
 "gaJ" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/structure/cable/blue{
@@ -7122,7 +7365,9 @@
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 1
 	},
-/obj/machinery/door/airlock/hatch,
+/obj/machinery/door/airlock/hatch{
+	req_one_access = null
+	},
 /turf/simulated/floor/tiled/techfloor,
 /area/shuttle/fleet/starcutter)
 "gec" = (
@@ -7190,6 +7435,15 @@
 	},
 /turf/simulated/floor/event/derelict_floor6,
 /area/shuttle/fleet/colonial)
+"gfE" = (
+/obj/effect/floor_decal/techfloor/orange{
+	dir = 1
+	},
+/obj/structure/fuel_port{
+	pixel_y = -27
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/shuttle/fleet/trade_ship/general)
 "gfF" = (
 /obj/structure/table/bench/wooden,
 /obj/machinery/air_alarm/alarms_hidden{
@@ -7234,6 +7488,13 @@
 /obj/machinery/atmospherics/pipe/simple/hidden,
 /turf/simulated/floor/tiled/monotechmaint,
 /area/shuttle/fleet/battlestar)
+"ghx" = (
+/obj/machinery/shower{
+	dir = 8
+	},
+/obj/structure/curtain/open/shower,
+/turf/simulated/floor/tiled/old_cargo/white,
+/area/shuttle/fleet/trade_ship/cockpit)
 "ghI" = (
 /obj/machinery/power/smes/buildable{
 	charge = 15000;
@@ -7245,7 +7506,7 @@
 /turf/simulated/floor/plating,
 /area/shuttle/fleet/cargoravana)
 "ghR" = (
-/obj/machinery/light/small/emergency/flicker,
+/obj/machinery/light/small/flicker,
 /obj/machinery/atmospherics/component/unary/vent_pump/on{
 	dir = 1
 	},
@@ -7529,9 +7790,6 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/sector/fleet/bar)
-"gwC" = (
-/turf/simulated/floor/tiled/monotechmaint,
-/area/space)
 "gwI" = (
 /obj/structure/cable/green{
 	icon_state = "1-2"
@@ -7559,16 +7817,6 @@
 	},
 /turf/simulated/floor/carpet/patterened/red,
 /area/shuttle/fleet/scoophead/cockpit)
-"gwX" = (
-/obj/machinery/computer/shuttle_control/explore/arrowhead{
-	dir = 1
-	},
-/obj/item/gps/internal/base{
-	name = "Occupied";
-	gps_tag = "OCCUPIED SHUTTLE"
-	},
-/turf/simulated/floor/tiled/steel_dirty/red,
-/area/sector/fleet/occupied)
 "gxg" = (
 /obj/machinery/atmospherics/pipe/simple/hidden,
 /obj/structure/cable/white{
@@ -7689,11 +7937,11 @@
 	},
 /obj/machinery/atmospherics/component/unary/vent_pump/high_volume{
 	frequency = 1380;
-	id_tag = "battlestar_docker"
+	id_tag = "battlestar_docker2"
 	},
 /obj/machinery/airlock_sensor{
 	frequency = 1380;
-	id_tag = "battlestar_docker";
+	id_tag = "battlestar_docker2";
 	pixel_x = 25
 	},
 /obj/map_helper/airlock/atmos/chamber_pump,
@@ -7789,7 +8037,7 @@
 	icon_state = "4-8"
 	},
 /obj/overmap/entity/visitable/ship/landable/fleet/trade/scoophead,
-/obj/effect/shuttle_landmark/shuttle_initializer/fleet/trade2,
+/obj/effect/shuttle_landmark/fleet/trade2,
 /turf/simulated/floor/plating,
 /area/shuttle/fleet/scoophead/main)
 "gHl" = (
@@ -7845,8 +8093,10 @@
 /area/shuttle/fleet/parabellum)
 "gLb" = (
 /obj/machinery/atmospherics/component/unary/vent_pump/high_volume{
-	dir = 4
+	dir = 4;
+	id_tag = "fleet_trade2_docker"
 	},
+/obj/map_helper/airlock/atmos/chamber_pump,
 /turf/simulated/floor/tiled/monotechmaint,
 /area/shuttle/fleet/trade_ship/general)
 "gLW" = (
@@ -8095,6 +8345,7 @@
 /obj/structure/cable/white{
 	icon_state = "1-2"
 	},
+/obj/map_helper/airlock/door/int_door,
 /turf/simulated/floor/tiled/techfloor,
 /area/shuttle/fleet/biodancy)
 "gTV" = (
@@ -8116,7 +8367,9 @@
 /turf/simulated/floor/roguetown/dark_wood,
 /area/sector/fleet/smuggler)
 "gWv" = (
-/obj/machinery/suit_cycler,
+/obj/machinery/suit_cycler{
+	req_access = null
+	},
 /obj/structure/window/phoronreinforced,
 /turf/simulated/floor/plating/indoors,
 /area/sector/fleet/commons)
@@ -8213,6 +8466,16 @@
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/shuttle/fleet/deneb)
+"hca" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/obj/machinery/seed_extractor,
+/turf/simulated/floor/tiled/monotechmaint,
+/area/shuttle/fleet/trade_ship/general)
 "hcu" = (
 /turf/simulated/floor/tiled/eris/dark/violetcorener,
 /area/shuttle/fleet/passenger)
@@ -8387,7 +8650,7 @@
 /area/shuttle/fleet/passenger)
 "hkw" = (
 /obj/overmap/entity/visitable/ship/landable/fleet/cargoravana,
-/obj/effect/shuttle_landmark/shuttle_initializer/fleet/cargoravana,
+/obj/effect/shuttle_landmark/fleet/cargoravana,
 /turf/simulated/floor/tiled/techfloor,
 /area/shuttle/fleet/cargoravana)
 "hkG" = (
@@ -8701,18 +8964,6 @@
 /obj/machinery/telecomms/allinone/militia,
 /turf/simulated/floor/tiled/techfloor/monogrid,
 /area/shuttle/fleet/battlestar)
-"hxV" = (
-/obj/machinery/computer/ship/helm{
-	req_one_access = null
-	},
-/obj/structure/table/steel_reinforced,
-/obj/machinery/embedded_controller/radio/airlock/docking_port{
-	pixel_y = 30;
-	pixel_x = -6;
-	id_tag = "tradeport_cargoravana_docker"
-	},
-/turf/simulated/floor/tiled/techfloor,
-/area/sector/fleet/occupied)
 "hxX" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 8
@@ -8747,6 +8998,10 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/shuttle/fleet/battlestar)
+"hyu" = (
+/obj/structure/table/steel_reinforced,
+/turf/simulated/floor/tiled/techfloor,
+/area/sector/fleet/occupied)
 "hyI" = (
 /obj/effect/floor_decal/borderfloorblack{
 	dir = 1
@@ -8977,7 +9232,7 @@
 /area/sector/fleet/smuggler)
 "hMb" = (
 /obj/structure/fans/tiny,
-/obj/machinery/door/airlock/external/glass,
+/obj/machinery/door/airlock/glass_external,
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
 	},
@@ -9152,6 +9407,15 @@
 	},
 /turf/simulated/floor/tiled/techfloor/monogrid,
 /area/shuttle/fleet/battlestar)
+"hUf" = (
+/obj/structure/cable/green{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/techfloor/monogrid,
+/area/shuttle/fleet/providence)
 "hUj" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 6
@@ -9269,8 +9533,11 @@
 	dir = 4
 	},
 /obj/machinery/door/blast/shutters{
-	id = "Tug1"
+	id = "shopentdecker1"
 	},
+/obj/random/multiple/gun/projectile/shotgun,
+/obj/random/weapon,
+/obj/random/weapon,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/fleet/trade_ship/general)
 "hZv" = (
@@ -9335,6 +9602,7 @@
 "ibT" = (
 /obj/machinery/door/airlock/external,
 /obj/machinery/atmospherics/pipe/simple/hidden,
+/obj/map_helper/airlock/door/int_door,
 /turf/simulated/floor/tiled/techfloor/monogrid,
 /area/shuttle/fleet/providence)
 "icT" = (
@@ -9355,6 +9623,18 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/sector/fleet/botany)
+"idq" = (
+/obj/machinery/door/airlock/glass_external,
+/obj/map_helper/airlock/door/int_door,
+/obj/machinery/access_button/airlock_exterior{
+	frequency = 1380;
+	master_tag = "parabelum_docker2";
+	name = "external access button";
+	pixel_x = 25;
+	req_access = "310"
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/shuttle/fleet/parabellum)
 "idu" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/cyan{
 	dir = 4
@@ -9431,6 +9711,12 @@
 	},
 /obj/machinery/light{
 	dir = 4
+	},
+/obj/map_helper/airlock/sensor/chamber_sensor,
+/obj/machinery/airlock_sensor{
+	frequency = 1380;
+	id_tag = "fleet_trade2_docker";
+	pixel_x = 25
 	},
 /turf/simulated/floor/tiled/monotechmaint,
 /area/shuttle/fleet/trade_ship/general)
@@ -9992,7 +10278,7 @@
 	dir = 8
 	},
 /obj/overmap/entity/visitable/ship/landable/fleet/runabout,
-/obj/effect/shuttle_landmark/shuttle_initializer/fleet/runabout,
+/obj/effect/shuttle_landmark/fleet/runabout,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/runabout)
 "iEh" = (
@@ -10042,7 +10328,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/aux{
 	dir = 8
 	},
-/obj/machinery/door/airlock/external/glass,
+/obj/machinery/door/airlock/glass_external,
 /turf/simulated/floor/tiled/techfloor,
 /area/shuttle/fleet/tour)
 "iFw" = (
@@ -10076,6 +10362,14 @@
 "iGz" = (
 /turf/simulated/floor/water/deep/pool,
 /area/sector/fleet/commons)
+"iGG" = (
+/obj/machinery/door/airlock/external,
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/obj/map_helper/airlock/door/ext_door,
+/turf/simulated/floor/tiled/monotechmaint,
+/area/shuttle/fleet/trade_ship/general)
 "iGK" = (
 /obj/structure/cable/green{
 	icon_state = "4-8"
@@ -10261,7 +10555,7 @@
 /obj/effect/floor_decal/borderfloorblack{
 	dir = 8
 	},
-/obj/machinery/door/airlock/external/glass,
+/obj/machinery/door/airlock/glass_external,
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
 	},
@@ -10592,8 +10886,7 @@
 /turf/simulated/floor/plating/indoors,
 /area/sector/fleet/room2)
 "jhx" = (
-/obj/overmap/entity/visitable/ship/landable/trade/crescend,
-/turf/space,
+/turf/space/basic,
 /area/space)
 "jhL" = (
 /obj/structure/cable/green{
@@ -10604,6 +10897,16 @@
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/shuttle/fleet/battlestar)
+"jia" = (
+/obj/structure/closet/secure_closet/freezer/fridge,
+/obj/item/reagent_containers/food/snacks/meat,
+/obj/item/reagent_containers/food/snacks/meat,
+/obj/item/reagent_containers/food/snacks/meat/chicken,
+/obj/item/reagent_containers/food/snacks/meat/chicken,
+/obj/item/reagent_containers/food/condiment/flour,
+/obj/item/reagent_containers/food/condiment/flour,
+/turf/simulated/floor/tiled/kafel_full,
+/area/shuttle/fleet/trade_ship/general)
 "jih" = (
 /obj/machinery/camera/network{
 	network = list("SDF");
@@ -10875,7 +11178,7 @@
 	icon_state = "1-2"
 	},
 /obj/machinery/door/blast/regular/open{
-	id = "ani3"
+	id = "ani4"
 	},
 /obj/map_helper/airlock/door/ext_door,
 /obj/machinery/access_button/airlock_exterior{
@@ -10899,6 +11202,9 @@
 "jrn" = (
 /obj/structure/window/reinforced{
 	dir = 8
+	},
+/obj/structure/cable/white{
+	icon_state = "1-2"
 	},
 /turf/simulated/floor/tiled/monotechmaint,
 /area/shuttle/fleet/trade_ship/general)
@@ -10989,6 +11295,20 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/fleet/trade_ship/general)
+"juS" = (
+/obj/map_helper/airlock/sensor/chamber_sensor,
+/obj/machinery/atmospherics/component/unary/vent_pump/high_volume{
+	dir = 8;
+	id_tag = "fleet_providence_docker"
+	},
+/obj/map_helper/airlock/atmos/chamber_pump,
+/obj/machinery/airlock_sensor{
+	frequency = 1380;
+	id_tag = "fleet_providence1_docker";
+	pixel_x = 25
+	},
+/turf/simulated/floor/tiled/techfloor/monogrid,
+/area/shuttle/fleet/providence)
 "jvW" = (
 /obj/structure/closet/walllocker_double/east,
 /obj/machinery/atmospherics/component/binary/pump{
@@ -11055,6 +11375,17 @@
 /obj/structure/curtain/open/bed,
 /turf/simulated/floor/tiled/techfloor,
 /area/shuttle/fleet/ani)
+"jyP" = (
+/obj/effect/floor_decal/rust,
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 4
+	},
+/obj/structure/fuel_port{
+	dir = 4;
+	pixel_y = -32
+	},
+/turf/simulated/floor/tiled/techfloor/lythios43c,
+/area/shuttle/fleet/providence)
 "jzt" = (
 /obj/machinery/atmospherics/component/unary/engine/biggest{
 	dir = 8
@@ -11139,7 +11470,7 @@
 "jCf" = (
 /obj/structure/bed/chair/bay/chair/padded/red/smallnest,
 /obj/machinery/light/small/emergency/flicker{
-	dir = 8
+	dir = 1
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/fleet/providence)
@@ -11213,7 +11544,7 @@
 "jDV" = (
 /obj/structure/railing/grey,
 /obj/machinery/light/small/emergency/flicker{
-	dir = 4
+	dir = 1
 	},
 /turf/simulated/floor/reinforced,
 /area/shuttle/fleet/providence)
@@ -11521,6 +11852,13 @@
 /obj/effect/floor_decal/industrial/warning,
 /turf/simulated/floor/concrete,
 /area/sector/fleet/dock)
+"jQR" = (
+/obj/structure/sink{
+	dir = 8;
+	pixel_x = -14
+	},
+/turf/simulated/floor/tiled/old_cargo/white,
+/area/shuttle/fleet/trade_ship/cockpit)
 "jRn" = (
 /obj/effect/floor_decal/corner/blue/border{
 	dir = 10
@@ -11693,7 +12031,6 @@
 /obj/structure/cable/white{
 	icon_state = "4-8"
 	},
-/obj/overmap/entity/visitable/ship/landable/trade/crescend,
 /obj/machinery/atmospherics/pipe/simple/hidden,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/fleet/starcutter)
@@ -11777,24 +12114,6 @@
 	},
 /turf/simulated/floor/carpet/sblucarpet,
 /area/sector/fleet/botany)
-"kev" = (
-/obj/machinery/button/remote/blast_door{
-	id = "Arrowhead Airlock";
-	pixel_x = 25
-	},
-/obj/machinery/door/airlock/hatch{
-	name = "Arrowhead Airtight Hatch";
-	req_one_access = null
-	},
-/obj/machinery/door/blast/regular{
-	id = "Arrowhead Airlock"
-	},
-/obj/structure/cable/orange{
-	icon_state = "1-2"
-	},
-/obj/machinery/atmospheric_field_generator/perma,
-/turf/simulated/floor/tiled/steel_dirty/dark,
-/area/sector/fleet/occupied)
 "keR" = (
 /obj/effect/floor_decal/corner_techfloor_grid/full,
 /turf/simulated/floor/tiled/steel_ridged,
@@ -11886,6 +12205,11 @@
 /obj/effect/floor_decal/rust,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/sector/fleet/commons)
+"khn" = (
+/obj/structure/table/steel_reinforced,
+/obj/machinery/light/small,
+/turf/simulated/floor/tiled/techfloor,
+/area/sector/fleet/occupied)
 "kiq" = (
 /obj/machinery/button/remote/blast_door{
 	dir = 4;
@@ -11909,6 +12233,15 @@
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/sector/fleet/occupied)
+"kjm" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden,
+/obj/machinery/embedded_controller/radio/airlock/docking_port{
+	frequency = 1380;
+	id_tag = "fleet_providence3_docker";
+	pixel_y = -27
+	},
+/turf/simulated/floor/tiled/techfloor/monogrid,
+/area/shuttle/fleet/providence)
 "kjS" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 6
@@ -11951,6 +12284,24 @@
 	},
 /turf/simulated/floor/tiled/kafel_full/white,
 /area/shuttle/fleet/cargoravana)
+"klK" = (
+/obj/machinery/door/airlock/external,
+/obj/map_helper/airlock/door/ext_door,
+/obj/machinery/airlock_sensor/airlock_exterior/shuttle{
+	frequency = 1380;
+	id_tag = "scoophead_exterior_sensor";
+	master_tag = "tradeport_scoophead_docker";
+	pixel_x = 24;
+	pixel_y = -8
+	},
+/obj/machinery/access_button/airlock_exterior{
+	frequency = 1380;
+	master_tag = "fleet_trade2_docker";
+	name = "external access button";
+	pixel_x = 25
+	},
+/turf/simulated/floor/tiled/monotechmaint,
+/area/shuttle/fleet/trade_ship/general)
 "kmi" = (
 /obj/map_helper/airlock/sensor/chamber_sensor,
 /obj/machinery/airlock_sensor{
@@ -11982,10 +12333,18 @@
 "kmD" = (
 /obj/structure/closet/secure_closet/freezer/fridge,
 /obj/machinery/light/small/emergency/flicker{
-	dir = 4
+	dir = 1
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/fleet/providence)
+"kmS" = (
+/obj/machinery/atmospherics/pipe/tank/air,
+/obj/effect/floor_decal/techfloor/orange,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/shuttle/fleet/trade_ship/general)
 "kno" = (
 /obj/machinery/air_alarm/alarms_hidden/south_mount,
 /turf/simulated/floor/lino,
@@ -12091,7 +12450,6 @@
 /obj/map_helper/airlock/sensor/ext_sensor,
 /obj/machinery/airlock_sensor/airlock_exterior/shuttle{
 	frequency = 1380;
-	id_tag = "scoophead_exterior_sensor";
 	master_tag = "tradeport_scoophead_docker";
 	pixel_x = 24;
 	pixel_y = -8
@@ -12107,7 +12465,9 @@
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 4
 	},
-/obj/machinery/door/airlock/hatch,
+/obj/machinery/door/airlock/hatch{
+	req_one_access = null
+	},
 /turf/simulated/floor/tiled/techfloor/monogrid,
 /area/shuttle/fleet/starcutter)
 "ksr" = (
@@ -12296,6 +12656,12 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/shuttle/fleet/tour)
+"kAq" = (
+/obj/machinery/media/jukebox{
+	pixel_y = -9
+	},
+/turf/simulated/wall/r_wall,
+/area/sector/fleet/bar)
 "kAQ" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 4
@@ -12373,7 +12739,7 @@
 /turf/simulated/floor/tiled/old_cargo/white,
 /area/sector/fleet/commons)
 "kHq" = (
-/obj/machinery/light/small/emergency/flicker,
+/obj/machinery/light/small/flicker,
 /obj/machinery/atmospherics/pipe/manifold/hidden,
 /turf/simulated/floor/tiled/techfloor/lythios43c,
 /area/shuttle/fleet/providence)
@@ -12451,6 +12817,15 @@
 /obj/structure/table/hardwoodtable,
 /turf/simulated/floor/tiled/kafel_full/beige,
 /area/shuttle/fleet/colonial)
+"kJY" = (
+/obj/structure/cable/green{
+	icon_state = "4-8"
+	},
+/obj/structure/cable/green{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/monotechmaint,
+/area/sector/fleet/occupied)
 "kKH" = (
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
@@ -12469,13 +12844,13 @@
 "kLw" = (
 /obj/machinery/embedded_controller/radio/airlock/airlock_controller{
 	frequency = 1380;
-	id_tag = "battlestar_docker";
+	id_tag = "battlestar_docker2";
 	pixel_x = -25;
 	req_access = "310"
 	},
 /obj/machinery/atmospherics/component/unary/vent_pump/high_volume{
 	frequency = 1380;
-	id_tag = "battlestar_docker"
+	id_tag = "battlestar_docker2"
 	},
 /obj/map_helper/airlock/atmos/chamber_pump,
 /obj/structure/cable/yellow{
@@ -12746,6 +13121,13 @@
 /obj/item/gun/projectile/ballistic/ax59,
 /turf/simulated/floor/tiled/dark,
 /area/shuttle/fleet/battlestar)
+"kXC" = (
+/obj/machinery/lathe/autolathe{
+	desc = "Your typical Autolathe. It appears to have much more options than your regular one, however...";
+	name = "Unlocked Autolathe"
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/shuttle/fleet/trade_ship/general)
 "kXN" = (
 /turf/simulated/floor/tiled/monotechmaint,
 /area/shuttle/fleet/battlestar)
@@ -12811,10 +13193,6 @@
 	},
 /turf/simulated/floor,
 /area/shuttle/fleet/battlestar)
-"lcm" = (
-/obj/effect/shuttle_landmark/automatic,
-/turf/space,
-/area/space)
 "lcG" = (
 /obj/structure/window/reinforced{
 	dir = 1
@@ -13272,6 +13650,10 @@
 	},
 /turf/simulated/floor/tiled/kafel_full/white,
 /area/shuttle/fleet/cargoravana)
+"lCx" = (
+/obj/structure/table/steel_reinforced,
+/turf/simulated/floor/tiled/monotechmaint,
+/area/shuttle/fleet/trade_ship/general)
 "lCP" = (
 /obj/machinery/door/airlock/glass_external{
 	req_one_access = null
@@ -13330,7 +13712,9 @@
 /turf/simulated/floor/tiled/eris/white/orangecorner,
 /area/shuttle/fleet/tour)
 "lJz" = (
-/obj/machinery/door/airlock/hatch,
+/obj/machinery/door/airlock/hatch{
+	req_one_access = null
+	},
 /obj/structure/cable/cyan{
 	icon_state = "4-8"
 	},
@@ -13457,6 +13841,12 @@
 "lNZ" = (
 /turf/simulated/wall/wood/hardwood,
 /area/sector/fleet/church)
+"lOl" = (
+/obj/effect/shuttle_landmark/automatic{
+	name = "Giga Hauler dock 3"
+	},
+/turf/space,
+/area/space)
 "lOt" = (
 /obj/structure/window/reinforced{
 	dir = 1
@@ -13465,7 +13855,9 @@
 /turf/simulated/floor/tiled/eris/dark/violetcorener,
 /area/shuttle/fleet/passenger)
 "lOz" = (
-/obj/machinery/door/airlock/hatch,
+/obj/machinery/door/airlock/hatch{
+	req_one_access = null
+	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/sector/fleet/trash)
 "lOD" = (
@@ -13483,6 +13875,14 @@
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/shuttle/fleet/battlestar)
+"lPn" = (
+/obj/machinery/door/airlock/external,
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 1
+	},
+/obj/map_helper/airlock/door/int_door,
+/turf/simulated/floor/tiled/techfloor/monogrid,
+/area/shuttle/fleet/providence)
 "lPM" = (
 /obj/machinery/atmospherics/pipe/manifold4w/hidden,
 /turf/simulated/floor/tiled/techfloor/lythios43c,
@@ -13645,10 +14045,13 @@
 "lVy" = (
 /obj/effect/floor_decal/techfloor/orange,
 /obj/machinery/power/smes/buildable/offmap_spawn,
+/obj/structure/cable/white{
+	icon_state = "0-2"
+	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/fleet/trade_ship/general)
 "lVB" = (
-/obj/machinery/door/airlock/external/glass,
+/obj/machinery/door/airlock/glass_external,
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 4
 	},
@@ -13672,6 +14075,9 @@
 	},
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/machinery/light,
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
 /turf/simulated/floor/tiled/dark,
 /area/shuttle/fleet/trade_ship/general)
 "lWw" = (
@@ -13949,7 +14355,9 @@
 /turf/simulated/floor/plating/indoors,
 /area/sector/fleet/room7)
 "mjx" = (
-/obj/machinery/suit_cycler,
+/obj/machinery/suit_cycler{
+	req_access = null
+	},
 /obj/structure/window/phoronreinforced,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/sector/fleet/commons)
@@ -14155,13 +14563,13 @@
 "mrt" = (
 /obj/machinery/embedded_controller/radio/airlock/airlock_controller{
 	frequency = 1380;
-	id_tag = "battlestar_docker2";
+	id_tag = "battlestar_docker";
 	pixel_x = -25;
 	req_access = "310"
 	},
 /obj/machinery/atmospherics/component/unary/vent_pump/high_volume{
 	frequency = 1380;
-	id_tag = "battlestar_docker2";
+	id_tag = "battlestar_docker";
 	dir = 1
 	},
 /obj/map_helper/airlock/atmos/chamber_pump,
@@ -14206,6 +14614,11 @@
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
 	},
+/obj/machinery/embedded_controller/radio/airlock/airlock_controller{
+	frequency = 1380;
+	id_tag = "parabelum_docker";
+	pixel_x = -25
+	},
 /turf/simulated/floor/tiled/techfloor,
 /area/shuttle/fleet/parabellum)
 "msx" = (
@@ -14249,7 +14662,9 @@
 /turf/simulated/floor/tiled/eris/dark/techfloor,
 /area/shuttle/fleet/passenger)
 "mvh" = (
-/obj/machinery/door/airlock/hatch,
+/obj/machinery/door/airlock/hatch{
+	req_one_access = null
+	},
 /turf/simulated/floor/tiled/monotechmaint,
 /area/shuttle/fleet/battlestar)
 "mvt" = (
@@ -14302,7 +14717,7 @@
 /turf/simulated/floor/tiled/kafel_full/beige,
 /area/shuttle/fleet/colonial)
 "mwy" = (
-/obj/machinery/door/airlock/external/glass,
+/obj/machinery/door/airlock/glass_external,
 /obj/structure/cable/green{
 	icon_state = "4-8"
 	},
@@ -14312,6 +14727,13 @@
 /obj/effect/floor_decal/borderfloorblack/full,
 /turf/simulated/floor/event/derelict_floor6,
 /area/sector/fleet/engineering)
+"mwP" = (
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 9
+	},
+/obj/structure/flora/pottedplant/hedge,
+/turf/simulated/floor/tiled/monotechmaint,
+/area/shuttle/fleet/trade_ship/general)
 "mwT" = (
 /obj/structure/closet/walllocker_double/north,
 /obj/structure/cable/green{
@@ -14339,6 +14761,9 @@
 /obj/structure/cable/green{
 	icon_state = "4-8"
 	},
+/obj/machinery/light/small{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/techfloor,
 /area/shuttle/fleet/cargoravana)
 "myi" = (
@@ -14353,12 +14778,19 @@
 /area/shuttle/fleet/starcutter)
 "myG" = (
 /obj/machinery/atmospherics/component/unary/vent_pump/high_volume{
-	dir = 1
+	dir = 1;
+	id_tag = "fleet_biodancy2_docker"
 	},
 /obj/structure/cable/white{
 	icon_state = "1-2"
 	},
-/obj/overmap/entity/visitable/ship/landable/fleet/biodancy,
+/obj/map_helper/airlock/atmos/chamber_pump,
+/obj/map_helper/airlock/sensor/chamber_sensor,
+/obj/machinery/airlock_sensor{
+	frequency = 1380;
+	id_tag = "fleet_biodancy2_docker";
+	pixel_x = 25
+	},
 /turf/simulated/floor/tiled/techfloor,
 /area/shuttle/fleet/biodancy)
 "myU" = (
@@ -14462,8 +14894,11 @@
 /turf/simulated/floor/tiled/techfloor/lythios43c,
 /area/shuttle/fleet/providence)
 "mCf" = (
-/obj/overmap/entity/visitable/ship/landable/fleet/providence,
-/obj/effect/shuttle_landmark/shuttle_initializer/providence,
+/obj/machinery/embedded_controller/radio/airlock/docking_port{
+	frequency = 1380;
+	id_tag = "fleet_providence2_docker";
+	pixel_x = 25
+	},
 /turf/simulated/floor/tiled/techfloor/monogrid,
 /area/shuttle/fleet/providence)
 "mCx" = (
@@ -14488,6 +14923,19 @@
 /obj/structure/table/steel,
 /turf/simulated/floor/tiled/dark,
 /area/shuttle/fleet/battlestar)
+"mDj" = (
+/obj/machinery/door/airlock/glass_external,
+/obj/machinery/atmospherics/pipe/simple/hidden,
+/obj/map_helper/airlock/door/int_door,
+/obj/machinery/access_button/airlock_interior{
+	frequency = 1380;
+	master_tag = "parabelum_docker2";
+	name = "internal access button";
+	pixel_x = 22;
+	req_access = "310"
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/shuttle/fleet/parabellum)
 "mDp" = (
 /obj/structure/bed/chair/sofa/red{
 	dir = 8
@@ -14518,6 +14966,15 @@
 /obj/machinery/light/small,
 /turf/simulated/floor/plating/eris/under,
 /area/shuttle/fleet/tour)
+"mEf" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden{
+	dir = 1
+	},
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/monotechmaint,
+/area/shuttle/fleet/trade_ship/general)
 "mEx" = (
 /obj/machinery/atmospherics/component/unary/engine/biggest{
 	dir = 8
@@ -14534,6 +14991,9 @@
 	},
 /obj/structure/cable/yellow{
 	icon_state = "0-2"
+	},
+/obj/machinery/light{
+	dir = 1
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/fleet/trade_ship/general)
@@ -14640,6 +15100,12 @@
 /obj/machinery/light/small/old,
 /turf/simulated/floor/tiled/kafel_full,
 /area/sector/fleet/bar)
+"mLg" = (
+/obj/effect/shuttle_landmark/automatic{
+	name = "Terrafirma Dock 1"
+	},
+/turf/space,
+/area/space)
 "mLh" = (
 /obj/machinery/light{
 	dir = 4
@@ -14736,7 +15202,9 @@
 /turf/simulated/floor/tiled/techfloor/monogrid,
 /area/sector/fleet/occupied)
 "mOK" = (
-/obj/machinery/door/airlock/hatch,
+/obj/machinery/door/airlock/hatch{
+	req_one_access = null
+	},
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 4
 	},
@@ -14761,6 +15229,9 @@
 "mQl" = (
 /obj/effect/floor_decal/techfloor/orange,
 /obj/machinery/atmospherics/pipe/tank/chlorine,
+/obj/machinery/light{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/fleet/trade_ship/general)
 "mQo" = (
@@ -14857,7 +15328,6 @@
 	},
 /obj/machinery/holopad/ship,
 /obj/overmap/entity/visitable/ship/landable/fleet/utilitymicro2,
-/obj/effect/shuttle_landmark/shuttle_initializer/fleet/micro2,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/fleet/utilitymicro2)
 "mUy" = (
@@ -15117,6 +15587,12 @@
 	dir = 1;
 	pixel_y = -24
 	},
+/obj/machinery/embedded_controller/radio/simple_docking_controller{
+	dir = 4;
+	frequency = 1380;
+	id_tag = "fleet_cargoravana_docker";
+	pixel_x = -26
+	},
 /turf/simulated/floor/tiled/techfloor,
 /area/shuttle/fleet/cargoravana)
 "nju" = (
@@ -15302,7 +15778,6 @@
 	},
 /obj/machinery/holopad/ship,
 /obj/overmap/entity/visitable/ship/landable/fleet/utilitymicro,
-/obj/effect/shuttle_landmark/shuttle_initializer/fleet/micro,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/fleet/utilitymicro)
 "nsr" = (
@@ -15433,20 +15908,6 @@
 /obj/structure/grille,
 /turf/simulated/floor/tiled/dark,
 /area/sector/fleet/botany)
-"nxP" = (
-/obj/machinery/door/airlock/hatch{
-	name = "Arrowhead Airtight Hatch";
-	req_one_access = null
-	},
-/obj/machinery/door/blast/regular{
-	id = "Arrowhead Airlock"
-	},
-/obj/structure/cable/orange{
-	icon_state = "1-2"
-	},
-/obj/machinery/atmospheric_field_generator/perma,
-/turf/simulated/floor/tiled/steel_dirty/dark,
-/area/sector/fleet/occupied)
 "nyz" = (
 /turf/simulated/floor/tiled/techfloor/monogrid,
 /area/shuttle/fleet/cargoravana)
@@ -15577,6 +16038,14 @@
 "nDQ" = (
 /obj/structure/table/rack/shelf,
 /obj/machinery/air_alarm/alarms_hidden/north_mount,
+/obj/item/stack/material/glass,
+/obj/item/stack/material/plasteel{
+	amount = 20
+	},
+/obj/item/stack/material/steel/full_stack,
+/obj/item/stack/material/plastic{
+	amount = 50
+	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/fleet/trade_ship/general)
 "nEg" = (
@@ -15631,6 +16100,9 @@
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 9
 	},
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
 /turf/simulated/floor/plating,
 /area/shuttle/fleet/trade_ship/general)
 "nGh" = (
@@ -15660,6 +16132,15 @@
 	},
 /turf/simulated/floor/reinforced,
 /area/shuttle/fleet/battlestar)
+"nGH" = (
+/obj/map_helper/airlock/atmos/chamber_pump,
+/obj/machinery/atmospherics/component/unary/vent_pump/high_volume{
+	frequency = 1380;
+	id_tag = "fleet_providence2_docker";
+	power_rating = 20000
+	},
+/turf/simulated/floor/tiled/techfloor/monogrid,
+/area/shuttle/fleet/providence)
 "nHv" = (
 /obj/machinery/atmospherics/component/unary/vent_pump/on{
 	dir = 1
@@ -15788,6 +16269,14 @@
 /obj/machinery/atmospherics/pipe/manifold4w/hidden,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/fleet/trade_ship/general)
+"nNg" = (
+/obj/machinery/air_alarm/alarms_hidden/east_mount,
+/obj/machinery/shower{
+	dir = 8
+	},
+/obj/structure/curtain/open/shower,
+/turf/simulated/floor/tiled/old_cargo/white,
+/area/shuttle/fleet/trade_ship/cockpit)
 "nNy" = (
 /obj/structure/table/steel,
 /obj/structure/cable/yellow{
@@ -15982,6 +16471,10 @@
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/shuttle/fleet/biodancy)
+"nZQ" = (
+/obj/machinery/media/jukebox,
+/turf/simulated/floor/carpet/patterened/blue,
+/area/shuttle/fleet/trade_ship/general)
 "nZS" = (
 /obj/structure/table/bench/wooden,
 /obj/machinery/air_alarm/alarms_hidden{
@@ -16202,7 +16695,7 @@
 /turf/simulated/floor/tiled/techfloor/monogrid,
 /area/shuttle/fleet/battlestar)
 "ohU" = (
-/obj/machinery/door/airlock/external/glass,
+/obj/machinery/door/airlock/glass_external,
 /obj/structure/fans/tiny,
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
@@ -16301,6 +16794,9 @@
 	},
 /obj/effect/floor_decal/techfloor/orange,
 /obj/machinery/air_alarm/alarms_hidden/north_mount,
+/obj/structure/cable/white{
+	icon_state = "2-8"
+	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/fleet/trade_ship/general)
 "olM" = (
@@ -16392,6 +16888,36 @@
 	},
 /turf/simulated/floor/reinforced,
 /area/shuttle/fleet/battlestar)
+"opl" = (
+/obj/structure/table/steel_reinforced,
+/obj/item/deskbell{
+	pixel_x = -7;
+	pixel_y = -2
+	},
+/obj/machinery/door/blast/shutters{
+	density = 0;
+	dir = 8;
+	icon_state = "shutter0";
+	id = "trade";
+	name = "Shop Shutters";
+	opacity = 0
+	},
+/obj/machinery/button/remote/blast_door{
+	id = "trade";
+	name = "Shop shutters";
+	pixel_x = -6;
+	dir = 8;
+	pixel_y = 9
+	},
+/obj/machinery/button/remote/blast_door{
+	id = "shopentdecker1";
+	name = "Shop Shutter Door";
+	pixel_x = -6;
+	dir = 8;
+	pixel_y = 18
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/shuttle/fleet/trade_ship/general)
 "opo" = (
 /obj/machinery/computer/ship/helm{
 	dir = 4
@@ -16569,6 +17095,12 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/fleet/colonial)
+"ovt" = (
+/obj/effect/shuttle_landmark/automatic{
+	name = "Giga Hauler dock 7"
+	},
+/turf/space,
+/area/space)
 "ovD" = (
 /obj/structure/fuel_port{
 	pixel_x = -27
@@ -16577,6 +17109,7 @@
 	icon_state = "1-4"
 	},
 /obj/overmap/entity/visitable/ship/landable/fleet/tug,
+/obj/effect/shuttle_landmark/fleet/tug,
 /turf/simulated/floor/tiled/techfloor,
 /area/shuttle/fleet/tug)
 "ovU" = (
@@ -16761,7 +17294,7 @@
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
 	},
-/obj/machinery/door/airlock/external/glass,
+/obj/machinery/door/airlock/glass_external,
 /turf/simulated/floor/tiled/monotechmaint,
 /area/sector/fleet/commons)
 "oDE" = (
@@ -16828,7 +17361,9 @@
 /turf/simulated/floor/plating/indoors,
 /area/sector/fleet/room4)
 "oFo" = (
-/obj/machinery/door/airlock/hatch,
+/obj/machinery/door/airlock/hatch{
+	req_one_access = null
+	},
 /obj/machinery/atmospherics/pipe/simple/hidden,
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/techfloor,
@@ -16880,6 +17415,20 @@
 	},
 /turf/simulated/floor/tiled/old_cargo/white,
 /area/sector/fleet/commons)
+"oHO" = (
+/obj/machinery/door/airlock/external,
+/obj/structure/cable/white{
+	icon_state = "1-2"
+	},
+/obj/machinery/access_button/airlock_exterior{
+	frequency = 1380;
+	master_tag = "fleet_biodancy_docker";
+	name = "external access button";
+	pixel_x = 25
+	},
+/obj/map_helper/airlock/door/ext_door,
+/turf/simulated/floor/tiled/techfloor,
+/area/shuttle/fleet/biodancy)
 "oHV" = (
 /obj/effect/floor_decal/rust,
 /turf/simulated/floor/plating/indoors,
@@ -16985,7 +17534,7 @@
 /area/shuttle/fleet/colonial)
 "oMs" = (
 /obj/machinery/light/small/emergency/flicker{
-	dir = 4
+	dir = 1
 	},
 /turf/simulated/floor/reinforced,
 /area/shuttle/fleet/providence)
@@ -17052,15 +17601,6 @@
 	},
 /turf/simulated/floor/plating/indoors,
 /area/sector/fleet/room7)
-"oRP" = (
-/obj/effect/floor_decal/industrial/halfstair{
-	dir = 1
-	},
-/obj/structure/window/basic{
-	dir = 8
-	},
-/turf/simulated/floor/tiled/dark,
-/area/shuttle/fleet/battlestar)
 "oSk" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 10
@@ -17248,7 +17788,7 @@
 /obj/map_helper/airlock/door/int_door,
 /obj/machinery/access_button/airlock_interior{
 	frequency = 1380;
-	master_tag = "battlestar_docker";
+	master_tag = "battlestar_docker2";
 	name = "internal access button";
 	pixel_x = 22;
 	req_access = "310"
@@ -17371,6 +17911,23 @@
 /obj/item/storage/box/donkpockets,
 /turf/simulated/floor/plating/indoors,
 /area/sector/fleet/room5)
+"pjl" = (
+/obj/structure/table/rack/shelf/steel,
+/obj/structure/window/reinforced,
+/obj/machinery/door/window/westleft{
+	name = "Storefront";
+	req_access = list(160);
+	dir = 4
+	},
+/obj/machinery/door/blast/shutters{
+	id = "shopentdecker1"
+	},
+/obj/random/energy,
+/obj/random/energy,
+/obj/random/gun/random,
+/obj/random/gun/random,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/shuttle/fleet/trade_ship/general)
 "pka" = (
 /obj/machinery/shipsensors,
 /turf/simulated/floor/tiled/techfloor,
@@ -17402,6 +17959,14 @@
 	},
 /turf/simulated/floor/tiled/monotechmaint,
 /area/sector/fleet/commons)
+"pkI" = (
+/obj/machinery/embedded_controller/radio/airlock/docking_port{
+	frequency = 1380;
+	id_tag = "fleet_biodancy2_docker";
+	pixel_x = 25
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/shuttle/fleet/biodancy)
 "pkS" = (
 /obj/effect/floor_decal/borderfloorblack/full,
 /obj/structure/table/bench/standard,
@@ -17417,6 +17982,11 @@
 /obj/item/stack/material/algae/ten,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/sector/fleet/botany)
+"pmf" = (
+/obj/machinery/door/airlock/external,
+/obj/map_helper/airlock/door/int_door,
+/turf/simulated/floor/tiled/monotechmaint,
+/area/shuttle/fleet/trade_ship/general)
 "pmt" = (
 /obj/effect/floor_decal/carpet{
 	dir = 8
@@ -17462,6 +18032,16 @@
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/sector/fleet/engineering)
+"poI" = (
+/obj/effect/shuttle_landmark/fleet/providence,
+/obj/overmap/entity/visitable/ship/landable/fleet/providence,
+/obj/machinery/embedded_controller/radio/airlock/docking_port{
+	frequency = 1380;
+	id_tag = "fleet_providence_docker";
+	pixel_x = 25
+	},
+/turf/simulated/floor/tiled/techfloor/monogrid,
+/area/shuttle/fleet/providence)
 "ppn" = (
 /turf/simulated/floor/carpet/patterened/orange,
 /area/shuttle/fleet/deneb)
@@ -17637,8 +18217,9 @@
 	dir = 4
 	},
 /obj/machinery/door/blast/shutters{
-	id = "Tug1"
+	id = "shopentdecker1"
 	},
+/obj/random/multiple/gun/projectile/rifle,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/fleet/trade_ship/general)
 "pvD" = (
@@ -17722,6 +18303,14 @@
 /obj/item/reagent_containers/food/condiment/soysauce,
 /turf/simulated/floor/tiled/techfloor,
 /area/shuttle/fleet/battlestar)
+"pAd" = (
+/obj/machinery/embedded_controller/radio/airlock/airlock_controller{
+	frequency = 1380;
+	id_tag = "parabelum_docker2";
+	pixel_x = -25
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/shuttle/fleet/parabellum)
 "pAk" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/cyan,
 /obj/machinery/air_alarm/alarms_hidden/north_mount{
@@ -17791,6 +18380,9 @@
 	dir = 4
 	},
 /obj/machinery/light,
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
 /turf/simulated/floor/tiled/monotechmaint,
 /area/shuttle/fleet/trade_ship/general)
 "pEj" = (
@@ -17822,6 +18414,8 @@
 /obj/structure/cable/yellow{
 	icon_state = "2-8"
 	},
+/obj/structure/table/steel_reinforced,
+/obj/item/storage/box/botanydisk,
 /turf/simulated/floor/tiled/monotechmaint,
 /area/shuttle/fleet/trade_ship/general)
 "pFq" = (
@@ -17889,6 +18483,17 @@
 /obj/machinery/atmospherics/component/unary/vent_pump/on,
 /turf/simulated/floor/plating/indoors,
 /area/sector/fleet/room5)
+"pIO" = (
+/obj/machinery/door/airlock/external,
+/obj/map_helper/airlock/door/int_door,
+/obj/machinery/access_button/airlock_interior{
+	frequency = 1380;
+	master_tag = "fleet_providence2_docker";
+	name = "internal access button";
+	pixel_x = 22
+	},
+/turf/simulated/floor/tiled/techfloor/monogrid,
+/area/shuttle/fleet/providence)
 "pJC" = (
 /obj/spawner/window/low_wall/reinforced/firelocks,
 /turf/simulated/floor/tiled/techfloor/grid,
@@ -17943,7 +18548,7 @@
 /obj/map_helper/airlock/door/ext_door,
 /obj/machinery/access_button/airlock_exterior{
 	frequency = 1380;
-	master_tag = "battlestar_docker2";
+	master_tag = "battlestar_docker";
 	name = "external access button";
 	pixel_x = 25;
 	req_access = "310"
@@ -18093,6 +18698,15 @@
 	},
 /turf/simulated/wall/r_wall/prepainted,
 /area/shuttle/fleet/parabellum)
+"pRD" = (
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/monotechmaint,
+/area/shuttle/fleet/trade_ship/general)
 "pRP" = (
 /obj/structure/table/steel,
 /obj/item/reagent_containers/food/condiment/small/saltshaker,
@@ -18211,6 +18825,17 @@
 /obj/structure/table/steel,
 /turf/simulated/floor/tiled/dark,
 /area/shuttle/fleet/battlestar)
+"pVB" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/obj/machinery/button/remote/blast_door{
+	id = "occulumfighta";
+	pixel_x = 25;
+	dir = 8
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/shuttle/fleet/starcutter)
 "pVO" = (
 /obj/machinery/atmospherics/component/unary/vent_pump/on{
 	dir = 4
@@ -18545,7 +19170,7 @@
 "qjC" = (
 /obj/structure/salvageable/server,
 /obj/machinery/light/small/emergency/flicker{
-	dir = 4
+	dir = 1
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/fleet/providence)
@@ -18584,6 +19209,12 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/fleet/trade_ship/general)
+"qkS" = (
+/obj/effect/shuttle_landmark/automatic{
+	name = "Giga Hauler dock 4"
+	},
+/turf/space,
+/area/space)
 "qlo" = (
 /obj/spawner/window/low_wall/reinforced/firelocks,
 /turf/simulated/floor/tiled/techfloor/monogrid,
@@ -18599,12 +19230,32 @@
 /obj/machinery/light{
 	dir = 4
 	},
+/obj/structure/table/steel_reinforced,
 /turf/simulated/floor/tiled/monotechmaint,
 /area/shuttle/fleet/trade_ship/general)
 "qmv" = (
 /mob/living/simple_mob/humanoid/vce_people/priest,
 /turf/simulated/floor/wood,
 /area/sector/fleet/church)
+"qmx" = (
+/obj/machinery/door/airlock/external,
+/obj/map_helper/airlock/door/ext_door,
+/obj/machinery/airlock_sensor/airlock_exterior/shuttle{
+	frequency = 1380;
+	id_tag = "scoophead_exterior_sensor";
+	master_tag = "tradeport_scoophead_docker";
+	pixel_x = 24;
+	pixel_y = -8
+	},
+/obj/map_helper/airlock/sensor/ext_sensor,
+/obj/machinery/access_button/airlock_exterior{
+	frequency = 1380;
+	master_tag = "fleet_trade_docker";
+	name = "external access button";
+	pixel_x = 25
+	},
+/turf/simulated/floor/tiled/monotechmaint,
+/area/shuttle/fleet/trade_ship/general)
 "qmF" = (
 /obj/structure/bed/chair/bay/shuttle{
 	dir = 8
@@ -18619,7 +19270,7 @@
 /turf/simulated/floor/plating,
 /area/shuttle/fleet/scoophead/engineering)
 "qnA" = (
-/obj/machinery/door/airlock/external/glass,
+/obj/machinery/door/airlock/glass_external,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/sector/fleet/bar)
 "qor" = (
@@ -18700,6 +19351,12 @@
 	},
 /turf/simulated/floor/tiled/techfloor/monogrid,
 /area/shuttle/fleet/starcutter)
+"qsB" = (
+/obj/effect/shuttle_landmark/automatic{
+	name = "Terrafirma Dock 6"
+	},
+/turf/space,
+/area/space)
 "qtS" = (
 /obj/machinery/computer/ship/sensors{
 	dir = 8
@@ -18719,6 +19376,10 @@
 	},
 /turf/simulated/floor/tiled/techfloor/monogrid,
 /area/shuttle/fleet/battlestar)
+"qvy" = (
+/obj/spawner/window/low_wall/reinforced/firelocks,
+/turf/simulated/floor/tiled/techfloor,
+/area/shuttle/fleet/scoophead/main)
 "qvW" = (
 /obj/machinery/light/small,
 /obj/structure/bed/chair/sofa/red/left{
@@ -18864,7 +19525,7 @@
 /obj/effect/floor_decal/carpet{
 	dir = 4
 	},
-/obj/machinery/light/small/old{
+/obj/machinery/light{
 	dir = 4
 	},
 /turf/simulated/floor/carpet/lythios43c,
@@ -18903,6 +19564,18 @@
 /obj/machinery/air_alarm/alarms_hidden/west_mount,
 /turf/simulated/floor/tiled/monotechmaint,
 /area/shuttle/fleet/colonial)
+"qCM" = (
+/obj/structure/table/rack/shelf,
+/obj/item/stack/material/glass,
+/obj/item/stack/material/plasteel{
+	amount = 20
+	},
+/obj/item/stack/material/steel/full_stack,
+/obj/item/stack/material/plastic{
+	amount = 50
+	},
+/turf/simulated/floor/concrete,
+/area/sector/fleet/dock)
 "qCP" = (
 /obj/machinery/power/smes/buildable/offmap_spawn,
 /obj/structure/cable{
@@ -19072,6 +19745,24 @@
 "qKE" = (
 /obj/machinery/door/airlock/external,
 /obj/machinery/atmospherics/pipe/simple/hidden,
+/obj/map_helper/airlock/door/int_door,
+/obj/machinery/access_button/airlock_interior{
+	frequency = 1380;
+	master_tag = "fleet_trade2_docker";
+	name = "internal access button";
+	pixel_x = 22
+	},
+/turf/simulated/floor/tiled/monotechmaint,
+/area/shuttle/fleet/trade_ship/general)
+"qKU" = (
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 9
+	},
+/obj/machinery/embedded_controller/radio/airlock/docking_port{
+	frequency = 1380;
+	id_tag = "fleet_trade2_docker";
+	pixel_x = 25
+	},
 /turf/simulated/floor/tiled/monotechmaint,
 /area/shuttle/fleet/trade_ship/general)
 "qKX" = (
@@ -19348,7 +20039,7 @@
 /area/shuttle/fleet/colonial)
 "qWC" = (
 /obj/structure/fans/tiny,
-/obj/machinery/door/airlock/external/glass,
+/obj/machinery/door/airlock/glass_external,
 /turf/simulated/floor/tiled/dark,
 /area/space)
 "qWG" = (
@@ -19496,6 +20187,12 @@
 	},
 /turf/simulated/floor/concrete,
 /area/sector/fleet/dock)
+"rdd" = (
+/obj/effect/shuttle_landmark/automatic{
+	name = "Terrafirma Dock 2"
+	},
+/turf/space,
+/area/space)
 "rdr" = (
 /obj/structure/cable/yellow{
 	icon_state = "0-8"
@@ -19746,8 +20443,13 @@
 	req_access = list(160);
 	dir = 4
 	},
+/obj/item/card/emag{
+	desc = "It's a card with a magnetic strip attached to some circuitry. Looks really flimsy, like it'll fall apart at any moment.";
+	name = "discount cryptographic sequencer";
+	uses = 1
+	},
 /obj/machinery/door/blast/shutters{
-	id = "Tug1"
+	id = "shopentdecker1"
 	},
 /obj/item/card/emag{
 	desc = "It's a card with a magnetic strip attached to some circuitry. Looks really flimsy, like it'll fall apart at any moment.";
@@ -19869,6 +20571,15 @@
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/shuttle/fleet/scoophead/main)
+"rxc" = (
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 4
+	},
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/monotechmaint,
+/area/shuttle/fleet/trade_ship/general)
 "rxm" = (
 /obj/structure/cable/green{
 	icon_state = "4-8"
@@ -20036,11 +20747,19 @@
 /obj/structure/bookcase,
 /turf/simulated/floor/roguetown/dark_wood,
 /area/sector/fleet/bar)
+"rEP" = (
+/obj/effect/shuttle_landmark/automatic{
+	name = "Terrafirma Dock 7"
+	},
+/turf/space,
+/area/space)
 "rEY" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 4
 	},
-/obj/machinery/door/airlock/hatch,
+/obj/machinery/door/airlock/hatch{
+	req_one_access = null
+	},
 /turf/simulated/floor/wood/indoors,
 /area/shuttle/fleet/starcutter)
 "rFl" = (
@@ -20202,6 +20921,7 @@
 "rLG" = (
 /obj/structure/table/rack/shelf,
 /obj/machinery/light,
+/obj/item/spacecash/c1000,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/fleet/trade_ship/general)
 "rLX" = (
@@ -20407,6 +21127,7 @@
 /area/sector/fleet/occupied)
 "rUn" = (
 /obj/machinery/door/airlock/external,
+/obj/map_helper/airlock/door/ext_door,
 /turf/simulated/floor/tiled/techfloor,
 /area/shuttle/fleet/biodancy)
 "rUr" = (
@@ -20512,6 +21233,16 @@
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 1
 	},
+/obj/map_helper/airlock/door/int_door,
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 4
+	},
+/obj/machinery/access_button/airlock_interior{
+	frequency = 1380;
+	master_tag = "fleet_providence3_docker";
+	name = "internal access button";
+	pixel_y = -25
+	},
 /turf/simulated/floor/tiled/techfloor/monogrid,
 /area/shuttle/fleet/providence)
 "rYY" = (
@@ -20543,6 +21274,17 @@
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/shuttle/fleet/parabellum)
+"rZU" = (
+/obj/machinery/door/airlock/external,
+/obj/map_helper/airlock/door/int_door,
+/obj/machinery/access_button/airlock_interior{
+	frequency = 1380;
+	master_tag = "fleet_biodancy_docker";
+	name = "internal access button";
+	pixel_x = 22
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/shuttle/fleet/biodancy)
 "rZZ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/cyan{
 	dir = 4
@@ -20785,6 +21527,12 @@
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/shuttle/fleet/starcutter)
+"skf" = (
+/obj/machinery/computer/shuttle_control/explore/fleet/trade{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/monodark,
+/area/shuttle/fleet/trade_ship/cockpit)
 "skM" = (
 /obj/effect/floor_decal/borderfloorblack,
 /obj/effect/floor_decal/borderfloorblack{
@@ -20985,7 +21733,7 @@
 	dir = 4
 	},
 /obj/structure/fans/tiny,
-/obj/machinery/door/airlock/external/glass,
+/obj/machinery/door/airlock/glass_external,
 /turf/simulated/floor/tiled/monotechmaint,
 /area/sector/fleet/commons)
 "sqL" = (
@@ -21033,6 +21781,7 @@
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
 	},
+/obj/map_helper/airlock/door/int_door,
 /turf/simulated/floor/tiled/monotechmaint,
 /area/shuttle/fleet/trade_ship/general)
 "srp" = (
@@ -21112,12 +21861,30 @@
 /obj/effect/floor_decal/rust,
 /turf/simulated/floor/tiled/steel_ridged,
 /area/shuttle/fleet/providence)
+"suY" = (
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/structure/cable/white{
+	icon_state = "2-8"
+	},
+/turf/simulated/floor/tiled/monotechmaint,
+/area/shuttle/fleet/trade_ship/general)
 "suZ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 1
 	},
 /turf/simulated/floor/tiled/techfloor/monogrid,
 /area/shuttle/fleet/starcutter)
+"svW" = (
+/obj/machinery/atm{
+	pixel_x = -28
+	},
+/obj/structure/cable/white{
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled/monotechmaint,
+/area/shuttle/fleet/trade_ship/general)
 "svZ" = (
 /obj/machinery/light/small/old,
 /obj/machinery/button/remote/blast_door{
@@ -21204,6 +21971,9 @@
 /area/shuttle/fleet/battlestar)
 "syF" = (
 /obj/structure/bed/chair/bay/chair/padded/red/smallnest,
+/obj/machinery/light/small{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/techfloor,
 /area/shuttle/fleet/biodancy)
 "szc" = (
@@ -21234,7 +22004,9 @@
 /turf/simulated/floor/plating/indoors,
 /area/sector/fleet/room15)
 "szz" = (
-/obj/machinery/door/airlock/hatch,
+/obj/machinery/door/airlock/hatch{
+	req_one_access = null
+	},
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 4
 	},
@@ -21815,6 +22587,9 @@
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
 	},
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/fleet/trade_ship/general)
 "tdD" = (
@@ -21917,6 +22692,9 @@
 	},
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/machinery/light,
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
 /turf/simulated/floor/tiled/dark,
 /area/shuttle/fleet/trade_ship/general)
 "tjb" = (
@@ -22009,6 +22787,17 @@
 /obj/effect/floor_decal/borderfloorblack/corner,
 /turf/simulated/floor/tiled/monotechmaint,
 /area/sector/fleet/commons)
+"tnd" = (
+/obj/machinery/door/airlock/external,
+/obj/map_helper/airlock/door/int_door,
+/obj/machinery/access_button/airlock_interior{
+	frequency = 1380;
+	master_tag = "fleet_providence_docker";
+	name = "internal access button";
+	pixel_x = 22
+	},
+/turf/simulated/floor/tiled/techfloor/monogrid,
+/area/shuttle/fleet/providence)
 "tnP" = (
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
@@ -22052,7 +22841,7 @@
 /obj/machinery/embedded_controller/radio/simple_docking_controller{
 	dir = 8;
 	frequency = 1380;
-	id_tag = "tourbus_docker";
+	id_tag = "fleet_tour_docker";
 	pixel_x = 28
 	},
 /turf/simulated/floor/tiled/dark,
@@ -22244,7 +23033,9 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/fleet/trade_ship/general)
 "tBr" = (
-/obj/machinery/door/airlock/hatch,
+/obj/machinery/door/airlock/hatch{
+	req_one_access = null
+	},
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 4
 	},
@@ -22351,6 +23142,22 @@
 "tFC" = (
 /turf/simulated/wall/r_wall/prepainted,
 /area/shuttle/fleet/scoophead/cockpit)
+"tGX" = (
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 4
+	},
+/obj/structure/cable/white{
+	icon_state = "0-4"
+	},
+/obj/machinery/power/apc/alarms_hidden/no_cell/south_mount,
+/turf/simulated/floor/tiled/monotechmaint,
+/area/shuttle/fleet/trade_ship/cockpit)
+"tHg" = (
+/obj/effect/shuttle_landmark/automatic{
+	name = "Terrafirma Dock 11"
+	},
+/turf/space,
+/area/space)
 "tHj" = (
 /obj/machinery/microwave{
 	pixel_y = 6
@@ -22407,7 +23214,7 @@
 	pixel_x = 32
 	},
 /obj/overmap/entity/visitable/ship/landable/fleet/caravan,
-/obj/effect/shuttle_landmark/shuttle_initializer/fleet/caravan,
+/obj/effect/shuttle_landmark/fleet/caravan,
 /turf/simulated/floor/carpet/patterened/blue/alt,
 /area/shuttle/fleet/caravan)
 "tKg" = (
@@ -22564,6 +23371,12 @@
 /obj/structure/closet/crate/trashcart,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/sector/fleet/commons)
+"tQk" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/roguetown/dark_wood,
+/area/sector/fleet/bar)
 "tQL" = (
 /obj/machinery/disperser/front{
 	dir = 8
@@ -22656,6 +23469,21 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/fleet/tug)
+"tTV" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden{
+	dir = 4
+	},
+/obj/machinery/light{
+	dir = 4
+	},
+/obj/map_helper/airlock/sensor/chamber_sensor,
+/obj/machinery/airlock_sensor{
+	frequency = 1380;
+	id_tag = "fleet_trade_docker";
+	pixel_x = 25
+	},
+/turf/simulated/floor/tiled/monotechmaint,
+/area/shuttle/fleet/trade_ship/general)
 "tUd" = (
 /turf/simulated/floor/tiled/steel_ridged,
 /area/sector/fleet/botany)
@@ -22749,7 +23577,7 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/fleet/colonial)
 "uaW" = (
-/obj/machinery/light/small/emergency/flicker,
+/obj/machinery/light/small/flicker,
 /obj/effect/floor_decal/rust,
 /turf/simulated/floor/tiled/techfloor/lythios43c,
 /area/shuttle/fleet/providence)
@@ -22947,6 +23775,9 @@
 /turf/simulated/floor/plating/indoors,
 /area/shuttle/fleet/bolt)
 "ujs" = (
+/obj/structure/cable/white{
+	icon_state = "1-8"
+	},
 /turf/simulated/floor/plating,
 /area/shuttle/fleet/trade_ship/general)
 "ujt" = (
@@ -22965,6 +23796,13 @@
 /obj/machinery/door/airlock/glass_external,
 /obj/machinery/atmospherics/pipe/simple/hidden,
 /obj/map_helper/airlock/door/int_door,
+/obj/machinery/access_button/airlock_interior{
+	frequency = 1380;
+	master_tag = "parabelum_docker";
+	name = "internal access button";
+	pixel_x = 22;
+	req_access = "310"
+	},
 /turf/simulated/floor/tiled/techfloor,
 /area/shuttle/fleet/parabellum)
 "ukr" = (
@@ -23091,10 +23929,22 @@
 /turf/simulated/wall/r_wall/prepainted/engineering,
 /area/sector/fleet/room12)
 "usJ" = (
-/obj/machinery/door/airlock/external/glass,
+/obj/machinery/door/airlock/glass_external,
 /obj/structure/fans/tiny,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/sector/fleet/bar)
+"utj" = (
+/obj/machinery/atmospherics/pipe/simple/hidden,
+/obj/structure/cable/white,
+/obj/machinery/power/apc/alarms_hidden/no_cell/west_mount,
+/turf/simulated/floor/tiled/monotechmaint,
+/area/shuttle/fleet/trade_ship/general)
+"utt" = (
+/obj/structure/cable/white{
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled/monotechmaint,
+/area/shuttle/fleet/trade_ship/general)
 "utR" = (
 /obj/structure/flora/pottedplant/hedge,
 /obj/machinery/light{
@@ -23102,6 +23952,14 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/sector/fleet/botany)
+"uud" = (
+/obj/machinery/embedded_controller/radio/airlock/docking_port{
+	frequency = 1380;
+	id_tag = "fleet_biodancy_docker";
+	pixel_x = 25
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/shuttle/fleet/biodancy)
 "uuw" = (
 /obj/effect/floor_decal/industrial/danger,
 /turf/simulated/floor/reinforced,
@@ -23220,6 +24078,9 @@
 /obj/structure/table/wooden_reinforced,
 /obj/machinery/chemical_dispenser/catering/bar_coffee{
 	dir = 8
+	},
+/obj/machinery/light{
+	dir = 4
 	},
 /turf/simulated/floor/roguetown/dark_wood,
 /area/sector/fleet/bar)
@@ -23422,7 +24283,7 @@
 /area/shuttle/fleet/battlestar)
 "uIF" = (
 /obj/overmap/entity/visitable/ship/landable/fleet/adventurer,
-/obj/effect/shuttle_landmark/shuttle_initializer/fleet/adventurer,
+/obj/effect/shuttle_landmark/fleet/adventurer,
 /turf/simulated/floor/tiled/techfloor/monogrid,
 /area/shuttle/fleet/adventurer)
 "uIK" = (
@@ -23517,6 +24378,15 @@
 "uNo" = (
 /turf/simulated/floor/reinforced/airmix,
 /area/sector/fleet/commons)
+"uNy" = (
+/obj/effect/floor_decal/industrial/halfstair{
+	dir = 1
+	},
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/floor,
+/area/shuttle/fleet/battlestar)
 "uNz" = (
 /obj/effect/floor_decal/corner/blue/border{
 	dir = 4
@@ -23602,6 +24472,12 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/sector/fleet/smuggler)
+"uQj" = (
+/obj/effect/floor_decal/techfloor{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/steel_dirty/red,
+/area/sector/fleet/occupied)
 "uQD" = (
 /obj/structure/cable/green{
 	icon_state = "1-8"
@@ -23824,6 +24700,7 @@
 	pixel_x = 23
 	},
 /obj/overmap/entity/visitable/ship/landable/fleet/starcutter,
+/obj/effect/shuttle_landmark/fleet/starcutter,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/fleet/starcutter)
 "vbb" = (
@@ -23928,6 +24805,10 @@
 "vfw" = (
 /turf/simulated/floor/tiled/techmaint,
 /area/sector/fleet/engineering)
+"vfx" = (
+/obj/machinery/shipsensors,
+/turf/simulated/floor/tiled/techfloor/lythios43c,
+/area/shuttle/fleet/providence)
 "vgc" = (
 /obj/structure/bed/chair/comfy/brown{
 	dir = 1
@@ -23975,7 +24856,7 @@
 /obj/structure/table/steel_reinforced,
 /obj/machinery/appliance/cooker/oven,
 /obj/machinery/light/small/emergency/flicker{
-	dir = 8
+	dir = 1
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/fleet/providence)
@@ -23984,7 +24865,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden,
 /obj/map_helper/airlock/door/int_door,
 /obj/machinery/access_button/airlock_interior{
-	master_tag = "deneb_docker2";
+	master_tag = "fleet_deneb_docker";
 	name = "internal access button";
 	pixel_x = 22
 	},
@@ -24014,7 +24895,7 @@
 "viT" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/button/remote/blast_door{
-	id = "Bcaravan1";
+	id = "Bcaravan2";
 	name = "Caravan Front Door";
 	pixel_x = -25
 	},
@@ -24111,7 +24992,7 @@
 /obj/effect/floor_decal/corner/blue/border{
 	dir = 9
 	},
-/obj/machinery/computer/shuttle_control/explore/trade/scoophead,
+/obj/machinery/computer/shuttle_control/explore/fleet/trade/scoophead,
 /turf/simulated/floor/tiled/techfloor,
 /area/shuttle/fleet/scoophead/cockpit)
 "vlK" = (
@@ -24273,11 +25154,13 @@
 /area/sector/fleet/safarizoo)
 "vpz" = (
 /obj/machinery/atmospherics/component/unary/vent_pump/high_volume{
-	dir = 4
+	dir = 4;
+	id_tag = "fleet_trade_docker"
 	},
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
 	},
+/obj/map_helper/airlock/atmos/chamber_pump,
 /turf/simulated/floor/tiled/monotechmaint,
 /area/shuttle/fleet/trade_ship/general)
 "vpT" = (
@@ -24309,12 +25192,13 @@
 /turf/simulated/wall/r_wall/prepainted,
 /area/sector/fleet/trash)
 "vqP" = (
-/obj/effect/shuttle_landmark/shuttle_initializer/parabellum,
 /obj/overmap/entity/visitable/ship/landable/fleet/parabellum,
 /obj/machinery/atmospherics/component/unary/vent_pump/high_volume{
-	dir = 1
+	dir = 1;
+	id_tag = "parabelum_docker"
 	},
 /obj/map_helper/airlock/atmos/chamber_pump,
+/obj/effect/shuttle_landmark/fleet/parabellum,
 /turf/simulated/floor/tiled/techfloor,
 /area/shuttle/fleet/parabellum)
 "vqZ" = (
@@ -24467,7 +25351,9 @@
 /area/shuttle/fleet/passenger)
 "vzR" = (
 /obj/structure/curtain/open/bed,
-/obj/machinery/door/airlock/hatch,
+/obj/machinery/door/airlock/hatch{
+	req_one_access = null
+	},
 /obj/machinery/atmospherics/pipe/simple/hidden,
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/techfloor,
@@ -24521,6 +25407,15 @@
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/shuttle/fleet/tug)
+"vBD" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden{
+	dir = 8
+	},
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/monotechmaint,
+/area/shuttle/fleet/trade_ship/general)
 "vBY" = (
 /obj/effect/floor_decal/spline/plain{
 	dir = 4
@@ -24888,7 +25783,9 @@
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 1
 	},
-/obj/machinery/door/airlock/hatch,
+/obj/machinery/door/airlock/hatch{
+	req_one_access = null
+	},
 /turf/simulated/floor/tiled/techfloor,
 /area/shuttle/fleet/starcutter)
 "vUZ" = (
@@ -25154,6 +26051,17 @@
 	},
 /turf/simulated/floor/concrete,
 /area/sector/fleet/dock)
+"wdM" = (
+/obj/effect/floor_decal/techfloor/orange{
+	dir = 1
+	},
+/obj/machinery/atmospherics/portables_connector{
+	dir = 1
+	},
+/obj/machinery/portable_atmospherics/canister/phoron,
+/obj/machinery/light,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/shuttle/fleet/trade_ship/general)
 "wdQ" = (
 /obj/machinery/newscaster{
 	pixel_x = -30
@@ -25387,7 +26295,7 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/fleet/colonial)
 "wpf" = (
-/obj/machinery/light/small/emergency/flicker,
+/obj/machinery/light/small/flicker,
 /obj/machinery/atmospherics/component/unary/vent_pump/on{
 	dir = 1
 	},
@@ -25444,6 +26352,7 @@
 /area/shuttle/fleet/biodancy)
 "wsi" = (
 /obj/machinery/door/airlock/external,
+/obj/map_helper/airlock/door/ext_door,
 /turf/simulated/floor/tiled/monotechmaint,
 /area/shuttle/fleet/trade_ship/general)
 "wsK" = (
@@ -25523,7 +26432,9 @@
 /obj/effect/floor_decal/grass_edge{
 	dir = 8
 	},
-/obj/machinery/vending/farmer,
+/obj/machinery/vending/farmer{
+	name = "Colonist Farm vendor"
+	},
 /obj/structure/railing{
 	dir = 4
 	},
@@ -25557,7 +26468,7 @@
 /obj/effect/floor_decal/borderfloorblack{
 	dir = 4
 	},
-/obj/machinery/door/airlock/external/glass,
+/obj/machinery/door/airlock/glass_external,
 /turf/simulated/floor/tiled/monotechmaint,
 /area/sector/fleet/dock)
 "wBP" = (
@@ -25569,6 +26480,14 @@
 /mob/living/simple_mob/humanoid/vce_people/mechanic,
 /turf/simulated/floor/roguetown/dark_wood,
 /area/sector/fleet/bar)
+"wCh" = (
+/obj/structure/cable/green,
+/obj/structure/table/steel_reinforced,
+/obj/machinery/power/apc/alarms_hidden/south_mount{
+	req_access = null
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/sector/fleet/occupied)
 "wCn" = (
 /obj/machinery/air_alarm/alarms_hidden/north_mount{
 	req_one_access = null
@@ -25600,7 +26519,9 @@
 /turf/simulated/floor/tiled/steel_dirty/dark,
 /area/sector/fleet/occupied)
 "wDf" = (
-/obj/machinery/door/airlock/hatch,
+/obj/machinery/door/airlock/hatch{
+	req_one_access = null
+	},
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/techfloor,
 /area/shuttle/fleet/deneb)
@@ -25827,6 +26748,17 @@
 /obj/effect/floor_decal/techfloor/orange,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/fleet/trade_ship/general)
+"wPo" = (
+/obj/machinery/door/airlock/external,
+/obj/map_helper/airlock/door/int_door,
+/obj/machinery/access_button/airlock_exterior{
+	frequency = 1380;
+	master_tag = "fleet_biodancy2_docker";
+	name = "external access button";
+	pixel_x = 25
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/shuttle/fleet/biodancy)
 "wPp" = (
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/sector/fleet/trash)
@@ -25882,6 +26814,12 @@
 "wRp" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 4
+	},
+/obj/machinery/embedded_controller/radio/airlock/docking_port{
+	id_tag = "fleet_adventurer_docker";
+	frequency = 8018;
+	pixel_x = -1;
+	pixel_y = 25
 	},
 /turf/simulated/floor/tiled/techfloor/monogrid,
 /area/shuttle/fleet/adventurer)
@@ -25953,6 +26891,11 @@
 /obj/machinery/door/airlock/vault,
 /turf/simulated/floor/tiled/old_cargo/white,
 /area/sector/fleet/smuggler)
+"wVB" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/media/jukebox,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/shuttle/fleet/battlestar)
 "wVX" = (
 /obj/machinery/atmospherics/component/binary/pump/high_power{
 	dir = 4
@@ -25973,6 +26916,22 @@
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/shuttle/fleet/biodancy)
+"wXo" = (
+/obj/map_helper/airlock/atmos/chamber_pump,
+/obj/map_helper/airlock/sensor/chamber_sensor,
+/obj/machinery/airlock_sensor{
+	frequency = 1380;
+	id_tag = "fleet_providence2_docker";
+	pixel_x = 25
+	},
+/obj/machinery/atmospherics/component/unary/vent_pump/high_volume{
+	frequency = 1380;
+	id_tag = "fleet_providence2_docker";
+	power_rating = 20000;
+	dir = 8
+	},
+/turf/simulated/floor/tiled/techfloor/monogrid,
+/area/shuttle/fleet/providence)
 "wXE" = (
 /obj/machinery/door/airlock/hatch{
 	name = "Caravan Airtight Hatch";
@@ -26015,8 +26974,9 @@
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
 	},
+/obj/structure/flora/pottedplant/hedge,
 /turf/simulated/floor/tiled/monotechmaint,
-/area/space)
+/area/shuttle/fleet/trade_ship/general)
 "xay" = (
 /turf/simulated/floor/tiled/monotechmaint,
 /area/shuttle/fleet/trade_ship/general)
@@ -26132,6 +27092,9 @@
 /area/sector/fleet/room6)
 "xel" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden,
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
 /turf/simulated/floor/plating,
 /area/shuttle/fleet/trade_ship/general)
 "xeK" = (
@@ -26190,6 +27153,20 @@
 	},
 /turf/simulated/floor/carpet/patterened/blue/alt,
 /area/shuttle/fleet/caravan)
+"xfY" = (
+/obj/machinery/door/airlock/derelict{
+	dir = 4;
+	req_access = list(160);
+	req_one_access = null
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 4
+	},
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/monotechmaint,
+/area/shuttle/fleet/trade_ship/general)
 "xgd" = (
 /obj/machinery/atmospherics/pipe/simple/hidden,
 /turf/simulated/floor/tiled/techfloor/monogrid,
@@ -26223,6 +27200,9 @@
 "xgG" = (
 /obj/structure/cable/green{
 	icon_state = "2-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 4
 	},
 /turf/simulated/floor/tiled/techfloor/monogrid,
 /area/shuttle/fleet/providence)
@@ -26357,6 +27337,9 @@
 /obj/machinery/atmospherics/pipe/tank/phoron{
 	dir = 2
 	},
+/obj/machinery/light{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/fleet/trade_ship/general)
 "xrd" = (
@@ -26463,6 +27446,12 @@
 	},
 /turf/simulated/floor/tiled/techfloor/monogrid,
 /area/shuttle/fleet/biodancy)
+"xvW" = (
+/obj/effect/shuttle_landmark/automatic{
+	name = "Fleet proximity"
+	},
+/turf/space,
+/area/space)
 "xwx" = (
 /obj/machinery/light/small/old{
 	dir = 8
@@ -26471,6 +27460,7 @@
 /area/sector/fleet/bar)
 "xwy" = (
 /obj/machinery/door/airlock/external,
+/obj/map_helper/airlock/door/ext_door,
 /turf/simulated/floor/tiled/techfloor/monogrid,
 /area/shuttle/fleet/providence)
 "xwL" = (
@@ -26518,20 +27508,26 @@
 	},
 /obj/machinery/atmospherics/component/unary/vent_pump/high_volume{
 	frequency = 1380;
-	id_tag = "battlestar_docker2";
+	id_tag = "battlestar_docker";
 	dir = 1
 	},
 /obj/map_helper/airlock/atmos/chamber_pump,
 /obj/map_helper/airlock/sensor/chamber_sensor,
 /obj/machinery/airlock_sensor{
 	frequency = 1380;
-	id_tag = "battlestar_docker2";
+	id_tag = "battlestar_docker";
 	pixel_x = 25
 	},
 /obj/overmap/entity/visitable/ship/landable/fleet/battlestar,
-/obj/effect/shuttle_landmark/shuttle_initializer/fleet/battlestar,
+/obj/effect/shuttle_landmark/fleet/battlestar,
 /turf/simulated/floor,
 /area/shuttle/fleet/battlestar)
+"xAQ" = (
+/obj/effect/shuttle_landmark/automatic{
+	name = "Giga Hauler Port 10"
+	},
+/turf/space,
+/area/space)
 "xAS" = (
 /obj/machinery/telecomms/relay/preset/telecomms,
 /turf/simulated/floor/tiled/techfloor/grid,
@@ -26733,7 +27729,7 @@
 /area/shuttle/fleet/tour)
 "xGq" = (
 /obj/structure/fans/tiny,
-/obj/machinery/door/airlock/external/glass,
+/obj/machinery/door/airlock/glass_external,
 /turf/simulated/floor/tiled/dark,
 /area/sector/fleet/botany)
 "xGH" = (
@@ -26960,6 +27956,14 @@
 	},
 /turf/simulated/floor/tiled/techfloor/monogrid,
 /area/shuttle/fleet/biodancy)
+"xPy" = (
+/obj/machinery/atmospherics/component/unary/vent_pump/high_volume{
+	dir = 1;
+	id_tag = "fleet_providence_docker"
+	},
+/obj/map_helper/airlock/atmos/chamber_pump,
+/turf/simulated/floor/tiled/techfloor/monogrid,
+/area/shuttle/fleet/providence)
 "xQh" = (
 /obj/effect/floor_decal/borderfloorblack/full,
 /obj/structure/cable/yellow{
@@ -26983,7 +27987,7 @@
 /area/shuttle/fleet/battlestar)
 "xQV" = (
 /obj/machinery/embedded_controller/radio/airlock/airlock_controller{
-	id_tag = "deneb_docker2";
+	id_tag = "fleet_deneb_docker";
 	pixel_x = -25
 	},
 /obj/machinery/atmospherics/component/unary/vent_pump/high_volume{
@@ -27016,10 +28020,19 @@
 "xSa" = (
 /obj/machinery/atmospherics/pipe/simple/hidden,
 /obj/machinery/door/airlock/external,
+/obj/map_helper/airlock/door/int_door,
+/obj/machinery/access_button/airlock_interior{
+	frequency = 1380;
+	master_tag = "fleet_trade_docker";
+	name = "internal access button";
+	pixel_x = 22
+	},
 /turf/simulated/floor/tiled/monotechmaint,
 /area/shuttle/fleet/trade_ship/general)
 "xSb" = (
-/obj/machinery/door/airlock/hatch,
+/obj/machinery/door/airlock/hatch{
+	req_one_access = null
+	},
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 4
 	},
@@ -27035,6 +28048,12 @@
 /obj/machinery/shipsensors,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/sector/fleet/occupied)
+"xSw" = (
+/obj/effect/shuttle_landmark/automatic{
+	name = "Giga Hauler Port 6"
+	},
+/turf/space,
+/area/space)
 "xSA" = (
 /obj/structure/filingcabinet,
 /obj/structure/filingcabinet{
@@ -27114,6 +28133,13 @@
 /obj/structure/cable/white{
 	icon_state = "1-2"
 	},
+/obj/map_helper/airlock/door/ext_door,
+/obj/machinery/access_button/airlock_exterior{
+	frequency = 1380;
+	master_tag = "fleet_biodancy2_docker";
+	name = "external access button";
+	pixel_x = 25
+	},
 /turf/simulated/floor/tiled/techfloor,
 /area/shuttle/fleet/biodancy)
 "xVI" = (
@@ -27142,7 +28168,9 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/shuttle/fleet/parabellum)
 "xXL" = (
-/obj/machinery/door/airlock/hatch,
+/obj/machinery/door/airlock/hatch{
+	req_one_access = null
+	},
 /obj/effect/floor_decal/techfloor{
 	dir = 1
 	},
@@ -27187,6 +28215,9 @@
 /obj/random/multiple/voidsuit/vintage,
 /obj/structure/closet,
 /obj/effect/floor_decal/industrial/outline/yellow,
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
 /turf/simulated/floor/tiled/dark,
 /area/shuttle/fleet/trade_ship/general)
 "yaK" = (
@@ -27226,11 +28257,13 @@
 /turf/simulated/floor/tiled/techfloor/lythios43c,
 /area/shuttle/fleet/providence)
 "ycH" = (
-/obj/machinery/door/airlock/hatch,
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 1
 	},
 /obj/machinery/door/firedoor,
+/obj/machinery/door/airlock/hatch{
+	req_one_access = null
+	},
 /turf/simulated/floor/tiled/techfloor,
 /area/shuttle/fleet/ani)
 "ycJ" = (
@@ -27313,6 +28346,9 @@
 /area/shuttle/fleet/trade_ship/general)
 "yhm" = (
 /obj/structure/undies_wardrobe,
+/obj/machinery/light/small{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/techfloor,
 /area/shuttle/fleet/biodancy)
 "yho" = (
@@ -27347,8 +28383,8 @@
 	pixel_x = 25
 	},
 /obj/map_helper/airlock/sensor/chamber_sensor,
-/obj/effect/shuttle_landmark/shuttle_initializer/fleet/ani,
 /obj/overmap/entity/visitable/ship/landable/fleet/ani,
+/obj/effect/shuttle_landmark/fleet/ani,
 /turf/simulated/floor/tiled/techfloor,
 /area/shuttle/fleet/ani)
 "yih" = (
@@ -28419,9 +29455,9 @@ aeS
 aeS
 bwR
 kir
-jJE
-ruQ
-vQR
+hyu
+hyu
+khn
 bwR
 aeS
 aeS
@@ -28612,10 +29648,10 @@ aeS
 aeS
 aeS
 dyi
-hxV
+hyu
 vIO
 iZA
-bYK
+wCh
 dyi
 aeS
 aeS
@@ -28808,7 +29844,7 @@ aeS
 tOt
 wVb
 wVb
-bWy
+kJY
 kVH
 dyi
 aeS
@@ -31466,7 +32502,7 @@ aeS
 aeS
 aeS
 aeS
-aeS
+xvW
 aeS
 aeS
 aeS
@@ -33098,7 +34134,7 @@ aeS
 lEx
 lEx
 sgP
-ina
+bpt
 lEx
 lEx
 aeS
@@ -33905,7 +34941,7 @@ uJk
 fEL
 aqK
 eic
-oRP
+wur
 wur
 iZx
 iZx
@@ -34099,22 +35135,22 @@ uJk
 fEL
 aqK
 owj
-iZx
+uNy
 iZx
 iZx
 iZx
 ipZ
 iUj
-iUj
+aVe
 fdZ
 cGa
-iUj
+aVe
 iUj
 jIn
+aLK
 vue
 vue
-vue
-vue
+aLK
 owj
 kXN
 oyi
@@ -35371,7 +36407,7 @@ aeS
 aeS
 aeS
 aeS
-aeS
+xvW
 aeS
 aeS
 aeS
@@ -35598,9 +36634,9 @@ aeS
 aeS
 aeS
 pYj
-htN
+uQj
 szP
-bpZ
+szP
 bJo
 aeS
 aeS
@@ -35792,9 +36828,9 @@ aeS
 aeS
 aeS
 pYj
-iYs
+uQj
 blE
-gwX
+szP
 bJo
 aeS
 aeS
@@ -35986,7 +37022,7 @@ aeS
 aeS
 uNX
 pYj
-bvg
+cKb
 gsE
 nsr
 pYj
@@ -36024,7 +37060,7 @@ aeS
 aeS
 aeS
 dsJ
-mTC
+pAd
 dsJ
 pkn
 ltL
@@ -36217,9 +37253,9 @@ aeS
 aeS
 aeS
 aeS
-dsJ
+idq
 cRt
-ujF
+mDj
 iPo
 hBy
 dFy
@@ -36378,7 +37414,7 @@ jmz
 obs
 wCV
 wCV
-nxP
+xEI
 aeS
 aeS
 aeS
@@ -36572,7 +37608,7 @@ gcJ
 tAZ
 qCe
 ndA
-kev
+xEI
 aeS
 aeS
 aeS
@@ -37022,7 +38058,7 @@ syC
 rkZ
 vmf
 pQF
-pQF
+wVB
 gfp
 aeS
 aeS
@@ -39749,8 +40785,8 @@ aeS
 aeS
 aeS
 aeS
+bTO
 aeS
-lcm
 sql
 dUs
 dUs
@@ -39780,8 +40816,8 @@ cpV
 dUs
 dUs
 sql
-lcm
 aeS
+qkS
 aeS
 aeS
 aeS
@@ -40447,7 +41483,7 @@ aeS
 aeS
 aeS
 aeS
-aeS
+xvW
 aeS
 aeS
 aeS
@@ -41253,7 +42289,7 @@ aeS
 aeS
 aeS
 aeS
-aeS
+mLg
 aeS
 xGq
 iaB
@@ -41292,7 +42328,7 @@ tnP
 iaB
 xGq
 aeS
-aeS
+rdd
 aeS
 aeS
 aeS
@@ -41735,7 +42771,7 @@ aeS
 aeS
 aeS
 aeS
-aeS
+xvW
 aeS
 aeS
 aeS
@@ -43241,8 +44277,8 @@ aeS
 aeS
 aeS
 aeS
+lOl
 aeS
-lcm
 sql
 dUs
 dUs
@@ -43272,8 +44308,8 @@ cpV
 dUs
 dUs
 sql
-lcm
 aeS
+xSw
 aeS
 aeS
 aeS
@@ -43511,7 +44547,7 @@ rXE
 gYO
 aAD
 cco
-lvC
+jyP
 gYO
 gYO
 ruX
@@ -43708,7 +44744,7 @@ cco
 bMo
 wHn
 gYO
-ruX
+vfx
 aeS
 aeS
 aeS
@@ -43725,7 +44761,7 @@ uHu
 aeS
 aeS
 aeS
-ruX
+cvm
 gYO
 gYO
 iZW
@@ -43813,8 +44849,8 @@ iaB
 sDF
 iaB
 xGq
-lcm
 aeS
+gaa
 aeS
 aeS
 aeS
@@ -44089,8 +45125,8 @@ aeS
 aeS
 aeS
 xwy
-eat
-ark
+nGH
+eDR
 ibT
 pPy
 oaU
@@ -44119,8 +45155,8 @@ vZK
 eDR
 oaU
 ibT
-fCf
-eat
+eDR
+xPy
 xwy
 aeS
 aeS
@@ -44282,10 +45318,10 @@ aeS
 aeS
 aeS
 aeS
-xwy
+cun
 mCf
-eat
-xwy
+wXo
+pIO
 ujt
 vZK
 mFa
@@ -44312,10 +45348,10 @@ eat
 eat
 obI
 eat
-xwy
-eat
-eat
-xwy
+tnd
+juS
+poI
+dlI
 aeS
 aeS
 "}
@@ -44881,7 +45917,7 @@ vZK
 vZK
 bVy
 oaU
-dXb
+hUf
 bVy
 vZK
 vZK
@@ -45269,7 +46305,7 @@ mGA
 mGA
 vGg
 eat
-eat
+qbN
 wQR
 mGA
 mGA
@@ -45371,7 +46407,7 @@ aeS
 aeS
 aeS
 aeS
-aeS
+cAd
 aeS
 aeS
 aeS
@@ -45463,7 +46499,7 @@ bcK
 bcK
 bkV
 eat
-eat
+qbN
 wbu
 bcK
 bcK
@@ -45657,7 +46693,7 @@ bcK
 bcK
 gNd
 eat
-eat
+qbN
 jmk
 bcK
 bcK
@@ -45807,7 +46843,7 @@ xwx
 fMy
 uMG
 fMy
-xwx
+tQk
 fMy
 fMy
 dKx
@@ -45851,7 +46887,7 @@ bcK
 bcK
 ykB
 eat
-eat
+qbN
 hla
 bcK
 bcK
@@ -46045,7 +47081,7 @@ bcK
 bcK
 jDV
 eat
-eat
+qbN
 aDY
 bcK
 bcK
@@ -46238,7 +47274,7 @@ peT
 jAx
 jAx
 jAx
-rYD
+lPn
 rYD
 jAx
 jAx
@@ -46432,8 +47468,8 @@ hRl
 aeS
 aeS
 gYO
-eat
-eat
+ezS
+kjm
 gYO
 aeS
 aeS
@@ -46626,8 +47662,8 @@ mzF
 aeS
 aeS
 gYO
-eat
-eat
+ezS
+fbM
 gYO
 aeS
 aeS
@@ -46733,8 +47769,8 @@ aeS
 aeS
 aeS
 aeS
+ovt
 aeS
-lcm
 sql
 dUs
 dUs
@@ -46821,7 +47857,7 @@ aeS
 aeS
 gYO
 xwy
-xwy
+aSW
 gYO
 aeS
 aeS
@@ -47111,8 +48147,8 @@ iqV
 sDF
 iaB
 xGq
-lcm
 aeS
+qsB
 aeS
 aeS
 aeS
@@ -47165,7 +48201,7 @@ qFh
 bIk
 tRp
 sTp
-qQL
+kAq
 ecl
 fMy
 gcF
@@ -47649,7 +48685,7 @@ aeS
 sNs
 bhO
 aUv
-pvD
+arM
 fhC
 etb
 iAV
@@ -47820,7 +48856,7 @@ kMp
 dCQ
 dCQ
 sjB
-sTs
+pVB
 kMQ
 vIq
 qqA
@@ -50177,7 +51213,7 @@ aeS
 aeS
 aeS
 aeS
-aeS
+rEP
 aeS
 xGq
 iaB
@@ -50257,7 +51293,7 @@ dUs
 dUs
 sql
 aeS
-aeS
+xAQ
 aeS
 aeS
 aeS
@@ -52019,7 +53055,7 @@ bmy
 baM
 bmy
 pep
-bmy
+skf
 nfO
 tOp
 vQg
@@ -52235,7 +53271,7 @@ aeS
 aeS
 aeS
 aeS
-aeS
+xvW
 aeS
 aeS
 aeS
@@ -52397,7 +53433,7 @@ aeS
 vQg
 tOp
 tOp
-gJA
+dvt
 tOp
 fty
 bmy
@@ -52589,8 +53625,8 @@ aeS
 aeS
 vQg
 tOp
-tOp
 gJA
+jQR
 gJA
 tOp
 jwz
@@ -52783,8 +53819,8 @@ aeS
 aeS
 vQg
 tOp
-gJA
-jqB
+ghx
+nNg
 qWG
 bfz
 epY
@@ -52990,7 +54026,7 @@ elu
 tdX
 bwi
 elu
-tdX
+tGX
 tOp
 tOp
 tOp
@@ -53177,19 +54213,19 @@ opq
 jQA
 jFc
 rKm
-rKm
+fcK
 uHx
 pJC
 pJC
 uHx
+fcK
 rKm
-rKm
-dkZ
+mEf
 rDB
 qxt
 aNl
-ajM
-ajM
+jia
+gaG
 gkf
 gbe
 aeS
@@ -53373,7 +54409,7 @@ coS
 rKm
 nDQ
 jKT
-dUx
+kXC
 dUx
 jKT
 rLG
@@ -53572,9 +54608,9 @@ rKm
 rKm
 rKm
 rKm
-jXV
+rxc
 rKm
-nae
+cew
 rKm
 rKm
 rKm
@@ -53766,7 +54802,7 @@ kdF
 uZq
 vAl
 rKm
-jXV
+rxc
 gkf
 nae
 arG
@@ -53960,7 +54996,7 @@ uZq
 uZq
 uuW
 rKm
-jXV
+rxc
 gkf
 nae
 nae
@@ -53993,7 +55029,7 @@ aeS
 aeS
 aeS
 aeS
-aeS
+xvW
 aeS
 aeS
 aeS
@@ -54154,7 +55190,7 @@ uZq
 uZq
 rVG
 rKm
-dkZ
+mEf
 jQA
 vte
 xJx
@@ -54431,7 +55467,7 @@ aeS
 aeS
 aeS
 aeS
-aeS
+xvW
 aeS
 aeS
 aeS
@@ -54542,7 +55578,7 @@ xay
 xay
 xay
 xay
-jXV
+rxc
 rKm
 uYK
 qwv
@@ -54736,9 +55772,9 @@ rKm
 rKm
 rKm
 rKm
-jXV
+rxc
 gkf
-vua
+nZQ
 qwv
 iBB
 kUP
@@ -54924,13 +55960,13 @@ rKm
 coS
 rKm
 rpC
-pvu
-hYW
+cuI
+pjl
 pvu
 hYW
 tCk
 rKm
-jXV
+rxc
 gkf
 vua
 qwv
@@ -55318,7 +56354,7 @@ kLX
 dnH
 bOU
 rKm
-yha
+xfY
 rKm
 rKm
 bNg
@@ -55509,11 +56545,11 @@ mbk
 sGC
 jKP
 tBq
-jKP
+opl
 fNF
 rKm
-dkZ
-bXy
+ddK
+utj
 bXy
 kkR
 rKm
@@ -55533,7 +56569,7 @@ aeS
 aeS
 aeS
 aeS
-aeS
+xvW
 aeS
 aeS
 aeS
@@ -55706,7 +56742,7 @@ xay
 sho
 bXy
 jdG
-kkR
+bHo
 xay
 cSs
 rKm
@@ -55863,7 +56899,7 @@ vwk
 fGW
 oku
 oku
-oku
+bxR
 mWp
 yee
 gTV
@@ -55900,7 +56936,7 @@ xUX
 vpT
 kFe
 jKT
-ceT
+pRD
 wTV
 rKm
 rKm
@@ -56057,7 +57093,7 @@ vwk
 fGW
 raO
 oku
-oku
+qCM
 pEL
 yee
 gTV
@@ -56579,7 +57615,7 @@ aeS
 aeS
 aeS
 aeS
-aeS
+tHg
 aeS
 xGq
 iaB
@@ -57013,7 +58049,7 @@ xuw
 lwf
 dqh
 nES
-gmQ
+qvy
 jfV
 jop
 xrK
@@ -57046,11 +58082,11 @@ hUl
 kFR
 hUl
 cjO
-sri
+iGG
 vpz
 vpz
 sri
-fUH
+aku
 fUH
 fUH
 fUH
@@ -57064,13 +58100,13 @@ wOe
 vpT
 kFe
 eGv
+suY
 jrn
-jrn
-xay
-xay
-xay
-xay
-wsi
+svW
+utt
+utt
+cdd
+pmf
 gLb
 gLb
 wsi
@@ -57207,7 +58243,7 @@ gmQ
 iPI
 eKR
 oag
-gmQ
+qvy
 pVf
 gHb
 ksf
@@ -57240,9 +58276,9 @@ wfp
 wfp
 wfp
 wiw
-wsi
+qmx
 bSM
-iel
+tTV
 xSa
 irY
 nUs
@@ -57263,11 +58299,11 @@ eGv
 eGv
 sho
 nUs
-irY
+vBD
 qKE
 iel
-kkR
-wsi
+qKU
+klK
 aeS
 aeS
 aeS
@@ -57440,7 +58476,7 @@ rKm
 rKm
 gEr
 rKm
-xay
+dFU
 qkM
 tlV
 tlV
@@ -57455,9 +58491,9 @@ drU
 tlV
 tlV
 tlV
-kkR
+mwP
 rKm
-gEr
+eTM
 rKm
 rKm
 rKm
@@ -57634,12 +58670,12 @@ fRn
 fgq
 ksr
 gkf
-gwC
-xay
+dFU
+aks
 qmj
-xay
+lCx
 pEU
-paS
+hca
 fPy
 fUH
 fUH
@@ -57648,7 +58684,7 @@ paS
 fUH
 fUH
 paS
-fUH
+wZu
 wZu
 imD
 tdq
@@ -57826,9 +58862,9 @@ rKm
 xqk
 uPG
 qKp
-fXy
+bPP
 nuT
-fzy
+tMo
 tMo
 tMo
 tMo
@@ -57843,7 +58879,7 @@ tMo
 tMo
 tMo
 tMo
-fzy
+tMo
 rKm
 olF
 aXS
@@ -58039,10 +59075,10 @@ rKm
 bUv
 aeS
 rKm
-xyP
+kmS
 xel
 mec
-vpd
+wdM
 xHP
 aeS
 aeS
@@ -58990,7 +60026,7 @@ xHP
 mQl
 uPG
 qKp
-fXy
+bPP
 qNn
 aeS
 aeS
@@ -59012,7 +60048,7 @@ rKm
 mEH
 dNU
 bHe
-tYx
+gfE
 xHP
 aeS
 aeS
@@ -60003,7 +61039,7 @@ aeS
 aeS
 rUn
 cjX
-cLk
+fRy
 bAm
 bAm
 bAm
@@ -60195,7 +61231,7 @@ aeS
 aeS
 aeS
 aeS
-xVH
+oHO
 bJx
 vbe
 pLl
@@ -60391,9 +61427,9 @@ aeS
 aeS
 ecL
 bAm
+uud
 cjX
-cjX
-rUn
+rZU
 jFb
 gHl
 cjX
@@ -60408,9 +61444,9 @@ nZp
 nZp
 nZp
 gHl
-rUn
+wPo
 cjX
-cjX
+pkI
 bAm
 ecL
 aeS
@@ -62391,7 +63427,7 @@ aeS
 aeS
 aeS
 aeS
-aeS
+xvW
 aeS
 aeS
 aeS
@@ -62461,6 +63497,7 @@ aeS
 aeS
 aeS
 aeS
+xvW
 aeS
 aeS
 aeS
@@ -62488,8 +63525,7 @@ aeS
 aeS
 aeS
 aeS
-aeS
-aeS
+xvW
 aeS
 aeS
 aeS
