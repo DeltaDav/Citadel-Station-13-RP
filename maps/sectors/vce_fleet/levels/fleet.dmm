@@ -10885,9 +10885,6 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/plating/indoors,
 /area/sector/fleet/room2)
-"jhx" = (
-/turf/space/basic,
-/area/space)
 "jhL" = (
 /obj/structure/cable/green{
 	icon_state = "4-8"
@@ -46926,7 +46923,7 @@ kNo
 kpe
 kpe
 kpe
-jhx
+aeS
 aeS
 aeS
 aeS
