@@ -1468,7 +1468,7 @@
 /obj/item/clothing/suit/storage/cropped_hoodie
 	name = "cropped hoodie"
 	desc = "This style of hoodie is sometimes worn by those who cannot fit, or choose not to hide their delectable bellies under the full, soft confines of a hoodie. The hood is cosmetic, and non-functional."
-	icon = 'icons/clothing/suit//misc/cropped.dmi'
+	icon = 'icons/clothing/suit/misc/cropped.dmi'
 	icon_state = "cropped_hoodie"
 	worn_render_flags = WORN_RENDER_SLOT_ONE_FOR_ALL
 
@@ -1490,7 +1490,7 @@
 /obj/item/clothing/suit/cropped_sweater
 	name = "cropped sweater"
 	desc = "A comfy, warm sweater that has been slashed at the midriff, making it hardly warm or comfy, but quite rousing."
-	icon = 'icons/clothing/suit//misc/cropped.dmi'
+	icon = 'icons/clothing/suit/misc/cropped.dmi'
 	icon_state = "sweater_cropped_m"
 	worn_render_flags = WORN_RENDER_SLOT_ONE_FOR_ALL
 
@@ -1595,3 +1595,15 @@
 	name = "caparison"
 	desc = "A fancy name for what is almost just a big sheet designed to cover a quadruped body. For anyone else, it can still work as an awkward to wear poncho."
 	icon_state = "caparison"
+
+//Shibari
+/obj/item/clothing/suit/shibari
+	name = "shibari ropes"
+	icon = 'icons/clothing/suit/misc/shibari.dmi'
+	icon_state = "shibari"
+	desc = "A set of rope restraints for... Wearing?"
+	w_class = WEIGHT_CLASS_NORMAL
+	worn_render_flags = WORN_RENDER_SLOT_ONE_FOR_ALL
+
+/obj/item/clothing/suit/shibari/sleeved
+	icon_state = "shibari_sleeved"

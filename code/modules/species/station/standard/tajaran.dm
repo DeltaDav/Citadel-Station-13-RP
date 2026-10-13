@@ -57,7 +57,7 @@
 
 	Recent discoveries have jump started the progression of highly advanced cybernetic technology, causing a culture shock within Tajaran society.
 	 "}
-	wikilink = "https://citadel-station.net/wikiRP/index.php?title=Race:_Tajara"
+	wikilink = "https://citadel-station.dev/wikiRP/index.php?title=Race:_Tajara"
 	catalogue_data = list(/datum/category_item/catalogue/fauna/tajaran)
 
 	body_temperature = 320.15 //Even more cold resistant, even more flammable
@@ -128,7 +128,7 @@
 
 /datum/species/tajaran/apply_racial_gear(mob/living/carbon/for_target, list/into_box, list/into_inv)
 	var/footwear_type = /obj/item/clothing/shoes/sandal
-	if(for_target && !for_target.inventory?.get_slot_single(/datum/inventory_slot/inventory/shoes))
+	if(for_target && !for_target.inventory?.get_slot_single(/datum/inventory_slot/inventory/shoes::id))
 		var/obj/item/footwear_instance = new footwear_type
 		if(!for_target.inventory.equip_to_slot_if_possible(footwear_instance, /datum/inventory_slot/inventory/shoes))
 			into_inv += footwear_instance

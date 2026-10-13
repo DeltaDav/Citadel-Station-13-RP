@@ -36,7 +36,7 @@
 	Widely known for their voracious nature and violent tendencies when stressed or left unfed for long periods of time.  Most, if not
 	all chimeras possess the ability to undergo some type of regeneration process, at the cost of energy.
 	"}
-	wikilink = "https://citadel-station.net/wikiRP/index.php?title=Race:_The_Xenochimera"
+	wikilink = "https://citadel-station.dev/wikiRP/index.php?title=Race:_The_Xenochimera"
 	catalogue_data = list(/datum/category_item/catalogue/fauna/xenochimera)
 
 	movement_base_speed = 5.5
@@ -139,6 +139,7 @@
 		/mob/living/carbon/human/proc/set_silk_color,
 	)
 
+	var/feral = 0
 	var/has_feral_abilities = FALSE
 
 /datum/species/shapeshifter/xenochimera/handle_environment_special(mob/living/carbon/human/H, datum/gas_mixture/environment, dt)
@@ -175,9 +176,6 @@
 
 	//Caffeinated xenochimera can become feral and have special messages
 	var/jittery = H.jitteriness >= 100
-
-	//To reduce distant object references
-	var/feral = H.feral
 
 //Are we in danger of ferality?
 	var/danger = FALSE
@@ -247,13 +245,11 @@
 			feral = max(feral, H.jitteriness-100)
 
 		// if not hungry, reduce feral by 1
-		if(H.feral + H.nutrition < 150)
+		if(feral + H.nutrition < 150)
 			danger = TRUE
 			feral++
 		else
 			feral = max(0,--feral)
-
-		H.feral = feral
 
 		//Handle no longer being feral
 		if(!feral)

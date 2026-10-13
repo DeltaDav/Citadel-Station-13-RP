@@ -33,7 +33,15 @@
 /obj/item/reagent_containers/food/snacks/Initialize(mapload)
 	. = ..()
 	if(nutriment_amt)
-		reagents.add_reagent("nutriment",nutriment_amt,nutriment_desc)
+		var/datum/nutriment_data/nutriment_data = new
+		for(var/taste in nutriment_desc)
+			var/amount = nutriment_desc[taste]
+			nutriment_data.add_taste(taste, amount, TRUE)
+		reagents.add_reagent(
+			/datum/reagent/nutriment::id,
+			nutriment_amt,
+			nutriment_data,
+		)
 
 	//Placeholder for effect that trigger on eating that aren't tied to reagents.
 /obj/item/reagent_containers/food/snacks/proc/On_Consume(mob/M)
@@ -219,7 +227,7 @@
 			var/confirm=input(user, "Are you certain you want to insert \the [W] into [src]?","Hide item") as null|anything in list("Yes","No")
 			if(!confirm || confirm == "No")
 				return
-			if (W.w_class >= w_class || is_robot_module(W))
+			if (W.w_class >= w_class)
 				return
 			if(!user.attempt_insert_item_for_installation(W, src))
 				return
@@ -561,10 +569,12 @@
 /obj/item/reagent_containers/food/snacks/donut
 	name = "donut"
 	desc = "Goes great with Robust Coffee."
+	description_fluff = "These donuts claim to be made fresh daily in a boutique bakery in New Reykjavik and delivered to Nanotrasen's hardworking asset protection crew. They're probably synthesized."
 	icon_state = "donut1"
 	filling_color = "#D9C386"
 	var/overlay_state = "box-donut1"
 	nutriment_desc = list("sweetness", "donut")
+	belt_storage_class = BELT_CLASS_SMALL
 
 /obj/item/reagent_containers/food/snacks/donut/normal
 	name = "donut"
@@ -5724,11 +5734,6 @@ END CITADEL CHANGE */
 	nutriment_desc = list("rice" = 5, "fish" = 5)
 	nutriment_amt = 20
 
-/obj/item/reagent_containers/food/snacks/sliceable/sushi/crab/Initialize(mapload)
-	..()
-	reagents.add_reagent("protein", 15)
-	bitesize = 5
-
 /obj/item/reagent_containers/food/snacks/slice/sushi/crab/filled
 	name = "piece of sushi (crab)"
 	desc = "A slice of a larger sushi roll, ready to devour."
@@ -5748,11 +5753,6 @@ END CITADEL CHANGE */
 	nutriment_desc = list("rice" = 5, "fish" = 5)
 	nutriment_amt = 20
 
-/obj/item/reagent_containers/food/snacks/sliceable/sushi/horse/Initialize(mapload)
-	..()
-	reagents.add_reagent("protein", 15)
-	bitesize = 5
-
 /obj/item/reagent_containers/food/snacks/slice/sushi/horse/filled
 	name = "piece of sushi (horse)"
 	desc = "A slice of a larger sushi roll, ready to devour."
@@ -5771,11 +5771,6 @@ END CITADEL CHANGE */
 	slices_num = 5
 	nutriment_desc = list("rice" = 5, "fish" = 5)
 	nutriment_amt = 20
-
-/obj/item/reagent_containers/food/snacks/sliceable/sushi/mystery/Initialize(mapload)
-	..()
-	reagents.add_reagent("protein", 15)
-	bitesize = 5
 
 /obj/item/reagent_containers/food/snacks/slice/sushi/mystery/filled
 	name = "piece of sushi (???)"
@@ -7090,3 +7085,322 @@ END CITADEL CHANGE */
 	. = ..()
 	reagents.add_reagent("protein", 3)
 	reagents.add_reagent("triglyceride", 1)
+
+/obj/item/reagent_containers/food/snacks/sirim
+	name = "Sirim"
+	desc = "A fungus native to Surt. It's highly effective at facilitating fermentation."
+	icon_state = "sirim"
+	nutriment_amt = 2
+	nutriment_desc = list("alcohol" = 1)
+
+/obj/item/reagent_containers/food/snacks/sirim/Initialize(mapload)
+	. = ..()
+	reagents.add_reagent("enzyme", 3)
+
+/obj/item/reagent_containers/food/snacks/rockhead
+	name = "Rockhead"
+	desc = "A hearty mushroom native to Surt."
+	icon_state = "rockhead"
+	nutriment_amt = 4
+	nutriment_desc = list("earthiness" = 1)
+
+/obj/item/reagent_containers/food/snacks/mothershair
+	name = "Mother's Hair"
+	desc = "A fungus native to Surt. It almost resembles crystalline growths."
+	icon_state = "mothershair"
+	nutriment_amt = 0
+	nutriment_desc = list("salt" = 1)
+
+/obj/item/reagent_containers/food/snacks/mothershair/Initialize(mapload)
+	. = ..()
+	reagents.add_reagent("sodium", 3)
+
+/obj/item/reagent_containers/food/snacks/hangingroot
+	name = "Hanging Root"
+	desc = "A lichen native to Surt."
+	icon_state = "hangingroot"
+	nutriment_amt = 4
+	nutriment_desc = list("moss" = 1)
+
+/obj/item/reagent_containers/food/snacks/hangingroot/Initialize(mapload)
+	. = ..()
+	reagents.add_reagent("chlorine", 1)
+
+//Seasonals - Xmas
+
+/obj/item/reagent_containers/food/snacks/gingerbreadcookie
+	name = "gingerbread cookie"
+	desc = "A gingerbread individual. You struggle to ascertain their gender."
+	icon_state =  "gingerbread"
+	filling_color = "#7D5F46"
+	nutriment_amt = 1
+	nutriment_desc = list("gingerbread" = 2)
+	bitesize = 1
+
+/obj/item/reagent_containers/food/snacks/gingerbreadcookie/cane
+	name = "gingerbread cookie"
+	desc = "A gingerbread cane with stripes drawn in icing."
+	icon_state =  "gingerbreadcane"
+	filling_color = "#7D5F46"
+	nutriment_amt = 1
+	nutriment_desc = list("gingerbread" = 2)
+	bitesize = 1
+
+/obj/item/reagent_containers/food/snacks/gingerbreadcookie/tree
+	name = "gingerbread cookie"
+	desc = "A small conifer of the gingerbread species."
+	icon_state =  "gingerbreadtree"
+	filling_color = "#7D5F46"
+	nutriment_amt = 1
+	nutriment_desc = list("gingerbread" = 2)
+	bitesize = 1
+
+/obj/item/reagent_containers/food/snacks/gingerbreadcookie/star
+	name = "gingerbread cookie"
+	desc = "A gingerbread star. Presumably of the astronomical rather than marine variety, but you're not sure."
+	icon_state =  "gingerbreadstar"
+	filling_color = "#7D5F46"
+	nutriment_amt = 1
+	nutriment_desc = list("gingerbread" = 2)
+	bitesize = 1
+
+/obj/item/reagent_containers/food/snacks/stroopwafel
+	name = "stroopwafel"
+	desc = "A pair of thin wafers glued together with thick, syrupy caramel. Delicious."
+	icon_state =  "stroopwafel"
+	filling_color = "#7D5F46"
+	nutriment_amt = 3
+	nutriment_desc = list("wafer" = 2, "caramel" = 1)
+	bitesize = 1
+
+/obj/item/reagent_containers/food/snacks/sliceable/holidaycake
+	name = "Holiday Fruit Cake"
+	desc = "A perfectly preserved holiday fruit cake. The hole in the middle makes it a breeze to cut even if you're using a bayonet."
+	icon_state = "holidaycake"
+	slice_path = /obj/item/reagent_containers/food/snacks/slice/holidaycake
+	slices_num = 5
+	filling_color = "#3b2b0d"
+	nutriment_desc = list("cake" = 10, "sweetness" = 10, "candied berry" = 15)
+	nutriment_amt = 25
+
+/obj/item/reagent_containers/food/snacks/sliceable/holidaycake/Initialize(mapload)
+	. = ..()
+	reagents.add_reagent("tricordrazine", 15)
+	reagents.add_reagent("paracetamol", 5)
+	bitesize = 5
+
+/obj/item/reagent_containers/food/snacks/slice/holidaycake
+	name = "Holiday Fruit Cake slice"
+	desc = "A festive slice of holiday fruit cake. Great for sharing with squadmates!"
+	icon_state = "holidaycake_slice"
+	filling_color = "#3b2b0d"
+	bitesize = 2
+	nutriment_desc = list("cake" = 10, "sweetness" = 10, "candied berry" = 15)
+	whole_path = /obj/item/reagent_containers/food/snacks/sliceable/holidaycake
+
+/obj/item/reagent_containers/food/snacks/slice/holidaycake/filled
+	filled = TRUE
+
+//Seasonals - Halloween
+
+/obj/item/reagent_containers/food/snacks/candycornjelloshot
+	name = "Candy Corn Jello Shot"
+	desc = "A layered shot of Candy Corn Martini solidified using gelatin."
+	icon_state =  "candycornjelloshot"
+	filling_color = "#ff7b00"
+	nutriment_desc = list("candy corn" = 2)
+	bitesize = 5
+
+/obj/item/reagent_containers/food/snacks/candycornjelloshot/Initialize(mapload)
+	. = ..()
+	reagents.add_reagent("candycornmartini", 5)
+	bitesize = 5
+
+/obj/item/reagent_containers/food/snacks/belochka
+	name = "Belochka"
+	desc = "An individually-wrapped chocolate filled with hazelnut praline."
+	icon_state =  "belochka"
+	filling_color = "#523112"
+	nutriment_desc = list("chocolate" = 1, "crunchy hazelnut" = 2)
+	nutriment_amt = 2
+	bitesize = 3
+	sealed = TRUE
+	custom_open_sound = 'sound/bureaucracy/papercrumple.ogg'
+	open_message = "You take off the wrapper! It looks ready to eat!"
+	opened_icon = 1
+
+/obj/item/reagent_containers/food/snacks/candycorn
+	name = "Candy Corn"
+	desc = "A chewy terran confectionery intended to resemble maize."
+	icon_state =  "candycorn"
+	filling_color = "#fc7b02"
+	nutriment_desc = list("marshmallow" = 1)
+	nutriment_amt = 1
+	bitesize = 1
+
+/obj/item/reagent_containers/food/snacks/centauri/chocolate
+	name = "Centauri Milk Chocolate Bar"
+	desc = "The galactic standard in chocolate. Twelve pieces, long shelf-life, perfectly formulated to withstand the rigors of interstellar travel."
+	icon_state =  "chocolate"
+	filling_color = "#3f2207"
+	nutriment_desc = list("milk chocolate" = 20)
+	nutriment_amt = 10
+	bitesize = 4
+	sealed = TRUE
+	custom_open_sound = 'sound/effects/pageturn2.ogg'
+	open_message = "You open the wrapper! It looks ready to eat!"
+	opened_icon = 1
+
+/obj/item/reagent_containers/food/snacks/centauri/wchocolate
+	name = "Centauri Cookies And Creme Bar"
+	desc = "A creme bar with small chunks of crunchy chocolate cookie embedded in it. It's like ice cream, but at room temperature."
+	icon_state =  "wchocolate"
+	filling_color = "#fffce8"
+	nutriment_desc = list("crunchy cookie" = 10, "smooth creme" = 10)
+	nutriment_amt = 10
+	bitesize = 4
+	sealed = TRUE
+	custom_open_sound = 'sound/effects/pageturn2.ogg'
+	open_message = "You open the wrapper! It looks ready to eat!"
+	opened_icon = 1
+
+/obj/item/reagent_containers/food/snacks/centauri/cookie
+	name = "Chocolate Chip Cookie"
+	desc = "While some consider this a mediocre cookie, others call it a universal baseline. Surpass it or fade away."
+	icon_state =  "cookie"
+	filling_color = "#c9ab8e"
+	nutriment_desc = list("crunchy cookie" = 10, "chocolate" = 10)
+	nutriment_amt = 5
+	bitesize = 10
+
+/obj/item/reagent_containers/food/snacks/centauri/cookie/chocolate
+	name = "Double Chocolate Cookie"
+	desc = "The most common variant of chocolate chip cookie, baked incorporating cocoa in the dough mix for maximum chocolate yield."
+	icon_state =  "chococookie"
+	filling_color = "#382819"
+
+/obj/item/reagent_containers/food/snacks/centauri/matchamilkcandy
+	name = "Matcha Milk Candy"
+	desc = "A simple, hard candy. Introduced by Centauri Provisions after the success of Matcha Latte as a beverage in the 2500s"
+	icon_state =  "matchamilkcandy"
+	filling_color = "#9bc769"
+	nutriment_desc = list("green tea" = 1, "milk" = 1)
+	nutriment_amt = 2
+	bitesize = 2
+	sealed = TRUE
+	custom_open_sound = 'sound/bureaucracy/papercrumple.ogg'
+	open_message = "You take off the wrapper! It looks ready to eat!"
+	opened_icon = 1
+
+/obj/item/reagent_containers/food/snacks/greenchew
+	name = "Green Candy"
+	desc = "A chewy square of green taffy, it smells just like green apple."
+	icon_state =  "green"
+	filling_color = "#69fa69"
+	nutriment_desc = list("green apple" = 1)
+	nutriment_amt = 1
+	bitesize = 1
+
+/obj/item/reagent_containers/food/snacks/honeychocolate
+	name = "Van Thyssen's Honey Chocolate Bar"
+	desc = "An imported chocolate bar, each hollow semisweet-chocolate square is filled with real honey."
+	icon_state =  "honeybar"
+	filling_color = "#3f2207"
+	nutriment_desc = list("honey chocolate" = 20)
+	nutriment_amt = 10
+	bitesize = 4
+	sealed = TRUE
+	custom_open_sound = 'sound/effects/pageturn2.ogg'
+	open_message = "You open the wrapper! It looks ready to eat!"
+	opened_icon = 1
+
+/obj/item/reagent_containers/food/snacks/pnbtrcup
+	name = "Peanut Butter Cup"
+	desc = "A chocolate confectionery shaped vaguely like a pie with ridged sides. The inside is filled with creamy peanut butter."
+	icon_state =  "pnbtrcup"
+	filling_color = "#3f2207"
+	nutriment_desc = list("chocolate" = 5, "peanut butter" = 10)
+	nutriment_amt = 10
+	bitesize = 5
+
+// Halloween Gummies
+/obj/item/reagent_containers/food/snacks/halloweengummy
+	name = "Gummy"
+	nutriment_desc = list("sweetness" = 1)
+	nutriment_amt = 1
+	bitesize = 1
+
+/obj/item/reagent_containers/food/snacks/halloweengummy/ghost
+	desc = "A gelatin candy shaped like a ghost. Spooky."
+	icon_state =  "halloweengummy_1"
+	filling_color = "#dddddd"
+
+/obj/item/reagent_containers/food/snacks/halloweengummy/bat
+	desc = "A gelatin candy shaped like a bat in flight."
+	icon_state =  "halloweengummy_2"
+	filling_color = "#303030"
+
+/obj/item/reagent_containers/food/snacks/halloweengummy/jackolantern
+	desc = "A gelatin candy shaped like a smiling jack-o-lantern."
+	icon_state =  "halloweengummy_3"
+	filling_color = "#c9600a"
+
+//Sour gummy worms
+
+/obj/item/reagent_containers/food/snacks/sourgummyworm
+	name = "Sour Gummy Worm"
+	desc = "A gummy worm coated in a generous layer of sour granulated sugar."
+	nutriment_amt = 1
+	bitesize = 3
+
+/obj/item/reagent_containers/food/snacks/sourgummyworm/redblue
+	icon_state =  "sourgummyworm_1"
+	filling_color = "#dd2131"
+	nutriment_desc = list("sourness" = 1, "cherry" = 1, "blueberry" = 1)
+
+/obj/item/reagent_containers/food/snacks/sourgummyworm/greenorange
+	icon_state =  "sourgummyworm_2"
+	filling_color = "#ee850d"
+	nutriment_desc = list("sourness" = 1, "lime" = 1, "orange" = 1)
+
+/obj/item/reagent_containers/food/snacks/sourgummyworm/purpleyellow
+	icon_state =  "sourgummyworm_3"
+	filling_color = "#770865"
+	nutriment_desc = list("sourness" = 1, "grape" = 1, "lemon" = 1)
+
+//Life-buoy shaped mints
+
+/obj/item/reagent_containers/food/snacks/toroid
+	name = "Mint"
+	desc = "A chalky white mint shaped like a donut. It even has little embossed text on it that says Toroid."
+	icon_state =  "toroid"
+	filling_color = "#e4e4e4"
+	nutriment_amt = 1
+	bitesize = 1
+
+/obj/item/reagent_containers/food/snacks/toroid/mint
+	nutriment_desc = list("minty" = 1)
+
+/obj/item/reagent_containers/food/snacks/toroid/musk
+	nutriment_desc = list("rosewater" = 1)
+
+/obj/item/reagent_containers/food/snacks/toroid/cherry
+	nutriment_desc = list("cherry" = 1)
+
+/obj/item/reagent_containers/food/snacks/toroid/pineapple
+	nutriment_desc = list("pineapple" = 1)
+
+/obj/item/reagent_containers/food/snacks/toroid/orange
+	nutriment_desc = list("orange" = 1)
+
+/obj/item/reagent_containers/food/snacks/toroid/lemon
+	nutriment_desc = list("lemon" = 1)
+
+/obj/item/reagent_containers/food/snacks/toroid/raspberry
+	nutriment_desc = list("raspberry" = 1)
+
+/obj/item/reagent_containers/food/snacks/toroid/lime
+	nutriment_desc = list("lime" = 1)
+
+/obj/item/reagent_containers/food/snacks/toroid/grape
+	nutriment_desc = list("grape" = 1)

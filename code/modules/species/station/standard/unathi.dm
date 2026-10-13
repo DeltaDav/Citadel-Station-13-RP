@@ -30,7 +30,7 @@
 	all else, frequently even their own lives. They prefer warmer temperatures than most species and their native tongue
 	is a heavy hissing laungage called Sinta'Unathi.
 	"}
-	wikilink = "https://citadel-station.net/wikiRP/index.php?title=Unathi"
+	wikilink = "https://citadel-station.dev/wikiRP/index.php?title=Species/Unathi"
 	catalogue_data = list(/datum/category_item/catalogue/fauna/unathi)
 
 	max_additional_languages = 3
@@ -147,7 +147,7 @@
 
 /datum/species/unathi/apply_racial_gear(mob/living/carbon/for_target, list/into_box, list/into_inv)
 	var/footwear_type = /obj/item/clothing/shoes/sandal
-	if(for_target && !for_target.inventory?.get_slot_single(/datum/inventory_slot/inventory/shoes))
+	if(for_target && !for_target.inventory?.get_slot_single(/datum/inventory_slot/inventory/shoes::id))
 		var/obj/item/footwear_instance = new footwear_type
 		if(!for_target.inventory.equip_to_slot_if_possible(footwear_instance, /datum/inventory_slot/inventory/shoes))
 			into_inv += footwear_instance
